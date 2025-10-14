@@ -228,19 +228,20 @@ export default function PoolCleaner() {
               <img 
                 src={poolCleaningHero} 
                 alt="Professional pool cleaning service in Bali"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover scale-105 animate-in zoom-in duration-1000"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/60"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
             </div>
             
             <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8 text-center">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Professional Pool Cleaning Services in Bali
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                Your Pool, Always Perfect
               </h1>
-              <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-                Crystal-clear water. Zero effort. Complete peace of mind.
+              <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150">
+                Professional maintenance that keeps your pool crystal clear, so you never have to think about it
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
                 <Button 
                   size="lg" 
                   className="bg-primary hover:bg-primary/90 text-white"
