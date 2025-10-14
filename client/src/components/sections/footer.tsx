@@ -1,14 +1,15 @@
 import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 import { Droplets } from "lucide-react";
+import { Link } from "wouter";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { label: "Pool Cleaning", href: "#services" },
-    { label: "Pool Repair", href: "#services" },
-    { label: "Pool Construction", href: "#services" },
-    { label: "Emergency Service", href: "#contact" },
+    { label: "Pool Cleaning", href: "#services", external: false },
+    { label: "Pool Repair", href: "#services", external: false },
+    { label: "New Pool Construction", href: "/pool-construction", external: true },
+    { label: "Emergency Service", href: "#contact", external: false },
   ];
 
   const company = [
@@ -80,13 +81,23 @@ export function Footer() {
             <ul className="space-y-3">
               {services.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href={item.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                    data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
-                  >
-                    {item.label}
-                  </a>
+                  {item.external ? (
+                    <Link
+                      href={item.href}
+                      className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                      data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={item.href}
+                      className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                      data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
+                    >
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
