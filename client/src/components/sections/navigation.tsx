@@ -138,7 +138,7 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-2 border-t">
+          <div className="md:hidden py-2 border-t bg-white">
             <div className="flex flex-col gap-1">
               {navItems.map((item) => (
                 <button
