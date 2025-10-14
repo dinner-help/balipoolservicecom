@@ -1,6 +1,12 @@
 import { Hero } from "@/components/sections/hero";
+import { BrandPartnerships } from "@/components/sections/brand-partnerships";
+import { PoolChallenge } from "@/components/sections/pool-challenge";
 import { ValuePropositions } from "@/components/sections/value-propositions";
 import { Services } from "@/components/sections/services";
+import { CustomerBenefits } from "@/components/sections/customer-benefits";
+import { CustomerJourney } from "@/components/sections/customer-journey";
+import { CaseStudies } from "@/components/sections/case-studies";
+import { ServiceComparison } from "@/components/sections/service-comparison";
 import { HowItWorks } from "@/components/sections/how-it-works";
 import { Technology } from "@/components/sections/technology";
 import { ChemicalSubscription } from "@/components/sections/chemical-subscription";
@@ -22,8 +28,14 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Navigation />
       <Hero />
+      <BrandPartnerships />
+      <PoolChallenge />
       <ValuePropositions />
       <Services />
+      <CustomerBenefits />
+      <CustomerJourney />
+      <CaseStudies />
+      <ServiceComparison />
       <HowItWorks />
       <Technology />
       <ChemicalSubscription />
