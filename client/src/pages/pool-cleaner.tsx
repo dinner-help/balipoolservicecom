@@ -443,6 +443,120 @@ export default function PoolCleaner() {
             </div>
           </section>
 
+          {/* Same-Day Emergency Service */}
+          <section className="py-16 md:py-24 bg-gradient-to-br from-primary/5 via-primary/10 to-primary/5">
+            <div className="max-w-7xl mx-auto px-6 md:px-8">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                  Pool Emergency? We Can Visit Today & Fix It
+                </h2>
+                <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                  Don't let pool problems ruin your plans. Our expert technicians can assess and repair your pool the same day. <strong>There's nothing we can't fix.</strong>
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6 mb-12">
+                <Card className="p-6 bg-white border-l-4 border-l-red-500">
+                  <div className="flex items-start gap-4">
+                    <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
+                      <Droplets className="h-6 w-6 text-red-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">Green Pool Water</h3>
+                      <p className="text-sm text-muted-foreground mb-3">Algae outbreak turning your pool green? We'll shock treat, balance chemicals, and restore crystal-clear water.</p>
+                      <Button 
+                        size="sm" 
+                        className="w-full"
+                        onClick={() => window.open("https://wa.me/62123445566?text=URGENT: My pool is green, I need same-day service", "_blank")}
+                        data-testid="button-emergency-green"
+                      >
+                        <FaWhatsapp className="h-4 w-4 mr-2" />
+                        Book Same-Day Visit
+                      </Button>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card className="p-6 bg-white border-l-4 border-l-orange-500">
+                  <div className="flex items-start gap-4">
+                    <div className="h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center flex-shrink-0">
+                      <Sparkles className="h-6 w-6 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">Changing Color</h3>
+                      <p className="text-sm text-muted-foreground mb-3">Pool turning cloudy, yellow, or brown? Chemical imbalance or metal oxidation - we'll diagnose and fix it today.</p>
+                      <Button 
+                        size="sm" 
+                        className="w-full"
+                        onClick={() => window.open("https://wa.me/62123445566?text=URGENT: My pool water is changing color, need help today", "_blank")}
+                        data-testid="button-emergency-color"
+                      >
+                        <FaWhatsapp className="h-4 w-4 mr-2" />
+                        Book Same-Day Visit
+                      </Button>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card className="p-6 bg-white border-l-4 border-l-blue-500">
+                  <div className="flex items-start gap-4">
+                    <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                      <Settings className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">Broken Pool Lights</h3>
+                      <p className="text-sm text-muted-foreground mb-3">Pool lights not working or flickering? We repair or replace any lighting system - LED, halogen, fiber optic.</p>
+                      <Button 
+                        size="sm" 
+                        className="w-full"
+                        onClick={() => window.open("https://wa.me/62123445566?text=I need pool light repair - can you visit today?", "_blank")}
+                        data-testid="button-emergency-lights"
+                      >
+                        <FaWhatsapp className="h-4 w-4 mr-2" />
+                        Book Same-Day Visit
+                      </Button>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+
+              <Card className="p-8 bg-gradient-to-r from-primary/90 to-primary text-primary-foreground">
+                <div className="text-center max-w-3xl mx-auto">
+                  <h3 className="text-2xl md:text-3xl font-bold mb-4">
+                    Expert Knowledge. Guaranteed Solutions.
+                  </h3>
+                  <p className="text-lg mb-6 text-primary-foreground/90">
+                    With <strong>12+ years of experience</strong> and a team of <strong>50+ certified technicians</strong>, we've seen and solved every pool problem imaginable. Pump failures, filter issues, chemical imbalances, equipment malfunctions—there's nothing we can't diagnose and fix.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5" />
+                      <span className="text-sm font-semibold">Same-Day Service Available</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5" />
+                      <span className="text-sm font-semibold">Free On-Site Assessment</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5" />
+                      <span className="text-sm font-semibold">90-Day Warranty</span>
+                    </div>
+                  </div>
+                  <Button 
+                    size="lg" 
+                    variant="outline"
+                    className="border-white text-white hover:bg-white/10 backdrop-blur-sm text-base"
+                    onClick={() => window.open("https://wa.me/62123445566?text=I need a pool expert to visit and give me an offer", "_blank")}
+                    data-testid="button-emergency-cta"
+                  >
+                    <FaWhatsapp className="h-5 w-5 mr-2" />
+                    Send Our Team Today - Get Free Quote
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </section>
+
           {/* Why Professional Pool Cleaning Matters */}
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="max-w-7xl mx-auto px-6 md:px-8">
