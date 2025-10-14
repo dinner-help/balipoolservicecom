@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Microscope, Smartphone, FileBarChart, Beaker, Radio, Shield, Droplets, Cpu } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import techBg from "@assets/stock_images/professional_pool_cl_563705a1.jpg";
 
 export function Technology() {
   const { ref: ref1, isVisible: isVisible1 } = useScrollAnimation();
@@ -62,7 +63,15 @@ export function Technology() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-gradient-to-b from-background via-accent/5 to-background relative overflow-hidden">
+    <section className="py-20 md:py-32 relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${techBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/92" />
+      
       {/* Background Decoration */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>

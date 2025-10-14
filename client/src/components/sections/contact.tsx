@@ -11,6 +11,7 @@ import { Card } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { FaWhatsapp } from "react-icons/fa";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import contactBg from "@assets/stock_images/professional_pool_cl_080f5e4c.jpg";
 
 export function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -78,8 +79,16 @@ _Sent from Pool Service Bali website_`;
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-gradient-to-b from-accent/10 to-background">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <section id="contact" className="relative py-20 md:py-32 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${contactBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/90" />
+      
+      <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Check, Star } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import pricingBg from "@assets/stock_images/luxury_villa_swimmin_b0f103d6.jpg";
 
 export function Pricing() {
   const packages = [
@@ -114,8 +115,16 @@ export function Pricing() {
   ];
 
   return (
-    <section id="pricing" className="py-20 md:py-32">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <section id="pricing" className="relative py-20 md:py-32 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${pricingBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/88" />
+      
+      <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

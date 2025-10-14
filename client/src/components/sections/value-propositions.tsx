@@ -1,4 +1,5 @@
 import { Clock, Shield, DollarSign, Users } from "lucide-react";
+import valuesBg from "@assets/stock_images/luxury_villa_swimmin_006aab3c.jpg";
 
 export function ValuePropositions() {
   const values = [
@@ -25,8 +26,16 @@ export function ValuePropositions() {
   ];
 
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-b from-background to-accent/10">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <section className="relative py-20 md:py-28 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${valuesBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/90" />
+      
+      <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {values.map((value, index) => (
             <div

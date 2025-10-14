@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Smartphone, Bell, Camera, TrendingUp, Clock, MapPin, CheckCircle2, FileText } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import appBg from "@assets/stock_images/luxury_villa_swimmin_4ef617df.jpg";
 
 export function AppReporting() {
   const { ref: ref1, isVisible: isVisible1 } = useScrollAnimation();
@@ -53,7 +54,15 @@ export function AppReporting() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-gradient-to-b from-accent/5 via-background to-accent/5 relative overflow-hidden">
+    <section className="py-20 md:py-32 relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${appBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/90" />
+      
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
