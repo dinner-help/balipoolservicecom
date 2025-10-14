@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FaWhatsapp } from "react-icons/fa";
 import { ArrowDown, Clock, Shield, CheckCircle } from "lucide-react";
+import heroBackground from "@assets/stock_images/luxury_swimming_pool_5cf994db.jpg";
 
 export function Hero() {
   const scrollToContact = () => {
@@ -22,9 +23,17 @@ export function Hero() {
       id="hero"
       className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20"
     >
-      {/* Background with gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(6,182,212,0.15),transparent_50%)]" />
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      />
+      
+      {/* White overlay to make background subtle */}
+      <div className="absolute inset-0 bg-white/85" />
+      
+      {/* Additional gradient overlay for depth */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10" />
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8 py-20 md:py-32">
