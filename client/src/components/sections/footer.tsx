@@ -6,7 +6,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { label: "Pool Cleaning", href: "#services", external: false },
+    { label: "Pool Cleaning", href: "/pool-cleaner", external: true },
     { label: "Pool Repair", href: "#services", external: false },
     { label: "New Pool Construction", href: "/pool-construction", external: true },
     { label: "Emergency Service", href: "#contact", external: false },

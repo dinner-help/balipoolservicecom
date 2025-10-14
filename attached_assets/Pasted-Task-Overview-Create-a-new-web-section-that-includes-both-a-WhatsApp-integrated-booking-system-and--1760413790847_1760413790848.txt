@@ -1,0 +1,69 @@
+Task Overview:
+Create a new web section that includes both a WhatsApp-integrated booking system and a Team Showcase area to display the company’s staff by location.
+
+⸻
+
+🧑‍🍳 1. Website “Cooker” Build (Main Functional Section)
+
+Goal:
+Design a clean, modern web section that fits seamlessly with the current site’s style and colors.
+
+Features to Include:
+	1.	WhatsApp Button (Global CTA):
+	•	Add a fixed floating WhatsApp button that appears on all pages.
+	•	When clicked, it should open WhatsApp directly with a pre-filled message like:
+“Hi! I’d like to book a service / place an order.”
+	•	Button should appear clearly on mobile and desktop.
+	2.	Auto Chat Pop-Up:
+	•	After 25 seconds on the site, a chat bubble slides up with a message like:
+“Need help or want to book faster? We’re here to assist you 💬”
+	•	The chat offers two choices:
+a) Fill in your name + WhatsApp number → triggers a call-back notification to your team.
+b) Start a direct WhatsApp chat instantly.
+	3.	Booking & Inquiry Form:
+	•	Short form: Name, WhatsApp number, and optional message.
+	•	Once submitted, it triggers a WhatsApp message or API notification to your sales/support number.
+	•	The form should look friendly and load fast.
+
+⸻
+
+👥 2. Team Section Build (The “Best Team Area”)
+
+Goal:
+Showcase a professional Indonesian team of 20 people, divided by service areas to make the business look large, organized, and trustworthy.
+
+Team Composition:
+	•	Total: 20 team members
+	•	Include area-specific groups:
+	•	Sanur (2 people + 1 local customer photo)
+	•	Canggu (2 people)
+	•	Seminyak (2 people)
+	•	Uluwatu (2 people)
+	•	Nusa Dua (2 people)
+	•	Jimbaran (2 people)
+	•	Remaining positions: 1 Area Manager, 1 Customer Support, 1 Operations Lead, 1 Marketing, and general staff to reach 20 total.
+	•	All should appear as young professional Indonesian men, dressed neatly (polo shirts, uniforms, or branded shirts).
+
+Display Style:
+	•	Create a group photo showing all 20 people together, labeled with their city or department (e.g., “Canggu Team,” “Sanur Team,” “Area Manager”).
+	•	Underneath, list each name and short description of their role, for example:
+“Ari – Sanur Pool Technician | Expert in saltwater systems”
+	•	Include icons or small location badges to make the page feel localized.
+
+Optional:
+	•	Create a second “Our Team” page (standalone) that links from the footer and includes the full detailed profiles for each area manager and staff member.
+	•	Link this team page to related service area pages (Seminyak, Canggu, Uluwatu, etc.) to show connection between team and location.
+
+⸻
+
+🎯 Design & Style Notes
+	•	Match current website’s layout, fonts, and button styles.
+	•	Use professional pool-related background images and real working shots for credibility.
+	•	Keep everything mobile-friendly and SEO-optimized (each area’s team and WhatsApp button should have local relevance).
+
+⸻
+
+✅ Deliverables Summary
+	•	One new main section (“Cooker” → booking + WhatsApp integration + chat automation).
+	•	One new Team Section with 20 staff across 6 areas.
+	•	Optional: One standalone “Team” page for internal linking and SEO.
