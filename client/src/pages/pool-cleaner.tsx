@@ -352,6 +352,94 @@ export default function PoolCleaner() {
                   </p>
                 </div>
               </div>
+
+              {/* Team Contacts */}
+              <div className="mt-16">
+                <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">Get in Touch With Our Specialists</h3>
+                <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+                  Our dedicated team is here to help. Reach out directly to the specialist who can best serve your needs.
+                </p>
+                
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <Card className="p-6 text-center hover-elevate">
+                    <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                      <Sparkles className="h-8 w-8 text-primary" />
+                    </div>
+                    <h4 className="font-bold mb-2">Pool Cleaning</h4>
+                    <p className="text-sm text-muted-foreground mb-4">Regular maintenance & chemical balancing</p>
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'm interested in pool cleaning services", "_blank")}
+                      data-testid="button-contact-cleaning"
+                    >
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Contact Team
+                    </Button>
+                  </Card>
+
+                  <Card className="p-6 text-center hover-elevate">
+                    <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                      <Settings className="h-8 w-8 text-primary" />
+                    </div>
+                    <h4 className="font-bold mb-2">Pool Repair</h4>
+                    <p className="text-sm text-muted-foreground mb-4">Equipment fixes & emergency repairs</p>
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I need help with pool repair", "_blank")}
+                      data-testid="button-contact-repair"
+                    >
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Contact Team
+                    </Button>
+                  </Card>
+
+                  <Card className="p-6 text-center hover-elevate">
+                    <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                      <Waves className="h-8 w-8 text-primary" />
+                    </div>
+                    <h4 className="font-bold mb-2">Pool Construction</h4>
+                    <p className="text-sm text-muted-foreground mb-4">New pool builds & renovations</p>
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'm interested in building a new pool", "_blank")}
+                      data-testid="button-contact-construction"
+                    >
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Contact Team
+                    </Button>
+                  </Card>
+
+                  <Card className="p-6 text-center hover-elevate">
+                    <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                      <CheckCircle2 className="h-8 w-8 text-primary" />
+                    </div>
+                    <h4 className="font-bold mb-2">Sales & Quotes</h4>
+                    <p className="text-sm text-muted-foreground mb-4">Custom packages & pricing</p>
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'd like to get a quote for pool services", "_blank")}
+                      data-testid="button-contact-sales"
+                    >
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Contact Team
+                    </Button>
+                  </Card>
+                </div>
+
+                <div className="mt-8 text-center">
+                  <p className="text-sm text-muted-foreground">
+                    Or call our main office: <a href="tel:+62123445566" className="text-primary hover:underline font-semibold">+62 123 445 566</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </section>
 
