@@ -1,5 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Home, Building2, Hotel, Building } from "lucide-react";
+import villaImage from "@assets/stock_images/luxury_private_villa_65fa34a4.jpg";
+import hotelImage from "@assets/stock_images/luxury_hotel_resort__fc4dd990.jpg";
+import apartmentImage from "@assets/stock_images/modern_apartment_bui_df3498c7.jpg";
+import resortImage from "@assets/stock_images/crystal_clear_blue_s_edf02c5d.jpg";
 
 export function CustomerSegments() {
   const segments = [
@@ -8,6 +12,7 @@ export function CustomerSegments() {
       title: "Private Villa Owners",
       subtitle: "Expats & International Investors",
       description: "Perfect for absentee landlords who need reliable, professional pool care without being on-site.",
+      image: villaImage,
       painPoints: [
         "No shows or unreliable technicians",
         "Lack of professional reporting",
@@ -21,6 +26,7 @@ export function CustomerSegments() {
       title: "Property Management Companies",
       subtitle: "Managing 5-50+ Properties",
       description: "Scalable, consistent service across your entire portfolio with professional documentation.",
+      image: apartmentImage,
       painPoints: [
         "Inconsistent service quality across properties",
         "No standardized reporting",
@@ -34,6 +40,7 @@ export function CustomerSegments() {
       title: "Boutique Hotels & Resorts",
       subtitle: "5-30 Room Properties",
       description: "Guest-facing pool excellence with health compliance and professional standards.",
+      image: hotelImage,
       painPoints: [
         "Health regulation compliance concerns",
         "Guest satisfaction requirements",
@@ -47,6 +54,7 @@ export function CustomerSegments() {
       title: "Luxury Resort Groups",
       subtitle: "Large-Scale Operations",
       description: "International hospitality standards with comprehensive service agreements.",
+      image: resortImage,
       painPoints: [
         "Need for certified, insured providers",
         "Multiple pools requiring coordination",
@@ -75,16 +83,23 @@ export function CustomerSegments() {
           {segments.map((segment, index) => (
             <Card
               key={index}
-              className="hover-elevate transition-all duration-300"
+              className="overflow-hidden hover-elevate transition-all duration-300"
               data-testid={`segment-card-${index}`}
             >
+              <div className="aspect-video w-full overflow-hidden bg-muted">
+                <img 
+                  src={segment.image} 
+                  alt={segment.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
               <CardHeader>
                 <div className="flex items-start gap-4 mb-2">
                   <div className="h-12 w-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center flex-shrink-0">
                     <segment.icon className="h-6 w-6 text-primary" />
                   </div>
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-1">{segment.title}</CardTitle>
+                    <CardTitle className="text-xl mb-1">{segment.title}</CardTitle>
                     <p className="text-sm text-primary font-medium">{segment.subtitle}</p>
                   </div>
                 </div>

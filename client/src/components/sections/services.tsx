@@ -1,5 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Droplets, Wrench, Hammer, CheckCircle } from "lucide-react";
+import cleaningImage from "@assets/stock_images/professional_pool_cl_5ed80d5f.jpg";
+import equipmentImage from "@assets/stock_images/pool_equipment_filte_47e1a358.jpg";
+import constructionImage from "@assets/stock_images/crystal_clear_blue_s_edf02c5d.jpg";
 
 export function Services() {
   const services = [
@@ -7,6 +10,7 @@ export function Services() {
       icon: Droplets,
       title: "Pool Cleaning & Maintenance",
       description: "Complete pool care from water chemistry to equipment inspection. Keep your pool crystal clear year-round.",
+      image: cleaningImage,
       features: [
         "Water testing & pH balancing",
         "Premium 90% pure chemicals",
@@ -20,6 +24,7 @@ export function Services() {
       icon: Wrench,
       title: "Pool Repair & Equipment Service",
       description: "Expert diagnostics and repair for all pool systems. From minor fixes to major equipment replacement.",
+      image: equipmentImage,
       features: [
         "Pump & filter repair/replacement",
         "Leak detection & repair",
@@ -33,6 +38,7 @@ export function Services() {
       icon: Hammer,
       title: "New Pool Construction",
       description: "Custom pool design and installation for your Bali property. Infinity pools, traditional designs, and more.",
+      image: constructionImage,
       features: [
         "Custom pool design",
         "Infinity pool construction",
@@ -62,14 +68,21 @@ export function Services() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="hover-elevate transition-all duration-300"
+              className="overflow-hidden hover-elevate transition-all duration-300"
               data-testid={`service-card-${index}`}
             >
+              <div className="aspect-[4/3] w-full overflow-hidden bg-muted">
+                <img 
+                  src={service.image} 
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
               <CardHeader className="space-y-4">
-                <div className="h-14 w-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center">
-                  <service.icon className="h-7 w-7 text-primary" />
+                <div className="h-12 w-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center">
+                  <service.icon className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-2xl">{service.title}</CardTitle>
+                <CardTitle className="text-xl">{service.title}</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
                   {service.description}
                 </CardDescription>
@@ -79,7 +92,7 @@ export function Services() {
                   {service.features.map((feature, fIndex) => (
                     <li key={fIndex} className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">{feature}</span>
+                      <span className="text-sm text-muted-foreground">{feature}</span>
                     </li>
                   ))}
                 </ul>
