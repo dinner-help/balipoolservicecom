@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { AnimatedLogo } from "@/components/animated-logo";
 
 export function Navigation() {
@@ -36,30 +35,30 @@ export function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-lg border-b shadow-sm" : "bg-transparent"
+        isScrolled ? "bg-white/95 backdrop-blur-lg border-b shadow-sm" : "bg-white/80 backdrop-blur-sm"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between h-14 md:h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="flex items-center justify-between h-12 sm:h-14">
           {/* Logo */}
           <button
             onClick={() => {
               window.scrollTo({ top: 0, behavior: "smooth" });
               setIsMobileMenuOpen(false);
             }}
-            className="hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-all"
+            className="hover-elevate active-elevate-2 px-1 sm:px-2 py-1 rounded-md transition-all"
             data-testid="link-logo"
           >
             <AnimatedLogo />
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-1 lg:gap-3">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-sm text-foreground hover:text-primary transition-colors font-medium px-2"
+                className="text-xs lg:text-sm text-foreground hover:text-primary transition-colors font-medium px-2 lg:px-3"
                 data-testid={`link-${item.id}`}
               >
                 {item.label}
@@ -70,29 +69,35 @@ export function Navigation() {
               onClick={() => alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.")}
               variant="outline"
               size="sm"
-              className="gap-2"
+              className="gap-1 text-xs h-8 px-3"
               data-testid="button-customer-login"
             >
-              <span>Customer Login</span>
+              <span>Login</span>
             </Button>
-            <ThemeToggle />
             <Button
               onClick={() => window.open("https://wa.me/62123445566", "_blank")}
-              className="gap-2"
+              className="gap-1 text-xs h-8 px-3"
               size="sm"
               data-testid="button-whatsapp-nav"
             >
-              <FaWhatsapp className="h-4 w-4" />
-              <span className="hidden xl:inline">WhatsApp</span>
+              <FaWhatsapp className="h-3.5 w-3.5" />
+              <span className="hidden lg:inline">WhatsApp</span>
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center gap-2 lg:hidden">
-            <ThemeToggle />
+          <div className="flex items-center gap-2 md:hidden">
+            <Button
+              onClick={() => window.open("https://wa.me/62123445566", "_blank")}
+              size="sm"
+              className="gap-1 text-xs h-8 px-2"
+              data-testid="button-whatsapp-mobile-header"
+            >
+              <FaWhatsapp className="h-3.5 w-3.5" />
+            </Button>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 hover-elevate active-elevate-2 rounded-md"
+              className="p-1.5 hover-elevate active-elevate-2 rounded-md"
               data-testid="button-mobile-menu"
             >
               {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -102,26 +107,29 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-3 border-t">
-            <div className="flex flex-col gap-2">
+          <div className="md:hidden py-2 border-t">
+            <div className="flex flex-col gap-1">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left px-3 py-2 text-sm text-foreground hover:text-primary hover:bg-accent rounded-md transition-colors font-medium"
+                  className="text-left px-3 py-2 text-sm text-foreground hover:text-primary hover:bg-accent/50 rounded-md transition-colors font-medium"
                   data-testid={`link-mobile-${item.id}`}
                 >
                   {item.label}
                 </button>
               ))}
               <Button
-                onClick={() => window.open("https://wa.me/62123445566", "_blank")}
-                className="gap-2 mt-2"
+                onClick={() => {
+                  alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.");
+                  setIsMobileMenuOpen(false);
+                }}
+                variant="outline"
                 size="sm"
-                data-testid="button-whatsapp-mobile"
+                className="mt-2 text-xs h-8"
+                data-testid="button-customer-login-mobile"
               >
-                <FaWhatsapp className="h-4 w-4" />
-                Contact via WhatsApp
+                Customer Login
               </Button>
             </div>
           </div>
