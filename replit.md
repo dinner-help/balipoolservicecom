@@ -10,6 +10,13 @@ Pool Service Bali is a professional pool maintenance service website built as a 
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+### October 14, 2025
+- **Navigation optimization**: Reduced navigation height (56-64px), created animated logo with water droplet ripple effect, improved mobile responsiveness with visible theme toggle, added compact design with smaller buttons and tighter spacing
+- **Visual enhancements**: Added 6 stock images across customer segments and services sections for better visual storytelling and engagement
+- **Payment methods**: Added QR payment (QRIS, GoPay, OVO, Dana), cash payment, and online payment options display in pricing section
+
 ## System Architecture
 
 ### Frontend Architecture
