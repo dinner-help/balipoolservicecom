@@ -60,10 +60,14 @@ export function PoolChallenge() {
         {/* Problem Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {problems.map((problem, index) => (
-            <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
+            <Card 
+              key={index} 
+              className="border-2 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-in fade-in slide-in-from-bottom-3"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
               <CardContent className="pt-6">
-                <div className="h-12 w-12 rounded-lg bg-destructive/10 flex items-center justify-center mb-4">
-                  <problem.icon className="h-6 w-6 text-destructive" />
+                <div className="h-12 w-12 rounded-lg bg-destructive/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <problem.icon className="h-6 w-6 text-destructive animate-pulse" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{problem.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -75,14 +79,18 @@ export function PoolChallenge() {
         </div>
 
         {/* Real Cost Section */}
-        <div className="bg-destructive/5 border-2 border-destructive/20 rounded-2xl p-8 md:p-12">
+        <div className="bg-destructive/5 border-2 border-destructive/20 rounded-2xl p-8 md:p-12 animate-in fade-in zoom-in-95 duration-700">
           <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
             The Real Cost of Inadequate Pool Service
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {realCosts.map((cost, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <div className="h-5 w-5 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <div 
+                key={index} 
+                className="flex items-start gap-3 animate-in slide-in-from-left-2 fade-in"
+                style={{ animationDelay: `${index * 80}ms` }}
+              >
+                <div className="h-5 w-5 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5 animate-pulse">
                   <span className="text-destructive text-xs">✕</span>
                 </div>
                 <p className="text-sm text-muted-foreground">{cost}</p>

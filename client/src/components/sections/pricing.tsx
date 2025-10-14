@@ -131,13 +131,14 @@ export function Pricing() {
           {packages.map((pkg, index) => (
             <Card
               key={index}
-              className={`relative hover-elevate transition-all duration-300 ${
+              className={`relative hover-elevate transition-all duration-300 hover:scale-105 animate-in fade-in zoom-in-95 ${
                 pkg.popular ? "border-primary shadow-xl" : ""
               }`}
+              style={{ animationDelay: `${index * 150}ms` }}
               data-testid={`pricing-card-${index}`}
             >
               {pkg.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold flex items-center gap-1">
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold flex items-center gap-1 animate-bounce">
                   <Star className="h-4 w-4" fill="currentColor" />
                   Most Popular
                 </div>
@@ -183,7 +184,11 @@ export function Pricing() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             {chemicalPackages.map((pkg, index) => (
-              <Card key={index} className="hover-elevate transition-all">
+              <Card 
+                key={index} 
+                className="hover-elevate transition-all hover:-translate-y-1 animate-in fade-in slide-in-from-bottom-3"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
                 <CardHeader>
                   <CardTitle className="text-xl">{pkg.name}</CardTitle>
                   <CardDescription className="text-base">{pkg.size}</CardDescription>

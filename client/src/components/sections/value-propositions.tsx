@@ -31,13 +31,14 @@ export function ValuePropositions() {
           {values.map((value, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center gap-4"
+              className="flex flex-col items-center text-center gap-4 group animate-in fade-in slide-in-from-bottom-4 hover:-translate-y-2 transition-transform duration-300"
+              style={{ animationDelay: `${index * 150}ms` }}
               data-testid={`value-${index}`}
             >
-              <div className="h-16 w-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center">
-                <value.icon className="h-8 w-8 text-primary" />
+              <div className="h-16 w-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/40 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
+                <value.icon className="h-8 w-8 text-primary group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground">{value.title}</h3>
+              <h3 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">{value.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{value.description}</p>
             </div>
           ))}

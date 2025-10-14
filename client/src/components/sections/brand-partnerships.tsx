@@ -50,18 +50,19 @@ export function BrandPartnerships() {
 
         {/* Brand Partnerships */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16">
-          {brands.map((brand) => (
+          {brands.map((brand, index) => (
             <a
               key={brand.name}
               href={brand.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative bg-white p-8 rounded-xl border-2 hover:border-primary transition-all duration-300 hover:shadow-lg"
+              className="group relative bg-white p-8 rounded-xl border-2 hover:border-primary transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-in fade-in slide-in-from-bottom-4"
+              style={{ animationDelay: `${index * 150}ms` }}
               data-testid={`link-brand-${brand.name.toLowerCase()}`}
             >
               <div className="flex flex-col items-center text-center">
                 <div className="mb-4 h-16 w-full flex items-center justify-center">
-                  <span className="text-3xl font-bold text-muted-foreground/40 group-hover:text-primary transition-colors">
+                  <span className="text-3xl font-bold text-muted-foreground/40 group-hover:text-primary transition-all duration-300 group-hover:scale-110">
                     {brand.logo}
                   </span>
                 </div>
@@ -69,7 +70,7 @@ export function BrandPartnerships() {
                   {brand.name}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-3">{brand.description}</p>
-                <div className="flex items-center gap-2 text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="flex items-center gap-2 text-sm text-primary opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1">
                   <span>Visit Website</span>
                   <ExternalLink className="h-3 w-3" />
                 </div>
@@ -84,12 +85,13 @@ export function BrandPartnerships() {
             CERTIFIED & COMPLIANT WITH INTERNATIONAL STANDARDS
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {certifications.map((cert) => (
+            {certifications.map((cert, index) => (
               <div
                 key={cert.name}
-                className="flex flex-col items-center text-center p-6"
+                className="flex flex-col items-center text-center p-6 animate-in fade-in zoom-in-95"
+                style={{ animationDelay: `${index * 200}ms` }}
               >
-                <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 animate-pulse">
                   <svg className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
