@@ -143,9 +143,23 @@ export function Pricing() {
                 <span><strong>Pay Annually</strong> - Save 10% (12 months prepaid)</span>
               </li>
             </ul>
-            <p className="text-sm text-muted-foreground mt-6">
-              Accepted: Bank Transfer (BCA, Mandiri, BNI), Cash, Credit/Debit Card, International Wire Transfer
-            </p>
+            <div className="mt-6 pt-6 border-t">
+              <p className="text-sm font-semibold mb-3">We Accept:</p>
+              <div className="space-y-2 text-sm text-muted-foreground">
+                <div className="flex items-center gap-2">
+                  <Check className="h-4 w-4 text-primary" />
+                  <span><strong>QR Payment</strong> - QRIS, GoPay, OVO, Dana</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Check className="h-4 w-4 text-primary" />
+                  <span><strong>Cash Payment</strong> - Accepted on-site</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Check className="h-4 w-4 text-primary" />
+                  <span><strong>Online Payment</strong> - Bank Transfer (BCA, Mandiri, BNI), Credit/Debit Card</span>
+                </div>
+              </div>
+            </div>
           </Card>
 
           <Card className="p-8 bg-primary/5 border-primary/20">
