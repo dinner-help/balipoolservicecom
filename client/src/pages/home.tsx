@@ -6,8 +6,10 @@ import { Technology } from "@/components/sections/technology";
 import { ChemicalSubscription } from "@/components/sections/chemical-subscription";
 import { AppReporting } from "@/components/sections/app-reporting";
 import { TeamEducation } from "@/components/sections/team-education";
+import { Testimonials } from "@/components/sections/testimonials";
 import { CustomerSegments } from "@/components/sections/customer-segments";
 import { ServiceAreas } from "@/components/sections/service-areas";
+import { ServiceLocations } from "@/components/sections/service-locations";
 import { Pricing } from "@/components/sections/pricing";
 import { KeyDifferentiators } from "@/components/sections/key-differentiators";
 import { ProblemSolution } from "@/components/sections/problem-solution";
@@ -27,8 +29,10 @@ export default function Home() {
       <ChemicalSubscription />
       <AppReporting />
       <TeamEducation />
+      <Testimonials />
       <CustomerSegments />
       <ServiceAreas />
+      <ServiceLocations />
       <Pricing />
       <KeyDifferentiators />
       <ProblemSolution />

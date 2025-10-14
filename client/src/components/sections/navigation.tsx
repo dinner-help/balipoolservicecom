@@ -66,6 +66,15 @@ export function Navigation() {
               </button>
             ))}
             <div className="h-4 w-px bg-border mx-1" />
+            <Button
+              onClick={() => alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.")}
+              variant="outline"
+              size="sm"
+              className="gap-2"
+              data-testid="button-customer-login"
+            >
+              <span>Customer Login</span>
+            </Button>
             <ThemeToggle />
             <Button
               onClick={() => window.open("https://wa.me/62123445566", "_blank")}
