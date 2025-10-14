@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useMutation } from "@tanstack/react-query";
 import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -30,30 +28,32 @@ export function Contact() {
     },
   });
 
-  const submitMutation = useMutation({
-    mutationFn: async (data: InsertContactSubmission) => {
-      return await apiRequest("POST", "/api/contact", data);
-    },
-    onSuccess: () => {
-      setIsSubmitted(true);
-      form.reset();
-      toast({
-        title: "Success!",
-        description: "Thank you for your inquiry. We'll contact you shortly via WhatsApp or email.",
-      });
-      setTimeout(() => setIsSubmitted(false), 5000);
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Error",
-        description: error.message || "Failed to submit form. Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-
   const onSubmit = async (data: InsertContactSubmission) => {
-    submitMutation.mutate(data);
+    // Create WhatsApp message with all form data
+    const message = `*New Pool Service Inquiry*
+
+📝 *Name:* ${data.name}
+📧 *Email:* ${data.email}
+📱 *Phone:* ${data.phone}
+🏠 *Property Type:* ${data.propertyType}
+📍 *Service Area:* ${data.serviceArea}${data.message ? `\n💬 *Message:* ${data.message}` : ''}
+
+_Sent from Pool Service Bali website_`;
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(message);
+    
+    // Open WhatsApp with pre-filled message
+    window.open(`https://wa.me/628113702343?text=${encodedMessage}`, '_blank');
+    
+    // Show success message and reset form
+    setIsSubmitted(true);
+    form.reset();
+    toast({
+      title: "Opening WhatsApp...",
+      description: "Your inquiry is being sent via WhatsApp with all your details.",
+    });
+    setTimeout(() => setIsSubmitted(false), 5000);
   };
 
   const propertyTypes = [
@@ -235,10 +235,10 @@ export function Contact() {
                       type="submit" 
                       size="lg" 
                       className="w-full gap-2" 
-                      disabled={submitMutation.isPending}
                       data-testid="button-submit-contact"
                     >
-                      {submitMutation.isPending ? "Submitting..." : "Get Free Quote"}
+                      <FaWhatsapp className="h-5 w-5" />
+                      Send via WhatsApp
                     </Button>
                   </form>
                 </Form>
