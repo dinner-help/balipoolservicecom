@@ -10,6 +10,8 @@ import { ServiceComparison } from "@/components/sections/service-comparison";
 import { HowItWorks } from "@/components/sections/how-it-works";
 import { Technology } from "@/components/sections/technology";
 import { ChemicalSubscription } from "@/components/sections/chemical-subscription";
+import { ChemicalSafety } from "@/components/sections/chemical-safety";
+import { SmallHomes } from "@/components/sections/small-homes";
 import { AppReporting } from "@/components/sections/app-reporting";
 import { TeamEducation } from "@/components/sections/team-education";
 import { Testimonials } from "@/components/sections/testimonials";
@@ -33,12 +35,14 @@ export default function Home() {
       <ValuePropositions />
       <Services />
       <CustomerBenefits />
+      <SmallHomes />
       <CustomerJourney />
       <CaseStudies />
       <ServiceComparison />
       <HowItWorks />
       <Technology />
       <ChemicalSubscription />
+      <ChemicalSafety />
       <AppReporting />
       <TeamEducation />
       <Testimonials />
