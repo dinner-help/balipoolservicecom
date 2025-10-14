@@ -258,7 +258,7 @@ export function Contact() {
                 size="lg"
                 variant="outline"
                 className="w-full gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-                onClick={() => window.open("https://wa.me/62123445566", "_blank")}
+                onClick={() => window.open("https://wa.me/628113702343", "_blank")}
                 data-testid="button-whatsapp-contact"
               >
                 <FaWhatsapp className="h-6 w-6" />
@@ -276,8 +276,8 @@ export function Contact() {
                   </div>
                   <div>
                     <div className="font-medium mb-1">Phone / WhatsApp</div>
-                    <a href="tel:+62123445566" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
-                      +62 123 445 566
+                    <a href="tel:+628113702343" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
+                      +62 811 3702 343
                     </a>
                   </div>
                 </div>

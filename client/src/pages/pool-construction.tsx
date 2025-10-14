@@ -8,7 +8,7 @@ import { Footer } from "@/components/sections/footer";
 
 export default function PoolConstruction() {
   const scrollToContact = () => {
-    window.open("https://wa.me/62123445566", "_blank");
+    window.open("https://wa.me/628113702343", "_blank");
   };
 
   const poolTypes = [
@@ -180,7 +180,7 @@ export default function PoolConstruction() {
             "image": "https://balipoolservice.com/logo.png",
             "description": "Professional pool construction services in Bali. Custom infinity pools, traditional designs, and bespoke pool solutions built by expert craftsmen.",
             "url": "https://balipoolservice.com/pool-construction",
-            "telephone": "+62123445566",
+            "telephone": "+628113702343",
             "priceRange": "IDR 85,000,000 - IDR 500,000,000",
             "address": {
               "@type": "PostalAddress",

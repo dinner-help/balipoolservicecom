@@ -154,7 +154,7 @@ Preferred communication style: Simple, everyday language.
 - **esbuild**: Production build bundler for server
 
 ### Third-Party Services
-- **WhatsApp Business**: Contact integration (+62123445566)
+- **WhatsApp Business**: Contact integration (+628113702343)
 - **Font APIs**: Google Fonts (Inter, DM Sans, JetBrains Mono)
 
 **Note**: The application is configured for PostgreSQL via Drizzle ORM but currently uses in-memory storage. Database URL environment variable required for production persistence.

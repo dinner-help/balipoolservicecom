@@ -295,4 +295,4 @@
 - Focus states clearly visible on all interactive elements
 - Icon library: Heroicons via CDN
 - Lazy loading for images below fold
-- WhatsApp click-to-chat integration with +62123445566
+- WhatsApp click-to-chat integration with +628113702343

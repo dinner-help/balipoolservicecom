@@ -467,7 +467,7 @@ export function ServiceLocations() {
                 {/* Contact Button */}
                 <Button
                   className="w-full gap-2"
-                  onClick={() => window.open(`https://wa.me/62123445566?text=Hello, I need pool service in ${location.area}`, "_blank")}
+                  onClick={() => window.open(`https://wa.me/628113702343?text=Hello, I need pool service in ${location.area}`, "_blank")}
                   data-testid={`button-contact-${location.area.toLowerCase().replace(/\s+/g, '-')}`}
                 >
                   <FaWhatsapp className="h-4 w-4" />

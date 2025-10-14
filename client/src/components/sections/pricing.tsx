@@ -163,7 +163,7 @@ export function Pricing() {
                 <Button
                   className="w-full gap-2"
                   variant={pkg.popular ? "default" : "outline"}
-                  onClick={() => window.open("https://wa.me/62123445566", "_blank")}
+                  onClick={() => window.open("https://wa.me/628113702343", "_blank")}
                   data-testid={`button-package-${index}`}
                 >
                   <FaWhatsapp className="h-5 w-5" />

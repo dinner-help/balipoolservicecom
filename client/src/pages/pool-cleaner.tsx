@@ -244,7 +244,7 @@ export default function PoolCleaner() {
             "image": "https://balipoolservice.com/logo.png",
             "description": "Professional pool cleaning and maintenance services in Bali. CPO-certified technicians providing expert pool care for villas, hotels, and homes across Bali.",
             "url": "https://balipoolservice.com/pool-cleaner",
-            "telephone": "+62123445566",
+            "telephone": "+628113702343",
             "priceRange": "IDR 2,900,000 - IDR 5,500,000",
             "address": {
               "@type": "PostalAddress",
@@ -381,7 +381,7 @@ export default function PoolCleaner() {
                   asChild
                   data-testid="button-hero-whatsapp"
                 >
-                  <a href="https://wa.me/62123445566" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/628113702343" target="_blank" rel="noopener noreferrer">
                     <FaWhatsapp className="mr-2 h-5 w-5" />
                     WhatsApp Now
                   </a>
@@ -498,7 +498,7 @@ export default function PoolCleaner() {
                       size="sm" 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'm interested in pool cleaning services", "_blank")}
+                      onClick={() => window.open("https://wa.me/628113702343?text=Hi, I'm interested in pool cleaning services", "_blank")}
                       data-testid="button-contact-cleaning"
                     >
                       <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -516,7 +516,7 @@ export default function PoolCleaner() {
                       size="sm" 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I need help with pool repair", "_blank")}
+                      onClick={() => window.open("https://wa.me/628113702343?text=Hi, I need help with pool repair", "_blank")}
                       data-testid="button-contact-repair"
                     >
                       <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -534,7 +534,7 @@ export default function PoolCleaner() {
                       size="sm" 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'm interested in building a new pool", "_blank")}
+                      onClick={() => window.open("https://wa.me/628113702343?text=Hi, I'm interested in building a new pool", "_blank")}
                       data-testid="button-contact-construction"
                     >
                       <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -552,7 +552,7 @@ export default function PoolCleaner() {
                       size="sm" 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open("https://wa.me/62123445566?text=Hi, I'd like to get a quote for pool services", "_blank")}
+                      onClick={() => window.open("https://wa.me/628113702343?text=Hi, I'd like to get a quote for pool services", "_blank")}
                       data-testid="button-contact-sales"
                     >
                       <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -563,7 +563,7 @@ export default function PoolCleaner() {
 
                 <div className="mt-8 text-center">
                   <p className="text-sm text-muted-foreground">
-                    Or call our main office: <a href="tel:+62123445566" className="text-primary hover:underline font-semibold">+62 123 445 566</a>
+                    Or call our main office: <a href="tel:+628113702343" className="text-primary hover:underline font-semibold">+62 811 3702 343</a>
                   </p>
                 </div>
               </div>
@@ -594,7 +594,7 @@ export default function PoolCleaner() {
                       <Button 
                         size="sm" 
                         className="w-full"
-                        onClick={() => window.open("https://wa.me/62123445566?text=URGENT: My pool is green, I need same-day service", "_blank")}
+                        onClick={() => window.open("https://wa.me/628113702343?text=URGENT: My pool is green, I need same-day service", "_blank")}
                         data-testid="button-emergency-green"
                       >
                         <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -615,7 +615,7 @@ export default function PoolCleaner() {
                       <Button 
                         size="sm" 
                         className="w-full"
-                        onClick={() => window.open("https://wa.me/62123445566?text=URGENT: My pool water is changing color, need help today", "_blank")}
+                        onClick={() => window.open("https://wa.me/628113702343?text=URGENT: My pool water is changing color, need help today", "_blank")}
                         data-testid="button-emergency-color"
                       >
                         <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -636,7 +636,7 @@ export default function PoolCleaner() {
                       <Button 
                         size="sm" 
                         className="w-full"
-                        onClick={() => window.open("https://wa.me/62123445566?text=I need pool light repair - can you visit today?", "_blank")}
+                        onClick={() => window.open("https://wa.me/628113702343?text=I need pool light repair - can you visit today?", "_blank")}
                         data-testid="button-emergency-lights"
                       >
                         <FaWhatsapp className="h-4 w-4 mr-2" />
@@ -673,7 +673,7 @@ export default function PoolCleaner() {
                     size="lg" 
                     variant="outline"
                     className="border-white text-white hover:bg-white/10 backdrop-blur-sm text-base"
-                    onClick={() => window.open("https://wa.me/62123445566?text=I need a pool expert to visit and give me an offer", "_blank")}
+                    onClick={() => window.open("https://wa.me/628113702343?text=I need a pool expert to visit and give me an offer", "_blank")}
                     data-testid="button-emergency-cta"
                   >
                     <FaWhatsapp className="h-5 w-5 mr-2" />
@@ -1012,7 +1012,7 @@ export default function PoolCleaner() {
                       <span className="text-sm">Equipment inspection</span>
                     </li>
                   </ul>
-                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-silver">
+                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-get-started-silver">
                     <FaWhatsapp className="h-4 w-4 mr-2" />
                     Get Started
                   </Button>
@@ -1046,7 +1046,7 @@ export default function PoolCleaner() {
                       <span className="text-sm">Priority 4-hour emergency</span>
                     </li>
                   </ul>
-                  <Button className="w-full mt-6" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-gold">
+                  <Button className="w-full mt-6" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-get-started-gold">
                     <FaWhatsapp className="h-4 w-4 mr-2" />
                     Get Started
                   </Button>
@@ -1077,7 +1077,7 @@ export default function PoolCleaner() {
                       <span className="text-sm">Dedicated technician</span>
                     </li>
                   </ul>
-                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-platinum">
+                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-get-started-platinum">
                     <FaWhatsapp className="h-4 w-4 mr-2" />
                     Get Started
                   </Button>
@@ -1144,7 +1144,7 @@ export default function PoolCleaner() {
                         <span className="text-sm">3-month supply guarantee</span>
                       </div>
                     </div>
-                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-small">
+                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-chemical-small">
                       <FaWhatsapp className="h-4 w-4 mr-2" />
                       Subscribe Now
                     </Button>
@@ -1185,7 +1185,7 @@ export default function PoolCleaner() {
                         <span className="text-sm">3-month supply guarantee</span>
                       </div>
                     </div>
-                    <Button className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-medium">
+                    <Button className="w-full" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-chemical-medium">
                       <FaWhatsapp className="h-4 w-4 mr-2" />
                       Subscribe Now
                     </Button>
@@ -1223,7 +1223,7 @@ export default function PoolCleaner() {
                         <span className="text-sm">3-month supply guarantee</span>
                       </div>
                     </div>
-                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-large">
+                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/628113702343", "_blank")} data-testid="button-chemical-large">
                       <FaWhatsapp className="h-4 w-4 mr-2" />
                       Subscribe Now
                     </Button>
@@ -1309,8 +1309,8 @@ export default function PoolCleaner() {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center justify-center gap-3 text-lg">
                   <FaWhatsapp className="h-6 w-6 text-primary" />
-                  <a href="https://wa.me/62123445566" className="text-primary hover:underline" data-testid="link-whatsapp">
-                    +62123445566
+                  <a href="https://wa.me/628113702343" className="text-primary hover:underline" data-testid="link-whatsapp">
+                    +628113702343
                   </a>
                 </div>
                 <p className="text-muted-foreground">Available 24 hours for emergencies</p>
@@ -1323,7 +1323,7 @@ export default function PoolCleaner() {
                   asChild
                   data-testid="button-get-assessment"
                 >
-                  <a href="https://wa.me/62123445566">Get Your Free Pool Assessment</a>
+                  <a href="https://wa.me/628113702343">Get Your Free Pool Assessment</a>
                 </Button>
                 <Button 
                   size="lg" 
