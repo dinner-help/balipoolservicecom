@@ -1,0 +1,138 @@
+1) Hero – Alternative Version B (fix the city list)
+
+From:
+“across Seminyak, Canggu, and Ubud…”
+
+To (use this):
+From emergency fixes to effortless maintenance.
+We help property owners across Seminyak, Canggu, and Uluwatu transform their pool headaches into 5-star guest experiences—with zero effort on your part.
+
+(If you want a 4-city variant, use “Seminyak, Canggu, Sanur, and Nusa Dua”.)
+
+⸻
+
+2) Location-Specific Messaging (rewrite to your six)
+
+Seminyak
+
+Serving Seminyak’s designer villas and boutique hotels since [year]. Professional pool care for property owners who expect consistent service and flawless results—week after week.
+
+Canggu
+
+From Berawa to Batu Bolong—reliable pool maintenance for Canggu’s high-turnover villa market. No beach-club chaos; just crystal-clear water and 5-star reviews.
+
+Uluwatu
+
+Clifftop pools require clifftop expertise. Specialized maintenance for Uluwatu’s luxury properties with wind, salt exposure, and infinity edges.
+
+Sanur
+
+Trusted by Sanur’s family villas and long-stay expats. Calm, consistent service with proper documentation and predictable monthly costs.
+
+Nusa Dua
+
+Resort-grade pool maintenance for Nusa Dua’s hotels and premium residences. Health compliance, guest satisfaction, and flawless presentation—guaranteed.
+
+Jimbaran
+
+From hilltop villas to beachfront stays—Jimbaran’s preferred partner for transparent reporting, premium chemicals, and fast emergency response.
+
+⸻
+
+3) Social Proof – City mentions inside quotes
+
+Use these versions (aligned to your six areas):
+
+“They saved us during high season.”
+Our pump failed two days before a large event. Pool Service Bali responded within hours and had the pool perfect by morning. That reliability is everything.
+— Ketut S., Boutique Hotel Manager, Nusa Dua
+
+“Scaled from 3 villas to 15 without pool headaches.”
+Their multi-property reporting and twice-weekly service let us grow fast without service drama.
+— Amanda P., Property Manager, Seminyak
+
+“Finally stopped stressing about my pool.”
+I live in Singapore and rent my Canggu villa year-round. Zero complaints in 10 months and clear reports after every visit.
+— Michael C., Villa Owner, Canggu
+
+“Crystal clear during windy season.”
+Our Uluwatu infinity pool gets heavy salt spray. Their chemical balance and preventive checks keep it photo-ready for guests.
+— James H., Luxury Villa Owner, Uluwatu
+
+“Transparent pricing changed everything.”
+No more mystery ‘extras’. Same monthly price, premium chemicals included.
+— Greg T., Expat Homeowner, Sanur
+
+⸻
+
+4) “Join” line (remove Ubud/Denpasar)
+
+Use this:
+Join over 200+ villa owners, hotels, and property managers who trust Pool Service Bali across Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran.
+
+⸻
+
+5) FAQ – Service areas answer
+
+Q: What areas of Bali do you service?
+A: We cover Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran. If you’re nearby, message us—we can often extend our route.
+
+⸻
+
+6) “Select Your Location” buttons
+
+Replace with exactly these:
+	•	[Seminyak Pool Service →]
+	•	[Canggu Pool Service →]
+	•	[Uluwatu Pool Service →]
+	•	[Sanur Pool Service →]
+	•	[Nusa Dua Pool Service →]
+	•	[Jimbaran Pool Service →]
+
+⸻
+
+7) Footer – Service Areas column (final)
+
+Service Areas
+	•	Seminyak Pool Service
+	•	Canggu Pool Service
+	•	Uluwatu Pool Service
+	•	Sanur Pool Service
+	•	Nusa Dua Pool Service
+	•	Jimbaran Pool Service
+
+(Delete Ubud/Denpasar from any other footer or sitemap lists.)
+
+⸻
+
+8) Meta & H-tags per city (copy template)
+
+For each city landing page, use this pattern (swap the city name):
+	•	Meta Title: Pool Cleaning in [City] – Professional Pool Service Bali
+	•	Meta Description: Reliable, all-inclusive pool maintenance in [City]. Certified technicians, premium chemicals, 24-hour emergency response, detailed reports after every visit.
+	•	H1: Pool Cleaning & Maintenance — [City]
+	•	H2s:
+	•	Why Villa Owners in [City] Choose Us
+	•	How Our Service Works (in [City])
+	•	Pricing Plans
+	•	Reviews from [City] Clients
+	•	Frequently Asked Questions — [City]
+
+⸻
+
+9) Internal links (important for SEO)
+	•	On the Bali master page, link to all six city pages.
+	•	On each city page, link back to the master page and to 2–3 neighboring cities (e.g., Canggu page links to Seminyak & Jimbaran).
+	•	Add the six city links to footer + sitemap.
+
+⸻
+
+10) Quick implementation checklist (no fluff)
+	•	Replace all city mentions to the six approved areas
+	•	Update “Alternative Hero B” line
+	•	Paste the new Location-Specific Messaging block
+	•	Swap testimonials to the six cities (above)
+	•	Update FAQ service-area answer
+	•	Replace buttons and footer lists to the six cities
+	•	Add meta title/description + H1/H2 per city page
+	•	Cross-link city pages + add to sitemap

@@ -16,6 +16,9 @@ Preferred communication style: Simple, everyday language.
 - **Navigation optimization**: Reduced navigation height (56-64px), created animated logo with water droplet ripple effect, improved mobile responsiveness with visible theme toggle, added compact design with smaller buttons and tighter spacing
 - **Visual enhancements**: Added 6 stock images across customer segments and services sections for better visual storytelling and engagement
 - **Payment methods**: Added QR payment (QRIS, GoPay, OVO, Dana), cash payment, and online payment options display in pricing section
+- **Pool Construction page**: Created dedicated `/pool-construction` page with comprehensive content including pool types, 6-step process, materials, benefits, pricing calculator, and FAQ
+- **Legal pages**: Added 5 complete legal documentation pages (Terms of Service, Privacy Policy, Refund & Cancellation Policy, Cookie Policy, Accessibility Statement) with consistent contact information across all pages
+- **Footer updates**: Enhanced footer with links to pool construction page and all legal pages in bottom bar
 
 ## System Architecture
 
@@ -31,7 +34,9 @@ Preferred communication style: Simple, everyday language.
 
 **Routing**: 
 - Wouter for client-side routing (lightweight alternative to React Router)
-- Single-page application with home page and 404 fallback
+- Main pages: Home (`/`), Pool Construction (`/pool-construction`)
+- Legal pages: Terms (`/terms`), Privacy (`/privacy`), Refund Policy (`/refund-policy`), Cookie Policy (`/cookie-policy`), Accessibility (`/accessibility`)
+- 404 fallback for unmatched routes
 
 **State Management**:
 - React Query (TanStack Query) for server state management
