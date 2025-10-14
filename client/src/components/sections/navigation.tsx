@@ -3,10 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { AnimatedLogo } from "@/components/animated-logo";
+import { useLocation } from "wouter";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,12 +18,43 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-      setIsMobileMenuOpen(false);
+  // Handle hash navigation on page load
+  useEffect(() => {
+    if (location === "/" && window.location.hash) {
+      const id = window.location.hash.substring(1);
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 100);
     }
+  }, [location]);
+
+  const scrollToSection = (id: string) => {
+    // If we're on the home page, scroll to section
+    if (location === "/") {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        setIsMobileMenuOpen(false);
+      }
+    } else {
+      // If we're on another page, navigate to home page with hash
+      window.location.href = `/#${id}`;
+    }
+  };
+
+  const handleLogoClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (location === "/") {
+      // Already on home page, scroll to top smoothly
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      // On another page, navigate to home
+      window.location.href = "/";
+    }
+    setIsMobileMenuOpen(false);
   };
 
   const navItems = [
@@ -43,11 +76,7 @@ export function Navigation() {
           {/* Logo */}
           <a
             href="/"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "/";
-              setIsMobileMenuOpen(false);
-            }}
+            onClick={handleLogoClick}
             className="hover-elevate active-elevate-2 px-1 sm:px-2 py-1 rounded-md transition-all block"
             data-testid="link-logo"
           >
