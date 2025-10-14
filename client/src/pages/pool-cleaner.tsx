@@ -261,6 +261,43 @@ export default function PoolCleaner() {
                   </a>
                 </Button>
               </div>
+
+              {/* Certifications & Trust Badges */}
+              <div className="mt-16 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500">
+                <p className="text-xs uppercase tracking-wider text-black/40 mb-6 font-semibold">Trusted & Certified</p>
+                <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="h-16 w-16 rounded-full bg-black/5 flex items-center justify-center">
+                      <CheckCircle2 className="h-8 w-8 text-black" />
+                    </div>
+                    <span className="text-xs font-semibold text-black/70">CPO Certified</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="h-16 w-16 rounded-full bg-black/5 flex items-center justify-center">
+                      <CheckCircle2 className="h-8 w-8 text-black" />
+                    </div>
+                    <span className="text-xs font-semibold text-black/70">NSF Approved</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="h-16 w-16 rounded-full bg-black/5 flex items-center justify-center">
+                      <CheckCircle2 className="h-8 w-8 text-black" />
+                    </div>
+                    <span className="text-xs font-semibold text-black/70">ISO 9001</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="h-16 w-16 rounded-full bg-black/5 flex items-center justify-center">
+                      <CheckCircle2 className="h-8 w-8 text-black" />
+                    </div>
+                    <span className="text-xs font-semibold text-black/70">Fully Insured</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="h-16 w-16 rounded-full bg-black/5 flex items-center justify-center">
+                      <CheckCircle2 className="h-8 w-8 text-black" />
+                    </div>
+                    <span className="text-xs font-semibold text-black/70">12+ Years</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
