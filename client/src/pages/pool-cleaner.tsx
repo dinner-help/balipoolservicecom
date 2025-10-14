@@ -301,6 +301,60 @@ export default function PoolCleaner() {
             </div>
           </section>
 
+          {/* Our Team Section */}
+          <section className="py-16 md:py-24 bg-gradient-to-b from-white to-muted/20">
+            <div className="max-w-7xl mx-auto px-6 md:px-8">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="relative">
+                  <img 
+                    src={require('@assets/stock_images/indonesian_team_work_50ef183a.jpg')} 
+                    alt="Pool Service Bali team - 50 dedicated professionals"
+                    className="rounded-lg shadow-2xl"
+                  />
+                  <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow-lg">
+                    <div className="text-3xl font-bold">50+</div>
+                    <div className="text-sm">Team Members</div>
+                  </div>
+                </div>
+
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                    Our People Are Our Greatest Asset
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-6">
+                    We're incredibly proud of our team of 50+ dedicated pool care professionals. From certified technicians to customer service specialists, every member brings expertise, passion, and commitment to excellence.
+                  </p>
+                  <p className="text-lg text-muted-foreground mb-6">
+                    <strong>We wouldn't be where we are today without our people.</strong> Each team member undergoes rigorous training in water chemistry, equipment maintenance, and customer service. They're not just employees—they're pool care specialists who take genuine pride in keeping your pool perfect.
+                  </p>
+                  
+                  <div className="grid grid-cols-2 gap-6 mt-8">
+                    <div className="bg-white p-4 rounded-lg border shadow-sm">
+                      <div className="text-2xl font-bold text-primary mb-1">100%</div>
+                      <div className="text-sm text-muted-foreground">CPO Certified Technicians</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border shadow-sm">
+                      <div className="text-2xl font-bold text-primary mb-1">5+</div>
+                      <div className="text-sm text-muted-foreground">Years Average Experience</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border shadow-sm">
+                      <div className="text-2xl font-bold text-primary mb-1">24/7</div>
+                      <div className="text-sm text-muted-foreground">Support Available</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border shadow-sm">
+                      <div className="text-2xl font-bold text-primary mb-1">1000+</div>
+                      <div className="text-sm text-muted-foreground">Pools Maintained</div>
+                    </div>
+                  </div>
+
+                  <p className="text-base text-muted-foreground mt-6 italic">
+                    "Our team members are carefully selected and continuously trained. They treat every pool as if it were their own, because they understand that your satisfaction is our success."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Why Professional Pool Cleaning Matters */}
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="max-w-7xl mx-auto px-6 md:px-8">
