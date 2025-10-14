@@ -19,6 +19,9 @@ Preferred communication style: Simple, everyday language.
 - **Pool Construction page**: Created dedicated `/pool-construction` page with comprehensive content including pool types, 6-step process, materials, benefits, pricing calculator, and FAQ
 - **Legal pages**: Added 5 complete legal documentation pages (Terms of Service, Privacy Policy, Refund & Cancellation Policy, Cookie Policy, Accessibility Statement) with consistent contact information across all pages
 - **Footer updates**: Enhanced footer with links to pool construction page and all legal pages in bottom bar
+- **WhatsApp contact**: Updated WhatsApp number to +628113702343 across entire website (all components, pages, legal pages, documentation)
+- **Contact form**: Modified to send inquiries directly via WhatsApp with formatted message containing all form data
+- **Chemical options clarity**: Updated chemical safety section to clearly differentiate between EU/USA/NSF International certified chemicals (recommended for 4-5 star hotels, properties with children, skin sensitivities) and Indonesian brand alternatives
 
 ## System Architecture
 

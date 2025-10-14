@@ -71,12 +71,15 @@ export function ChemicalSafety() {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-sm font-semibold text-primary mb-3">EUROPE'S HIGHEST SAFETY STANDARDS</p>
+          <p className="text-sm font-semibold text-primary mb-3">EU • USA • NSF INTERNATIONAL CERTIFIED</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Premium EU-Certified Chemicals: Safe for Your Entire Family
+            Premium International-Certified Chemicals for Your Pool
           </h2>
-          <p className="text-xl text-muted-foreground">
-            We exclusively use chemicals certified under European Union safety regulations - the world's strictest standards. Tested safe for children, pregnant women, and pets. Zero harmful effects. Zero compromises.
+          <p className="text-xl text-muted-foreground mb-4">
+            We offer both EU/USA/NSF International certified chemicals and Indonesian brands. Our certified chemicals meet the world's strictest safety standards - tested safe for children, pregnant women, and sensitive skin.
+          </p>
+          <p className="text-lg text-muted-foreground">
+            <strong>Recommended for:</strong> 4-5 star hotels, properties with children, anyone with skin sensitivities, and pools with easy access by kids. Significantly healthier and safer for premium properties.
           </p>
         </div>
 
@@ -105,16 +108,16 @@ export function ChemicalSafety() {
           ))}
         </div>
 
-        {/* Why EU Standards Matter */}
+        {/* Why International Certified Standards Matter */}
         <div className="bg-primary/5 border-2 border-primary/20 rounded-2xl p-8 md:p-12 mb-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <Badge className="mb-4">The EU Difference</Badge>
+              <Badge className="mb-4">Premium Certified Option</Badge>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                Why European Chemical Standards Are the World's Safest
+                Why EU/USA/NSF Certified Chemicals Are Recommended for Premium Properties
               </h3>
               <p className="text-muted-foreground mb-4">
-                The European Union has the most rigorous chemical safety regulations in the world. Before any pool chemical can be sold in Europe, it must undergo:
+                Our international certified chemicals (EU, USA, NSF International) undergo the world's most rigorous safety testing. Essential for 4-5 star hotels and health-sensitive environments. Before certification, each chemical must undergo:
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
@@ -191,15 +194,18 @@ export function ChemicalSafety() {
                 <Shield className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-2">Our Chemical Safety Guarantee</h4>
+                <h4 className="font-bold text-lg mb-2">Chemical Options & Safety Guarantee</h4>
                 <p className="text-muted-foreground mb-4">
-                  Every chemical we use comes with complete safety documentation, ingredient disclosure, and emergency response information. We can trace every bottle back to its European manufacturing facility. You'll never wonder what's going into your pool.
+                  <strong>Premium Certified Option:</strong> EU/USA/NSF International certified chemicals with complete safety documentation, ingredient disclosure, and emergency response information. Fully traceable to manufacturing facilities. <strong>Strongly recommended for 4-5 star hotels, properties with children, and anyone with skin sensitivities.</strong>
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  <strong>Standard Option:</strong> Indonesian brand chemicals available for budget-conscious clients. While effective for basic pool maintenance, these don't have the same rigorous international safety certifications.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">100% EU Sourced</Badge>
-                  <Badge variant="outline">Full Ingredient Disclosure</Badge>
-                  <Badge variant="outline">Safety Data Sheets Provided</Badge>
-                  <Badge variant="outline">Batch Tracked & Traceable</Badge>
+                  <Badge variant="outline">EU/USA/NSF Certified Available</Badge>
+                  <Badge variant="outline">Indonesian Brands Available</Badge>
+                  <Badge variant="outline">Full Documentation Provided</Badge>
+                  <Badge variant="outline">Health-Focused Service</Badge>
                 </div>
               </div>
             </div>
@@ -222,10 +228,10 @@ export function ChemicalSafety() {
                   "I'm a mother of three young children (ages 3, 6, and 8) and I was always concerned about the chemicals in our pool. Our previous service used cheap local chemicals that made my youngest's skin red and irritated."
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  "Since switching to Pool Service Bali, the difference is incredible. They showed me all the EU safety certificates, explained exactly what goes into the water, and my kids have had zero skin reactions. My 3-year-old spends hours in the pool now without any issues."
+                  "Since switching to Pool Service Bali with their EU/USA/NSF certified chemicals, the difference is incredible. They explained the difference between the certified and Indonesian brands, and for my kids' health, I chose the certified option. They showed me all the safety certificates, explained exactly what goes into the water, and my kids have had zero skin reactions."
                 </p>
                 <p className="text-muted-foreground font-semibold">
-                  "As a mother, knowing these chemicals are tested safe for children gives me complete peace of mind. It's worth every rupiah."
+                  "As a mother, knowing these internationally certified chemicals are tested safe for children gives me complete peace of mind. For properties with kids or skin sensitivities, the certified option is absolutely worth it."
                 </p>
                 <div className="flex items-center gap-3 mt-6">
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -278,10 +284,10 @@ export function ChemicalSafety() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <p className="text-lg font-semibold mb-4">
-            Your family deserves the safest pool chemicals available
+            Choose the right chemicals for your property and family's health
           </p>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Don't compromise on safety. Get European-certified, family-safe chemicals included in every service package.
+            We offer both EU/USA/NSF International certified chemicals (recommended for premium properties and health-sensitive situations) and Indonesian brands. For 4-5 star hotels, properties with children, or anyone with skin sensitivities - the certified option is significantly healthier and safer.
           </p>
         </div>
       </div>
