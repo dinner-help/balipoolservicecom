@@ -19,6 +19,10 @@ export function Footer() {
     }, 3000);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const services = [
     { label: "Pool Cleaning & Maintenance", href: "/pool-cleaner" },
     { label: "Pool Repair & Renovation", href: "/pool-repair" },
@@ -216,6 +220,7 @@ export function Footer() {
                 <li key={item.label}>
                   <Link
                     href={item.href}
+                    onClick={scrollToTop}
                     className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block"
                     data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
                   >
@@ -234,7 +239,8 @@ export function Footer() {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block"
+                    onClick={(e) => { e.preventDefault(); scrollToTop(); }}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block cursor-pointer"
                     data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {item.label}
@@ -252,7 +258,8 @@ export function Footer() {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block"
+                    onClick={(e) => { e.preventDefault(); scrollToTop(); }}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block cursor-pointer"
                     data-testid={`link-footer-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {item.label}
@@ -270,19 +277,21 @@ export function Footer() {
                 <li key={area.name}>
                   <a
                     href={area.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block"
+                    onClick={(e) => { e.preventDefault(); scrollToTop(); }}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 inline-block cursor-pointer"
                   >
                     {area.name}
                   </a>
                 </li>
               ))}
             </ul>
-            <Link
+            <a
               href="#service-areas"
-              className="text-sm text-primary hover:underline mt-3 inline-block font-medium"
+              onClick={(e) => { e.preventDefault(); scrollToTop(); }}
+              className="text-sm text-primary hover:underline mt-3 inline-block font-medium cursor-pointer"
             >
               View All Areas →
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -331,19 +340,19 @@ export function Footer() {
               <p className="text-center sm:text-left">Proudly Serving Bali Since 2010</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
-              <Link href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
+              <Link href="/terms" onClick={scrollToTop} className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
                 Terms of Service
               </Link>
-              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
+              <Link href="/privacy" onClick={scrollToTop} className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
                 Privacy Policy
               </Link>
-              <Link href="/refund-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-refund">
+              <Link href="/refund-policy" onClick={scrollToTop} className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-refund">
                 Refund Policy
               </Link>
-              <Link href="/cookie-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-cookies">
+              <Link href="/cookie-policy" onClick={scrollToTop} className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-cookies">
                 Cookie Policy
               </Link>
-              <Link href="/accessibility" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-accessibility">
+              <Link href="/accessibility" onClick={scrollToTop} className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-accessibility">
                 Accessibility
               </Link>
             </div>
