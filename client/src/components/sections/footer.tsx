@@ -140,13 +140,22 @@ export function Footer() {
             <p className="text-sm text-muted-foreground text-center md:text-left">
               © {currentYear} Pool Service Bali. All rights reserved.
             </p>
-            <div className="flex items-center gap-6">
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
-                Terms of Service
-              </a>
+            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+              <Link href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
+                Terms
+              </Link>
+              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
+                Privacy
+              </Link>
+              <Link href="/refund-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-refund">
+                Refunds
+              </Link>
+              <Link href="/cookie-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-cookies">
+                Cookies
+              </Link>
+              <Link href="/accessibility" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-accessibility">
+                Accessibility
+              </Link>
             </div>
           </div>
         </div>
