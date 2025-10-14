@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Hammer, CheckCircle, Clock, Shield, Waves, Building2, Sparkles, Users, FileCheck, MessageCircle } from "lucide-react";
@@ -135,13 +136,109 @@ export default function PoolConstruction() {
     },
     {
       question: "What maintenance is required after construction?",
-      answer: "We provide complete training on pool operation and offer maintenance packages starting from our Silver plan. Most villa owners choose our Gold or Platinum packages for worry-free ongoing care.",
+      answer: "We provide complete training on pool operation and offer maintenance packages starting from our Silver plan. Most villa owners choose our Gold or Platinum packages for worry-free ongoing care. Learn more about our pool cleaning and maintenance services.",
     },
   ];
 
   return (
-    <div className="min-h-screen">
-      <Navigation />
+    <>
+      <Helmet>
+        {/* Primary Meta Tags */}
+        <title>Pool Construction Bali | Custom Pool Builders & Design</title>
+        <meta name="description" content="Expert pool construction in Bali. Custom infinity pools, traditional designs. Starting IDR 85 million. 10-12 week completion. Serving Seminyak, Canggu, Uluwatu." />
+        <meta name="keywords" content="pool construction bali, pool builder bali, infinity pool construction, custom pool design bali, swimming pool construction seminyak, pool contractor bali, new pool construction" />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-construction" />
+        
+        {/* Open Graph Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://balipoolservice.com/pool-construction" />
+        <meta property="og:title" content="Pool Construction Bali | Custom Pool Builders" />
+        <meta property="og:description" content="Build your dream pool in Bali. Expert construction of infinity pools, traditional designs, custom shapes. Starting IDR 85 million. 10-12 week completion." />
+        <meta property="og:image" content="https://balipoolservice.com/og-image-pool-construction.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:locale" content="en_ID" />
+        
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://balipoolservice.com/pool-construction" />
+        <meta name="twitter:title" content="Pool Construction Bali | Custom Pool Builders" />
+        <meta name="twitter:description" content="Build your dream pool in Bali. Custom infinity & traditional pools. Starting IDR 85 million. Expert construction team." />
+        <meta name="twitter:image" content="https://balipoolservice.com/og-image-pool-construction.jpg" />
+        
+        {/* Schema.org JSON-LD - Local Business */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://balipoolservice.com",
+            "name": "Pool Service Bali - Pool Construction Division",
+            "image": "https://balipoolservice.com/logo.png",
+            "description": "Professional pool construction services in Bali. Custom infinity pools, traditional designs, and bespoke pool solutions built by expert craftsmen.",
+            "url": "https://balipoolservice.com/pool-construction",
+            "telephone": "+62123445566",
+            "priceRange": "IDR 85,000,000 - IDR 500,000,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jalan Sunset Road",
+              "addressLocality": "Seminyak",
+              "addressRegion": "Bali",
+              "postalCode": "80361",
+              "addressCountry": "ID"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -8.6705,
+              "longitude": 115.1614
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "08:00",
+                "closes": "18:00"
+              }
+            ],
+            "sameAs": [
+              "https://facebook.com/poolservicebali",
+              "https://instagram.com/poolservicebali"
+            ],
+            "areaServed": [
+              "Seminyak", "Canggu", "Uluwatu", "Sanur", "Nusa Dua", "Ubud", "Denpasar", "Jimbaran"
+            ]
+          })}
+        </script>
+        
+        {/* Schema.org JSON-LD - Service */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Pool Construction & Design",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Pool Service Bali"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Bali"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "IDR",
+              "lowPrice": "85000000",
+              "highPrice": "500000000"
+            }
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="relative pt-20 md:pt-24 pb-20 md:pb-32 overflow-hidden">
@@ -504,7 +601,7 @@ export default function PoolConstruction() {
               <div className="text-center">
                 <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
                 <p className="font-semibold mb-2">6-Month Warranty</p>
-                <p className="text-sm text-muted-foreground">Parts and labor covered, plus manufacturer warranty</p>
+                <p className="text-sm text-muted-foreground">Parts and labor covered, plus manufacturer warranty. <a href="/pool-repair" className="text-primary hover:underline">24/7 repair service</a> available anytime.</p>
               </div>
             </div>
           </div>
@@ -532,6 +629,9 @@ export default function PoolConstruction() {
                 </h3>
                 <p className="text-muted-foreground leading-relaxed pl-8">
                   {faq.answer}
+                  {faq.question.includes("maintenance") && (
+                    <span> <a href="/pool-cleaner" className="text-primary hover:underline font-semibold">View our pool maintenance packages →</a></span>
+                  )}
                 </p>
               </Card>
             ))}
@@ -575,5 +675,6 @@ export default function PoolConstruction() {
 
       <Footer />
     </div>
+    </>
   );
 }

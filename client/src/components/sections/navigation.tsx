@@ -41,16 +41,18 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12 sm:h-14">
           {/* Logo */}
-          <button
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "/";
               setIsMobileMenuOpen(false);
             }}
-            className="hover-elevate active-elevate-2 px-1 sm:px-2 py-1 rounded-md transition-all"
+            className="hover-elevate active-elevate-2 px-1 sm:px-2 py-1 rounded-md transition-all block"
             data-testid="link-logo"
           >
             <AnimatedLogo />
-          </button>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1 lg:gap-3">

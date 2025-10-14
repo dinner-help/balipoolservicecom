@@ -231,21 +231,153 @@ export default function PoolRepair() {
   return (
     <>
       <Helmet>
-        <title>Pool Repair Bali - 24/7 Emergency Service | Pool Service Bali</title>
-        <meta 
-          name="description" 
-          content="Emergency pool repair Bali - pumps, filters, heaters, leaks, equipment. 24/7 response, certified technicians, 90-day warranty. Seminyak, Canggu, Uluwatu, Sanur pool repair specialists." 
-        />
-        <meta 
-          name="keywords" 
-          content="pool repair bali, pool equipment repair bali, emergency pool repair, pool pump repair bali, pool leak detection bali, pool heater repair bali, swimming pool repair seminyak, pool repair canggu" 
-        />
-        <link rel="canonical" href="https://poolservicebali.com/pool-repair" />
+        {/* Primary Meta Tags */}
+        <title>Pool Repair Bali | 24/7 Emergency Service & Experts</title>
+        <meta name="description" content="Emergency pool repair Bali. Expert pump, filter, heater & leak repairs. 2-4 hour response time. 90-day warranty. Serving Seminyak, Canggu, Uluwatu 24/7." />
+        <meta name="keywords" content="pool repair bali, pool equipment repair bali, emergency pool repair, pool pump repair bali, pool leak detection bali, pool heater repair bali, swimming pool repair seminyak, pool repair canggu" />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-repair" />
         
-        <meta property="og:title" content="Pool Repair Bali - 24/7 Emergency Service | Pool Service Bali" />
-        <meta property="og:description" content="Emergency pool repair Bali - pumps, filters, heaters, leaks, equipment. 24/7 response, certified technicians, 90-day warranty." />
+        {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://poolservicebali.com/pool-repair" />
+        <meta property="og:url" content="https://balipoolservice.com/pool-repair" />
+        <meta property="og:title" content="Pool Repair Bali | 24/7 Emergency Service & Experts" />
+        <meta property="og:description" content="24/7 emergency pool repair in Bali. Expert technicians fix pumps, filters, heaters, leaks. 2-4 hour response time. 90-day warranty on all repairs." />
+        <meta property="og:image" content="https://balipoolservice.com/og-image-pool-repair.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:locale" content="en_ID" />
+        
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://balipoolservice.com/pool-repair" />
+        <meta name="twitter:title" content="Pool Repair Bali | 24/7 Emergency Service" />
+        <meta name="twitter:description" content="Emergency pool repair Bali. Expert pump, filter, heater & leak repairs. 2-4 hour response. 90-day warranty." />
+        <meta name="twitter:image" content="https://balipoolservice.com/og-image-pool-repair.jpg" />
+        
+        {/* Schema.org JSON-LD - Local Business */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://balipoolservice.com",
+            "name": "Pool Service Bali - Pool Repair Division",
+            "image": "https://balipoolservice.com/logo.png",
+            "description": "24/7 emergency pool repair services in Bali. Expert technicians specializing in pump repairs, filter systems, heaters, leak detection, and all pool equipment.",
+            "url": "https://balipoolservice.com/pool-repair",
+            "telephone": "+62123445566",
+            "priceRange": "IDR 500,000 - IDR 15,000,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jalan Sunset Road",
+              "addressLocality": "Seminyak",
+              "addressRegion": "Bali",
+              "postalCode": "80361",
+              "addressCountry": "ID"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -8.6705,
+              "longitude": 115.1614
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "00:00",
+                "closes": "23:59"
+              }
+            ],
+            "sameAs": [
+              "https://facebook.com/poolservicebali",
+              "https://instagram.com/poolservicebali"
+            ],
+            "areaServed": [
+              "Seminyak", "Canggu", "Uluwatu", "Sanur", "Nusa Dua", "Ubud", "Denpasar", "Jimbaran"
+            ]
+          })}
+        </script>
+        
+        {/* Schema.org JSON-LD - Emergency Service */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EmergencyService",
+            "name": "Pool Service Bali - Emergency Pool Repair",
+            "serviceType": "24/7 Emergency Pool Repair",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Pool Service Bali"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Bali"
+            },
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "servicePhone": {
+                "@type": "ContactPoint",
+                "telephone": "+62123445566",
+                "contactType": "Emergency",
+                "availableLanguage": ["English", "Indonesian"]
+              }
+            }
+          })}
+        </script>
+        
+        {/* Schema.org JSON-LD - Service */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Pool Equipment Repair",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Pool Service Bali"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Bali"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Pool Repair Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Pump & Motor Repairs"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Leak Detection & Repair"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Filter System Repairs"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Heater & Heat Pump Service"
+                  }
+                }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen flex flex-col">
@@ -379,6 +511,7 @@ export default function PoolRepair() {
                   src={brokenEquipment} 
                   alt="Pool equipment repair and diagnosis - broken pump and filter"
                   className="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl mb-6"
+                  loading="lazy"
                 />
                 <p className="text-sm text-muted-foreground italic">
                   Professional diagnostic equipment allows us to pinpoint issues quickly and accurately
@@ -425,11 +558,13 @@ export default function PoolRepair() {
                   src={tileRepair} 
                   alt="Pool tile and structural repair - crack fixing and waterproofing"
                   className="w-full rounded-xl shadow-lg"
+                  loading="lazy"
                 />
                 <img 
                   src={technicianTools} 
                   alt="Professional pool repair tools and diagnostic equipment"
                   className="w-full rounded-xl shadow-lg"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -527,11 +662,11 @@ export default function PoolRepair() {
 
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
                 {["Seminyak", "Canggu", "Uluwatu", "Sanur", "Nusa Dua", "Jimbaran"].map((area) => (
-                  <div key={area} className="text-center p-4 rounded-xl bg-background/50 border-2 hover-elevate">
+                  <a key={area} href="/#service-areas" className="text-center p-4 rounded-xl bg-background/50 border-2 hover-elevate block">
                     <MapPin className="h-6 w-6 text-primary mx-auto mb-2" />
                     <p className="font-semibold">{area}</p>
                     <p className="text-xs text-muted-foreground">2-4 hour response</p>
-                  </div>
+                  </a>
                 ))}
               </div>
 
@@ -739,7 +874,7 @@ export default function PoolRepair() {
                 Don't Let a Broken Pool Ruin Your Day
               </h2>
               <p className="text-xl mb-8 opacity-90">
-                Professional repair service with certified technicians, genuine parts, and 90-day warranty. Available 24/7 across Bali.
+                Professional repair service with certified technicians, genuine parts, and 90-day warranty. Available 24/7 across Bali. After repairs, keep your pool pristine with our <a href="/pool-cleaner" className="text-white hover:underline font-semibold">regular maintenance service</a>.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

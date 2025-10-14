@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Droplets, Wrench, Hammer, CheckCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Droplets, Wrench, Hammer, CheckCircle, ArrowRight } from "lucide-react";
 import cleaningImage from "@assets/stock_images/professional_pool_cl_5ed80d5f.jpg";
 import equipmentImage from "@assets/stock_images/pool_equipment_filte_47e1a358.jpg";
 import constructionImage from "@assets/stock_images/crystal_clear_blue_s_edf02c5d.jpg";
@@ -11,6 +12,7 @@ export function Services() {
       title: "Pool Cleaning & Maintenance",
       description: "Complete pool care from water chemistry to equipment inspection. Keep your pool crystal clear year-round.",
       image: cleaningImage,
+      link: "/pool-cleaner",
       features: [
         "Water testing & pH balancing",
         "Premium 90% pure chemicals",
@@ -25,6 +27,7 @@ export function Services() {
       title: "Pool Repair & Equipment Service",
       description: "Expert diagnostics and repair for all pool systems. From minor fixes to major equipment replacement.",
       image: equipmentImage,
+      link: "/pool-repair",
       features: [
         "Pump & filter repair/replacement",
         "Leak detection & repair",
@@ -39,6 +42,7 @@ export function Services() {
       title: "New Pool Construction",
       description: "Custom pool design and installation for your Bali property. Infinity pools, traditional designs, and more.",
       image: constructionImage,
+      link: "/pool-construction",
       features: [
         "Custom pool design",
         "Infinity pool construction",
@@ -87,7 +91,7 @@ export function Services() {
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-6">
                 <ul className="space-y-3">
                   {service.features.map((feature, fIndex) => (
                     <li key={fIndex} className="flex items-start gap-3">
@@ -96,6 +100,16 @@ export function Services() {
                     </li>
                   ))}
                 </ul>
+                <Button
+                  variant="outline"
+                  className="w-full group"
+                  asChild
+                >
+                  <a href={service.link}>
+                    Learn More
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           ))}

@@ -206,16 +206,141 @@ export default function PoolCleaner() {
   return (
     <>
       <Helmet>
-        <title>Professional Pool Cleaning Services Bali | Expert Pool Maintenance & Care</title>
-        <meta name="description" content="Professional pool cleaning services in Bali. Certified technicians, crystal-clear water, 24/7 emergency service. Serving Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua. Expert pool maintenance for villas, hotels & homes." />
+        {/* Primary Meta Tags */}
+        <title>Pool Cleaning Bali | Professional Maintenance Service</title>
+        <meta name="description" content="Expert pool cleaning in Bali. CPO-certified technicians, crystal-clear water guaranteed. Serving Seminyak, Canggu, Uluwatu. Same-day emergency service available." />
         <meta name="keywords" content="pool cleaning Bali, pool maintenance Bali, professional pool service, pool cleaner Seminyak, pool cleaning Canggu, Bali pool care, pool chemical balancing, swimming pool maintenance, pool technician Bali, pool cleaning service" />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-cleaner" />
         
-        <meta property="og:title" content="Professional Pool Cleaning Services Bali | Expert Pool Maintenance" />
-        <meta property="og:description" content="Crystal-clear water. Zero effort. Complete peace of mind. Professional pool cleaning and maintenance services for villas, hotels, and homes across Bali." />
+        {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://balipoolservice.com/pool-cleaner" />
+        <meta property="og:title" content="Pool Cleaning Bali | Professional Maintenance Service" />
+        <meta property="og:description" content="Expert pool cleaning in Bali. CPO-certified technicians, crystal-clear water guaranteed. Same-day emergency service available. 50+ team members serving all Bali." />
+        <meta property="og:image" content="https://balipoolservice.com/og-image-pool-cleaning.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:locale" content="en_ID" />
         
-        <link rel="canonical" href="https://balipoolservice.com/pool-cleaner" />
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://balipoolservice.com/pool-cleaner" />
+        <meta name="twitter:title" content="Pool Cleaning Bali | Professional Maintenance Service" />
+        <meta name="twitter:description" content="Expert pool cleaning in Bali. CPO-certified technicians, crystal-clear water guaranteed. Same-day emergency service available." />
+        <meta name="twitter:image" content="https://balipoolservice.com/og-image-pool-cleaning.jpg" />
+        
+        {/* Schema.org JSON-LD - Local Business */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://balipoolservice.com",
+            "name": "Pool Service Bali - Pool Cleaning Division",
+            "image": "https://balipoolservice.com/logo.png",
+            "description": "Professional pool cleaning and maintenance services in Bali. CPO-certified technicians providing expert pool care for villas, hotels, and homes across Bali.",
+            "url": "https://balipoolservice.com/pool-cleaner",
+            "telephone": "+62123445566",
+            "priceRange": "IDR 2,900,000 - IDR 5,500,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jalan Sunset Road",
+              "addressLocality": "Seminyak",
+              "addressRegion": "Bali",
+              "postalCode": "80361",
+              "addressCountry": "ID"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -8.6705,
+              "longitude": 115.1614
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "08:00",
+                "closes": "18:00"
+              }
+            ],
+            "sameAs": [
+              "https://facebook.com/poolservicebali",
+              "https://instagram.com/poolservicebali"
+            ],
+            "areaServed": [
+              "Seminyak", "Canggu", "Uluwatu", "Sanur", "Nusa Dua", "Ubud", "Denpasar", "Jimbaran"
+            ]
+          })}
+        </script>
+        
+        {/* Schema.org JSON-LD - FAQ */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })}
+        </script>
+        
+        {/* Schema.org JSON-LD - Service */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Pool Cleaning and Maintenance",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Pool Service Bali"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Bali"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Pool Cleaning Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Silver Package - Pool Cleaning"
+                  },
+                  "price": "2900000",
+                  "priceCurrency": "IDR"
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Gold Package - Pool Cleaning"
+                  },
+                  "price": "3900000",
+                  "priceCurrency": "IDR"
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Platinum Package - Pool Cleaning"
+                  },
+                  "price": "5500000",
+                  "priceCurrency": "IDR"
+                }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen flex flex-col">
@@ -310,6 +435,7 @@ export default function PoolCleaner() {
                     src={require('@assets/stock_images/indonesian_team_work_50ef183a.jpg')} 
                     alt="Pool Service Bali team - 50 dedicated professionals"
                     className="rounded-lg shadow-2xl"
+                    loading="lazy"
                   />
                   <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow-lg">
                     <div className="text-3xl font-bold">50+</div>
@@ -451,7 +577,7 @@ export default function PoolCleaner() {
                   Pool Emergency? We Can Visit Today & Fix It
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                  Don't let pool problems ruin your plans. Our expert technicians can assess and repair your pool the same day. <strong>There's nothing we can't fix.</strong>
+                  Don't let pool problems ruin your plans. Our expert technicians can assess and <a href="/pool-repair" className="text-primary hover:underline font-semibold">repair your pool</a> the same day. <strong>There's nothing we can't fix.</strong>
                 </p>
               </div>
 
@@ -526,7 +652,7 @@ export default function PoolCleaner() {
                     Expert Knowledge. Guaranteed Solutions.
                   </h3>
                   <p className="text-lg mb-6 text-primary-foreground/90">
-                    With <strong>12+ years of experience</strong> and a team of <strong>50+ certified technicians</strong>, we've seen and solved every pool problem imaginable. Pump failures, filter issues, chemical imbalances, equipment malfunctions—there's nothing we can't diagnose and fix.
+                    With <strong>12+ years of experience</strong> and a team of <strong>50+ certified technicians</strong>, we've seen and solved every pool problem imaginable. <a href="/pool-repair" className="text-white hover:underline font-semibold">Pump failures, filter issues</a>, chemical imbalances, <a href="/pool-repair" className="text-white hover:underline font-semibold">equipment malfunctions</a>—there's nothing we can't diagnose and fix.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
                     <div className="flex items-center gap-2">
@@ -604,6 +730,7 @@ export default function PoolCleaner() {
                     src={crystalClearPool} 
                     alt="Crystal clear pool water with proper maintenance"
                     className="rounded-lg shadow-xl"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -700,11 +827,13 @@ export default function PoolCleaner() {
                   src={poolChemicals} 
                   alt="Pool water chemistry testing equipment"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
                 <img 
                   src={poolEquipment} 
                   alt="Professional pool maintenance equipment"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -759,16 +888,19 @@ export default function PoolCleaner() {
                   src={poolCleaning2} 
                   alt="Professional pool cleaning in progress"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
                 <img 
                   src={poolCleaning3} 
                   alt="Pool technician maintaining water quality"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
                 <img 
                   src={crystalClearPool2} 
                   alt="Beautifully maintained crystal clear pool"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -1208,7 +1340,7 @@ export default function PoolCleaner() {
           <section className="py-16 bg-muted/30">
             <div className="max-w-7xl mx-auto px-6 md:px-8 text-center">
               <p className="text-muted-foreground italic">
-                Serving Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, Ubud, Jimbaran, and all of Bali with certified pool cleaning and maintenance services.
+                Serving <a href="/#service-areas" className="text-primary hover:underline">Seminyak</a>, <a href="/#service-areas" className="text-primary hover:underline">Canggu</a>, <a href="/#service-areas" className="text-primary hover:underline">Uluwatu</a>, <a href="/#service-areas" className="text-primary hover:underline">Sanur</a>, <a href="/#service-areas" className="text-primary hover:underline">Nusa Dua</a>, <a href="/#service-areas" className="text-primary hover:underline">Ubud</a>, <a href="/#service-areas" className="text-primary hover:underline">Jimbaran</a>, and all of Bali with certified <a href="/" className="text-primary hover:underline">pool cleaning and maintenance services</a>.
               </p>
             </div>
           </section>
