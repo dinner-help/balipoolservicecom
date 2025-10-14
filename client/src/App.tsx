@@ -5,6 +5,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
 import { HelmetProvider } from "react-helmet-async";
+import { CookieConsent } from "@/components/cookie-consent";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
 import Home from "@/pages/home";
 import PoolConstruction from "@/pages/pool-construction";
 import PoolCleaner from "@/pages/pool-cleaner";
@@ -39,6 +41,8 @@ function App() {
           <TooltipProvider>
             <Toaster />
             <Router />
+            <WhatsAppFloat />
+            <CookieConsent />
           </TooltipProvider>
         </HelmetProvider>
       </ThemeProvider>

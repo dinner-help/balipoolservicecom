@@ -230,7 +230,7 @@ export default function PoolCleaner() {
                 alt="Professional pool cleaning service in Bali"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/60"></div>
             </div>
             
             <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8 text-center">

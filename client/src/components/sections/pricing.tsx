@@ -96,9 +96,8 @@ export function Pricing() {
               <CardHeader className="pb-8">
                 <CardTitle className="text-2xl mb-2">{pkg.name}</CardTitle>
                 <div className="mb-3">
-                  <span className="text-4xl font-bold">{pkg.price}</span>
-                  <span className="text-muted-foreground ml-2">({pkg.priceUSD})</span>
-                  <span className="text-muted-foreground">{pkg.period}</span>
+                  <div className="text-2xl font-bold">{pkg.price}</div>
+                  <div className="text-sm text-muted-foreground">{pkg.period}</div>
                 </div>
                 <CardDescription className="text-base">{pkg.description}</CardDescription>
               </CardHeader>

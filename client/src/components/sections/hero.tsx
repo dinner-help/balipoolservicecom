@@ -41,14 +41,18 @@ export function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6" data-testid="heading-hero">
-            <span className="text-foreground">Your Pool, </span>
-            <span className="text-primary">Perfectly Maintained</span>
-            <span className="text-foreground"> Without Lifting a Finger</span>
+            <span className="text-foreground">From Emergency Fixes to </span>
+            <span className="text-primary">Effortless Maintenance</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-            Professional pool maintenance for villas, hotels, and homes in Bali. Zero-effort service with transparent pricing, detailed reporting, and 24/7 support.
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
+            We help property owners across Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran transform their pool headaches into 5-star guest experiences—with zero effort on your part.
+          </p>
+          
+          {/* Supporting line */}
+          <p className="text-lg text-muted-foreground/80 mb-12 max-w-2xl mx-auto italic">
+            Because your pool should be your greatest asset, not your biggest headache.
           </p>
 
           {/* CTA Buttons */}
