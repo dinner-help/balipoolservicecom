@@ -28,6 +28,7 @@ import crystalClearPool from "@assets/stock_images/crystal_clear_blue_s_b1579e3a
 import crystalClearPool2 from "@assets/stock_images/crystal_clear_blue_s_316525ec.jpg";
 import poolChemicals from "@assets/stock_images/pool_maintenance_equ_f6ef178d.jpg";
 import poolEquipment from "@assets/stock_images/pool_maintenance_equ_d886bdcb.jpg";
+import teamWork from "@assets/stock_images/indonesian_team_work_50ef183a.jpg";
 
 export default function PoolCleaner() {
   const cleaningSteps = [
@@ -432,7 +433,7 @@ export default function PoolCleaner() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="relative">
                   <img 
-                    src={require('@assets/stock_images/indonesian_team_work_50ef183a.jpg')} 
+                    src={teamWork} 
                     alt="Pool Service Bali team - 50 dedicated professionals"
                     className="rounded-lg shadow-2xl"
                     loading="lazy"

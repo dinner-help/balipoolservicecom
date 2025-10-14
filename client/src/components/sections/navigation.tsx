@@ -67,9 +67,10 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-gray-200 ${
         isScrolled ? "shadow-md" : "shadow-sm"
       }`}
+      style={{ backgroundColor: '#FFFFFF' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12 sm:h-14">
@@ -89,7 +90,7 @@ export function Navigation() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-xs lg:text-sm text-foreground hover:text-primary transition-colors font-medium px-2 lg:px-3"
+                className="text-xs lg:text-sm text-gray-900 hover:text-primary transition-colors font-medium px-2 lg:px-3"
                 data-testid={`link-${item.id}`}
               >
                 {item.label}
@@ -144,7 +145,7 @@ export function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left px-3 py-2 text-sm text-foreground hover:text-primary hover:bg-accent/50 rounded-md transition-colors font-medium"
+                  className="text-left px-3 py-2 text-sm text-gray-900 hover:text-primary hover:bg-accent/50 rounded-md transition-colors font-medium"
                   data-testid={`link-mobile-${item.id}`}
                 >
                   {item.label}
