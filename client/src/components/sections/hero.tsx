@@ -41,13 +41,13 @@ export function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6" data-testid="heading-hero">
-            <span className="text-foreground">From Emergency Fixes to </span>
-            <span className="text-primary">Effortless Maintenance</span>
+            <span className="text-foreground">Professional Pool Service Bali: </span>
+            <span className="text-primary">Cleaning, Maintenance & Repair</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-            We help property owners across Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran transform their pool headaches into 5-star guest experiences—with zero effort on your part.
+            Expert pool cleaning Bali and pool maintenance Bali services across Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran. Transform pool problems into crystal-clear perfection—with zero effort on your part.
           </p>
           
           {/* Supporting line */}

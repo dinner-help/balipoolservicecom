@@ -43,7 +43,10 @@ export function Navigation() {
         <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
           <button
-            onClick={() => scrollToSection("hero")}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              setIsMobileMenuOpen(false);
+            }}
             className="hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-all"
             data-testid="link-logo"
           >

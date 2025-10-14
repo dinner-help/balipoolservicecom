@@ -38,9 +38,16 @@ export function Footer() {
               <Droplets className="h-6 w-6 text-primary" />
               <span className="text-xl font-bold">Pool Service Bali</span>
             </div>
-            <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
               Professional pool maintenance, repair, and construction services for villas, hotels, and homes across Bali.
             </p>
+            <div className="text-sm text-muted-foreground mb-6">
+              <p className="font-semibold text-foreground mb-2">Office Address:</p>
+              <p>Jl. Raya Seminyak No. 108</p>
+              <p>Seminyak, Kuta</p>
+              <p>Badung, Bali 80361</p>
+              <p className="mt-2">Indonesia</p>
+            </div>
             <div className="flex items-center gap-3">
               <a
                 href="https://wa.me/62123445566"

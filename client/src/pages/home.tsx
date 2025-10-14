@@ -2,6 +2,10 @@ import { Hero } from "@/components/sections/hero";
 import { ValuePropositions } from "@/components/sections/value-propositions";
 import { Services } from "@/components/sections/services";
 import { HowItWorks } from "@/components/sections/how-it-works";
+import { Technology } from "@/components/sections/technology";
+import { ChemicalSubscription } from "@/components/sections/chemical-subscription";
+import { AppReporting } from "@/components/sections/app-reporting";
+import { TeamEducation } from "@/components/sections/team-education";
 import { CustomerSegments } from "@/components/sections/customer-segments";
 import { ServiceAreas } from "@/components/sections/service-areas";
 import { Pricing } from "@/components/sections/pricing";
@@ -19,6 +23,10 @@ export default function Home() {
       <ValuePropositions />
       <Services />
       <HowItWorks />
+      <Technology />
+      <ChemicalSubscription />
+      <AppReporting />
+      <TeamEducation />
       <CustomerSegments />
       <ServiceAreas />
       <Pricing />

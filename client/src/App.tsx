@@ -10,6 +10,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float";
 import Home from "@/pages/home";
 import PoolConstruction from "@/pages/pool-construction";
 import PoolCleaner from "@/pages/pool-cleaner";
+import PoolRepair from "@/pages/pool-repair";
 import Terms from "@/pages/terms";
 import Privacy from "@/pages/privacy";
 import RefundPolicy from "@/pages/refund-policy";
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/pool-construction" component={PoolConstruction} />
       <Route path="/pool-cleaner" component={PoolCleaner} />
+      <Route path="/pool-repair" component={PoolRepair} />
       <Route path="/terms" component={Terms} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/refund-policy" component={RefundPolicy} />
