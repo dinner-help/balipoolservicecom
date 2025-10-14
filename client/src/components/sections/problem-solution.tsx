@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { AlertTriangle, CheckCircle2 } from "lucide-react";
+import problemBg from "@assets/stock_images/professional_pool_cl_9cdaa35b.jpg";
 
 export function ProblemSolution() {
   const problemSolutions = [
@@ -31,8 +32,16 @@ export function ProblemSolution() {
   ];
 
   return (
-    <section className="py-20 md:py-32">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <section className="relative py-20 md:py-32 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${problemBg})` }}
+      />
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/92" />
+      
+      <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
