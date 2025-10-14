@@ -662,38 +662,165 @@ export default function PoolCleaner() {
 
               {/* Chemical Packages */}
               <div className="mb-16">
-                <div className="text-center mb-8">
-                  <h3 className="text-2xl md:text-3xl font-bold mb-2">Premium Chemical Packages</h3>
-                  <p className="text-muted-foreground">90% pure chemicals - uses 50% less product, eco-friendly, NSF-certified</p>
+                <div className="text-center mb-12">
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Monthly Chemical Subscription</h3>
+                  <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+                    Premium-grade chemicals delivered to your door. Our 90% pure formulas use 50% less product, last longer, and are eco-friendly & NSF-certified.
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-6 text-sm">
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <span className="text-muted-foreground">NSF Certified</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <span className="text-muted-foreground">90% Pure Formula</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <span className="text-muted-foreground">Eco-Friendly</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <span className="text-muted-foreground">International Brands</span>
+                    </div>
+                  </div>
                 </div>
+                
                 <div className="grid md:grid-cols-3 gap-6">
-                  <Card className="p-6">
-                    <h4 className="font-bold mb-2">Small Pool (up to 30m³)</h4>
-                    <div className="text-2xl font-bold text-primary mb-4">IDR 600,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Monthly chemical delivery</li>
-                      <li>• 90% pure premium chemicals</li>
-                      <li>• International brands only</li>
-                    </ul>
+                  <Card className="p-6 hover-elevate transition-all">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                        <Droplets className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg">Small Pool</h4>
+                        <p className="text-sm text-muted-foreground">Up to 30m³</p>
+                      </div>
+                    </div>
+                    <div className="mb-6">
+                      <div className="text-3xl font-bold text-primary mb-1">IDR 600,000</div>
+                      <div className="text-sm text-muted-foreground">per month</div>
+                    </div>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Monthly delivery to your door</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">90% pure premium chemicals</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">International brands only</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">3-month supply guarantee</span>
+                      </div>
+                    </div>
+                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-small">
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Subscribe Now
+                    </Button>
                   </Card>
-                  <Card className="p-6">
-                    <h4 className="font-bold mb-2">Medium Pool (30-50m³)</h4>
-                    <div className="text-2xl font-bold text-primary mb-4">IDR 900,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Monthly chemical delivery</li>
-                      <li>• 90% pure premium chemicals</li>
-                      <li>• International brands only</li>
-                    </ul>
+
+                  <Card className="p-6 hover-elevate transition-all border-primary shadow-lg relative">
+                    <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
+                      Most Popular
+                    </div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                        <Droplets className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg">Medium Pool</h4>
+                        <p className="text-sm text-muted-foreground">30-50m³</p>
+                      </div>
+                    </div>
+                    <div className="mb-6">
+                      <div className="text-3xl font-bold text-primary mb-1">IDR 900,000</div>
+                      <div className="text-sm text-muted-foreground">per month</div>
+                    </div>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Monthly delivery to your door</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">90% pure premium chemicals</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">International brands only</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">3-month supply guarantee</span>
+                      </div>
+                    </div>
+                    <Button className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-medium">
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Subscribe Now
+                    </Button>
                   </Card>
-                  <Card className="p-6">
-                    <h4 className="font-bold mb-2">Large Pool (50m³+)</h4>
-                    <div className="text-2xl font-bold text-primary mb-4">IDR 1,200,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Monthly chemical delivery</li>
-                      <li>• 90% pure premium chemicals</li>
-                      <li>• International brands only</li>
-                    </ul>
+
+                  <Card className="p-6 hover-elevate transition-all">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                        <Droplets className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg">Large Pool</h4>
+                        <p className="text-sm text-muted-foreground">50m³+</p>
+                      </div>
+                    </div>
+                    <div className="mb-6">
+                      <div className="text-3xl font-bold text-primary mb-1">IDR 1,200,000</div>
+                      <div className="text-sm text-muted-foreground">per month</div>
+                    </div>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Monthly delivery to your door</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">90% pure premium chemicals</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">International brands only</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">3-month supply guarantee</span>
+                      </div>
+                    </div>
+                    <Button variant="outline" className="w-full" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-chemical-large">
+                      <FaWhatsapp className="h-4 w-4 mr-2" />
+                      Subscribe Now
+                    </Button>
                   </Card>
+                </div>
+
+                <div className="mt-8 p-6 bg-accent/5 rounded-lg border border-accent/20">
+                  <div className="flex items-start gap-4">
+                    <FlaskConical className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-semibold mb-2">What's Included in Every Delivery</h4>
+                      <div className="grid md:grid-cols-2 gap-x-8 gap-y-2 text-sm text-muted-foreground">
+                        <div>• Chlorine tablets or granules</div>
+                        <div>• pH increaser/decreaser</div>
+                        <div>• Alkalinity adjuster</div>
+                        <div>• Algaecide (preventative)</div>
+                        <div>• Clarifier solution</div>
+                        <div>• Test strips or reagents</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
