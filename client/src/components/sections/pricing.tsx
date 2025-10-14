@@ -8,7 +8,6 @@ export function Pricing() {
     {
       name: "Silver Package",
       price: "IDR 2,900,000",
-      priceUSD: "$177",
       period: "/month",
       description: "Perfect for private villas & residential pools",
       popular: false,
@@ -26,7 +25,6 @@ export function Pricing() {
     {
       name: "Gold Package",
       price: "IDR 3,900,000",
-      priceUSD: "$238",
       period: "/month",
       description: "Perfect for luxury villas & rental properties",
       popular: true,
@@ -45,7 +43,6 @@ export function Pricing() {
     {
       name: "Platinum Package",
       price: "IDR 5,500,000",
-      priceUSD: "$336",
       period: "/month",
       description: "Perfect for high-end estates & boutique hotels",
       popular: false,
@@ -62,6 +59,58 @@ export function Pricing() {
         "Complimentary seasonal pool upgrades",
       ],
     },
+  ];
+
+  const chemicalPackages = [
+    {
+      name: "Small Pool Chemical Top-Up",
+      size: "Up to 30m³",
+      price: "IDR 600,000",
+      period: "/month",
+      features: [
+        "Monthly chemical delivery",
+        "90% pure premium chemicals",
+        "International brands only",
+        "Chlorine, pH balance, algaecide",
+        "Reduces chemical use by 50%",
+      ],
+    },
+    {
+      name: "Medium Pool Chemical Top-Up",
+      size: "30-50m³",
+      price: "IDR 900,000",
+      period: "/month",
+      features: [
+        "Monthly chemical delivery",
+        "90% pure premium chemicals",
+        "International brands only",
+        "Chlorine, pH balance, algaecide",
+        "Reduces chemical use by 50%",
+      ],
+    },
+    {
+      name: "Large Pool Chemical Top-Up",
+      size: "50m³+",
+      price: "IDR 1,200,000",
+      period: "/month",
+      features: [
+        "Monthly chemical delivery",
+        "90% pure premium chemicals",
+        "International brands only",
+        "Chlorine, pH balance, algaecide",
+        "Reduces chemical use by 50%",
+      ],
+    },
+  ];
+
+  const addOnServices = [
+    { name: "Extra weekly visit", price: "IDR 400,000/month" },
+    { name: "Pool chemical delivery", price: "IDR 150,000 per delivery" },
+    { name: "Water feature maintenance", price: "IDR 500,000/month" },
+    { name: "Pool automation system monitoring", price: "IDR 600,000/month" },
+    { name: "Saltwater system maintenance", price: "IDR 400,000/month" },
+    { name: "Spa/Jacuzzi maintenance", price: "IDR 800,000/month" },
+    { name: "Monthly photo/video report", price: "IDR 300,000/month" },
   ];
 
   return (
@@ -122,6 +171,60 @@ export function Pricing() {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Chemical Packages */}
+        <div className="mt-20">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">Premium Chemical Packages</h3>
+            <p className="text-lg text-muted-foreground">
+              90% pure premium chemicals - uses 50% less product, eco-friendly, NSF-certified
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            {chemicalPackages.map((pkg, index) => (
+              <Card key={index} className="hover-elevate transition-all">
+                <CardHeader>
+                  <CardTitle className="text-xl">{pkg.name}</CardTitle>
+                  <CardDescription className="text-base">{pkg.size}</CardDescription>
+                  <div className="mt-4">
+                    <div className="text-2xl font-bold text-primary">{pkg.price}</div>
+                    <div className="text-sm text-muted-foreground">{pkg.period}</div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {pkg.features.map((feature, fIndex) => (
+                      <li key={fIndex} className="flex items-start gap-2">
+                        <Check className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm text-muted-foreground">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Add-On Services */}
+        <div className="mt-16 mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">Additional Services</h3>
+            <p className="text-lg text-muted-foreground">
+              Customize your package with premium add-ons
+            </p>
+          </div>
+          <Card className="p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {addOnServices.map((service, index) => (
+                <div key={index} className="flex items-center justify-between p-4 rounded-lg bg-accent/5 hover-elevate transition-all">
+                  <span className="font-medium">{service.name}</span>
+                  <span className="text-primary font-bold">{service.price}</span>
+                </div>
+              ))}
+            </div>
+          </Card>
         </div>
 
         {/* Payment Options & Guarantees */}

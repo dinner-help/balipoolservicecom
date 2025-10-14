@@ -552,7 +552,7 @@ export default function PoolRepair() {
             </div>
           </section>
 
-          {/* Pricing & Warranty */}
+          {/* Comprehensive Pricing */}
           <section className="py-20 md:py-32">
             <div className="max-w-7xl mx-auto px-6 md:px-8">
               <div className="text-center max-w-3xl mx-auto mb-16">
@@ -564,55 +564,170 @@ export default function PoolRepair() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                <Card className="border-2">
-                  <CardContent className="p-6 text-center">
-                    <Timer className="h-12 w-12 text-primary mx-auto mb-4" />
-                    <h3 className="text-lg font-bold mb-2">Diagnostic Fee</h3>
-                    <div className="text-3xl font-bold text-primary mb-2">IDR 500,000</div>
-                    <p className="text-sm text-muted-foreground">Includes on-site visit, complete system diagnosis, detailed quote. Waived if repair approved.</p>
-                  </CardContent>
-                </Card>
+              {/* Diagnostic & Inspection */}
+              <div className="mb-16">
+                <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">Diagnostic & Inspection Services</h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <Card className="p-6 hover-elevate">
+                    <h4 className="font-bold mb-2">Pool Leak Detection</h4>
+                    <div className="text-2xl font-bold text-primary mb-2">IDR 1,000,000</div>
+                    <p className="text-sm text-muted-foreground">Complete leak detection using pressure testing, dye testing, and electronic leak detection equipment. Pinpoint exact location of water loss.</p>
+                  </Card>
+                  <Card className="p-6 hover-elevate">
+                    <h4 className="font-bold mb-2">Equipment Diagnostic</h4>
+                    <div className="text-2xl font-bold text-primary mb-2">IDR 500,000</div>
+                    <p className="text-sm text-muted-foreground">Comprehensive equipment inspection including pump, filter, heater, chlorinator, and automation systems. Detailed report with recommendations.</p>
+                  </Card>
+                  <Card className="p-6 hover-elevate">
+                    <h4 className="font-bold mb-2">Water Quality Analysis</h4>
+                    <div className="text-2xl font-bold text-primary mb-2">IDR 300,000</div>
+                    <p className="text-sm text-muted-foreground">Professional 27-parameter water analysis using laboratory equipment. Includes complete chemistry report and treatment plan.</p>
+                  </Card>
+                </div>
+              </div>
 
-                <Card className="border-2">
-                  <CardContent className="p-6 text-center">
-                    <Wrench className="h-12 w-12 text-primary mx-auto mb-4" />
-                    <h3 className="text-lg font-bold mb-2">Labor Rates</h3>
-                    <div className="text-3xl font-bold text-primary mb-2">IDR 750K-2M</div>
-                    <p className="text-sm text-muted-foreground">Per repair job (not hourly). Includes technician, tools, testing. Parts quoted separately.</p>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-2 border-primary">
-                  <CardContent className="p-6 text-center">
-                    <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
-                    <h3 className="text-lg font-bold mb-2">Warranty Coverage</h3>
-                    <div className="text-3xl font-bold text-primary mb-2">90 Days</div>
-                    <p className="text-sm text-muted-foreground">Labor warranty on all repairs. Parts covered by manufacturer warranty (typically 1-3 years).</p>
-                  </CardContent>
+              {/* Equipment Repairs */}
+              <div className="mb-16">
+                <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">Equipment Repairs</h3>
+                <Card className="p-8">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Minor Pump Repair</span>
+                        <span className="text-xs text-muted-foreground">Impeller, seal, gasket replacement</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 1,500,000 - 2,500,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pump Replacement</span>
+                        <span className="text-xs text-muted-foreground">Complete pump unit + installation</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 6,000,000 - 15,000,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Filter Deep Cleaning</span>
+                        <span className="text-xs text-muted-foreground">Chemical cleaning, media inspection</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 800,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Filter Replacement</span>
+                        <span className="text-xs text-muted-foreground">Sand, cartridge, or DE filter system</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 3,500,000 - 9,000,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pool Heater Repair</span>
+                        <span className="text-xs text-muted-foreground">Heat exchanger, thermostat, controls</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 2,500,000 - 6,000,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Skimmer Repair</span>
+                        <span className="text-xs text-muted-foreground">Basket, weir, body replacement</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 600,000 - 1,200,000</span>
+                    </div>
+                  </div>
                 </Card>
               </div>
 
-              <div className="bg-accent/10 rounded-2xl p-8 border-2">
-                <h3 className="text-2xl font-bold mb-6 text-center">Sample Repair Pricing (Parts + Labor)</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
-                  {[
-                    { service: "Pump motor replacement (1.5 HP)", price: "IDR 4,500,000 - 6,500,000" },
-                    { service: "Salt cell replacement + installation", price: "IDR 8,000,000 - 12,000,000" },
-                    { service: "Underground leak detection + repair", price: "IDR 3,500,000 - 8,000,000" },
-                    { service: "Filter multiport valve rebuild", price: "IDR 2,000,000 - 3,000,000" },
-                    { service: "Heater heat exchanger replacement", price: "IDR 6,000,000 - 9,000,000" },
-                    { service: "Pool tile repair (per m²)", price: "IDR 1,500,000 - 2,500,000" }
-                  ].map((item, index) => (
-                    <div key={index} className="flex justify-between items-center p-3 bg-background rounded-lg">
-                      <span className="text-sm font-medium">{item.service}</span>
-                      <span className="text-sm font-bold text-primary">{item.price}</span>
+              {/* Structural Repairs */}
+              <div className="mb-16">
+                <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">Structural Repairs</h3>
+                <Card className="p-8">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Minor Leak Repair</span>
+                        <span className="text-xs text-muted-foreground">Small cracks, fitting leaks</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 1,500,000 - 3,000,000</span>
                     </div>
-                  ))}
-                </div>
-                <p className="text-center text-sm text-muted-foreground mt-6">
-                  *Exact pricing provided after diagnostic inspection. Emergency surcharge applies for same-day service requests.
-                </p>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Major Leak Repair</span>
+                        <span className="text-xs text-muted-foreground">Structural cracks, underground pipes</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 5,000,000 - 12,000,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Tile Repair (per m²)</span>
+                        <span className="text-xs text-muted-foreground">Broken tile replacement, re-grouting</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 400,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pool Surface Patching</span>
+                        <span className="text-xs text-muted-foreground">Plaster, pebble, or fiberglass repair</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 2,000,000 - 5,000,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pipe Repair/Replacement</span>
+                        <span className="text-xs text-muted-foreground">PVC pipe, underground excavation</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 3,000,000 - 8,000,000</span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+
+              {/* Electrical Repairs */}
+              <div className="mb-16">
+                <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">Electrical Repairs</h3>
+                <Card className="p-8">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pool Light Replacement</span>
+                        <span className="text-xs text-muted-foreground">LED or halogen fixture + installation</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 1,200,000 - 2,500,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Electrical Safety Inspection</span>
+                        <span className="text-xs text-muted-foreground">GFCI, bonding, grounding check</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 600,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 rounded-lg bg-accent/5 hover-elevate">
+                      <div>
+                        <span className="font-bold block">Pump Motor Replacement</span>
+                        <span className="text-xs text-muted-foreground">Motor unit + rewiring if needed</span>
+                      </div>
+                      <span className="text-primary font-bold whitespace-nowrap ml-4">IDR 2,500,000 - 5,000,000</span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+
+              {/* Warranty Info */}
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="p-6 text-center border-primary border-2">
+                  <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <h4 className="font-bold mb-2">90-Day Labor Warranty</h4>
+                  <p className="text-sm text-muted-foreground">All repairs backed by our workmanship guarantee</p>
+                </Card>
+                <Card className="p-6 text-center">
+                  <CheckCircle2 className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <h4 className="font-bold mb-2">Genuine Parts</h4>
+                  <p className="text-sm text-muted-foreground">OEM parts with manufacturer warranties</p>
+                </Card>
+                <Card className="p-6 text-center">
+                  <Timer className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <h4 className="font-bold mb-2">Diagnostic Fee Waived</h4>
+                  <p className="text-sm text-muted-foreground">When you approve the repair</p>
+                </Card>
               </div>
             </div>
           </section>

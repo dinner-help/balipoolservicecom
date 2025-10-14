@@ -549,6 +549,191 @@ export default function PoolCleaner() {
             </div>
           </section>
 
+          {/* Pricing Section */}
+          <section className="py-16 md:py-24">
+            <div className="max-w-7xl mx-auto px-6 md:px-8">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                  Pool Cleaning Service Pricing
+                </h2>
+                <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                  Transparent, all-inclusive pricing with no hidden costs. All chemicals, labor, and equipment included.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6 mb-16">
+                <Card className="p-6 hover-elevate">
+                  <div className="mb-4">
+                    <h3 className="text-2xl font-bold mb-2">Silver Package</h3>
+                    <div className="text-3xl font-bold text-primary">IDR 2,900,000</div>
+                    <div className="text-sm text-muted-foreground">/month</div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">Perfect for private villas</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">2 visits per week (8/month)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Complete cleaning & chemicals</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Water testing & balancing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Equipment inspection</span>
+                    </li>
+                  </ul>
+                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-silver">
+                    <FaWhatsapp className="h-4 w-4 mr-2" />
+                    Get Started
+                  </Button>
+                </Card>
+
+                <Card className="p-6 hover-elevate border-primary shadow-xl relative">
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
+                    Most Popular
+                  </div>
+                  <div className="mb-4">
+                    <h3 className="text-2xl font-bold mb-2">Gold Package</h3>
+                    <div className="text-3xl font-bold text-primary">IDR 3,900,000</div>
+                    <div className="text-sm text-muted-foreground">/month</div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">Perfect for rental properties</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">3 visits per week (12/month)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Everything in Silver</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Monthly water quality report</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Priority 4-hour emergency</span>
+                    </li>
+                  </ul>
+                  <Button className="w-full mt-6" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-gold">
+                    <FaWhatsapp className="h-4 w-4 mr-2" />
+                    Get Started
+                  </Button>
+                </Card>
+
+                <Card className="p-6 hover-elevate">
+                  <div className="mb-4">
+                    <h3 className="text-2xl font-bold mb-2">Platinum Package</h3>
+                    <div className="text-3xl font-bold text-primary">IDR 5,500,000</div>
+                    <div className="text-sm text-muted-foreground">/month</div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">Perfect for hotels & resorts</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Daily checks + 3 services/week</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Premium imported chemicals</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">24/7 emergency (2-hour)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">Dedicated technician</span>
+                    </li>
+                  </ul>
+                  <Button className="w-full mt-6" variant="outline" onClick={() => window.open("https://wa.me/62123445566", "_blank")} data-testid="button-get-started-platinum">
+                    <FaWhatsapp className="h-4 w-4 mr-2" />
+                    Get Started
+                  </Button>
+                </Card>
+              </div>
+
+              {/* Chemical Packages */}
+              <div className="mb-16">
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl md:text-3xl font-bold mb-2">Premium Chemical Packages</h3>
+                  <p className="text-muted-foreground">90% pure chemicals - uses 50% less product, eco-friendly, NSF-certified</p>
+                </div>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <Card className="p-6">
+                    <h4 className="font-bold mb-2">Small Pool (up to 30m³)</h4>
+                    <div className="text-2xl font-bold text-primary mb-4">IDR 600,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Monthly chemical delivery</li>
+                      <li>• 90% pure premium chemicals</li>
+                      <li>• International brands only</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-6">
+                    <h4 className="font-bold mb-2">Medium Pool (30-50m³)</h4>
+                    <div className="text-2xl font-bold text-primary mb-4">IDR 900,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Monthly chemical delivery</li>
+                      <li>• 90% pure premium chemicals</li>
+                      <li>• International brands only</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-6">
+                    <h4 className="font-bold mb-2">Large Pool (50m³+)</h4>
+                    <div className="text-2xl font-bold text-primary mb-4">IDR 1,200,000<span className="text-sm font-normal text-muted-foreground">/month</span></div>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Monthly chemical delivery</li>
+                      <li>• 90% pure premium chemicals</li>
+                      <li>• International brands only</li>
+                    </ul>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Add-On Services */}
+              <div>
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl md:text-3xl font-bold mb-2">Add-On Services</h3>
+                  <p className="text-muted-foreground">Customize your package with additional services</p>
+                </div>
+                <Card className="p-6">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Extra weekly visit</span>
+                      <span className="text-primary font-bold">IDR 400,000/month</span>
+                    </div>
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Pool chemical delivery</span>
+                      <span className="text-primary font-bold">IDR 150,000</span>
+                    </div>
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Water feature maintenance</span>
+                      <span className="text-primary font-bold">IDR 500,000/month</span>
+                    </div>
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Saltwater system maintenance</span>
+                      <span className="text-primary font-bold">IDR 400,000/month</span>
+                    </div>
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Spa/Jacuzzi maintenance</span>
+                      <span className="text-primary font-bold">IDR 800,000/month</span>
+                    </div>
+                    <div className="flex justify-between items-center p-3 rounded-lg bg-accent/5">
+                      <span className="font-medium">Monthly photo/video report</span>
+                      <span className="text-primary font-bold">IDR 300,000/month</span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
+          </section>
+
           {/* Special Offer & CTA */}
           <section className="py-16 md:py-24 bg-primary/5" id="contact">
             <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
@@ -562,7 +747,7 @@ export default function PoolCleaner() {
               <Card className="p-8 bg-primary/10 border-primary/30 mb-8">
                 <h3 className="text-2xl font-bold mb-4">Special Offer for New Clients</h3>
                 <p className="text-lg mb-6">
-                  First month of pool cleaning service at <strong>20% off</strong> when you sign up for a 6-month contract. Plus, receive a free comprehensive pool equipment inspection and water chemistry report ($75 value).
+                  First month of pool cleaning service at <strong>20% off</strong> when you sign up for a 6-month contract. Plus, receive a free comprehensive pool equipment inspection and water chemistry report (IDR 1,200,000 value).
                 </p>
                 <p className="text-sm text-muted-foreground italic">
                   Mention this offer when you contact us. Valid for new residential and commercial clients.

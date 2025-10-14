@@ -386,6 +386,131 @@ export default function PoolConstruction() {
         </div>
       </section>
 
+      {/* Equipment Installation Pricing */}
+      <section className="py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Pool Equipment Installation
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Premium equipment installation with 6-month warranty. Professional setup ensures optimal performance.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">New Pool Pump</h3>
+                  <p className="text-sm text-muted-foreground">Variable speed, energy-efficient models</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 7,000,000 - 18,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Includes pump unit, installation, plumbing connections, electrical work, and 6-month warranty</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">New Filter System</h3>
+                  <p className="text-sm text-muted-foreground">Sand, cartridge, or DE filtration</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 5,000,000 - 12,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Complete filter installation with valve system, media, plumbing, and commissioning</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">Automatic Pool Cleaner</h3>
+                  <p className="text-sm text-muted-foreground">Robotic or suction-side cleaners</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 8,000,000 - 20,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Premium automatic cleaner with installation, programming, and operator training</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">Pool Heater</h3>
+                  <p className="text-sm text-muted-foreground">Gas, electric, or heat pump systems</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 15,000,000 - 40,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Complete heater installation with gas/electrical connections, controls, and efficiency testing</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">LED Pool Lighting</h3>
+                  <p className="text-sm text-muted-foreground">Color-changing LED fixtures</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 2,500,000 - 6,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Energy-efficient LED lights with transformer, controls, and waterproof installation</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">Saltwater Chlorination System</h3>
+                  <p className="text-sm text-muted-foreground">Automatic salt cell chlorinator</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 12,000,000 - 25,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Complete saltwater system with cell, control unit, plumbing, and salt startup</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">Pool Cover System</h3>
+                  <p className="text-sm text-muted-foreground">Manual or automatic pool covers</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 10,000,000 - 30,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Custom-fitted pool cover with track system, motor (if automatic), and safety features</p>
+            </Card>
+
+            <Card className="p-6 hover-elevate border-primary">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-lg">Complete Equipment Package</h3>
+                  <p className="text-sm text-muted-foreground">Pump, filter, heater, lights, automation</p>
+                </div>
+                <span className="text-primary font-bold whitespace-nowrap">IDR 45,000,000 - 90,000,000</span>
+              </div>
+              <p className="text-sm text-muted-foreground">Full equipment suite for new pools - pump, filter, heater, chlorination, lights, and automation system</p>
+            </Card>
+          </div>
+
+          <div className="bg-primary/5 rounded-2xl p-8 border-2 border-primary/20">
+            <h3 className="text-xl font-bold mb-4 text-center">Installation Includes</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
+                <p className="font-semibold mb-2">Premium Equipment</p>
+                <p className="text-sm text-muted-foreground">International brand equipment with proven reliability</p>
+              </div>
+              <div className="text-center">
+                <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
+                <p className="font-semibold mb-2">Professional Installation</p>
+                <p className="text-sm text-muted-foreground">Certified technicians, proper plumbing & electrical</p>
+              </div>
+              <div className="text-center">
+                <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
+                <p className="font-semibold mb-2">6-Month Warranty</p>
+                <p className="text-sm text-muted-foreground">Parts and labor covered, plus manufacturer warranty</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 md:py-32 bg-muted/30">
         <div className="max-w-4xl mx-auto px-6 md:px-8">

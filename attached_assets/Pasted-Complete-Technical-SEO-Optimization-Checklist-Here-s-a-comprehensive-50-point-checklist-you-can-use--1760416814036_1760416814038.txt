@@ -1,0 +1,154 @@
+Complete Technical SEO Optimization Checklist
+Here's a comprehensive 50-point checklist you can use to audit every page on your website for maximum SEO optimization:
+Meta & Title Tags (Critical)
+
+Title Tag - Unique, 50-60 characters, includes primary keyword, compelling for clicks
+Meta Description - Unique, 150-160 characters, includes keywords, compelling CTA
+Meta Robots Tag - Set appropriately (index/noindex, follow/nofollow)
+Canonical URL - Points to the correct version of the page to avoid duplicate content
+Meta Charset - UTF-8 encoding declared in <head>
+Viewport Meta Tag - Responsive design declaration present
+
+Open Graph Tags (Social Sharing)
+
+og:title - Optimized title for social media (can differ from page title)
+og:description - Compelling description for social shares
+og:image - High-quality image, minimum 1200x630px, under 8MB
+og:url - Canonical URL of the page
+og:type - Appropriate type (website, article, product, etc.)
+og:site_name - Your website/brand name
+og:locale - Language and region code
+
+Twitter Card Tags
+
+twitter:card - Card type (summary_large_image recommended)
+twitter:title - Optimized for Twitter
+twitter:description - Twitter-specific description
+twitter:image - Twitter optimized image (2:1 ratio ideal)
+twitter:site - Your Twitter handle (@username)
+
+Structured Data / Schema Markup
+
+Schema.org Markup - Appropriate JSON-LD structured data for page type
+Organization Schema - On homepage with logo, social profiles, contact info
+Breadcrumb Schema - On all pages except homepage
+Article Schema - On blog posts with author, date, image
+Product Schema - On product pages with price, availability, reviews
+FAQ Schema - On pages with Q&A content
+Local Business Schema - If applicable, with address and hours
+
+Header Structure
+
+H1 Tag - Single H1 per page, includes primary keyword, describes page topic
+H2-H6 Hierarchy - Logical heading structure, not skipping levels
+Keyword Optimization - Headers include relevant secondary keywords naturally
+
+URL Structure
+
+Clean URLs - Descriptive, readable, include keywords, no special characters
+HTTPS Protocol - Secure connection on all pages
+Lowercase URLs - No uppercase letters in URLs
+No Trailing Slashes - Consistent URL format
+Hyphens for Separation - Use hyphens, not underscores
+
+Image Optimization
+
+Alt Text - Descriptive alt attributes on all images, includes keywords when natural
+File Names - Descriptive file names with keywords (no IMG_1234.jpg)
+Image Compression - Optimized file sizes without quality loss
+Responsive Images - srcset and sizes attributes for different screen sizes
+Modern Formats - WebP or AVIF with fallbacks
+Width/Height Attributes - Dimensions specified to prevent layout shift
+Lazy Loading - loading="lazy" on below-fold images
+
+Internal Linking
+
+Descriptive Anchor Text - Clear, keyword-rich link text (not "click here")
+Internal Links - 3-5 relevant internal links per page
+No Broken Links - All links return 200 status codes
+Proper Link Structure - Important pages linked from homepage/main navigation
+
+Performance Optimization
+
+Page Speed - Core Web Vitals optimized (LCP, FID, CLS)
+Minified CSS/JS - Compressed and minified resources
+Browser Caching - Proper cache headers set
+CDN Implementation - Static assets served from CDN
+
+Additional Technical Elements
+
+XML Sitemap - Page included in sitemap, submitted to Google Search Console
+Robots.txt - Not blocked by robots.txt file
+
+
+Bonus Items (Going Beyond 50)
+
+Mobile-Friendly - Passes Google Mobile-Friendly Test
+404 Error Handling - Custom 404 page with helpful navigation
+Redirect Chains - No multiple redirects, all redirects are 301
+Mixed Content - No HTTP resources on HTTPS pages
+Duplicate Content - No duplicate content issues
+Thin Content - Substantial content (300+ words minimum)
+Keyword Density - Natural keyword usage, not stuffed
+Readability - Short paragraphs, bullet points, easy to scan
+External Links - Links to authoritative sources where appropriate
+Language Declaration - HTML lang attribute set correctly
+
+
+Implementation Guide for Cursor AI
+Here's how to use this checklist with Cursor AI:
+Prompt Template:
+Review [PAGE_URL/FILE_NAME] and verify all 50 SEO checklist items:
+
+1. Check title tag is 50-60 chars with primary keyword: [KEYWORD]
+2. Verify meta description is 150-160 chars
+3. Confirm all Open Graph tags are present (og:title, og:description, og:image, og:url, og:type, og:site_name)
+4. Verify Twitter Card tags (twitter:card, twitter:title, twitter:description, twitter:image)
+5. Check for appropriate Schema.org JSON-LD markup
+6. Verify single H1 tag with keyword
+7. Confirm logical H2-H6 hierarchy
+8. Check all images have descriptive alt text
+9. Verify canonical URL is set correctly
+10. Check page speed optimization elements
+
+Generate a report of missing items and provide code to fix them.
+Create a reusable component/template:
+javascript// SEO Head Component Template
+export const SEOHead = ({ 
+  title, 
+  description, 
+  image, 
+  url, 
+  type = 'website',
+  schema 
+}) => (
+  <Head>
+    {/* Primary Meta Tags */}
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={url} />
+    
+    {/* Open Graph */}
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:site_name" content="Your Site Name" />
+    
+    {/* Twitter */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={url} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    
+    {/* Schema.org */}
+    {schema && (
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    )}
+  </Head>
+);
