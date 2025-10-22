@@ -95,7 +95,7 @@ export function ProblemSolution() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 text-center bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 border border-primary/20 rounded-2xl p-12">
+        <div className="mt-16 text-center bg-card/95 backdrop-blur-sm border-2 border-primary/30 rounded-2xl p-12 shadow-lg">
           <h3 className="text-3xl font-bold mb-4">
             Ready to Experience the Difference?
           </h3>
