@@ -38,8 +38,8 @@ export function ProblemSolution() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${problemBg})` }}
       />
-      {/* White overlay */}
-      <div className="absolute inset-0 bg-white/92" />
+      {/* White overlay - increased opacity for better text readability */}
+      <div className="absolute inset-0 bg-white/98 dark:bg-black/95" />
       
       <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
