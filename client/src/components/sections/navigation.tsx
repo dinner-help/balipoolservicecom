@@ -1,9 +1,15 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, MapPin, ChevronDown } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { AnimatedLogo } from "@/components/animated-logo";
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -65,6 +71,18 @@ export function Navigation() {
     { label: "Contact", id: "contact" },
   ];
 
+  const locationPages = [
+    { name: "Seminyak", path: "/pool-cleaning-seminyak" },
+    { name: "Canggu", path: "/pool-cleaning-canggu" },
+    { name: "Ubud", path: "/pool-cleaning-ubud" },
+    { name: "Sanur", path: "/pool-cleaning-sanur" },
+    { name: "Kuta", path: "/pool-cleaning-kuta" },
+    { name: "Denpasar", path: "/pool-maintenance-denpasar" },
+    { name: "Jimbaran", path: "/pool-cleaning-jimbaran" },
+    { name: "Nusa Dua", path: "/pool-cleaning-nusa-dua" },
+    { name: "Legian", path: "/pool-cleaning-legian" },
+  ];
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-gray-200 ${
@@ -96,6 +114,27 @@ export function Navigation() {
                 {item.label}
               </button>
             ))}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className="text-xs lg:text-sm text-gray-900 hover:text-primary transition-colors font-medium px-2 lg:px-3 flex items-center gap-1"
+                  data-testid="button-locations-dropdown"
+                >
+                  <MapPin className="h-3 w-3" />
+                  <span>Locations</span>
+                  <ChevronDown className="h-3 w-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                {locationPages.map((loc) => (
+                  <DropdownMenuItem key={loc.path} asChild>
+                    <Link href={loc.path} className="cursor-pointer">
+                      {loc.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
             <div className="h-4 w-px bg-border mx-1" />
             <Button
               onClick={() => alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.")}
@@ -151,6 +190,24 @@ export function Navigation() {
                   {item.label}
                 </button>
               ))}
+              <div className="px-3 py-2">
+                <div className="flex items-center gap-2 mb-2">
+                  <MapPin className="h-4 w-4 text-primary" />
+                  <span className="text-sm font-semibold text-gray-900">Locations</span>
+                </div>
+                <div className="grid grid-cols-2 gap-1 pl-6">
+                  {locationPages.map((loc) => (
+                    <Link
+                      key={loc.path}
+                      href={loc.path}
+                      className="text-xs text-gray-700 hover:text-primary transition-colors py-1"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {loc.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
               <Button
                 onClick={() => {
                   alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.");

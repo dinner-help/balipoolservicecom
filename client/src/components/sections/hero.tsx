@@ -48,15 +48,15 @@ export function Hero() {
             <span className="text-sm font-semibold text-primary" data-testid="text-number-one">Bali's #1 Pool Care</span>
           </div>
 
-          {/* Main Headline */}
+          {/* Main Headline - SEO Optimized */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6" data-testid="heading-hero">
-            <span className="text-foreground">Professional Pool Service Bali: </span>
-            <span className="text-primary">Cleaning, Maintenance & Repair</span>
+            <span className="text-foreground">Professional Pool Cleaning & Maintenance Across Bali - </span>
+            <span className="text-primary">Seminyak, Canggu, Ubud & All Areas</span>
           </h1>
 
-          {/* Subheadline */}
+          {/* Subheadline - SEO Enhanced with Location Keywords */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-            Expert pool cleaning Bali and pool maintenance Bali services across Seminyak, Canggu, Uluwatu, Sanur, Nusa Dua, and Jimbaran. Transform pool problems into crystal-clear perfection—with zero effort on your part.
+            Expert pool cleaning and maintenance services serving Seminyak, Canggu, Ubud, Sanur, Kuta, Denpasar, Jimbaran, Nusa Dua, and Legian. Same-day service, EU-certified chemicals, and professional care for villas, resorts, and rental properties across Bali.
           </p>
           
           {/* Supporting line */}

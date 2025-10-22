@@ -1,37 +1,64 @@
-import { MapPin, Check } from "lucide-react";
+import { MapPin, Check, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export function ServiceAreas() {
   const primaryAreas = [
     {
       name: "Seminyak",
       description: "High concentration of luxury villas and boutique hotels",
+      link: "/pool-cleaning-seminyak",
     },
     {
       name: "Canggu",
       description: "Rapidly growing villa market with modern properties",
+      link: "/pool-cleaning-canggu",
     },
     {
-      name: "Uluwatu",
-      description: "Luxury clifftop villas with spectacular views",
+      name: "Ubud",
+      description: "Cultural heart of Bali with premium villa properties",
+      link: "/pool-cleaning-ubud",
     },
     {
       name: "Sanur",
       description: "Established expat community and family properties",
+      link: "/pool-cleaning-sanur",
+    },
+    {
+      name: "Kuta",
+      description: "Tourist hub with hotels and residential properties",
+      link: "/pool-cleaning-kuta",
+    },
+    {
+      name: "Denpasar",
+      description: "Capital city with residential and commercial pools",
+      link: "/pool-maintenance-denpasar",
+    },
+    {
+      name: "Jimbaran",
+      description: "Beachfront resorts and luxury villa properties",
+      link: "/pool-cleaning-jimbaran",
     },
     {
       name: "Nusa Dua",
       description: "Resort concentration and premium properties",
+      link: "/pool-cleaning-nusa-dua",
+    },
+    {
+      name: "Legian",
+      description: "Beach area with hotels and vacation rentals",
+      link: "/pool-cleaning-legian",
     },
   ];
 
   const secondaryAreas = [
-    "Jimbaran",
-    "Ubud",
-    "Denpasar",
+    "Uluwatu",
     "Tabanan",
     "Amed",
     "Bukit Peninsula",
+    "Candidasa",
+    "Lovina",
   ];
 
   return (
@@ -58,19 +85,23 @@ export function ServiceAreas() {
             </h3>
             <div className="space-y-4">
               {primaryAreas.map((area, index) => (
-                <Card
-                  key={index}
-                  className="p-6 hover-elevate transition-all duration-300"
-                  data-testid={`area-primary-${index}`}
-                >
-                  <div className="flex items-start gap-4">
-                    <Check className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="text-lg font-semibold mb-1">{area.name}</h4>
-                      <p className="text-sm text-muted-foreground">{area.description}</p>
+                <Link key={index} href={area.link}>
+                  <Card
+                    className="p-6 hover-elevate active-elevate-2 transition-all duration-300 cursor-pointer group"
+                    data-testid={`area-primary-${index}`}
+                  >
+                    <div className="flex items-start gap-4">
+                      <Check className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div className="flex-1">
+                        <div className="flex items-center justify-between">
+                          <h4 className="text-lg font-semibold mb-1">{area.name}</h4>
+                          <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                        </div>
+                        <p className="text-sm text-muted-foreground">{area.description}</p>
+                      </div>
                     </div>
-                  </div>
-                </Card>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>
