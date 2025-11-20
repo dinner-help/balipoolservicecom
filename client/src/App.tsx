@@ -36,6 +36,14 @@ import BlogGreenPoolCleaningGuide from "@/pages/blog-green-pool-cleaning-guide";
 import VillaPoolServiceBali from "@/pages/villa-pool-service-bali";
 import HotelResortPoolServiceBali from "@/pages/hotel-resort-pool-service-bali";
 import PropertyManagerPoolServiceBali from "@/pages/property-manager-pool-service-bali";
+import BahasaHome from "@/pages/id/index";
+import BahasaServices from "@/pages/id/layanan";
+import BahasaPricing from "@/pages/id/harga";
+import BahasaDenpasar from "@/pages/id/denpasar";
+import BahasaSeminyak from "@/pages/id/seminyak";
+import BahasaCanggu from "@/pages/id/canggu";
+import BahasaFAQ from "@/pages/id/faq";
+import BahasaGlossary from "@/pages/id/glosarium";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -65,6 +73,14 @@ function Router() {
       <Route path="/villa-pool-service-bali" component={VillaPoolServiceBali} />
       <Route path="/hotel-resort-pool-service-bali" component={HotelResortPoolServiceBali} />
       <Route path="/property-manager-pool-service-bali" component={PropertyManagerPoolServiceBali} />
+      <Route path="/id" component={BahasaHome} />
+      <Route path="/id/layanan" component={BahasaServices} />
+      <Route path="/id/harga" component={BahasaPricing} />
+      <Route path="/id/denpasar" component={BahasaDenpasar} />
+      <Route path="/id/seminyak" component={BahasaSeminyak} />
+      <Route path="/id/canggu" component={BahasaCanggu} />
+      <Route path="/id/faq" component={BahasaFAQ} />
+      <Route path="/id/glosarium" component={BahasaGlossary} />
       <Route path="/terms" component={Terms} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/refund-policy" component={RefundPolicy} />
