@@ -24,7 +24,7 @@ export default function SeminyakPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Seminyak | Professional Pool Maintenance Service Bali</title>
-        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. Same-day service, EU-certified chemicals. Call +628113702343" />
+        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. Same-day service, EU-certified chemicals. Call +6282237565997" />
         <meta name="keywords" content="pool cleaning seminyak, seminyak pool maintenance, villa pool service seminyak, luxury pool cleaning bali, professional pool cleaner seminyak" />
         <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-seminyak" />
       </Helmet>
@@ -48,9 +48,9 @@ export default function SeminyakPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-seminyak">
-                  <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
+                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 811-370-2343
+                    Call Now: +62 822-375-65997
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild data-testid="button-pricing">
@@ -285,13 +285,13 @@ export default function SeminyakPoolCleaning() {
               Join hundreds of satisfied Seminyak villa owners, property managers, and resort operators who trust us for reliable, professional pool maintenance.
             </p>
             <Button size="lg" asChild data-testid="button-contact-seminyak">
-              <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
+              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us Now - Seminyak Pool Service
               </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
-              Call or WhatsApp: +62 811-370-2343
+              Call or WhatsApp: +62 822-375-65997
             </p>
           </div>
         </section>

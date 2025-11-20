@@ -45,7 +45,7 @@ _Sent from Pool Service Bali website_`;
     const encodedMessage = encodeURIComponent(message);
     
     // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/628113702343?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/6282237565997?text=${encodedMessage}`, '_blank');
     
     // Show success message and reset form
     setIsSubmitted(true);
@@ -267,7 +267,7 @@ _Sent from Pool Service Bali website_`;
                 size="lg"
                 variant="outline"
                 className="w-full gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-                onClick={() => window.open("https://wa.me/628113702343", "_blank")}
+                onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
                 data-testid="button-whatsapp-contact"
               >
                 <FaWhatsapp className="h-6 w-6" />
@@ -285,8 +285,8 @@ _Sent from Pool Service Bali website_`;
                   </div>
                   <div>
                     <div className="font-medium mb-1">Phone / WhatsApp</div>
-                    <a href="tel:+628113702343" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
-                      +62 811 3702 343
+                    <a href="tel:+6282237565997" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
+                      +62 822 3756 5997
                     </a>
                   </div>
                 </div>

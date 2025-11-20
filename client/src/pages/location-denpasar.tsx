@@ -24,7 +24,7 @@ export default function DenpasarPoolMaintenance() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Maintenance Denpasar | Commercial Pool Service Bali</title>
-        <meta name="description" content="Professional pool maintenance in Denpasar, Bali. Commercial pools, office buildings, residential complexes. Compliance documentation. Call +628113702343" />
+        <meta name="description" content="Professional pool maintenance in Denpasar, Bali. Commercial pools, office buildings, residential complexes. Compliance documentation. Call +6282237565997" />
         <meta name="keywords" content="pool maintenance denpasar, denpasar pool service, commercial pool cleaning bali, office pool maintenance denpasar, residential complex pool service" />
         <link rel="canonical" href="https://poolservicebali.com/pool-maintenance-denpasar" />
       </Helmet>
@@ -48,9 +48,9 @@ export default function DenpasarPoolMaintenance() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-denpasar">
-                  <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20maintenance%20service%20in%20Denpasar">
+                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20maintenance%20service%20in%20Denpasar">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 811-370-2343
+                    Call Now: +62 822-375-65997
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild data-testid="button-pricing">
@@ -280,13 +280,13 @@ export default function DenpasarPoolMaintenance() {
               Trusted by commercial buildings, residential complexes, and property managers throughout Denpasar.
             </p>
             <Button size="lg" asChild data-testid="button-contact-denpasar">
-              <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20maintenance%20service%20in%20Denpasar">
+              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20maintenance%20service%20in%20Denpasar">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Denpasar Pool Service
               </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
-              WhatsApp: +62 811-370-2343
+              WhatsApp: +62 822-375-65997
             </p>
           </div>
         </section>

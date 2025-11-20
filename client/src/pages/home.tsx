@@ -33,7 +33,7 @@ export default function Home() {
     "name": "Pool Service Bali",
     "description": "Professional pool cleaning and maintenance services across Bali",
     "url": "https://poolservicebali.com",
-    "telephone": "+628113702343",
+    "telephone": "+6282237565997",
     "priceRange": "Rp 325,000 - Rp 550,000",
     "address": {
       "@type": "PostalAddress",
@@ -79,7 +79,7 @@ export default function Home() {
         <title>Pool Cleaning Bali | Professional Service in Seminyak, Canggu, Ubud</title>
         <meta 
           name="description" 
-          content="Expert pool cleaning & maintenance across Bali. Serving Seminyak, Canggu, Ubud, Sanur, Kuta, Denpasar, Jimbaran, Nusa Dua & Legian. Same-day service, EU-certified chemicals. Call +628113702343" 
+          content="Expert pool cleaning & maintenance across Bali. Serving Seminyak, Canggu, Ubud, Sanur, Kuta, Denpasar, Jimbaran, Nusa Dua & Legian. Same-day service, EU-certified chemicals. Call +6282237565997" 
         />
         <meta 
           name="keywords" 

@@ -61,7 +61,7 @@ export default function RefundPolicy() {
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p><strong>Email:</strong> hello@balipoolservice.com</p>
-                <p><strong>Phone/WhatsApp:</strong> +628113702343</p>
+                <p><strong>Phone/WhatsApp:</strong> +6282237565997</p>
                 <p><strong>Address:</strong> Jalan Nakula No. 9, Legian, Kuta, Badung, Bali 80361, Indonesia</p>
                 <p><strong>Hours:</strong> 24/7 availability</p>
               </div>

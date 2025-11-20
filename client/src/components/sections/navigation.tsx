@@ -146,7 +146,7 @@ export function Navigation() {
               <span>Login</span>
             </Button>
             <Button
-              onClick={() => window.open("https://wa.me/628113702343", "_blank")}
+              onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
               className="gap-1 text-xs h-8 px-3"
               size="sm"
               data-testid="button-whatsapp-nav"
@@ -159,7 +159,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-2 md:hidden">
             <Button
-              onClick={() => window.open("https://wa.me/628113702343", "_blank")}
+              onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
               size="sm"
               className="gap-1 text-xs h-8 px-2"
               data-testid="button-whatsapp-mobile-header"

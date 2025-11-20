@@ -24,7 +24,7 @@ export default function LegianPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Legian | Beach Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Legian, Bali. Beach villa specialists, tourist accommodation expertise, reliable service. Call +628113702343" />
+        <meta name="description" content="Professional pool cleaning in Legian, Bali. Beach villa specialists, tourist accommodation expertise, reliable service. Call +6282237565997" />
         <meta name="keywords" content="pool cleaning legian, legian pool maintenance, beach villa pool service bali, tourist pool cleaning legian, professional pool service legian" />
         <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-legian" />
       </Helmet>
@@ -48,9 +48,9 @@ export default function LegianPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-legian">
-                  <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
+                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 811-370-2343
+                    Call Now: +62 822-375-65997
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild data-testid="button-pricing">
@@ -280,13 +280,13 @@ export default function LegianPoolCleaning() {
               Trusted by Legian's beach villas, hotels, and tourist accommodations for professional pool maintenance.
             </p>
             <Button size="lg" asChild data-testid="button-contact-legian">
-              <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
+              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Legian Pool Service
               </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
-              WhatsApp: +62 811-370-2343
+              WhatsApp: +62 822-375-65997
             </p>
           </div>
         </section>

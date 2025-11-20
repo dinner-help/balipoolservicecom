@@ -24,7 +24,7 @@ export default function CangguPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Canggu | Villa & Rental Pool Maintenance Bali</title>
-        <meta name="description" content="Expert pool cleaning in Canggu for villas, rentals & coworking spaces. Flexible scheduling for digital nomads. Eco-friendly options. Call +628113702343" />
+        <meta name="description" content="Expert pool cleaning in Canggu for villas, rentals & coworking spaces. Flexible scheduling for digital nomads. Eco-friendly options. Call +6282237565997" />
         <meta name="keywords" content="pool cleaning canggu, canggu pool maintenance, villa pool service canggu, digital nomad pool cleaning, professional pool cleaner canggu" />
         <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-canggu" />
       </Helmet>
@@ -48,9 +48,9 @@ export default function CangguPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-canggu">
-                  <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Canggu">
+                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Canggu">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 811-370-2343
+                    Call Now: +62 822-375-65997
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild data-testid="button-pricing">
@@ -280,13 +280,13 @@ export default function CangguPoolCleaning() {
               Join Canggu's growing community of villa owners and property managers who trust us for professional pool maintenance.
             </p>
             <Button size="lg" asChild data-testid="button-contact-canggu">
-              <a href="https://wa.me/628113702343?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Canggu">
+              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Canggu">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Canggu Pool Cleaning
               </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
-              WhatsApp: +62 811-370-2343
+              WhatsApp: +62 822-375-65997
             </p>
           </div>
         </section>

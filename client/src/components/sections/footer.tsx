@@ -109,13 +109,13 @@ export function Footer() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button variant="default" className="flex-1 group" asChild>
-                  <a href="https://wa.me/628113702343" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/6282237565997" target="_blank" rel="noopener noreferrer">
                     <FaWhatsapp className="mr-2 h-4 w-4" />
                     WhatsApp Us
                   </a>
                 </Button>
                 <Button variant="outline" className="flex-1" asChild>
-                  <a href="tel:+628113702343">
+                  <a href="tel:+6282237565997">
                     <Phone className="mr-2 h-4 w-4" />
                     Call Now
                   </a>
@@ -143,9 +143,9 @@ export function Footer() {
             
             {/* Contact Info */}
             <div className="space-y-3 mb-6">
-              <a href="tel:+628113702343" className="flex items-start gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group">
+              <a href="tel:+6282237565997" className="flex items-start gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group">
                 <Phone className="h-4 w-4 mt-0.5 group-hover:scale-110 transition-transform" />
-                <span>+62 811 3702 343</span>
+                <span>+62 822 3756 5997</span>
               </a>
               <a href="mailto:info@balipoolservice.com" className="flex items-start gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group">
                 <Mail className="h-4 w-4 mt-0.5 group-hover:scale-110 transition-transform" />
@@ -160,7 +160,7 @@ export function Footer() {
             {/* Social Media */}
             <div className="flex items-center gap-2">
               <a
-                href="https://wa.me/628113702343"
+                href="https://wa.me/6282237565997"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-9 w-9 rounded-lg bg-primary/10 hover:bg-primary hover:text-white flex items-center justify-center transition-all hover:scale-110"
