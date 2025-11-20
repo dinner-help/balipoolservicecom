@@ -65,33 +65,30 @@ export default function CangguPoolCleaning() {
         <section className="py-20 md:py-32">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Why Canggu Pool Owners Choose Us
+              Why Canggu Properties Need Professional Pool Maintenance
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <Card data-testid="card-flexible">
+              <Card data-testid="card-climate">
                 <CardContent className="p-6">
-                  <Wifi className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Digital Nomad Friendly</h3>
+                  <h3 className="text-xl font-bold mb-4">Coastal Tropical Climate</h3>
                   <p className="text-muted-foreground">
-                    Flexible scheduling for remote workers and location-independent villa owners. Weekend service available. Manage multiple properties remotely with our digital reporting system.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card data-testid="card-eco">
-                <CardContent className="p-6">
-                  <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Eco-Friendly Options</h3>
-                  <p className="text-muted-foreground">
-                    Canggu's eco-conscious community deserves sustainable choices. We offer mineral-based pool systems and reduced-chemical maintenance programs alongside traditional methods.
+                    Canggu's beachfront location means high humidity (75-85%), salt air corrosion, and rapid algae growth in pools. Rice paddies nearby add organic debris requiring more frequent filter cleaning and professional maintenance to prevent green pools.
                   </p>
                 </CardContent>
               </Card>
               <Card data-testid="card-rental">
                 <CardContent className="p-6">
-                  <Star className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Rental Property Specialists</h3>
+                  <h3 className="text-xl font-bold mb-4">High Rental Turnover</h3>
                   <p className="text-muted-foreground">
-                    We understand Canggu's thriving short-term rental market. Quick turnaround cleans, photo documentation for remote owners, and guest-ready pool standards every time.
+                    Canggu's thriving short-term rental market means constant guest turnover. Photo-ready pools are essential for 5-star reviews and repeat bookings. We provide quick turnaround cleaning, digital reports for remote owners, and guest-ready standards every time.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-flexible">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Digital Nomad Community</h3>
+                  <p className="text-muted-foreground">
+                    Flexible scheduling for remote workers and location-independent villa owners. Weekend service available, digital reporting system, and eco-friendly options for Canggu's environmentally-conscious community including mineral-based systems.
                   </p>
                 </CardContent>
               </Card>
@@ -152,6 +149,69 @@ export default function CangguPoolCleaning() {
             <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
               Comprehensive pool cleaning coverage throughout all Canggu neighborhoods from Berawa to Cemagi with reliable, consistent service.
             </p>
+          </div>
+        </section>
+
+        {/* Common Pool Types in Canggu */}
+        <section className="py-20 md:py-32 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Pool Types We Service in Canggu
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card data-testid="card-rental-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Short-Term Rental Villa Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Most common in Canggu - villa pools with weekly guest turnover requiring quick turnaround cleaning. Photo-ready standards essential for Airbnb/Booking reviews. Often need <a href="/green-pool-cleaning-bali" className="text-primary hover-elevate underline" data-testid="link-green-pool">emergency green pool recovery</a> after guest parties or neglect.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly or bi-weekly maintenance required</li>
+                    <li>• Digital photo reports for remote owners</li>
+                    <li>• Same-day emergency service available</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-surf-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Surf Villa & Boutique Hotel Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Popular in Berawa and Batu Bolong - small to medium pools (20-40m²) serving surfer guests. High usage, salt air from beach proximity, and organic debris from rice paddies require professional <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">pump and filter maintenance</a>.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Bi-weekly cleaning recommended</li>
+                    <li>• Frequent filter cleaning due to debris</li>
+                    <li>• Guest safety and satisfaction priority</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-coworking">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Coworking Villa & Coliving Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Growing segment in Canggu - shared pools for digital nomads and remote workers. Moderate daily usage requiring consistent maintenance. Community-focused properties appreciate eco-friendly <a href="/saltwater-pool-maintenance-bali" className="text-primary hover-elevate underline" data-testid="link-saltwater">saltwater pool options</a>.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly professional maintenance</li>
+                    <li>• Eco-friendly chemical options available</li>
+                    <li>• Flexible scheduling for community events</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-private-estate">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Private Estate & Luxury Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    High-end properties in Pererenan and Echo Beach with larger pools (40-80m²), often featuring infinity edges, lighting, and automation. Premium service with EU-certified chemicals and potential for <a href="/pool-renovation-bali" className="text-primary hover-elevate underline" data-testid="link-renovation">pool upgrades</a> and modernization.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly premium service standards</li>
+                    <li>• Advanced equipment and automation care</li>
+                    <li>• Aesthetic focus for property value</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </section>
 

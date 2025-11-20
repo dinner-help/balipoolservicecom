@@ -155,6 +155,69 @@ export default function SanurPoolCleaning() {
           </div>
         </section>
 
+        {/* Common Pool Types in Sanur */}
+        <section className="py-20 md:py-32 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Pool Types We Service in Sanur
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card data-testid="card-traditional-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Traditional Balinese Villa Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Most common in Sanur - classic villa pools (20-40m²) with traditional architecture and mature tropical gardens. Established trees create heavy organic debris requiring frequent cleaning. Many older pools use <a href="/saltwater-pool-maintenance-bali" className="text-primary hover-elevate underline" data-testid="link-saltwater">saltwater chlorination systems</a> needing specialized care.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly cleaning with extra debris removal</li>
+                    <li>• Saltwater system expertise and cell cleaning</li>
+                    <li>• Equipment longevity focus for mature properties</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-beachfront">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Beachfront & Seaside Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Pools within 100-300m of Sanur Beach facing maximum salt air exposure and corrosion. Require proactive equipment protection and frequent <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">pump maintenance</a> to prevent costly failures. Coastal climate accelerates chemical consumption.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Bi-weekly service recommended for salt air</li>
+                    <li>• Corrosion prevention programs available</li>
+                    <li>• Premium equipment protection treatments</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-family-rental">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Family Villa & Rental Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Sanur's family-friendly villas with pools (25-50m²) seeing moderate to high usage. Safety is paramount for families with children requiring pristine water quality and EU-certified chemicals. Quick response for any <a href="/emergency-pool-repair-bali" className="text-primary hover-elevate underline" data-testid="link-emergency">equipment emergencies</a> during guest stays.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly professional maintenance</li>
+                    <li>• Child-safe EU/NSF certified chemicals</li>
+                    <li>• Fast emergency response for rental properties</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-retirement-expat">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Retirement & Expat Residence Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Permanent residence pools in Sanur's established expat community. Long-term owners value reliable service, honest communication, and cost-effective maintenance. Older pools often benefit from efficiency upgrades and <a href="/pool-renovation-bali" className="text-primary hover-elevate underline" data-testid="link-renovation">modernization</a> to reduce operating costs.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Consistent weekly or bi-weekly service</li>
+                    <li>• Cost-effective maintenance programs</li>
+                    <li>• Upgrade consultation for aging systems</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Pricing */}
         <section id="pricing" className="py-20 md:py-32 bg-accent/5">
           <div className="max-w-7xl mx-auto px-6 md:px-8">

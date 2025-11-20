@@ -155,6 +155,69 @@ export default function UbudPoolCleaning() {
           </div>
         </section>
 
+        {/* Common Pool Types in Ubud */}
+        <section className="py-20 md:py-32 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Pool Types We Service in Ubud
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card data-testid="card-jungle-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Jungle & Riverside Villa Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Most common in Ubud - pools surrounded by lush jungle and rice paddies with heavy organic debris (leaves, flowers, insects). Highland location means challenging mountain water chemistry and frequent <a href="/green-pool-cleaning-bali" className="text-primary hover-elevate underline" data-testid="link-green-pool">algae problems</a> from rainfall dilution.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly cleaning essential due to debris</li>
+                    <li>• Mountain water chemistry expertise required</li>
+                    <li>• Extra filter cleaning during rainy season</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-wellness-resort">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Wellness Resort & Retreat Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Yoga retreats and wellness resorts requiring chemical-sensitive maintenance for guests with sensitivities. Eco-friendly <a href="/saltwater-pool-maintenance-bali" className="text-primary hover-elevate underline" data-testid="link-saltwater">saltwater systems</a> popular, mineral pools, natural filtration - all needing specialized expertise.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Eco-friendly and natural pool options</li>
+                    <li>• Guest health and safety focus</li>
+                    <li>• Flexible scheduling around retreat schedules</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-boutique-hotel">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Boutique Hotel & Guesthouse Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Small intimate pools (15-35m²) in boutique properties requiring impeccable standards despite heavy debris challenges. Equipment faces extra strain from altitude and temperature fluctuations needing proactive <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">pump maintenance</a>.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Bi-weekly or weekly service recommended</li>
+                    <li>• Aesthetic focus for guest photos/reviews</li>
+                    <li>• Quick response for guest-related issues</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-private-estate-ubud">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Private Estate & Artist Villa Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    High-end private properties in Sayan and Payangan with unique artistic pool designs. Often feature natural rock, custom tile work requiring gentle cleaning methods. Older pools may benefit from <a href="/pool-renovation-bali" className="text-primary hover-elevate underline" data-testid="link-renovation">modernization upgrades</a>.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly maintenance with care for custom surfaces</li>
+                    <li>• Premium eco-friendly chemicals available</li>
+                    <li>• Renovation consultation for aging pools</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Pricing */}
         <section id="pricing" className="py-20 md:py-32 bg-accent/5">
           <div className="max-w-7xl mx-auto px-6 md:px-8">

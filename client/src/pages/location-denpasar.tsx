@@ -65,33 +65,30 @@ export default function DenpasarPoolMaintenance() {
         <section className="py-20 md:py-32">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Pool Service for Denpasar's Business District
+              Why Denpasar Properties Need Professional Pool Maintenance
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
+              <Card data-testid="card-climate">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Urban Tropical Climate</h3>
+                  <p className="text-muted-foreground">
+                    Denpasar's inland location creates higher heat (28-33°C year-round) with 70-80% humidity and urban dust/pollution. This accelerates algae growth and filter clogging, requiring more frequent professional maintenance than coastal areas.
+                  </p>
+                </CardContent>
+              </Card>
               <Card data-testid="card-commercial">
                 <CardContent className="p-6">
-                  <Building className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Commercial Pool Experts</h3>
+                  <h3 className="text-xl font-bold mb-4">Commercial Pool Expertise</h3>
                   <p className="text-muted-foreground">
-                    Specialized in office buildings, business centers, and residential complexes. We understand commercial pool requirements and provide professional service that meets corporate standards.
+                    Specialized in office buildings, business centers, residential complexes, and apartment pools. We understand high-usage commercial requirements and provide professional service meeting corporate standards and health regulations.
                   </p>
                 </CardContent>
               </Card>
               <Card data-testid="card-compliance">
                 <CardContent className="p-6">
-                  <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
                   <h3 className="text-xl font-bold mb-4">Compliance Documentation</h3>
                   <p className="text-muted-foreground">
-                    Complete service records, water quality reports, and maintenance logs for property managers and building administrators. Essential for health inspections and tenant satisfaction.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card data-testid="card-reliable">
-                <CardContent className="p-6">
-                  <Star className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Business Hours Service</h3>
-                  <p className="text-muted-foreground">
-                    Flexible scheduling around business operations. We work during off-peak hours to minimize disruption to office workers and residents while maintaining pristine pool conditions.
+                    Complete service records, water quality reports, and maintenance logs for property managers and building administrators. Essential for health inspections, tenant satisfaction, and legal compliance.
                   </p>
                 </CardContent>
               </Card>
@@ -152,6 +149,69 @@ export default function DenpasarPoolMaintenance() {
             <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
               Comprehensive pool maintenance throughout Denpasar's business and residential districts with professional service standards.
             </p>
+          </div>
+        </section>
+
+        {/* Common Pool Types in Denpasar */}
+        <section className="py-20 md:py-32 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Pool Types We Service in Denpasar
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card data-testid="card-commercial-pools">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Commercial & Office Building Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    High-usage pools in business centers, office complexes, and corporate buildings. Require professional equipment like <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">commercial-grade pumps</a> and advanced filtration due to heavy usage and visibility to clients/tenants.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly professional maintenance required</li>
+                    <li>• Compliance documentation for health inspections</li>
+                    <li>• Off-hours service to avoid business disruption</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-residential-complex">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Residential Complex & Apartment Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Shared pools in gated communities, apartment buildings, and housing complexes. Multiple families mean high daily usage, requiring frequent cleaning and immediate <a href="/emergency-pool-repair-bali" className="text-primary hover-elevate underline" data-testid="link-emergency">emergency response</a> when issues arise.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Bi-weekly or weekly service recommended</li>
+                    <li>• Equipment checks for shared facilities</li>
+                    <li>• Resident safety and satisfaction priority</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-private-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Private Villa & Residential Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Smaller private pools in Denpasar's residential neighborhoods. Often face challenges from urban dust, tree debris, and <a href="/pool-leak-repair-bali" className="text-primary hover-elevate underline" data-testid="link-leak-repair">aging equipment</a> that requires regular inspection and maintenance.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly cleaning and chemical balancing</li>
+                    <li>• Filter cleaning more frequent due to dust</li>
+                    <li>• Equipment longevity through preventive care</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-hotel-pools">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Boutique Hotel & Guesthouse Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Small to medium hospitality pools requiring impeccable standards for guest satisfaction. Crystal-clear water essential for reviews and repeat bookings, with EU-certified chemicals for international guest safety.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Daily or bi-weekly maintenance depending on guests</li>
+                    <li>• Premium chemicals for sensitive skin</li>
+                    <li>• Fast response for guest-related emergencies</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </section>
 

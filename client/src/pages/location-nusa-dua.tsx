@@ -65,33 +65,30 @@ export default function NusaDuaPoolCleaning() {
         <section className="py-20 md:py-32">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Resort-Grade Pool Service for Nusa Dua
+              Why Nusa Dua Properties Need Professional Pool Maintenance
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <Card data-testid="card-resort">
+              <Card data-testid="card-climate">
                 <CardContent className="p-6">
-                  <Building2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">International Resort Standards</h3>
+                  <h3 className="text-xl font-bold mb-4">Peninsula Coastal Climate</h3>
                   <p className="text-muted-foreground">
-                    Nusa Dua's BTDC area hosts world-renowned hotel chains. We maintain pools to Marriott, Hilton, and Hyatt international standards with comprehensive documentation and compliance support.
+                    Nusa Dua's peninsula location means maximum salt air exposure (80-90% humidity) combined with intense tropical sun. This creates rapid algae growth and equipment corrosion, especially in infinity pools and beachfront properties requiring daily chemical monitoring.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-corporate">
+              <Card data-testid="card-resort">
                 <CardContent className="p-6">
-                  <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Corporate Contracts</h3>
+                  <h3 className="text-xl font-bold mb-4">International Resort Standards</h3>
                   <p className="text-muted-foreground">
-                    Specialized in multi-year service agreements for resort groups and property management companies. Volume pricing, dedicated teams, and consistent quality across all your Nusa Dua properties.
+                    Nusa Dua's BTDC area hosts world-renowned hotel chains (Marriott, Hilton, Hyatt). We maintain pools to international standards with comprehensive documentation, EU/NSF-certified chemicals, and compliance support for health inspections.
                   </p>
                 </CardContent>
               </Card>
               <Card data-testid="card-multi">
                 <CardContent className="p-6">
-                  <Star className="h-10 w-10 text-primary mb-4" />
                   <h3 className="text-xl font-bold mb-4">Multi-Pool Specialists</h3>
                   <p className="text-muted-foreground">
-                    Expert in managing properties with multiple pools, lagoons, and water features. Coordinated service schedules, centralized reporting, and efficient resource management for resort complexes.
+                    Expert in managing properties with multiple pools, lagoons, and water features. Coordinated service schedules, centralized reporting, and efficient resource management for resort complexes with 3-10+ pools.
                   </p>
                 </CardContent>
               </Card>
@@ -152,6 +149,69 @@ export default function NusaDuaPoolCleaning() {
             <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
               Complete resort pool service throughout Nusa Dua's BTDC area and Tanjung Benoa with professional, reliable maintenance.
             </p>
+          </div>
+        </section>
+
+        {/* Common Pool Types in Nusa Dua */}
+        <section className="py-20 md:py-32 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Pool Types We Service in Nusa Dua
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card data-testid="card-resort-pools">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">5-Star Resort & Hotel Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Large commercial pools (50-200m²) in international hotel chains requiring daily maintenance. Multiple pools, lagoon systems, and water features demand coordinated service with <a href="/emergency-pool-repair-bali" className="text-primary hover-elevate underline" data-testid="link-emergency">24/7 emergency coverage</a> for guest satisfaction.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Daily or bi-weekly professional maintenance</li>
+                    <li>• International chemical and safety standards</li>
+                    <li>• Complete compliance documentation</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-infinity-pools">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Infinity & Beachfront Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Premium infinity pools facing the ocean with advanced edge systems. High salt air exposure accelerates <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">pump corrosion</a> and requires specialized maintenance to prevent equipment failure and costly repairs.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Specialized edge system maintenance</li>
+                    <li>• Frequent chemical adjustments for salt air</li>
+                    <li>• Premium corrosion-resistant equipment</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-luxury-villa">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Luxury Private Villa Pools</h3>
+                  <p className="text-muted-foreground mb-4">
+                    High-end villa pools (30-80m²) in gated communities and private estates. Often feature advanced automation, lighting, heating requiring expert knowledge for maintenance and <a href="/saltwater-pool-maintenance-bali" className="text-primary hover-elevate underline" data-testid="link-saltwater">saltwater systems</a>.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Weekly premium service with EU chemicals</li>
+                    <li>• Advanced equipment and automation care</li>
+                    <li>• Photo-ready standards for rental properties</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card data-testid="card-corporate-estate">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4">Corporate Estate & Multi-Pool Properties</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Large villas with 2-5 separate pools, lagoons, and water features requiring coordinated maintenance schedules. Complex systems benefit from preventive <a href="/pool-renovation-bali" className="text-primary hover-elevate underline" data-testid="link-renovation">renovation planning</a> and equipment upgrades.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Coordinated multi-pool service schedules</li>
+                    <li>• Centralized reporting and management</li>
+                    <li>• Volume pricing for multiple pools</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </section>
 
