@@ -29,6 +29,10 @@ import FAQ from "@/pages/faq";
 import MaintenanceGuide from "@/pages/maintenance-guide";
 import PoolCalculator from "@/pages/pool-calculator";
 import VideoTutorials from "@/pages/video-tutorials";
+import Blog from "@/pages/blog";
+import BlogPoolMaintenanceCostBali from "@/pages/blog-pool-maintenance-cost-bali";
+import BlogPoolCleaningFrequencyBaliClimate from "@/pages/blog-pool-cleaning-frequency-bali-climate";
+import BlogGreenPoolCleaningGuide from "@/pages/blog-green-pool-cleaning-guide";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -51,6 +55,10 @@ function Router() {
       <Route path="/maintenance-guide" component={MaintenanceGuide} />
       <Route path="/pool-calculator" component={PoolCalculator} />
       <Route path="/video-tutorials" component={VideoTutorials} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/pool-maintenance-cost-bali" component={BlogPoolMaintenanceCostBali} />
+      <Route path="/blog/pool-cleaning-frequency-bali-climate" component={BlogPoolCleaningFrequencyBaliClimate} />
+      <Route path="/blog/green-pool-cleaning-guide" component={BlogGreenPoolCleaningGuide} />
       <Route path="/terms" component={Terms} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/refund-policy" component={RefundPolicy} />
