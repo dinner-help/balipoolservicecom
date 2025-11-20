@@ -36,6 +36,12 @@ import BlogGreenPoolCleaningGuide from "@/pages/blog-green-pool-cleaning-guide";
 import VillaPoolServiceBali from "@/pages/villa-pool-service-bali";
 import HotelResortPoolServiceBali from "@/pages/hotel-resort-pool-service-bali";
 import PropertyManagerPoolServiceBali from "@/pages/property-manager-pool-service-bali";
+import EmergencyPoolRepairBali from "@/pages/emergency-pool-repair-bali";
+import GreenPoolCleaningBali from "@/pages/green-pool-cleaning-bali";
+import PoolPumpRepairBali from "@/pages/pool-pump-repair-bali";
+import PoolLeakRepairBali from "@/pages/pool-leak-repair-bali";
+import SaltwaterPoolMaintenanceBali from "@/pages/saltwater-pool-maintenance-bali";
+import PoolRenovationBali from "@/pages/pool-renovation-bali";
 import BahasaHome from "@/pages/id/index";
 import BahasaServices from "@/pages/id/layanan";
 import BahasaPricing from "@/pages/id/harga";
@@ -73,6 +79,12 @@ function Router() {
       <Route path="/villa-pool-service-bali" component={VillaPoolServiceBali} />
       <Route path="/hotel-resort-pool-service-bali" component={HotelResortPoolServiceBali} />
       <Route path="/property-manager-pool-service-bali" component={PropertyManagerPoolServiceBali} />
+      <Route path="/emergency-pool-repair-bali" component={EmergencyPoolRepairBali} />
+      <Route path="/green-pool-cleaning-bali" component={GreenPoolCleaningBali} />
+      <Route path="/pool-pump-repair-bali" component={PoolPumpRepairBali} />
+      <Route path="/pool-leak-repair-bali" component={PoolLeakRepairBali} />
+      <Route path="/saltwater-pool-maintenance-bali" component={SaltwaterPoolMaintenanceBali} />
+      <Route path="/pool-renovation-bali" component={PoolRenovationBali} />
       <Route path="/id" component={BahasaHome} />
       <Route path="/id/layanan" component={BahasaServices} />
       <Route path="/id/harga" component={BahasaPricing} />

@@ -648,52 +648,44 @@ export default function PropertyManagerPoolServiceBali() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <Card className="hover-elevate" data-testid="card-resource-portfolio-cost">
                 <CardContent className="p-6">
-                  <Link href="/blog/pool-maintenance-cost-bali">
-                    <a className="group" data-testid="link-portfolio-cost">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Portfolio Cost Analysis
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Calculate savings with group pricing</p>
-                    </a>
+                  <Link href="/blog/pool-maintenance-cost-bali" className="group block" data-testid="link-portfolio-cost">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Portfolio Cost Analysis
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Calculate savings with group pricing</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-calculator">
                 <CardContent className="p-6">
-                  <Link href="/pool-calculator">
-                    <a className="group" data-testid="link-calculator">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Multi-Property Calculator
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Estimate costs for your portfolio</p>
-                    </a>
+                  <Link href="/pool-calculator" className="group block" data-testid="link-calculator">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Multi-Property Calculator
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Estimate costs for your portfolio</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-emergency">
                 <CardContent className="p-6">
-                  <Link href="/blog/green-pool-cleaning-guide">
-                    <a className="group" data-testid="link-emergency-guide">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Emergency Response Guide
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Handle tenant/guest emergencies</p>
-                    </a>
+                  <Link href="/blog/green-pool-cleaning-guide" className="group block" data-testid="link-emergency-guide">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Emergency Response Guide
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Handle tenant/guest emergencies</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-communication">
                 <CardContent className="p-6">
-                  <Link href="/maintenance-guide">
-                    <a className="group" data-testid="link-communication-guide">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Owner Communication Guide
-                      </h4>
-                      <p className="text-sm text-muted-foreground">What to tell property owners</p>
-                    </a>
+                  <Link href="/maintenance-guide" className="group block" data-testid="link-communication-guide">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Owner Communication Guide
+                    </h4>
+                    <p className="text-sm text-muted-foreground">What to tell property owners</p>
                   </Link>
                 </CardContent>
               </Card>

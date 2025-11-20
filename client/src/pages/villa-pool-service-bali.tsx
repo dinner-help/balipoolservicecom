@@ -577,52 +577,44 @@ export default function VillaPoolServiceBali() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <Card className="hover-elevate" data-testid="card-resource-cost-guide">
                 <CardContent className="p-6">
-                  <Link href="/blog/pool-maintenance-cost-bali">
-                    <a className="group" data-testid="link-cost-guide">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Villa Pool Costs Guide
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Complete breakdown of monthly maintenance costs</p>
-                    </a>
+                  <Link href="/blog/pool-maintenance-cost-bali" className="group block" data-testid="link-cost-guide">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Villa Pool Costs Guide
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Complete breakdown of monthly maintenance costs</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-calculator">
                 <CardContent className="p-6">
-                  <Link href="/pool-calculator">
-                    <a className="group" data-testid="link-calculator">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Pool Calculator
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Calculate volume, chemicals, and maintenance costs</p>
-                    </a>
+                  <Link href="/pool-calculator" className="group block" data-testid="link-calculator">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Pool Calculator
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Calculate volume, chemicals, and maintenance costs</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-emergency">
                 <CardContent className="p-6">
-                  <Link href="/blog/green-pool-cleaning-guide">
-                    <a className="group" data-testid="link-green-pool-guide">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Green Pool Emergency
-                      </h4>
-                      <p className="text-sm text-muted-foreground">What to do before guests arrive</p>
-                    </a>
+                  <Link href="/blog/green-pool-cleaning-guide" className="group block" data-testid="link-green-pool-guide">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Green Pool Emergency
+                    </h4>
+                    <p className="text-sm text-muted-foreground">What to do before guests arrive</p>
                   </Link>
                 </CardContent>
               </Card>
               
               <Card className="hover-elevate" data-testid="card-resource-maintenance">
                 <CardContent className="p-6">
-                  <Link href="/maintenance-guide">
-                    <a className="group" data-testid="link-maintenance-guide">
-                      <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
-                        Maintenance Guide
-                      </h4>
-                      <p className="text-sm text-muted-foreground">Complete tropical pool care manual</p>
-                    </a>
+                  <Link href="/maintenance-guide" className="group block" data-testid="link-maintenance-guide">
+                    <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                      Maintenance Guide
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Complete tropical pool care manual</p>
                   </Link>
                 </CardContent>
               </Card>
