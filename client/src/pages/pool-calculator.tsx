@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 import Navigation from "@/components/sections/navigation";
 import Footer from "@/components/sections/footer";
-import WhatsAppFloat from "@/components/whatsapp-float";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
