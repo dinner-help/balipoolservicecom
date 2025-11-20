@@ -88,6 +88,13 @@ export function Navigation() {
     { name: "Maintenance Guide", path: "/maintenance-guide" },
     { name: "Pool Calculator", path: "/pool-calculator" },
     { name: "Video Tutorials", path: "/video-tutorials" },
+    { name: "Pool Care Blog", path: "/blog" },
+  ];
+
+  const audiencePages = [
+    { name: "Villa Owners", path: "/villa-pool-service-bali" },
+    { name: "Hotels & Resorts", path: "/hotel-resort-pool-service-bali" },
+    { name: "Property Managers", path: "/property-manager-pool-service-bali" },
   ];
 
   return (
@@ -157,6 +164,26 @@ export function Navigation() {
                   <DropdownMenuItem key={resource.path} asChild>
                     <Link href={resource.path} className="cursor-pointer">
                       {resource.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className="text-xs lg:text-sm text-gray-900 hover:text-primary transition-colors font-medium px-2 lg:px-3 flex items-center gap-1"
+                  data-testid="button-audience-dropdown"
+                >
+                  <span>For You</span>
+                  <ChevronDown className="h-3 w-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-52">
+                {audiencePages.map((audience) => (
+                  <DropdownMenuItem key={audience.path} asChild>
+                    <Link href={audience.path} className="cursor-pointer">
+                      {audience.name}
                     </Link>
                   </DropdownMenuItem>
                 ))}
