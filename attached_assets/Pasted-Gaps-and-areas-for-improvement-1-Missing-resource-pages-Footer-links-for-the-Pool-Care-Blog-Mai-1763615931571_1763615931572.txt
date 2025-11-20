@@ -1,0 +1,13 @@
+Gaps and areas for improvement
+	1.	Missing resource pages.  Footer links for the Pool Care Blog, Maintenance Guide, FAQ, Video Tutorials, Pool Calculator and Customer Portal lead to 404 pages.  Without educational content or tools, you miss opportunities to rank for long‑tail queries and build trust.
+	2.	No dedicated content for key audiences.  Although the service packages mention villas, resorts and hotels, there is no specific page for villa management companies, hotels/resorts or property agencies that emphasises multi‑property reporting, portfolio billing and digital dashboards.
+	3.	Limited Indonesian‑language content.  The site is entirely in English.  Competitors like Fantastic Pool Bali target Bahasa‑speaking homeowners; you risk losing local searches for “jasa perawatan kolam renang” and other Indonesian keywords.
+	4.	Few problem‑specific pages.  There is no dedicated page for high‑value keywords such as “emergency pool repair,” “green pool cleaning,” “pool pump repair,” or “leak repair.”  Creating these pages would capture urgent, high‑intent traffic ￼.
+	5.	Lack of educational and price‑comparison content.  Prospective customers research topics like “cost of pool maintenance in Bali,” “how often to service a pool in Bali’s climate” and “saltwater vs. chlorine.”  The absence of a blog or maintenance guide leaves search traffic (and trust) on the table.
+	6.	Opportunities for further optimisation.  Meta titles and H1 headings could incorporate high‑volume keywords (e.g., “pool cleaning service,” “pool service near me,” “pool maintenance Bali”) ￼.  Internal linking between service pages, location pages and resources could be stronger.
+
+Optimisation plan
+
+1. Launch the resource hub
+	•	Publish a Pool Care Blog.  Write long‑form, SEO‑optimised articles answering common questions: cost breakdowns, maintenance frequency, emergency fixes, saltwater vs. chlorine, and “DIY vs professional cleaning.”  Target high‑volume keywords and long‑tail questions identified in our keyword research (e.g., “cost of pool maintenance in Bali,” “how often should you clean a pool in Bali’s climate,” “green pool cleaning Bali”).
+	•	Create a Maintenance Guide and FAQ.  Develop evergreen pages explaining pool chemistry, equipment care, common problems and how your service addresses them.  Use structured FAQs for each location page (as you’ve done on the Seminyak page

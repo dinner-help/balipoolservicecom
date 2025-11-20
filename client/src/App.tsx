@@ -25,6 +25,10 @@ import DenpasarPoolMaintenance from "@/pages/location-denpasar";
 import JimbaranPoolCleaning from "@/pages/location-jimbaran";
 import NusaDuaPoolCleaning from "@/pages/location-nusa-dua";
 import LegianPoolCleaning from "@/pages/location-legian";
+import FAQ from "@/pages/faq";
+import MaintenanceGuide from "@/pages/maintenance-guide";
+import PoolCalculator from "@/pages/pool-calculator";
+import VideoTutorials from "@/pages/video-tutorials";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -43,6 +47,10 @@ function Router() {
       <Route path="/pool-cleaning-jimbaran" component={JimbaranPoolCleaning} />
       <Route path="/pool-cleaning-nusa-dua" component={NusaDuaPoolCleaning} />
       <Route path="/pool-cleaning-legian" component={LegianPoolCleaning} />
+      <Route path="/faq" component={FAQ} />
+      <Route path="/maintenance-guide" component={MaintenanceGuide} />
+      <Route path="/pool-calculator" component={PoolCalculator} />
+      <Route path="/video-tutorials" component={VideoTutorials} />
       <Route path="/terms" component={Terms} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/refund-policy" component={RefundPolicy} />

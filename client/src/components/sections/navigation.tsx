@@ -83,6 +83,13 @@ export function Navigation() {
     { name: "Legian", path: "/pool-cleaning-legian" },
   ];
 
+  const resourcePages = [
+    { name: "FAQ", path: "/faq" },
+    { name: "Maintenance Guide", path: "/maintenance-guide" },
+    { name: "Pool Calculator", path: "/pool-calculator" },
+    { name: "Video Tutorials", path: "/video-tutorials" },
+  ];
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-gray-200 ${
@@ -130,6 +137,26 @@ export function Navigation() {
                   <DropdownMenuItem key={loc.path} asChild>
                     <Link href={loc.path} className="cursor-pointer">
                       {loc.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className="text-xs lg:text-sm text-gray-900 hover:text-primary transition-colors font-medium px-2 lg:px-3 flex items-center gap-1"
+                  data-testid="button-resources-dropdown"
+                >
+                  <span>Resources</span>
+                  <ChevronDown className="h-3 w-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                {resourcePages.map((resource) => (
+                  <DropdownMenuItem key={resource.path} asChild>
+                    <Link href={resource.path} className="cursor-pointer">
+                      {resource.name}
                     </Link>
                   </DropdownMenuItem>
                 ))}
@@ -208,6 +235,24 @@ export function Navigation() {
                   ))}
                 </div>
               </div>
+              <div className="px-3 py-2">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-sm font-semibold text-gray-900">Resources</span>
+                </div>
+                <div className="grid grid-cols-2 gap-1 pl-6">
+                  {resourcePages.map((resource) => (
+                    <Link
+                      key={resource.path}
+                      href={resource.path}
+                      className="text-xs text-gray-700 hover:text-primary transition-colors py-1"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      data-testid={`link-mobile-${resource.path.substring(1)}`}
+                    >
+                      {resource.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
               <Button
                 onClick={() => {
                   alert("Customer portal coming soon! For now, please contact us via WhatsApp for service reports and account access.");
@@ -227,3 +272,5 @@ export function Navigation() {
     </nav>
   );
 }
+
+export default Navigation;

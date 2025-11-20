@@ -43,10 +43,10 @@ export function Footer() {
 
   const resources = [
     { label: "Pool Care Blog", href: "#" },
-    { label: "Maintenance Guide", href: "#" },
-    { label: "FAQ", href: "#" },
-    { label: "Video Tutorials", href: "#" },
-    { label: "Pool Calculator", href: "#" },
+    { label: "Maintenance Guide", href: "/maintenance-guide" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Video Tutorials", href: "/video-tutorials" },
+    { label: "Pool Calculator", href: "/pool-calculator" },
     { label: "Customer Portal", href: "#" },
   ];
 
@@ -362,3 +362,5 @@ export function Footer() {
     </footer>
   );
 }
+
+export default Footer;
