@@ -13,10 +13,10 @@ export default function PoolLightingRepairBali() {
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Lighting Repair in Bali
             </h1>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Broken pool lights ruin the evening ambiance and reduce safety. We repair existing lights and upgrade to energy-efficient LED options.
             </p>
             <Button size="lg" className="min-w-48">

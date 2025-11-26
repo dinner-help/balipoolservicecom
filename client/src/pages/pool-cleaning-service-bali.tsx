@@ -18,10 +18,10 @@ export default function PoolCleaningServiceBali() {
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Cleaning Service in Bali
             </h1>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Keep your villa, rental property, or hotel pool crystal clear with professional, reliable cleaning service. We handle all the hard work while you enjoy a pristine swimming experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">

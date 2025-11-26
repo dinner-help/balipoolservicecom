@@ -14,10 +14,10 @@ export default function SwimmingPoolRepairBali() {
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Swimming Pool Repair in Bali
             </h1>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               From small leaks to major structural issues, we diagnose and repair all swimming pool problems quickly and professionally.
             </p>
             <Button size="lg" className="min-w-48">
