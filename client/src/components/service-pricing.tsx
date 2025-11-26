@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Check, Star, Clock, Phone, Shield } from "lucide-react";
+import { Check, Star, Clock, Shield } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "wouter";
 
@@ -25,30 +25,30 @@ const PHONE_NUMBER = "6282237565997";
 
 const defaultPackages = [
   {
-    name: "Silver Package",
-    price: "IDR 2,900,000",
+    name: "Basic Villa Package",
+    price: "IDR 750,000",
     period: "/month",
-    description: "Perfect for private villas & residential pools",
+    description: "Perfect for small villas & residential pools",
     popular: false,
     features: [
-      "2 visits per week (8/month)",
+      "Weekly visits (4/month)",
       "Complete cleaning & vacuuming",
       "Water testing & pH balancing",
-      "Premium chemicals included",
+      "Basic chemicals included",
       "Filter backwashing",
       "WhatsApp support",
     ],
   },
   {
-    name: "Gold Package",
-    price: "IDR 3,900,000",
+    name: "Premium Villa Package",
+    price: "IDR 1,500,000",
     period: "/month",
     description: "Best for luxury villas & rental properties",
     popular: true,
     features: [
-      "3 visits per week (12/month)",
-      "Everything in Silver",
-      "Monthly deep filter cleaning",
+      "2 visits per week (8/month)",
+      "Everything in Basic",
+      "Premium 90% pure chemicals",
       "Priority emergency response (4-hour)",
       "Chemical delivery included",
       "Monthly water quality report",
@@ -56,14 +56,14 @@ const defaultPackages = [
     ],
   },
   {
-    name: "Platinum Package",
-    price: "IDR 5,500,000",
+    name: "Boutique Resort Package",
+    price: "IDR 3,750,000",
     period: "/month",
-    description: "Ideal for estates & boutique hotels",
+    description: "Ideal for resorts & boutique hotels",
     popular: false,
     features: [
-      "Daily checks + 3 full services/week",
-      "Everything in Gold",
+      "3 visits per week (12/month)",
+      "Everything in Premium",
       "Dedicated technician assigned",
       "2-hour emergency response guarantee",
       "Quarterly equipment servicing",
@@ -74,9 +74,11 @@ const defaultPackages = [
 ];
 
 const defaultOneTimePrices: { name: string; price: string; description: string; features?: string[] }[] = [
-  { name: "One-Time Deep Clean", price: "IDR 850,000 - 1,500,000", description: "Full deep cleaning for neglected or green pools" },
+  { name: "Deep Cleaning", price: "IDR 1,125,000", description: "Full deep cleaning for neglected pools" },
+  { name: "Green Pool Recovery (Light)", price: "IDR 1,875,000", description: "Algae removal for cloudy pools" },
+  { name: "Green Pool Recovery (Heavy)", price: "IDR 3,750,000", description: "Complete restoration for severely green pools" },
+  { name: "Emergency Call-Out", price: "IDR 625,000", description: "Same-day urgent service response" },
   { name: "Pool Assessment", price: "FREE", description: "On-site inspection and customized quote" },
-  { name: "Emergency Call-Out", price: "IDR 500,000+", description: "Same-day urgent service response" },
 ];
 
 export function ServicePricing({
@@ -111,11 +113,13 @@ export function ServicePricing({
         </div>
         <Button
           className="w-full gap-2 bg-green-600 hover:bg-green-700"
-          onClick={() => window.open(whatsappUrl, "_blank")}
+          asChild
           data-testid="button-pricing-whatsapp"
         >
-          <FaWhatsapp className="h-5 w-5" />
-          Get Custom Quote
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="h-5 w-5" />
+            Get Custom Quote
+          </a>
         </Button>
       </div>
     );
@@ -127,15 +131,17 @@ export function ServicePricing({
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <span className="font-semibold">{serviceName}:</span>
-            <span className="ml-2 text-primary font-bold">Starting from IDR 2,900,000/month</span>
+            <span className="ml-2 text-primary font-bold">Starting from IDR 750,000/month</span>
           </div>
           <Button
             size="sm"
             className="gap-2 bg-green-600 hover:bg-green-700"
-            onClick={() => window.open(whatsappUrl, "_blank")}
+            asChild
           >
-            <FaWhatsapp className="h-4 w-4" />
-            Get Quote
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp className="h-4 w-4" />
+              Get Quote
+            </a>
           </Button>
         </div>
       </div>
@@ -185,11 +191,13 @@ export function ServicePricing({
                 <Button
                   className={`w-full gap-2 ${pkg.popular ? "bg-green-600 hover:bg-green-700" : ""}`}
                   variant={pkg.popular ? "default" : "outline"}
-                  onClick={() => window.open(whatsappUrl, "_blank")}
+                  asChild
                   data-testid={`button-package-${index}`}
                 >
-                  <FaWhatsapp className="h-5 w-5" />
-                  {pkg.popular ? "Get Started" : "Learn More"}
+                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                    <FaWhatsapp className="h-5 w-5" />
+                    {pkg.popular ? "Get Started" : "Learn More"}
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -231,20 +239,20 @@ export function ServicePricing({
                 <p className="text-sm text-muted-foreground mb-4">
                   <strong>Property:</strong> 3-bedroom villa with 8m x 4m pool (32m³)<br />
                   <strong>Location:</strong> {location}<br />
-                  <strong>Package:</strong> Gold (3 visits/week)
+                  <strong>Package:</strong> Premium Villa (2 visits/week)
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span>Gold Package Monthly</span>
-                    <span className="font-bold">IDR 3,900,000</span>
+                    <span>Premium Villa Package Monthly</span>
+                    <span className="font-bold">IDR 1,500,000</span>
                   </div>
                   <div className="flex justify-between text-green-600">
                     <span>First Month Welcome Discount (10%)</span>
-                    <span className="font-bold">-IDR 390,000</span>
+                    <span className="font-bold">-IDR 150,000</span>
                   </div>
                   <div className="border-t pt-2 flex justify-between font-bold text-lg">
                     <span>First Month Total</span>
-                    <span className="text-primary">IDR 3,510,000</span>
+                    <span className="text-primary">IDR 1,350,000</span>
                   </div>
                 </div>
               </div>
@@ -256,11 +264,13 @@ export function ServicePricing({
                 <Button
                   size="lg"
                   className="gap-2 bg-green-600 hover:bg-green-700"
-                  onClick={() => window.open(whatsappUrl, "_blank")}
+                  asChild
                   data-testid="button-example-quote"
                 >
-                  <FaWhatsapp className="h-5 w-5" />
-                  Get My Custom Quote
+                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                    <FaWhatsapp className="h-5 w-5" />
+                    Get My Custom Quote
+                  </a>
                 </Button>
                 <p className="text-xs text-muted-foreground mt-3 flex items-center gap-1">
                   <Shield className="h-3 w-3" />

@@ -7,15 +7,15 @@ import pricingBg from "@assets/stock_images/luxury_villa_swimmin_b0f103d6.jpg";
 export function Pricing() {
   const packages = [
     {
-      name: "Silver Package",
-      price: "IDR 2,900,000",
+      name: "Basic Villa Package",
+      price: "IDR 750,000",
       period: "/month",
-      description: "Perfect for private villas & residential pools",
+      description: "Perfect for small villas & residential pools",
       popular: false,
       features: [
-        "2 visits per week (8 visits/month)",
+        "Weekly visits (4 visits/month)",
         "Complete pool cleaning (skimming, vacuuming, brushing)",
-        "Premium 90% pure chemical treatment",
+        "Basic chemical treatment",
         "Water testing & pH balancing",
         "Filter backwashing",
         "Equipment inspection",
@@ -24,15 +24,15 @@ export function Pricing() {
       ],
     },
     {
-      name: "Gold Package",
-      price: "IDR 3,900,000",
+      name: "Premium Villa Package",
+      price: "IDR 1,500,000",
       period: "/month",
       description: "Perfect for luxury villas & rental properties",
       popular: true,
       features: [
-        "3 visits per week (12 visits/month)",
-        "Everything in Silver package",
-        "Monthly deep filter cleaning",
+        "2 visits per week (8 visits/month)",
+        "Everything in Basic package",
+        "Premium 90% pure chemical treatment",
         "Chemical delivery to your property",
         "Priority scheduling",
         "Monthly water quality report (digital)",
@@ -42,14 +42,14 @@ export function Pricing() {
       ],
     },
     {
-      name: "Platinum Package",
-      price: "IDR 5,500,000",
+      name: "Boutique Resort Package",
+      price: "IDR 3,750,000",
       period: "/month",
-      description: "Perfect for high-end estates & boutique hotels",
+      description: "Perfect for resorts & boutique hotels",
       popular: false,
       features: [
-        "Daily quick checks + 3 full services/week",
-        "Everything in Gold package",
+        "3 visits per week (12 visits/month)",
+        "Everything in Premium package",
         "Premium imported chemicals only",
         "Quarterly professional equipment servicing",
         "Pool lighting & water feature maintenance",
@@ -66,7 +66,7 @@ export function Pricing() {
     {
       name: "Small Pool Chemical Top-Up",
       size: "Up to 30m³",
-      price: "IDR 600,000",
+      price: "IDR 750,000",
       period: "/month",
       features: [
         "Monthly chemical delivery",
@@ -79,7 +79,7 @@ export function Pricing() {
     {
       name: "Medium Pool Chemical Top-Up",
       size: "30-50m³",
-      price: "IDR 900,000",
+      price: "IDR 1,125,000",
       period: "/month",
       features: [
         "Monthly chemical delivery",
@@ -92,7 +92,7 @@ export function Pricing() {
     {
       name: "Large Pool Chemical Top-Up",
       size: "50m³+",
-      price: "IDR 1,200,000",
+      price: "IDR 1,500,000",
       period: "/month",
       features: [
         "Monthly chemical delivery",
@@ -105,13 +105,22 @@ export function Pricing() {
   ];
 
   const addOnServices = [
-    { name: "Extra weekly visit", price: "IDR 400,000/month" },
-    { name: "Pool chemical delivery", price: "IDR 150,000 per delivery" },
-    { name: "Water feature maintenance", price: "IDR 500,000/month" },
-    { name: "Pool automation system monitoring", price: "IDR 600,000/month" },
-    { name: "Saltwater system maintenance", price: "IDR 400,000/month" },
-    { name: "Spa/Jacuzzi maintenance", price: "IDR 800,000/month" },
-    { name: "Monthly photo/video report", price: "IDR 300,000/month" },
+    { name: "Extra weekly visit", price: "IDR 500,000/month" },
+    { name: "Pool chemical delivery", price: "IDR 188,000 per delivery" },
+    { name: "Water feature maintenance", price: "IDR 625,000/month" },
+    { name: "Pool automation system monitoring", price: "IDR 750,000/month" },
+    { name: "Saltwater system maintenance", price: "IDR 500,000/month" },
+    { name: "Spa/Jacuzzi maintenance", price: "IDR 1,000,000/month" },
+    { name: "Monthly photo/video report", price: "IDR 375,000/month" },
+  ];
+
+  const oneTimeServices = [
+    { name: "Deep cleaning", price: "IDR 1,125,000" },
+    { name: "Green pool recovery (light)", price: "IDR 1,875,000" },
+    { name: "Green pool recovery (heavy)", price: "IDR 3,750,000" },
+    { name: "Drain & acid wash", price: "IDR 5,625,000" },
+    { name: "Emergency call-out", price: "IDR 625,000" },
+    { name: "Pre-guest service", price: "IDR 440,000" },
   ];
 
   return (
@@ -172,15 +181,37 @@ export function Pricing() {
                 <Button
                   className="w-full gap-2"
                   variant={pkg.popular ? "default" : "outline"}
-                  onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+                  asChild
                   data-testid={`button-package-${index}`}
                 >
-                  <FaWhatsapp className="h-5 w-5" />
-                  Get Started
+                  <a href="https://wa.me/6282237565997" target="_blank" rel="noopener noreferrer">
+                    <FaWhatsapp className="h-5 w-5" />
+                    Get Started
+                  </a>
                 </Button>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* One-Time Services */}
+        <div className="mt-20 mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">One-Time Services</h3>
+            <p className="text-lg text-muted-foreground">
+              Professional cleaning and recovery services for pools that need extra attention
+            </p>
+          </div>
+          <Card className="p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {oneTimeServices.map((service, index) => (
+                <div key={index} className="flex items-center justify-between p-4 rounded-lg bg-accent/5 hover-elevate transition-all">
+                  <span className="font-medium">{service.name}</span>
+                  <span className="text-primary font-bold">{service.price}</span>
+                </div>
+              ))}
+            </div>
+          </Card>
         </div>
 
         {/* Chemical Packages */}

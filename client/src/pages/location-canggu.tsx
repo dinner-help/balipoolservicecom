@@ -33,7 +33,7 @@ export default function CangguPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Canggu?",
-      answer: "Pool cleaning in Canggu starts from IDR 2,900,000/month for weekly service. Our packages include all chemicals and supplies. We offer flexible scheduling perfect for Canggu's rental villa market."
+      answer: "Pool cleaning in Canggu starts from IDR 750,000/month for basic weekly service. Our Premium Villa package is IDR 1,500,000/month for 2 visits/week. All chemicals and supplies included."
     },
     {
       question: "Do you service all areas of Canggu?",
@@ -53,10 +53,10 @@ export default function CangguPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Canggu | Villa & Rental Pool Maintenance Bali</title>
-        <meta name="description" content="Expert pool cleaning in Canggu for villas, rentals & coworking spaces. From IDR 2.9M/month. Flexible scheduling, eco-friendly options. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Expert pool cleaning in Canggu for villas, rentals & coworking spaces. From IDR 750K/month. Flexible scheduling, eco-friendly options. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Canggu, Canggu pool maintenance, villa pool service Canggu, pool cleaner Canggu Bali, Echo Beach pool cleaning, Berawa pool service, Batu Bolong pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Canggu | Professional Pool Service Bali" />
-        <meta property="og:description" content="Expert pool cleaning in Canggu. Serving Berawa, Echo Beach, Batu Bolong & all areas. From IDR 2.9M/month." />
+        <meta property="og:description" content="Expert pool cleaning in Canggu. Serving Berawa, Echo Beach, Batu Bolong & all areas. From IDR 750K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-canggu" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -72,7 +72,7 @@ export default function CangguPoolCleaning() {
               "addressCountry": "ID"
             },
             "areaServed": ["Canggu", "Berawa", "Echo Beach", "Batu Bolong", "Pererenan"],
-            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
           })}
         </script>
       </Helmet>

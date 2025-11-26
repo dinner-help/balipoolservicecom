@@ -33,7 +33,7 @@ export default function KutaPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Kuta?",
-      answer: "Pool cleaning in Kuta starts from IDR 2,900,000/month for residential pools. Hotels and commercial properties receive custom quotes based on pool size and service frequency."
+      answer: "Pool cleaning in Kuta starts from IDR 750,000/month for residential pools. Hotels and commercial properties receive custom quotes. Our Premium package is IDR 1,500,000/month."
     },
     {
       question: "Do you service hotels and guesthouses in Kuta?",
@@ -45,7 +45,7 @@ export default function KutaPoolCleaning() {
     },
     {
       question: "What about budget-friendly options?",
-      answer: "We offer competitive pricing for Kuta properties at all budget levels. Our Silver package provides reliable weekly maintenance starting at IDR 2,900,000/month."
+      answer: "We offer competitive pricing for Kuta properties at all budget levels. Our Basic package provides reliable weekly maintenance starting at IDR 750,000/month."
     },
   ];
 
@@ -53,10 +53,10 @@ export default function KutaPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Kuta | Hotel & Commercial Pool Service Bali</title>
-        <meta name="description" content="Professional pool cleaning in Kuta for hotels, guesthouses & villas. From IDR 2.9M/month. High-volume service, 24/7 support. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool cleaning in Kuta for hotels, guesthouses & villas. From IDR 750K/month. High-volume service, 24/7 support. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Kuta, Kuta pool maintenance, hotel pool service Bali, commercial pool cleaning Kuta, guesthouse pool maintenance, Tuban pool service, Kartika Plaza pool cleaning" />
         <meta property="og:title" content="Pool Cleaning Kuta | Hotel Pool Service Bali" />
-        <meta property="og:description" content="Expert pool cleaning in Kuta. Hotels, guesthouses & villas. From IDR 2.9M/month." />
+        <meta property="og:description" content="Expert pool cleaning in Kuta. Hotels, guesthouses & villas. From IDR 750K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-kuta" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -72,7 +72,7 @@ export default function KutaPoolCleaning() {
               "addressCountry": "ID"
             },
             "areaServed": ["Kuta", "Tuban", "Kartika Plaza", "Legian"],
-            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
           })}
         </script>
       </Helmet>

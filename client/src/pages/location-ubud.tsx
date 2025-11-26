@@ -33,7 +33,7 @@ export default function UbudPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Ubud?",
-      answer: "Pool cleaning in Ubud starts from IDR 2,900,000/month for weekly service. Mountain villas may require specialized water treatment, which we include in our comprehensive packages."
+      answer: "Pool cleaning in Ubud starts from IDR 750,000/month for basic weekly service. Mountain villas requiring specialized treatment are included in our Premium package at IDR 1,500,000/month."
     },
     {
       question: "What's different about pool maintenance in Ubud?",
@@ -53,10 +53,10 @@ export default function UbudPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Ubud | Mountain Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. From IDR 2.9M/month. Eco-friendly options, highland water expertise. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. From IDR 750K/month. Eco-friendly options, highland water expertise. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Ubud, Ubud pool maintenance, mountain pool service Bali, rice terrace villa pool cleaning, eco pool cleaning Ubud, Tegallalang pool service, Penestanan pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Ubud | Mountain Villa Pool Service Bali" />
-        <meta property="og:description" content="Expert pool cleaning in Ubud. Serving Tegallalang, Campuhan, Sayan & all areas. From IDR 2.9M/month." />
+        <meta property="og:description" content="Expert pool cleaning in Ubud. Serving Tegallalang, Campuhan, Sayan & all areas. From IDR 750K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-ubud" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -72,7 +72,7 @@ export default function UbudPoolCleaning() {
               "addressCountry": "ID"
             },
             "areaServed": ["Ubud", "Tegallalang", "Campuhan", "Penestanan", "Sayan"],
-            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
           })}
         </script>
       </Helmet>

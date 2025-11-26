@@ -15,7 +15,7 @@ export default function Home() {
     "description": "Professional pool cleaning and maintenance services across Bali",
     "url": "https://poolservicebali.com",
     "telephone": "+6282237565997",
-    "priceRange": "IDR 2,900,000 - IDR 5,500,000",
+    "priceRange": "IDR 750,000 - IDR 3,750,000",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Bali",
@@ -70,7 +70,7 @@ export default function Home() {
         "name": "How much is weekly pool maintenance in Bali?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weekly pool maintenance in Bali ranges from IDR 2,900,000 to IDR 5,500,000 per month depending on pool size and service frequency. All packages include chemicals and equipment checks."
+          "text": "Weekly pool maintenance in Bali ranges from IDR 750,000 to IDR 3,750,000 per month depending on pool size and service frequency. All packages include chemicals and equipment checks."
         }
       },
       {
@@ -90,7 +90,7 @@ export default function Home() {
         <title>Pool Cleaning Bali | Professional Pool Maintenance in Canggu, Seminyak, Ubud</title>
         <meta 
           name="description" 
-          content="Bali's trusted pool cleaning & maintenance experts. Serving Canggu, Seminyak, Ubud, Sanur, Nusa Dua & all areas. Weekly maintenance from IDR 2.9M. WhatsApp: +62 822-3756-5997" 
+          content="Bali's trusted pool cleaning & maintenance experts. Serving Canggu, Seminyak, Ubud, Sanur, Nusa Dua & all areas. Weekly maintenance from IDR 750K. WhatsApp: +62 822-3756-5997" 
         />
         <meta 
           name="keywords" 
