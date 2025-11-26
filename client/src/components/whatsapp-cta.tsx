@@ -50,11 +50,13 @@ export function WhatsAppCTA({
         <Button
           size="lg"
           className="gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg font-semibold shadow-lg"
-          onClick={() => window.open(whatsappUrl, "_blank")}
+          asChild
           data-testid="button-whatsapp-hero"
         >
-          <FaWhatsapp className="h-6 w-6" />
-          {getButtonText()}
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="h-6 w-6" />
+            {getButtonText()}
+          </a>
         </Button>
         {showPhone && (
           <p className="text-sm text-muted-foreground flex items-center gap-2">
@@ -79,11 +81,13 @@ export function WhatsAppCTA({
             <Button
               size="lg"
               className="gap-2 bg-green-600 hover:bg-green-700 text-white"
-              onClick={() => window.open(whatsappUrl, "_blank")}
+              asChild
               data-testid="button-whatsapp-section"
             >
-              <FaWhatsapp className="h-5 w-5" />
-              {getButtonText()}
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp className="h-5 w-5" />
+                {getButtonText()}
+              </a>
             </Button>
             {showPhone && (
               <a href={`tel:${PHONE_NUMBER}`} className="text-sm font-medium text-primary hover:underline flex items-center gap-1">
@@ -101,11 +105,13 @@ export function WhatsAppCTA({
     return (
       <Button
         className={`w-full gap-2 bg-green-600 hover:bg-green-700 text-white ${className}`}
-        onClick={() => window.open(whatsappUrl, "_blank")}
+        asChild
         data-testid="button-whatsapp-pricing"
       >
-        <FaWhatsapp className="h-5 w-5" />
-        {getButtonText()}
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="h-5 w-5" />
+          {getButtonText()}
+        </a>
       </Button>
     );
   }
@@ -115,11 +121,13 @@ export function WhatsAppCTA({
       <Button
         size="sm"
         className={`gap-2 bg-green-600 hover:bg-green-700 text-white ${className}`}
-        onClick={() => window.open(whatsappUrl, "_blank")}
+        asChild
         data-testid="button-whatsapp-compact"
       >
-        <FaWhatsapp className="h-4 w-4" />
-        {getButtonText()}
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="h-4 w-4" />
+          {getButtonText()}
+        </a>
       </Button>
     );
   }
@@ -135,11 +143,13 @@ export function WhatsAppCTA({
         <Button
           size="lg"
           className="gap-3 bg-green-600 hover:bg-green-700 text-white px-8"
-          onClick={() => window.open(whatsappUrl, "_blank")}
+          asChild
           data-testid="button-whatsapp-footer"
         >
-          <FaWhatsapp className="h-5 w-5" />
-          {getButtonText()}
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="h-5 w-5" />
+            {getButtonText()}
+          </a>
         </Button>
         {showPhone && (
           <p className="mt-4 text-sm text-muted-foreground">
