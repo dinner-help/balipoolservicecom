@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2, Droplets, Clock, Shield, Users, Wrench, Sparkles, Phone, MapPin, Star, ArrowRight, Zap, Leaf, AlertTriangle } from "lucide-react";
+import { CheckCircle2, Droplets, Clock, Shield, Users, Wrench, Sparkles, Phone, MapPin, Star, ArrowRight, Zap, Leaf, AlertTriangle, Hammer, Snowflake } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "wouter";
 import { Navigation } from "@/components/sections/navigation";
@@ -421,6 +421,84 @@ export default function Home() {
                   <FaWhatsapp className="h-4 w-4" />
                   Request Repair
                 </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Additional Services Row */}
+          <div className="grid md:grid-cols-2 gap-6 mt-8 max-w-4xl mx-auto">
+            {/* Pool Construction */}
+            <Card className="hover-elevate border-2 hover:border-primary/50 transition-all">
+              <CardContent className="p-6">
+                <div className="h-14 w-14 rounded-xl bg-amber-100 flex items-center justify-center mb-4">
+                  <Hammer className="h-7 w-7 text-amber-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">New Pool Construction</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  Build your dream pool. Villa pools, infinity pools, plunge pools, resort pools. Full project management from design to completion.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-amber-500 flex-shrink-0" />
+                    <span>Full construction service</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-amber-500 flex-shrink-0" />
+                    <span>10+ years experience</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-amber-500 flex-shrink-0" />
+                    <span>All Bali locations</span>
+                  </li>
+                </ul>
+                <div className="text-2xl font-bold text-amber-600 mb-4">
+                  From IDR 70 million<span className="text-sm font-normal text-gray-500">/project</span>
+                </div>
+                <Link href="/pool-construction-bali">
+                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white gap-2">
+                    <ArrowRight className="h-4 w-4" />
+                    View Construction Services
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+
+            {/* Cold Plunge Installation */}
+            <Card className="hover-elevate border-2 hover:border-cyan-500 transition-all">
+              <CardContent className="p-6">
+                <div className="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">
+                  Wellness Trend
+                </div>
+                <div className="h-14 w-14 rounded-xl bg-cyan-100 flex items-center justify-center mb-4">
+                  <Snowflake className="h-7 w-7 text-cyan-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cold Plunge Installation</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  Ice baths and cold plunge pools designed for Bali's climate. Perfect for villas, gyms, spas, and wellness retreats.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-cyan-500 flex-shrink-0" />
+                    <span>Commercial-grade cooling</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-cyan-500 flex-shrink-0" />
+                    <span>Tropical climate ready</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-cyan-500 flex-shrink-0" />
+                    <span>3-12°C temperature</span>
+                  </li>
+                </ul>
+                <div className="text-2xl font-bold text-cyan-600 mb-4">
+                  From IDR 14 million<span className="text-sm font-normal text-gray-500">/unit</span>
+                </div>
+                <Link href="/cold-plunge-bali">
+                  <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white gap-2">
+                    <ArrowRight className="h-4 w-4" />
+                    View Cold Plunge Options
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>

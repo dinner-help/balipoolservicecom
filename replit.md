@@ -12,6 +12,26 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+### November 26, 2025 (Session 3)
+- **Price Increase 25%**: Updated all pricing across the entire website:
+  - Basic Villa: 600K → 750K
+  - Premium Villa: 1.2M → 1.5M  
+  - Boutique Resort: 3M → 3.75M
+  - All service pages, location pages, and Indonesian pages updated
+- **New Pool Construction Page**: Created comprehensive `/pool-construction-bali` landing page with:
+  - 10 pool types (villa, resort, infinity, plunge, saltwater, etc.)
+  - 10-step construction process
+  - Pricing table (IDR 70M-350M range)
+  - All inclusions and service areas
+- **New Cold Plunge Page**: Created comprehensive `/cold-plunge-bali` landing page with:
+  - 7 cold plunge types (stainless steel, concrete, commercial)
+  - Full installation inclusions (cooling, insulation, filtration)
+  - Pricing table (IDR 14M-85M range)
+  - Tropical climate optimization features
+- **Homepage Updated**: Added Pool Construction and Cold Plunge service cards to services section
+- **Navigation & Footer**: Added links to new pages throughout the site
+- **Sitemap Updated**: Added new pages to sitemap.xml
+
 ### November 26, 2025 (Session 2)
 - **Reusable Components Created**:
   - `WhatsAppCTA` component with 4 variants: hero, section, pricing, footer - for consistent CTAs across all pages
@@ -67,7 +87,7 @@ Preferred communication style: Simple, everyday language.
 
 **Routing**: 
 - Wouter for client-side routing (lightweight alternative to React Router)
-- Main pages: Home (`/`), Pool Construction (`/pool-construction`)
+- Main pages: Home (`/`), Pool Construction (`/pool-construction`), Pool Construction Bali (`/pool-construction-bali`), Cold Plunge Bali (`/cold-plunge-bali`)
 - Legal pages: Terms (`/terms`), Privacy (`/privacy`), Refund Policy (`/refund-policy`), Cookie Policy (`/cookie-policy`), Accessibility (`/accessibility`)
 - 404 fallback for unmatched routes
 
