@@ -23,7 +23,7 @@ export default function PoolTileCleaningBali() {
             <Button size="lg" className="min-w-48">
               Schedule Tile Cleaning
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function PoolTileCleaningBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Calcium & Mineral Buildup</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Bali's water contains minerals that crystallize on tiles. DIY cleaning often scratches or damages the surface. We use safe, effective methods that protect your tiles.
                 </p>
               </CardContent>
@@ -47,7 +47,7 @@ export default function PoolTileCleaningBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Algae Stains</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Green and black algae permanently stain tile if not removed quickly and correctly. Professional cleaning eliminates stains and prevents regrowth.
                 </p>
               </CardContent>
@@ -55,7 +55,7 @@ export default function PoolTileCleaningBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Waterline Discoloration</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   The waterline accumulates dirt, sunscreen, and debris. Regular cleaning keeps this line bright and prevents permanent staining.
                 </p>
               </CardContent>
@@ -63,7 +63,7 @@ export default function PoolTileCleaningBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Enhanced Property Value</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Clean tiles make pools look pristine. Rental properties get better reviews and higher booking rates with spotless pool appearance.
                 </p>
               </CardContent>
@@ -82,7 +82,7 @@ export default function PoolTileCleaningBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Waterline Cleaning</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 300,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Deep clean waterline to remove dirt and stains. One-time service or monthly add-on.
                 </p>
               </CardContent>
@@ -91,7 +91,7 @@ export default function PoolTileCleaningBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Full Tile Deep Clean</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 750,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Complete tile and grout cleaning using safe, acid-free solutions. Restores original appearance.
                 </p>
               </CardContent>
@@ -108,7 +108,7 @@ export default function PoolTileCleaningBali() {
           <Button size="lg" className="min-w-56">
             Book Tile Cleaning
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

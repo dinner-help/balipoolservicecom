@@ -23,7 +23,7 @@ export default function FilterCartridgeReplacementBali() {
             <Button size="lg" className="min-w-48">
               Order Replacement
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function FilterCartridgeReplacementBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Signs Your Cartridge Needs Replacement</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Water stays cloudy even after cleaning</li>
                   <li>• Filter pressure stays high (over 20 PSI)</li>
                   <li>• Pool has been running 2-3 years</li>
@@ -51,7 +51,7 @@ export default function FilterCartridgeReplacementBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Filter Cartridge Lifespan</h3>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   With regular care and backwashing:
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -75,7 +75,7 @@ export default function FilterCartridgeReplacementBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Cartridge Diagnosis</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 200,000</p>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   We inspect your cartridge to determine if replacement is needed
                 </p>
               </CardContent>
@@ -84,7 +84,7 @@ export default function FilterCartridgeReplacementBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Replacement Service</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 800,000</p>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   Professional replacement plus housing cleaning and testing
                 </p>
               </CardContent>
@@ -101,7 +101,7 @@ export default function FilterCartridgeReplacementBali() {
           <Button size="lg" className="min-w-56">
             Schedule on WhatsApp
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

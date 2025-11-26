@@ -26,7 +26,7 @@ export default function PoolWaterTestingServiceBali() {
             <Button size="lg" className="min-w-48">
               Schedule Water Testing
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function PoolWaterTestingServiceBali() {
               <Card key={idx}>
                 <CardContent className="p-6">
                   <h3 className="font-bold mb-2">{test.name}</h3>
-                  <p className="text-sm text-muted-foreground">{test.desc}</p>
+                  <p className="text-sm text-foreground/85">{test.desc}</p>
                 </CardContent>
               </Card>
             ))}
@@ -68,13 +68,13 @@ export default function PoolWaterTestingServiceBali() {
           <div className="max-w-4xl mx-auto">
             <Card>
               <CardContent className="p-8">
-                <p className="text-muted-foreground mb-6">
+                <p className="text-foreground/85 mb-6">
                   Many pool owners don't realize their water has chemistry problems until it's too late. Professional testing catches issues early:
                 </p>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h3 className="font-bold mb-4 text-red-600">Without Regular Testing</h3>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
+                    <ul className="space-y-2 text-sm text-foreground/85">
                       <li>• Eye and skin irritation for swimmers</li>
                       <li>• Algae grows unchecked</li>
                       <li>• Equipment corrodes silently</li>
@@ -85,7 +85,7 @@ export default function PoolWaterTestingServiceBali() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-4 text-green-600">With Professional Testing</h3>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
+                    <ul className="space-y-2 text-sm text-foreground/85">
                       <li>• Safe, comfortable swimming</li>
                       <li>• Algae prevented proactively</li>
                       <li>• Equipment protected</li>
@@ -178,7 +178,7 @@ export default function PoolWaterTestingServiceBali() {
                 </div>
                 <div>
                   <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-muted-foreground">{step.desc}</p>
+                  <p className="text-sm text-foreground/85">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Residential Pools</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Weekly testing recommended. During rainy season, consider bi-weekly. Low-usage pools can do monthly if well-maintained.
                 </p>
               </CardContent>
@@ -204,7 +204,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Rental Properties</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   2 tests per week minimum. High turnover and guest usage means chemistry changes rapidly. Weekly is ideal.
                 </p>
               </CardContent>
@@ -212,7 +212,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Commercial Pools</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Daily or multiple tests daily required. Hotels and resorts have safety regulations requiring frequent monitoring.
                 </p>
               </CardContent>
@@ -231,7 +231,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can I test my pool myself?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Yes, but home test kits are less accurate. Professional testing uses advanced equipment and catches subtle imbalances that home tests miss.
                 </p>
               </CardContent>
@@ -239,7 +239,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How long does testing take?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Usually 15-20 minutes per test including sample collection, analysis, and reporting.
                 </p>
               </CardContent>
@@ -247,7 +247,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if results are bad?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   We provide detailed recommendations. For serious imbalances, we can send a technician to adjust chemicals immediately via WhatsApp consultation.
                 </p>
               </CardContent>
@@ -268,7 +268,7 @@ export default function PoolWaterTestingServiceBali() {
           <Button size="lg" className="min-w-56">
             Schedule Testing on WhatsApp
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

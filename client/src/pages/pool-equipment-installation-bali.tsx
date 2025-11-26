@@ -22,7 +22,7 @@ export default function PoolEquipmentInstallationBali() {
             <Button size="lg" className="min-w-48">
               Get Installation Quote
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Circulation Systems</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Pool pumps (variable & single-speed)</li>
                   <li>• Cartridge and sand filters</li>
                   <li>• Plumbing and connections</li>
@@ -49,7 +49,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Water Treatment</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Chlorinators (automated)</li>
                   <li>• Salt chlorination systems</li>
                   <li>• pH and ORP monitoring</li>
@@ -60,7 +60,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Features & Amenities</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Pool heaters</li>
                   <li>• Lighting systems</li>
                   <li>• Water features & fountains</li>
@@ -71,7 +71,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Smart Automation</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Automated control systems</li>
                   <li>• Remote monitoring & alerts</li>
                   <li>• Energy-efficient scheduling</li>
@@ -92,7 +92,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">1. Assessment & Quote</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   We evaluate your pool and provide a detailed installation plan with pricing
                 </p>
               </CardContent>
@@ -100,7 +100,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">2. Equipment Procurement</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   We source quality equipment from trusted suppliers or use your preferred brands
                 </p>
               </CardContent>
@@ -108,7 +108,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">3. Professional Installation</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Skilled technicians install and test all equipment to ensure proper functioning
                 </p>
               </CardContent>
@@ -116,7 +116,7 @@ export default function PoolEquipmentInstallationBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">4. Training & Support</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   We train you on system operation and provide ongoing maintenance support
                 </p>
               </CardContent>
@@ -133,7 +133,7 @@ export default function PoolEquipmentInstallationBali() {
           <Button size="lg" className="min-w-56">
             Discuss Your Project
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

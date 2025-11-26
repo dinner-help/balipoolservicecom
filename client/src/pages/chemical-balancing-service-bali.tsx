@@ -26,7 +26,7 @@ export default function ChemicalBalancingServiceBali() {
             <Button size="lg" className="min-w-48" data-testid="button-whatsapp">
               Get Chemical Testing Quote
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -41,7 +41,7 @@ export default function ChemicalBalancingServiceBali() {
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-foreground/85 mb-6">
                 Pool chemistry involves multiple parameters that all need to work together. We test and adjust:
               </p>
               <ul className="space-y-4">
@@ -49,28 +49,28 @@ export default function ChemicalBalancingServiceBali() {
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <strong>pH Level (7.2–7.6)</strong>
-                    <p className="text-sm text-muted-foreground">Affects comfort and chemical effectiveness</p>
+                    <p className="text-sm text-foreground/85">Affects comfort and chemical effectiveness</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <strong>Free Chlorine (1–3 ppm)</strong>
-                    <p className="text-sm text-muted-foreground">Kills bacteria and algae</p>
+                    <p className="text-sm text-foreground/85">Kills bacteria and algae</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <strong>Total Alkalinity (80–120 ppm)</strong>
-                    <p className="text-sm text-muted-foreground">Stabilizes pH levels</p>
+                    <p className="text-sm text-foreground/85">Stabilizes pH levels</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <strong>Calcium Hardness (200–400 ppm)</strong>
-                    <p className="text-sm text-muted-foreground">Prevents corrosion and scaling</p>
+                    <p className="text-sm text-foreground/85">Prevents corrosion and scaling</p>
                   </div>
                 </li>
               </ul>
@@ -78,10 +78,10 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4">Why Chemistry Matters</h3>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   Unbalanced water chemistry causes:
                 </p>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Eye and skin irritation for swimmers</li>
                   <li>• Algae growth and green water</li>
                   <li>• Cloudy water blocking visibility</li>
@@ -115,7 +115,7 @@ export default function ChemicalBalancingServiceBali() {
                 </div>
                 <div>
                   <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-muted-foreground">{step.desc}</p>
+                  <p className="text-sm text-foreground/85">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -191,7 +191,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How often should I test my pool chemistry?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   At least once per week. In Bali's climate with heavy rains, we recommend 2 tests per week or include it in your weekly maintenance package.
                 </p>
               </CardContent>
@@ -199,7 +199,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if my pool chemicals are already balanced?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   We'll verify all readings are correct and make any minor adjustments needed. In tropical climates, small changes happen constantly due to rain and evaporation.
                 </p>
               </CardContent>
@@ -207,7 +207,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Is testing really necessary if my pool looks clear?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Yes! Chemical imbalance can exist with clear-looking water. pH imbalance causes skin irritation, and low chlorine doesn't kill harmful bacteria. Regular testing prevents hidden problems.
                 </p>
               </CardContent>
@@ -228,7 +228,7 @@ export default function ChemicalBalancingServiceBali() {
           <Button size="lg" className="min-w-48">
             Request Service on WhatsApp
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

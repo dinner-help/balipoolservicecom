@@ -28,7 +28,7 @@ export default function WeeklyPoolMaintenanceBali() {
                 Schedule Your Weekly Plan
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-foreground/85">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function WeeklyPoolMaintenanceBali() {
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-foreground/85 mb-6">
                 Weekly maintenance means we visit your pool once or twice per week (depending on your package) to perform these essential tasks:
               </p>
               <ul className="space-y-3">
@@ -72,10 +72,10 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4">Why Weekly Maintenance Matters</h3>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   Bali's tropical climate with heavy rainfall and constant debris makes weekly maintenance essential. Without it:
                 </p>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Algae grows rapidly, turning pools green</li>
                   <li>• Chemical imbalance develops, affecting guest safety</li>
                   <li>• Filters clog, reducing circulation</li>
@@ -98,7 +98,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Rental Villas (Airbnb / Booking.com)</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Weekly visits ensure your pool stays photo-ready for bookings and guest reviews. Clean pools boost booking rates and guest satisfaction.
                 </p>
               </CardContent>
@@ -106,7 +106,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Private Residences</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Homeowners appreciate the reliability. Weekly maintenance means your family always has a safe, clean pool without the hassle.
                 </p>
               </CardContent>
@@ -114,7 +114,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Hotels & Guesthouses</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Guest pools require consistent care. Our weekly visits fit around your operations and maintain the standards your guests expect.
                 </p>
               </CardContent>
@@ -122,7 +122,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Property Managers</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Managing multiple properties? We offer coordinated weekly schedules across your entire portfolio with consolidated invoicing.
                 </p>
               </CardContent>
@@ -141,9 +141,9 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card data-testid="card-silver">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Silver Package</h3>
-                <p className="text-sm text-muted-foreground mb-4">2 visits per week</p>
+                <p className="text-sm text-foreground/85 mb-4">2 visits per week</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 2,900,000</div>
-                <p className="text-sm text-muted-foreground mb-6">/month</p>
+                <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
                   <li>• 8 visits total per month</li>
                   <li>• Complete cleaning each visit</li>
@@ -162,9 +162,9 @@ export default function WeeklyPoolMaintenanceBali() {
                   Most Popular
                 </div>
                 <h3 className="text-xl font-bold mb-2">Gold Package</h3>
-                <p className="text-sm text-muted-foreground mb-4">3 visits per week</p>
+                <p className="text-sm text-foreground/85 mb-4">3 visits per week</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 3,900,000</div>
-                <p className="text-sm text-muted-foreground mb-6">/month</p>
+                <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
                   <li>• 12 visits total per month</li>
                   <li>• Everything in Silver</li>
@@ -180,9 +180,9 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card data-testid="card-platinum">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Platinum Package</h3>
-                <p className="text-sm text-muted-foreground mb-4">Daily + 3 full services</p>
+                <p className="text-sm text-foreground/85 mb-4">Daily + 3 full services</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 5,500,000</div>
-                <p className="text-sm text-muted-foreground mb-6">/month</p>
+                <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
                   <li>• Daily quick checks</li>
                   <li>• Everything in Gold</li>
@@ -247,7 +247,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Is 2 visits per week enough in Bali?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   For most residential villas, 2 visits per week (Silver) works well. During heavy rainy season or for rental properties, 3 visits per week (Gold) is recommended for optimal clarity.
                 </p>
               </CardContent>
@@ -255,7 +255,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can I adjust my visit schedule?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Yes! We can adjust to seasonal needs. Many owners do 2 visits in dry season and 3 visits during rainy season (November-March).
                 </p>
               </CardContent>
@@ -263,7 +263,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if I skip a week?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   In Bali's climate, skipping even one week can cause issues. If you need a break, contact us first so we can add extra chemicals to prevent problems.
                 </p>
               </CardContent>
@@ -271,7 +271,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can you work around my schedule?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Absolutely. We coordinate visits with your availability. For rental properties, we can schedule after checkout or before check-in.
                 </p>
               </CardContent>
@@ -292,7 +292,7 @@ export default function WeeklyPoolMaintenanceBali() {
           <Button size="lg" className="min-w-56" data-testid="button-final-cta">
             Schedule on WhatsApp
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

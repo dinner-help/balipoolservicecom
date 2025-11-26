@@ -22,7 +22,7 @@ export default function PoolLightingRepairBali() {
             <Button size="lg" className="min-w-48">
               Get Lighting Service
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function PoolLightingRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Light Bulb Replacement</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 300,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Replace burned-out pool light bulbs with standard or LED options
                 </p>
               </CardContent>
@@ -48,7 +48,7 @@ export default function PoolLightingRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Light Fixture Repair</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 600,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Repair broken niches, gaskets, or electrical connections
                 </p>
               </CardContent>
@@ -57,7 +57,7 @@ export default function PoolLightingRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">LED Upgrade</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 900,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Convert to energy-efficient colored LED lighting
                 </p>
               </CardContent>
@@ -66,7 +66,7 @@ export default function PoolLightingRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">New Light Installation</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 1,500,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Add new pool lighting to dark pools
                 </p>
               </CardContent>
@@ -83,7 +83,7 @@ export default function PoolLightingRepairBali() {
           <Button size="lg" className="min-w-56">
             Schedule Service
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

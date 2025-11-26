@@ -22,7 +22,7 @@ export default function PoolAcidWashServiceBali() {
             <Button size="lg" className="min-w-48">
               Get Acid Wash Quote
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function PoolAcidWashServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Stubborn Stains</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Rust stains from metal fixtures</li>
                   <li>• Permanent green algae stains</li>
                   <li>• Black spot algae buildup</li>
@@ -49,10 +49,10 @@ export default function PoolAcidWashServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Best Timing for Acid Wash</h3>
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="text-sm text-foreground/85 mb-4">
                   Acid washing should be done:
                 </p>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• During major renovations</li>
                   <li>• Every 3-5 years for heavy-use pools</li>
                   <li>• When regular cleaning fails</li>
@@ -85,7 +85,7 @@ export default function PoolAcidWashServiceBali() {
                   <span className="text-2xl font-bold text-primary">IDR 4,500,000</span>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground mt-6">
+              <p className="text-sm text-foreground/85 mt-6">
                 Price includes complete acid wash, rinse, and pool refill. Takes 1-2 days total.
               </p>
             </CardContent>
@@ -101,7 +101,7 @@ export default function PoolAcidWashServiceBali() {
           <Button size="lg" className="min-w-56">
             Request Service
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

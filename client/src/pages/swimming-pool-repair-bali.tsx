@@ -23,7 +23,7 @@ export default function SwimmingPoolRepairBali() {
             <Button size="lg" className="min-w-48">
               Get Repair Assessment
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -99,7 +99,7 @@ export default function SwimmingPoolRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Minor Repairs</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Small leak patches: IDR 300,000</li>
                   <li>• Skimmer repair: IDR 400,000</li>
                   <li>• Valve replacement: IDR 500,000</li>
@@ -110,7 +110,7 @@ export default function SwimmingPoolRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Major Repairs</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Major leak repair: IDR 1,500,000+</li>
                   <li>• Concrete crack patching: IDR 2,000,000+</li>
                   <li>• Pump replacement: IDR 3,000,000+</li>
@@ -133,7 +133,7 @@ export default function SwimmingPoolRepairBali() {
           <Button size="lg" className="min-w-56">
             Contact for Repair
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

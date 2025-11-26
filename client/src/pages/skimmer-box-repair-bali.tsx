@@ -22,7 +22,7 @@ export default function SkimmerBoxRepairBali() {
             <Button size="lg" className="min-w-48">
               Get Repair Quote
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function SkimmerBoxRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Clogged Skimmer Basket</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 200,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Clean or replace debris basket to restore suction
                 </p>
               </CardContent>
@@ -48,7 +48,7 @@ export default function SkimmerBoxRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Broken Weir Door</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 400,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Replace damaged floating weir that controls debris flow
                 </p>
               </CardContent>
@@ -57,7 +57,7 @@ export default function SkimmerBoxRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Skimmer Plate Leak</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 600,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Repair cracked faceplate or seal leaks
                 </p>
               </CardContent>
@@ -66,7 +66,7 @@ export default function SkimmerBoxRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Full Skimmer Replacement</h3>
                 <p className="text-2xl font-bold text-primary mb-2">IDR 1,200,000</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Replace entire non-functional skimmer unit
                 </p>
               </CardContent>
@@ -83,7 +83,7 @@ export default function SkimmerBoxRepairBali() {
           <Button size="lg" className="min-w-56">
             Schedule Repair
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

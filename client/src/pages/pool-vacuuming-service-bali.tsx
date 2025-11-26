@@ -23,7 +23,7 @@ export default function PoolVacuumingServiceBali() {
             <Button size="lg" className="min-w-48">
               Schedule Vacuuming
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function PoolVacuumingServiceBali() {
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
             <div>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-foreground/85 mb-6">
                 Our vacuuming service includes:
               </p>
               <ul className="space-y-3">
@@ -62,7 +62,7 @@ export default function PoolVacuumingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Included in All Packages</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground/85">
                   Pool vacuuming is included in our Silver, Gold, and Platinum maintenance packages at each visit. For properties without a maintenance plan, we offer standalone vacuum service.
                 </p>
               </CardContent>
@@ -81,21 +81,21 @@ export default function PoolVacuumingServiceBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Single Vacuum</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 250,000</p>
-                <p className="text-sm text-muted-foreground">One-time service</p>
+                <p className="text-sm text-foreground/85">One-time service</p>
               </CardContent>
             </Card>
             <Card className="border-primary border-2">
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Weekly Vacuum</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 800,000</p>
-                <p className="text-sm text-muted-foreground">4 visits monthly</p>
+                <p className="text-sm text-foreground/85">4 visits monthly</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Bi-Weekly Vacuum</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 450,000</p>
-                <p className="text-sm text-muted-foreground">2 visits monthly</p>
+                <p className="text-sm text-foreground/85">2 visits monthly</p>
               </CardContent>
             </Card>
           </div>
@@ -110,7 +110,7 @@ export default function PoolVacuumingServiceBali() {
           <Button size="lg" className="min-w-56">
             Book on WhatsApp
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

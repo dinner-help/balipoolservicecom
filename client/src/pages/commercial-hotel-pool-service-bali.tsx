@@ -23,7 +23,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Button size="lg" className="min-w-48">
               Discuss Commercial Contract
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-foreground/85 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-4">Daily Maintenance</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Daily or multiple daily visits</li>
                   <li>• Complete cleaning each visit</li>
                   <li>• Water chemistry monitoring</li>
@@ -51,7 +51,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-4">Regulatory Compliance</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Health & safety documentation</li>
                   <li>• Compliance reporting</li>
                   <li>• Chemical tracking records</li>
@@ -63,7 +63,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-4">Multi-Pool Management</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• Multiple pool maintenance</li>
                   <li>• Feature pool care</li>
                   <li>• Spa & jacuzzi management</li>
@@ -75,7 +75,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-4">24/7 Emergency Support</h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-sm text-foreground/85">
                   <li>• After-hours emergency response</li>
                   <li>• Weekend and holiday coverage</li>
                   <li>• Guest safety protocols</li>
@@ -135,7 +135,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Hotel/Resort Pools</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-foreground/85 text-sm mb-4">
                   Pricing depends on pool size, complexity, and visit frequency. We provide custom quotes for your facility.
                 </p>
                 <p className="text-sm"><strong>Typical Range:</strong> IDR 5M - 20M+ per month</p>
@@ -144,7 +144,7 @@ export default function CommercialHotelPoolServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Multi-Pool Facilities</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-foreground/85 text-sm mb-4">
                   Volume discounts available for properties with multiple pools or locations.
                 </p>
                 <p className="text-sm"><strong>Includes:</strong> All daily maintenance, emergency support, compliance reports</p>
@@ -165,7 +165,7 @@ export default function CommercialHotelPoolServiceBali() {
           <Button size="lg" className="min-w-56">
             Schedule Consultation
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-foreground/85 mt-4">
             WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>
