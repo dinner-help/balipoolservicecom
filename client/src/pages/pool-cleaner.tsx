@@ -245,7 +245,7 @@ export default function PoolCleaner() {
             "description": "Professional pool cleaning and maintenance services in Bali. CPO-certified technicians providing expert pool care for villas, hotels, and homes across Bali.",
             "url": "https://balipoolservice.com/pool-cleaner",
             "telephone": "+6282237565997",
-            "priceRange": "IDR 2,900,000 - IDR 5,500,000",
+            "priceRange": "IDR 750,000 - IDR 3,750,000",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Jalan Sunset Road",
@@ -990,7 +990,7 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Silver Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 2,900,000</div>
+                    <div className="text-3xl font-bold text-primary">IDR 750,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">Perfect for private villas</p>
@@ -1024,7 +1024,7 @@ export default function PoolCleaner() {
                   </div>
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Gold Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 3,900,000</div>
+                    <div className="text-3xl font-bold text-primary">IDR 1,500,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">Perfect for rental properties</p>
@@ -1055,7 +1055,7 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Platinum Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 5,500,000</div>
+                    <div className="text-3xl font-bold text-primary">IDR 3,750,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">Perfect for hotels & resorts</p>

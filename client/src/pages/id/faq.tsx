@@ -35,7 +35,7 @@ export default function BahasaFAQ() {
       questions: [
         {
           q: "Berapa biaya untuk mulai menggunakan jasa Anda?",
-          a: "Tidak ada biaya pendaftaran atau setup fee. Anda cukup bayar biaya paket bulanan saja. Untuk paket Rumah mulai Rp 450rb/bulan, Villa Rp 750rb/bulan, Hotel Rp 1.5jt/bulan per kolam."
+          a: "Tidak ada biaya pendaftaran atau setup fee. Anda cukup bayar biaya paket bulanan saja. Untuk paket Rumah mulai Rp 750rb/bulan, Villa Rp 1.5jt/bulan, Hotel Rp 3.75jt/bulan per kolam."
         },
         {
           q: "Apakah ada kontrak minimum?",

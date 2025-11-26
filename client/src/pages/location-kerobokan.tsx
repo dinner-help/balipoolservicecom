@@ -147,7 +147,7 @@ export default function KerobokanPoolCleaning() {
               <Card>
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-bold text-foreground mb-2">Silver</h3>
-                  <div className="text-3xl font-bold text-primary mb-6">IDR 2,900,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
+                  <div className="text-3xl font-bold text-primary mb-6">IDR 750,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2x weekly service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Chemicals included</li>
@@ -164,7 +164,7 @@ export default function KerobokanPoolCleaning() {
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">Popular</div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Gold</h3>
-                  <div className="text-3xl font-bold text-primary mb-6">IDR 3,900,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
+                  <div className="text-3xl font-bold text-primary mb-6">IDR 1,500,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />3x weekly service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />All chemicals included</li>
@@ -181,7 +181,7 @@ export default function KerobokanPoolCleaning() {
               <Card>
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-bold text-foreground mb-2">Platinum</h3>
-                  <div className="text-3xl font-bold text-primary mb-6">IDR 5,500,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
+                  <div className="text-3xl font-bold text-primary mb-6">IDR 3,750,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Daily service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Dedicated technician</li>

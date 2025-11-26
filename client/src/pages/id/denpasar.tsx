@@ -42,7 +42,7 @@ export default function BahasaDenpasar() {
         <title>Jasa Perawatan Kolam Renang Denpasar | Service Kolam Sanur, Renon, Sesetan</title>
         <meta 
           name="description" 
-          content="Jasa pembersihan & perawatan kolam renang profesional di Denpasar. Melayani Sanur, Renon, Sesetan, Sidakarya, dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 450rb/bulan." 
+          content="Jasa pembersihan & perawatan kolam renang profesional di Denpasar. Melayani Sanur, Renon, Sesetan, Sidakarya, dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 750rb/bulan." 
         />
         <meta name="keywords" content="jasa pembersihan kolam renang di denpasar, jasa kolam renang sanur, perawatan kolam renang denpasar, service kolam renang renon, jasa kolam sesetan" />
         
@@ -222,7 +222,7 @@ export default function BahasaDenpasar() {
                   <p className="text-muted-foreground mb-4">
                     Kunjungan mingguan atau bi-weekly untuk kolam rumah dan villa. Semua bahan kimia termasuk.
                   </p>
-                  <p className="text-2xl font-bold text-primary mb-2">Mulai Rp 450rb/bulan</p>
+                  <p className="text-2xl font-bold text-primary mb-2">Mulai Rp 750rb/bulan</p>
                   <Button variant="outline" className="w-full" asChild data-testid="button-service-0">
                     <a 
                       href="https://wa.me/6282237565997?text=Halo! Saya di Denpasar, mau tanya paket pembersihan rutin."

@@ -112,7 +112,7 @@ export default function BahasaHome() {
         <title>Jasa Perawatan Kolam Renang Bali | Pembersihan & Service Kolam Profesional</title>
         <meta 
           name="description" 
-          content="Jasa perawatan kolam renang terpercaya di Bali. Pembersihan rutin, perbaikan, kimia kolam, layanan darurat 24/7. Melayani Seminyak, Canggu, Ubud, Denpasar. Harga mulai Rp 450rb/bulan." 
+          content="Jasa perawatan kolam renang terpercaya di Bali. Pembersihan rutin, perbaikan, kimia kolam, layanan darurat 24/7. Melayani Seminyak, Canggu, Ubud, Denpasar. Harga mulai Rp 750rb/bulan." 
         />
         <meta name="keywords" content="jasa perawatan kolam renang bali, jasa pembersihan kolam renang, service kolam renang bali, perawatan kolam renang seminyak, pembersihan kolam canggu, jasa kolam renang denpasar, biaya perawatan kolam renang" />
         
@@ -158,7 +158,7 @@ export default function BahasaHome() {
                         <Droplets className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                        <p className="font-semibold mb-1">Mulai Rp 450rb/bulan</p>
+                        <p className="font-semibold mb-1">Mulai Rp 750rb/bulan</p>
                         <p className="text-sm text-muted-foreground">Semua kimia termasuk</p>
                       </div>
                     </div>

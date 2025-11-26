@@ -134,7 +134,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold text-foreground mb-2">One-Time Service</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 450,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 563,000</p>
                 <ul className="space-y-2 text-sm text-foreground/80 mb-6">
                   <li>• Complete water testing</li>
                   <li>• Full chemical balancing</li>
@@ -151,7 +151,7 @@ export default function ChemicalBalancingServiceBali() {
                   Best Value
                 </div>
                 <h3 className="font-bold text-foreground mb-2">Monthly Service</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 1,200,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 1,500,000</p>
                 <ul className="space-y-2 text-sm text-foreground/80 mb-6">
                   <li>• 4 testing sessions/month</li>
                   <li>• Chemical balancing each visit</li>
@@ -166,7 +166,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold text-foreground mb-2">Quarterly Package</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 3,200,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 4,000,000</p>
                 <ul className="space-y-2 text-sm text-foreground/80 mb-6">
                   <li>• 12 sessions over 3 months</li>
                   <li>• Full chemical management</li>

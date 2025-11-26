@@ -61,7 +61,7 @@ export default function VillaPoolServiceBali() {
     {
       name: "Villa Essentials",
       ideal: "Perfect for small villas (3-4 bedrooms)",
-      price: "From Rp 450,000/month",
+      price: "From Rp 563,000/month",
       frequency: "Bi-weekly visits",
       features: [
         "Surface skimming & debris removal",
@@ -79,7 +79,7 @@ export default function VillaPoolServiceBali() {
     {
       name: "Villa Premium",
       ideal: "Most popular for rental villas (4-6 bedrooms)",
-      price: "From Rp 750,000/month",
+      price: "From Rp 938,000/month",
       frequency: "Weekly visits",
       features: [
         "Everything in Essentials, plus:",

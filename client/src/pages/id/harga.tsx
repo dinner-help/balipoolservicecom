@@ -22,9 +22,9 @@ export default function BahasaPricing() {
       name: "Paket Rumah",
       icon: Home,
       ideal: "Untuk rumah pribadi & villa kecil",
-      price: "Rp 450.000",
+      price: "Rp 750.000",
       period: "/bulan",
-      visits: "2x per bulan (bi-weekly)",
+      visits: "1x per minggu (weekly)",
       popular: false,
       features: [
         "Pembersihan permukaan & vakum",
@@ -41,9 +41,9 @@ export default function BahasaPricing() {
       name: "Paket Villa Premium",
       icon: Building,
       ideal: "Untuk villa rental & homestay",
-      price: "Rp 750.000",
+      price: "Rp 1.500.000",
       period: "/bulan",
-      visits: "4x per bulan (weekly)",
+      visits: "2x per minggu (8x/bulan)",
       popular: true,
       features: [
         "Semua layanan Paket Rumah",
@@ -60,9 +60,9 @@ export default function BahasaPricing() {
       name: "Paket Hotel & Resort",
       icon: Building2,
       ideal: "Untuk hotel, resort, multi-pool",
-      price: "Rp 1.500.000",
+      price: "Rp 3.750.000",
       period: "/bulan per kolam",
-      visits: "Harian / custom schedule",
+      visits: "3x per minggu / harian",
       popular: false,
       features: [
         "Kunjungan harian (Senin-Sabtu)",
@@ -90,7 +90,7 @@ export default function BahasaPricing() {
     },
     {
       title: "Treatment Kolam Hijau",
-      price: "Rp 1.5jt - 3jt",
+      price: "Rp 1.875jt - 3.75jt",
       description: "Shock treatment & pembersihan intensif untuk kolam hijau/keruh"
     },
     {
@@ -106,12 +106,12 @@ export default function BahasaPricing() {
         <title>Harga Jasa Perawatan Kolam Renang Bali | Biaya Service Kolam Murah & Transparan</title>
         <meta 
           name="description" 
-          content="Daftar harga jasa perawatan kolam renang di Bali. Paket mulai Rp 450rb/bulan, semua kimia termasuk. Harga transparan, tidak ada biaya tersembunyi. Rumah, villa, hotel." 
+          content="Daftar harga jasa perawatan kolam renang di Bali. Paket mulai Rp 750rb/bulan, semua kimia termasuk. Harga transparan, tidak ada biaya tersembunyi. Rumah, villa, hotel." 
         />
         <meta name="keywords" content="biaya perawatan kolam renang, harga jasa kolam renang bali, biaya service kolam renang, harga pembersihan kolam, biaya maintenance kolam renang per bulan" />
         
-        <meta property="og:title" content="Harga Jasa Kolam Renang Bali - Paket Mulai 450rb/bulan" />
-        <meta property="og:description" content="Paket lengkap perawatan kolam: Rumah (450rb), Villa (750rb), Hotel (1.5jt). Semua kimia termasuk, harga transparan, garansi puas." />
+        <meta property="og:title" content="Harga Jasa Kolam Renang Bali - Paket Mulai 750rb/bulan" />
+        <meta property="og:description" content="Paket lengkap perawatan kolam: Rumah (750rb), Villa (1.5jt), Hotel (3.75jt). Semua kimia termasuk, harga transparan, garansi puas." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         

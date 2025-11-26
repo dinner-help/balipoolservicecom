@@ -298,7 +298,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="text-2xl font-bold text-primary mb-4">
-                  From IDR 2,900,000<span className="text-sm font-normal text-gray-500">/month</span>
+                  From IDR 750,000<span className="text-sm font-normal text-gray-500">/month</span>
                 </div>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
@@ -740,7 +740,7 @@ export default function Home() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">How much is weekly pool maintenance in Bali?</h3>
                 <p className="text-gray-600">
-                  Weekly pool maintenance in Bali ranges from IDR 2,900,000 to IDR 5,500,000 per month depending on pool size, service frequency, and package level. All our packages include premium chemicals, equipment checks, and WhatsApp reporting.
+                  Weekly pool maintenance in Bali ranges from IDR 750,000 to IDR 3,750,000 per month depending on pool size, service frequency, and package level. All our packages include premium chemicals, equipment checks, and WhatsApp reporting.
                 </p>
               </CardContent>
             </Card>
@@ -827,7 +827,7 @@ export default function Home() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Silver Package</h3>
                 <p className="text-sm text-gray-500 mb-6">For private villas & homes</p>
-                <div className="text-4xl font-bold text-primary mb-2">IDR 2,900,000</div>
+                <div className="text-4xl font-bold text-primary mb-2">IDR 750,000</div>
                 <p className="text-sm text-gray-500 mb-6">/month</p>
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">
@@ -864,7 +864,7 @@ export default function Home() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Gold Package</h3>
                 <p className="text-sm text-gray-500 mb-6">For rental villas & luxury homes</p>
-                <div className="text-4xl font-bold text-primary mb-2">IDR 3,900,000</div>
+                <div className="text-4xl font-bold text-primary mb-2">IDR 1,500,000</div>
                 <p className="text-sm text-gray-500 mb-6">/month</p>
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">
@@ -898,7 +898,7 @@ export default function Home() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Platinum Package</h3>
                 <p className="text-sm text-gray-500 mb-6">For estates & boutique hotels</p>
-                <div className="text-4xl font-bold text-primary mb-2">IDR 5,500,000</div>
+                <div className="text-4xl font-bold text-primary mb-2">IDR 3,750,000</div>
                 <p className="text-sm text-gray-500 mb-6">/month</p>
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">

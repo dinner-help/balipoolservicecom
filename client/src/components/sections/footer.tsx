@@ -17,7 +17,8 @@ export function Footer() {
     { label: "Emergency Pool Repair", href: "/emergency-pool-repair-bali" },
     { label: "Pump Repair", href: "/pool-pump-repair-bali" },
     { label: "Filter Cleaning", href: "/pool-filter-cleaning-repair-bali" },
-    { label: "Pool Construction", href: "/pool-construction" },
+    { label: "Pool Construction", href: "/pool-construction-bali" },
+    { label: "Cold Plunge Installation", href: "/cold-plunge-bali" },
   ];
 
   const serviceAreas = [

@@ -31,11 +31,11 @@ export default function WeeklyPoolMaintenanceBali() {
     },
     {
       question: "How many times per week should my Bali pool be maintained?",
-      answer: "For most residential pools in Bali, 2-3 visits per week is optimal. Our Silver package offers 2 weekly visits (IDR 2.9M/month), Gold provides 3 visits (IDR 3.9M/month). High-use commercial pools may need daily service with our Platinum package."
+      answer: "For most residential pools in Bali, 1-3 visits per week is optimal. Our Basic Villa package offers weekly visits (IDR 750K/month), Premium Villa provides 2 visits/week (IDR 1.5M/month). High-use commercial pools may need 3 visits/week with our Boutique Resort package (IDR 3.75M/month)."
     },
     {
       question: "What does weekly pool maintenance cost in Bali?",
-      answer: "Weekly pool maintenance in Bali starts from IDR 2,900,000/month for 2 visits per week (Silver), IDR 3,900,000/month for 3 visits (Gold), or IDR 5,500,000/month for daily service (Platinum). All packages include chemicals, supplies, and 24/7 WhatsApp support."
+      answer: "Weekly pool maintenance in Bali starts from IDR 750,000/month for weekly visits (Basic Villa), IDR 1,500,000/month for 2 visits/week (Premium Villa), or IDR 3,750,000/month for 3 visits/week (Boutique Resort). All packages include chemicals, supplies, and WhatsApp support."
     },
     {
       question: "Can I schedule pool maintenance around my rental guests?",
@@ -43,7 +43,7 @@ export default function WeeklyPoolMaintenanceBali() {
     },
     {
       question: "What happens if I need service outside my regular schedule?",
-      answer: "All packages include WhatsApp support. Gold and Platinum packages include priority emergency response (4-hour and 2-hour respectively). Additional visits can be added for IDR 400,000/month."
+      answer: "All packages include WhatsApp support. Premium Villa and Boutique Resort packages include priority emergency response (4-hour and 2-hour respectively). Additional visits can be added for IDR 500,000/month."
     },
     {
       question: "Do you provide service reports for weekly maintenance?",
@@ -64,10 +64,10 @@ export default function WeeklyPoolMaintenanceBali() {
     <>
       <Helmet>
         <title>Weekly Pool Maintenance Bali | Scheduled Pool Care Services</title>
-        <meta name="description" content="Professional weekly pool maintenance in Bali. Regular scheduled visits from IDR 2.9M/month. Keep your villa or hotel pool crystal clear. 10+ years experience. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Professional weekly pool maintenance in Bali. Regular scheduled visits from IDR 750K/month. Keep your villa or hotel pool crystal clear. 10+ years experience. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="weekly pool maintenance Bali, pool maintenance service Bali, scheduled pool care Bali, regular pool cleaning Bali, pool service contract Bali, villa pool maintenance Bali" />
         <meta property="og:title" content="Weekly Pool Maintenance Bali | Professional Pool Care" />
-        <meta property="og:description" content="Regular scheduled pool maintenance for Bali villas & hotels. From IDR 2.9M/month. Chemicals included. 24/7 WhatsApp support." />
+        <meta property="og:description" content="Regular scheduled pool maintenance for Bali villas & hotels. From IDR 750K/month. Chemicals included. 24/7 WhatsApp support." />
         <link rel="canonical" href="https://poolservicebali.com/weekly-pool-maintenance-bali" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -81,7 +81,7 @@ export default function WeeklyPoolMaintenanceBali() {
               "telephone": "+62-822-3756-5997"
             },
             "areaServed": "Bali, Indonesia",
-            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
           })}
         </script>
       </Helmet>

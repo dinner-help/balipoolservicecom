@@ -71,37 +71,37 @@ export function ChemicalSubscription() {
       name: "Premium Chlorine Tablets",
       specs: "90% available chlorine, slow-dissolving, UV stabilized",
       usage: "1 tablet per 10,000L weekly",
-      price: "IDR 850,000/month"
+      price: "IDR 1,063,000/month"
     },
     {
       name: "Liquid Shock Treatment",
       specs: "12% sodium hypochlorite, hospital-grade purity",
       usage: "500ml per 20,000L bi-weekly",
-      price: "IDR 600,000/month"
+      price: "IDR 750,000/month"
     },
     {
       name: "pH Balance System",
       specs: "pH Plus (sodium carbonate) + pH Minus (sodium bisulfate)",
       usage: "50g adjusts 10,000L by 0.2 pH",
-      price: "IDR 450,000/month"
+      price: "IDR 563,000/month"
     },
     {
       name: "Algae Prevention Formula",
       specs: "Quaternary ammonium compound, non-foaming, works in all conditions",
       usage: "100ml per 10,000L monthly",
-      price: "IDR 550,000/month"
+      price: "IDR 688,000/month"
     },
     {
       name: "Clarifier & Flocculant",
       specs: "Polymer-based, works with all filter types, clears cloudiness in 24 hours",
       usage: "As needed basis",
-      price: "IDR 400,000/month"
+      price: "IDR 500,000/month"
     },
     {
       name: "Complete Care Package",
       specs: "All chemicals above + test strips + measuring tools",
       usage: "Everything you need",
-      price: "IDR 2,800,000/month (Save 15%)"
+      price: "IDR 3,500,000/month (Save 15%)"
     }
   ];
 

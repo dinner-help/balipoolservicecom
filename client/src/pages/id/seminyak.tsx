@@ -42,7 +42,7 @@ export default function BahasaSeminyak() {
         <title>Jasa Perawatan Kolam Renang Seminyak | Service Kolam Petitenget, Oberoi, Kerobokan</title>
         <meta 
           name="description" 
-          content="Jasa pembersihan & perawatan kolam renang profesional di Seminyak. Melayani Petitenget, Kerobokan, Oberoi, dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 450rb/bulan." 
+          content="Jasa pembersihan & perawatan kolam renang profesional di Seminyak. Melayani Petitenget, Kerobokan, Oberoi, dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 750rb/bulan." 
         />
         <meta name="keywords" content="jasa pembersihan kolam renang di seminyak, jasa kolam renang seminyak, perawatan kolam renang seminyak, service kolam renang petitenget, jasa kolam kerobokan" />
         

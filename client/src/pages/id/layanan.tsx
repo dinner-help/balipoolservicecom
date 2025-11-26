@@ -31,7 +31,7 @@ export default function BahasaServices() {
         "Buang kotoran dari filter",
         "Photo report setelah setiap kunjungan"
       ],
-      price: "Mulai Rp 450rb/bulan",
+      price: "Mulai Rp 750rb/bulan",
       cta: "Pesan Pembersihan"
     },
     {

@@ -80,21 +80,21 @@ export default function PoolVacuumingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Single Vacuum</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 250,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 313,000</p>
                 <p className="text-sm text-foreground/80">One-time service</p>
               </CardContent>
             </Card>
             <Card className="border-primary border-2">
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Weekly Vacuum</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 800,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 1,000,000</p>
                 <p className="text-sm text-foreground/80">4 visits monthly</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Bi-Weekly Vacuum</h3>
-                <p className="text-2xl font-bold text-primary mb-4">IDR 450,000</p>
+                <p className="text-2xl font-bold text-primary mb-4">IDR 563,000</p>
                 <p className="text-sm text-foreground/80">2 visits monthly</p>
               </CardContent>
             </Card>

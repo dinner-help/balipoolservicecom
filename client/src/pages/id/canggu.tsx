@@ -42,7 +42,7 @@ export default function BahasaCanggu() {
         <title>Jasa Perawatan Kolam Renang Canggu | Service Kolam Berawa, Echo Beach, Pererenan</title>
         <meta 
           name="description" 
-          content="Jasa pembersihan & perawatan kolam renang profesional di Canggu. Melayani Berawa, Pererenan, Echo Beach, Batu Bolong dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 450rb/bulan." 
+          content="Jasa pembersihan & perawatan kolam renang profesional di Canggu. Melayani Berawa, Pererenan, Echo Beach, Batu Bolong dan sekitarnya. Teknisi lokal, respon cepat. Harga mulai 750rb/bulan." 
         />
         <meta name="keywords" content="jasa pembersihan kolam renang di canggu, jasa kolam renang canggu, perawatan kolam renang canggu, service kolam renang berawa, jasa kolam pererenan, jasa kolam echo beach" />
         

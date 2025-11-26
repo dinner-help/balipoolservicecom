@@ -166,7 +166,7 @@ export default function JimbaranPoolCleaning() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Luxury Villa Pool</h3>
                   <p className="text-sm text-muted-foreground mb-4">Up to 30m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 450,000</div>
+                  <div className="text-3xl font-bold text-primary mb-4">Rp 563,000</div>
                   <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
@@ -191,7 +191,7 @@ export default function JimbaranPoolCleaning() {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Beachfront Infinity</h3>
                   <p className="text-sm text-muted-foreground mb-4">30-60m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 550,000</div>
+                  <div className="text-3xl font-bold text-primary mb-4">Rp 688,000</div>
                   <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">

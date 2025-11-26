@@ -229,7 +229,7 @@ export default function SanurPoolCleaning() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Villa Pool</h3>
                   <p className="text-sm text-muted-foreground mb-4">Up to 25m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 350,000</div>
+                  <div className="text-3xl font-bold text-primary mb-4">Rp 438,000</div>
                   <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
@@ -254,7 +254,7 @@ export default function SanurPoolCleaning() {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Beach Villa Pool</h3>
                   <p className="text-sm text-muted-foreground mb-4">25-50m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 450,000</div>
+                  <div className="text-3xl font-bold text-primary mb-4">Rp 563,000</div>
                   <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
