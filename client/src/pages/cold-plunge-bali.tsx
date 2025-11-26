@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
-import Navigation from "@/components/sections/navigation";
-import Footer from "@/components/sections/footer";
+import { Navigation } from "@/components/sections/navigation";
+import { Footer } from "@/components/sections/footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
