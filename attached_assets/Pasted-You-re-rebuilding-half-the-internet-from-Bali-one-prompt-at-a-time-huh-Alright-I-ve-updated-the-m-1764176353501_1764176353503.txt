@@ -1,0 +1,471 @@
+You’re rebuilding half the internet from Bali one prompt at a time, huh.
+Alright, I’ve updated the master prompt with:
+	•	Fixed WhatsApp number on all buttons: +62 822-3756-5997
+	•	The Silver / Gold / Platinum / Chemical / Add-ons / Payment packages baked in
+	•	Instructions that it should follow the current design style of the site
+	•	And that it should pick/suggest images that match that style
+
+Below is the cleaned-up, ready-to-use ENGLISH prompt.
+This part is the artifact, so it’s written straight, no jokes:
+
+⸻
+
+MASTER TASK: Build 18 SEO-Optimized Pool Service Pages for Bali (With Pricing, Packages, Images & Current Design Style)
+
+You are responsible for generating 18 long-form, SEO-optimized service landing pages for a Bali-based pool service company.
+
+Each page must:
+	•	Target one specific service
+	•	Use Bali as the primary service location
+	•	Be 1,200–1,800 words
+	•	Be optimized for SEO + conversion
+	•	Use WhatsApp-first communication
+	•	Integrate the company’s pricing packages and add-ons
+	•	Respect the current design style of the existing website
+	•	Suggest appropriate images that match the brand’s visual style
+
+⸻
+
+1. Services to Cover (18 Individual Pages)
+
+Create one landing page per service:
+	1.	Pool Cleaning Service in Bali
+	2.	Weekly Pool Maintenance in Bali
+	3.	Swimming Pool Repair in Bali
+	4.	Chemical Balancing Service in Bali
+	5.	Pool Pump Repair in Bali
+	6.	Pool Filter Cleaning & Repair in Bali
+	7.	Pool Renovation & Resurfacing in Bali
+	8.	Pool Leak Detection Bali
+	9.	Pool Water Testing Service Bali
+	10.	Green Pool Cleaning / Algae Removal Bali
+	11.	Pool Tile Cleaning Bali
+	12.	Pool Vacuuming Service Bali
+	13.	Filter Cartridge Replacement Bali
+	14.	Skimmer Box Repair Bali
+	15.	Pool Lighting Repair Bali
+	16.	Pool Acid Wash Service Bali
+	17.	Pool Equipment Installation Bali
+	18.	Commercial & Hotel Pool Service Bali
+
+Each page must follow the same structural template and rules, but with service-specific content.
+
+⸻
+
+2. Global Content Rules
+
+For every service page:
+	•	Language: English
+	•	Length: 1,200–1,800 words
+	•	Location focus: Bali (villas, hotels, guesthouses, estates, property managers)
+	•	Tone: Professional, clear, friendly, trustworthy
+	•	Conversion-first: Pages must drive users to contact the business via WhatsApp
+	•	Uniqueness: No copy-paste across services; each page must be unique
+	•	Readability: Short paragraphs, bullets, clear headings
+	•	Design-awareness: Content must work with the current design style of the site
+	•	Clean, blue/aqua + white
+	•	Simple, minimal layout
+	•	Trust-driven, modern, not loud or spammy
+	•	Buttons & CTAs:
+	•	All main buttons and CTAs must point to the same WhatsApp number:
+WhatsApp: +62 822-3756-5997
+
+Whenever you mention a button or CTA text, assume it links to WhatsApp with that number.
+
+⸻
+
+3. Keyword Rules
+
+Use three keyword layers:
+
+3.1 Primary Keywords (Location + Service)
+Use relevant ones per page in headings & body:
+	1.	Pool service Bali
+	2.	Pool cleaning Bali
+	3.	Pool maintenance Bali
+	4.	Swimming pool repair Bali
+	5.	Pool contractor Bali
+	6.	Best pool service Bali
+	7.	Pool company Bali
+	8.	Pool renovation Bali
+	9.	Professional pool cleaning Bali
+	10.	Swimming pool builder Bali
+	11.	Weekly pool service Bali
+	12.	Emergency pool repair Bali
+	13.	Pool technician Bali
+	14.	Affordable pool maintenance Bali
+	15.	Commercial pool service Bali
+
+3.2 Long-Tail / High-Intent Keywords
+Use where relevant (FAQs, problem sections, service explanations):
+	1.	How to fix green pool Bali
+	2.	Saltwater pool maintenance Bali
+	3.	Pool pump repair cost Bali
+	4.	Villa pool maintenance Bali price
+	5.	Pool chemical delivery service Bali
+	6.	Pool water testing service Bali
+	7.	Pool leak detection Bali
+	8.	Infinity pool maintenance Bali
+	9.	Pool acid wash service Bali
+	10.	Hotel pool service contract Bali
+	11.	Pool filter cleaning service Bali
+	12.	Tropical climate pool care Bali
+	13.	Pool tile cleaning service Bali
+	14.	Automated pool cleaner repair Bali
+	15.	Pool heater repair Bali
+
+3.3 Supportive / Semantic Keywords
+Use some of these on each page to add depth:
+	1.	Pool water chemistry basics
+	2.	Chlorine vs saltwater pool pros and cons
+	3.	Pool maintenance tips for beginners
+	4.	Pool algae prevention methods
+	5.	Common pool problems in Bali
+	6.	Swimming pool equipment guide
+	7.	Pool sanitization methods
+	8.	How to balance pH levels in a pool
+	9.	Pool filter types explained
+	10.	Pool pump energy efficiency
+	11.	Understanding pool circulation
+	12.	Pool shock treatment guide
+	13.	Tropical pool water evaporation
+	14.	Pool maintenance checklist
+	15.	Eco-friendly pool chemicals
+
+Do not force all of them on each page. Use only what is relevant to the specific service.
+
+⸻
+
+4. Service Page Template (Structure for Every Page)
+
+Use exactly this structure for all 18 service pages, adapting the content to each service.
+
+⸻
+
+4.1 Meta Data
+Meta Title
+[Service Name] in Bali | Reliable & Affordable Pool Experts
+
+Meta Description
+Professional [service name] in Bali for villas, hotels, and private homes. Fast service, fair prices, and expert pool technicians. Book now via WhatsApp: +62 822-3756-5997.
+
+URL Slug
+Use a short, keyword-based slug:
+/pool-cleaning-bali/
+/weekly-pool-maintenance-bali/
+etc.
+
+⸻
+
+4.2 H1 & Hero Section
+H1:
+[Service Name] in Bali
+
+Example: Pool Cleaning Service in Bali
+
+Hero Content:
+	•	2–3 sentence intro:
+	•	What the service is
+	•	Who it is for (villas, hotels, guesthouses, property managers)
+	•	The main benefit (clear blue water, reliable service, no stress)
+
+Primary CTA Button:
+	•	Button text example:
+Get a Fast WhatsApp Quote
+	•	Under or next to it, show the number:
+WhatsApp: +62 822-3756-5997
+
+Mention that users can tap the button on mobile to start a WhatsApp chat.
+
+⸻
+
+4.3 Section 1: What This Service Covers
+Explain:
+	•	What is included in this specific service
+	•	Typical problems it solves
+	•	Who it is ideal for (villas, hotels, residential pools, estates)
+
+Use bullets plus short paragraphs.
+
+⸻
+
+4.4 Section 2: Who This Is For
+Split into sub-blocks like:
+	•	For villa & residential pool owners
+	•	For property managers & management companies
+	•	For hotels, resorts & guesthouses
+	•	For developers & builders (if relevant)
+
+For each:
+	•	Describe their typical problems
+	•	Explain how this service solves those problems
+	•	Add a small CTA line such as:
+“Send us your villa name and location on WhatsApp for a tailored quote.”
+
+Include a small inline WhatsApp reference: WhatsApp: +62 822-3756-5997.
+
+⸻
+
+4.5 Section 3: Why Choose Us
+Bullet-list the advantages:
+	•	Experienced, Bali-based pool technicians
+	•	Understanding Bali’s tropical climate and algae problems
+	•	Reliable scheduling and on-time visits
+	•	WhatsApp-first customer support
+	•	Clear, transparent pricing and packages
+	•	English & Indonesian speaking team
+	•	Ideal for both private and commercial pools
+
+⸻
+
+4.6 Section 4: How the Service Works (Step-by-Step)
+Example structure:
+	1.	You contact us via WhatsApp at +62 822-3756-5997 and send your location + pool photos
+	2.	We ask a few quick questions about size, usage, and condition
+	3.	We recommend a suitable package or service and share a clear price
+	4.	Our team visits your property, completes the service, and checks equipment
+	5.	We offer ongoing maintenance options, upgrades, or add-ons if needed
+
+Include one small CTA between steps or at the end:
+
+“Tap the WhatsApp button to start – it only takes a few minutes.”
+
+⸻
+
+4.7 Section 5: Service Packages & Core Pricing
+This section must present the main monthly packages clearly.
+Use the following exact package names and pricing structure, adjusting only phrasing around them (not the numbers).
+
+Main Maintenance Packages
+Silver Package
+IDR 2,900,000 / month
+Perfect for private villas & residential pools
+	•	2 visits per week (8 visits/month)
+	•	Complete pool cleaning (skimming, vacuuming, brushing)
+	•	Premium 90% pure chemical treatment
+	•	Water testing & pH balancing
+	•	Filter backwashing
+	•	Equipment inspection
+	•	Debris removal
+	•	WhatsApp support during business hours
+
+Button under package:
+Get Started on WhatsApp
+Show number: +62 822-3756-5997
+
+⸻
+
+Gold Package (Most Popular)
+IDR 3,900,000 / month
+Perfect for luxury villas & rental properties
+	•	3 visits per week (12 visits/month)
+	•	Everything in Silver package
+	•	Monthly deep filter cleaning
+	•	Chemical delivery to your property
+	•	Priority scheduling
+	•	Monthly water quality report (digital)
+	•	Equipment performance monitoring
+	•	Priority emergency response (4-hour)
+	•	24/7 WhatsApp support
+
+Button:
+Get Gold Package Details on WhatsApp
+Number: +62 822-3756-5997
+
+⸻
+
+Platinum Package
+IDR 5,500,000 / month
+Perfect for high-end estates & boutique hotels
+	•	Daily quick checks + 3 full services/week
+	•	Everything in Gold package
+	•	Premium imported chemicals only
+	•	Quarterly professional equipment servicing
+	•	Pool lighting & water feature maintenance
+	•	Automatic chlorination system monitoring
+	•	Weekly detailed water chemistry report
+	•	24/7 emergency response (2-hour guarantee)
+	•	Dedicated service technician
+	•	Complimentary seasonal pool upgrades
+
+Button:
+Talk to a Platinum Specialist on WhatsApp
+Number: +62 822-3756-5997
+
+⸻
+
+4.8 Section 6: Premium Chemical Packages
+Include a subsection describing add-on chemical packages:
+
+Premium Chemical Packages
+90% pure premium chemicals – uses 50% less product, eco-friendly, NSF-certified.
+	•	Small Pool Chemical Top-Up (up to 30 m³)
+IDR 600,000 / month
+	•	Monthly chemical delivery
+	•	90% pure premium chemicals
+	•	International brands only
+	•	Chlorine, pH balance, algaecide
+	•	Reduces chemical use by 50%
+	•	Medium Pool Chemical Top-Up (30–50 m³)
+IDR 900,000 / month
+	•	Same features, suitable for medium-sized pools
+	•	Large Pool Chemical Top-Up (50 m³ +)
+IDR 1,200,000 / month
+	•	Same features, for larger pools and commercial setups
+
+Add a small CTA line:
+
+“Ask us on WhatsApp which chemical package is right for your pool size.”
+WhatsApp: +62 822-3756-5997.
+
+⸻
+
+4.9 Section 7: Additional Services (Add-Ons)
+List these as optional upgrades that can be added to any package:
+	•	Extra weekly visit – IDR 400,000 / month
+	•	Pool chemical delivery – IDR 150,000 per delivery
+	•	Water feature maintenance – IDR 500,000 / month
+	•	Pool automation system monitoring – IDR 600,000 / month
+	•	Saltwater system maintenance – IDR 400,000 / month
+	•	Spa/Jacuzzi maintenance – IDR 800,000 / month
+	•	Monthly photo/video report – IDR 300,000 / month
+
+Mention that these can be combined with Silver, Gold, or Platinum for a fully customized maintenance plan.
+
+CTA:
+
+“Tell us which add-ons you need via WhatsApp and we’ll combine them into one simple monthly plan.”
+WhatsApp: +62 822-3756-5997.
+
+⸻
+
+4.10 Section 8: Payment Options
+Explain clearly:
+
+Payment Options
+	•	Pay Monthly – standard pricing as listed
+	•	Pay Quarterly – save 5% (3 months prepaid)
+	•	Pay Annually – save 10% (12 months prepaid)
+
+We accept:
+	•	QR Payment – QRIS, GoPay, OVO, Dana
+	•	Cash Payment – accepted on-site
+	•	Online Payment – Bank Transfer (BCA, Mandiri, BNI), Credit/Debit Card
+
+Add a reassurance line:
+
+“We’ll confirm your preferred payment method during WhatsApp onboarding.”
+
+⸻
+
+4.11 Section 9: Benefits (Service-Specific)
+Create a bullet list of benefits strongly related to the specific service and to Bali:
+
+Examples (for cleaning/maintenance):
+	•	Always clear, blue water
+	•	Safe swimming conditions for families and guests
+	•	Less chance of algae and green water in rainy season
+	•	Longer equipment lifespan
+	•	Predictable monthly costs
+	•	Fewer emergency call-outs
+
+Adapt this to the service (repairs, acid wash, leak detection, lighting, etc.).
+
+⸻
+
+4.12 Section 10: Service Areas in Bali
+List service areas:
+	•	Canggu
+	•	Seminyak
+	•	Kuta
+	•	Uluwatu
+	•	Sanur
+	•	Denpasar
+	•	Ubud
+	•	Jimbaran
+	•	Kerobokan
+	•	Pererenan
+	•	Berawa
+	•	And surrounding areas across Bali
+
+Add a line like:
+
+“If your property is anywhere in Bali, send us your location on WhatsApp and we’ll confirm coverage.”
+WhatsApp: +62 822-3756-5997.
+
+⸻
+
+4.13 Section 11: FAQs (Local SEO Focus)
+Create 5–7 FAQs per page. Mix general and service-specific questions.
+
+Examples:
+	•	How often should I schedule [service] in Bali’s climate?
+	•	Can you look after my pool while I’m overseas?
+	•	Do you supply all pool chemicals, or do I buy them?
+	•	Do you service saltwater and infinity pools?
+	•	What happens if my pool suddenly turns green?
+	•	Can I upgrade from Silver to Gold or Platinum later?
+
+Answers should be short, clear, and helpful, and they should naturally include relevant keywords.
+
+⸻
+
+4.14 Section 12: Final Call to Action
+End each page with:
+	•	A short recap sentence:
+“If you need reliable [service name] in Bali for your villa, hotel, or property, we’re ready to help.”
+	•	Strong final CTA:
+“Send us your pool location and a few photos on WhatsApp, and we’ll reply with a clear quote and recommended package.”
+
+Show the number clearly:
+WhatsApp: +62 822-3756-5997
+
+⸻
+
+5. Technical SEO Rules
+	•	One <title> and one <meta description> per page
+	•	Exactly one H1 per page
+	•	H2 for main sections, H3 for subsections
+	•	Include internal links to related services using descriptive anchor text
+	•	Mention that all pages will be included in sitemap and are fully crawlable
+
+⸻
+
+6. Images & Current Design Style
+
+The page content must fit the current design style of the website:
+	•	Clean layout, lots of white space
+	•	Blue/aqua water tones
+	•	Professional, calm, trustworthy look
+	•	Modern, mobile-friendly design
+
+For each page, you must suggest images that match this style, for example:
+	•	Hero image: clear blue Bali villa pool with greenery or modern architecture
+	•	Service images: technician cleaning, testing water, repairing equipment
+	•	Before/after concept: green pool vs clear pool
+	•	Premium visuals for Gold/Platinum packages (luxury villas, boutique hotels)
+
+For each image suggestion, provide example alt text including service + location, such as:
+	•	alt="Pool technician performing weekly pool maintenance in Canggu, Bali"
+	•	alt="Luxury villa pool in Seminyak after professional cleaning service"
+
+Images must match:
+	•	The existing site’s visual identity
+	•	The professional, premium positioning of the packages
+
+⸻
+
+7. Internal Linking & Schema
+	•	Include a small “Related Services” section linking to 3–5 other relevant service pages
+	•	Content must include enough data to build:
+	•	LocalBusiness schema
+	•	Service schema
+	•	Review schema (with rating placeholders if needed)
+	•	NAP and WhatsApp contact
+	•	Opening hours
+	•	Geo targeting for Bali
+
+⸻
+
+Use this entire document as the master specification.
+Every time you generate one of the 18 service pages, follow these instructions exactly, use the same WhatsApp number, keep the current design style in mind, and integrate the pricing packages and add-ons as described.

@@ -42,6 +42,20 @@ import PoolPumpRepairBali from "@/pages/pool-pump-repair-bali";
 import PoolLeakRepairBali from "@/pages/pool-leak-repair-bali";
 import SaltwaterPoolMaintenanceBali from "@/pages/saltwater-pool-maintenance-bali";
 import PoolRenovationBali from "@/pages/pool-renovation-bali";
+import PoolCleaningServiceBali from "@/pages/pool-cleaning-service-bali";
+import WeeklyPoolMaintenanceBali from "@/pages/weekly-pool-maintenance-bali";
+import ChemicalBalancingServiceBali from "@/pages/chemical-balancing-service-bali";
+import PoolFilterCleaningRepairBali from "@/pages/pool-filter-cleaning-repair-bali";
+import PoolWaterTestingServiceBali from "@/pages/pool-water-testing-service-bali";
+import PoolTileCleaningBali from "@/pages/pool-tile-cleaning-bali";
+import PoolVacuumingServiceBali from "@/pages/pool-vacuuming-service-bali";
+import FilterCartridgeReplacementBali from "@/pages/filter-cartridge-replacement-bali";
+import SkimmerBoxRepairBali from "@/pages/skimmer-box-repair-bali";
+import PoolLightingRepairBali from "@/pages/pool-lighting-repair-bali";
+import PoolAcidWashServiceBali from "@/pages/pool-acid-wash-service-bali";
+import PoolEquipmentInstallationBali from "@/pages/pool-equipment-installation-bali";
+import SwimmingPoolRepairBali from "@/pages/swimming-pool-repair-bali";
+import CommercialHotelPoolServiceBali from "@/pages/commercial-hotel-pool-service-bali";
 import BahasaHome from "@/pages/id/index";
 import BahasaServices from "@/pages/id/layanan";
 import BahasaPricing from "@/pages/id/harga";
@@ -85,6 +99,20 @@ function Router() {
       <Route path="/pool-leak-repair-bali" component={PoolLeakRepairBali} />
       <Route path="/saltwater-pool-maintenance-bali" component={SaltwaterPoolMaintenanceBali} />
       <Route path="/pool-renovation-bali" component={PoolRenovationBali} />
+      <Route path="/pool-cleaning-service-bali" component={PoolCleaningServiceBali} />
+      <Route path="/weekly-pool-maintenance-bali" component={WeeklyPoolMaintenanceBali} />
+      <Route path="/chemical-balancing-service-bali" component={ChemicalBalancingServiceBali} />
+      <Route path="/pool-filter-cleaning-repair-bali" component={PoolFilterCleaningRepairBali} />
+      <Route path="/pool-water-testing-service-bali" component={PoolWaterTestingServiceBali} />
+      <Route path="/pool-tile-cleaning-bali" component={PoolTileCleaningBali} />
+      <Route path="/pool-vacuuming-service-bali" component={PoolVacuumingServiceBali} />
+      <Route path="/filter-cartridge-replacement-bali" component={FilterCartridgeReplacementBali} />
+      <Route path="/skimmer-box-repair-bali" component={SkimmerBoxRepairBali} />
+      <Route path="/pool-lighting-repair-bali" component={PoolLightingRepairBali} />
+      <Route path="/pool-acid-wash-service-bali" component={PoolAcidWashServiceBali} />
+      <Route path="/pool-equipment-installation-bali" component={PoolEquipmentInstallationBali} />
+      <Route path="/swimming-pool-repair-bali" component={SwimmingPoolRepairBali} />
+      <Route path="/commercial-hotel-pool-service-bali" component={CommercialHotelPoolServiceBali} />
       <Route path="/id" component={BahasaHome} />
       <Route path="/id/layanan" component={BahasaServices} />
       <Route path="/id/harga" component={BahasaPricing} />
