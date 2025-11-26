@@ -16,13 +16,13 @@ export default function PoolLightingRepairBali() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Lighting Repair in Bali
             </h1>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Broken pool lights ruin the evening ambiance and reduce safety. We repair existing lights and upgrade to energy-efficient LED options.
             </p>
             <Button size="lg" className="min-w-48">
               Get Lighting Service
             </Button>
-            <p className="text-sm text-foreground/85 mt-4">
+            <p className="text-sm text-foreground/80 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function PoolLightingRepairBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Lighting Services
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -77,13 +77,13 @@ export default function PoolLightingRepairBali() {
 
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Illuminate Your Pool
           </h2>
           <Button size="lg" className="min-w-56">
             Schedule Service
           </Button>
-          <p className="text-sm text-foreground/85 mt-4">
+          <p className="text-sm text-foreground/80 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

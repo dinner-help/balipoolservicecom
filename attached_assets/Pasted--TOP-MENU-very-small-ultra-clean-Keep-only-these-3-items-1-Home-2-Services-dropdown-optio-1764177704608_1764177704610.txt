@@ -1,0 +1,213 @@
+
+
+TOP MENU (very small, ultra-clean)
+
+Keep only these 3 items:
+	1.	Home
+	2.	Services (dropdown optional)
+	3.	Pricing 
+	3.	Contact / WhatsApp button
+
+That’s it.
+No “About”, no “Gallery”, no “Why us”, no “FAQ” in the menu.
+The whole page already covers all of that as one long flow.
+
+⸻
+
+PAGE STRUCTURE (one ultra-long page)
+
+Below is the structure your landing page should follow, section by section.
+This is what makes it feel like one long, modern, conversion-focused page.
+
+⸻
+
+1. HERO SECTION (Above the fold)
+	•	Big promise (Bali-specific)
+	•	Short subheading
+	•	WhatsApp CTA
+	•	3 quick trust badges
+	•	Background image of a clean Bali pool
+
+⸻
+
+2. PROBLEM SECTION (Why Bali pools need pro care)
+	•	Tropical algae
+	•	Rainy season
+	•	Pump failures
+	•	Green water in 48 hours
+	•	Tourist complaints / villa guests
+
+Use bullets + short paragraphs.
+
+⸻
+
+3. SERVICE PACKAGES SECTION (3–4 cards)
+
+Each service card should have:
+	•	Title
+	•	Short description
+	•	What’s included
+	•	“From IDR …” price anchor
+	•	WhatsApp CTA
+
+Packages:
+	•	Weekly Maintenance
+	•	Green Pool Rescue
+	•	Hotel & Resort Service Contracts
+	•	Equipment Repairs & Part Replacement
+
+⸻
+
+4. WHY CHOOSE US SECTION
+
+Grid of benefits:
+	•	Experienced Bali team
+	•	Chemical management included
+	•	Reports through WhatsApp
+	•	Villa owners, hotels, resorts
+	•	Fast response time
+	•	Guaranteed clarity
+
+⸻
+
+5. BEFORE / AFTER RESULT SECTION
+
+Side-by-side comparisons
+	•	2–3 one-paragraph mini case stories.
+
+⸻
+
+6. SERVICE AREAS SECTION (Local SEO)
+
+Mini-blocks for:
+	•	Canggu
+	•	Seminyak
+	•	Sanur
+	•	Ubud
+	•	Denpasar
+	•	Uluwatu
+	•	Jimbaran
+	•	Nusa Dua
+
+Each with 2–3 lines and a local keyword.
+
+⸻
+
+7. HOW IT WORKS (3 simple steps)
+	1.	WhatsApp us your location + pool photos
+	2.	We visit & send price
+	3.	Maintenance starts
+
+Add icons, keep it clean.
+
+⸻
+
+8. TESTIMONIAL SECTION
+
+3–6 reviews
+With location tags like:
+“Villa Owner – Canggu”
+“Hotel Manager – Seminyak”
+
+⸻
+
+9. FAQ SECTION
+
+Target long-tail questions:
+	•	Why does my pool turn green in rainy season?
+	•	How much is weekly maintenance in Bali?
+	•	Do you include chemicals?
+	•	Do you work with villa managers?
+	•	Do you offer contracts for hotels?
+
+Each answer: 3–5 lines.
+
+⸻
+
+10. FINAL CTA SECTION
+
+Strong WhatsApp CTA
+“Send us your location and pool photos — get a quote today.”
+
+⸻
+
+FOOTER (full library, all the pages you don’t want in the top)
+
+The footer is where ALL the “mini-pages” live.
+
+Organize into 4 columns:
+
+⸻
+
+Column 1: Main Links
+	•	Home
+	•	Services
+	•	Pool Cleaning
+	•	Pool Maintenance
+	•	Green Pool Cleaning
+	•	Pool Repairs
+	•	Chemical Management
+	•	Hotel & Resort Contracts
+	•	Emergency Pool Repair
+
+⸻
+
+Column 2: Service Areas
+	•	Canggu
+	•	Seminyak
+	•	Uluwatu
+	•	Jimbaran
+	•	Sanur
+	•	Ubud
+	•	Denpasar
+	•	Nusa Dua
+
+Each of these is its own service-area landing page for SEO, but they don’t clutter the top menu.
+
+⸻
+
+Column 3: Company Info
+	•	About Us
+	•	Contact
+	•	WhatsApp
+	•	Opening Hours
+	•	Terms & Conditions
+	•	Privacy Policy
+
+⸻
+
+Column 4: Help & Info Pages
+	•	FAQ
+	•	Maintenance Checklist
+	•	Pool Troubleshooting
+	•	Guides (e.g. “How to fix green pool in Bali”)
+	•	Chemical Safety
+	•	Water Testing Standards
+	•	Warranty & Guarantees
+
+⸻
+
+DESIGN FEEL (so it feels like ONE LONG PAGE)
+
+To get the “longpage feeling”:
+	•	White background
+	•	Full-width sections
+	•	Smooth gradient separators
+	•	Sticky WhatsApp button bottom-right
+	•	Consistent spacing (65–90px per block)
+	•	Rounded-card style for services + testimonials
+	•	No boxed layout — everything full width
+	•	Light aqua + blue palette with bold CTA color (darker blue or teal)
+
+⸻
+
+WHY THIS WORKS
+
+This structure:
+	•	Gives Google all the SEO juice in the footer
+	•	Keeps the top menu clean and premium
+	•	Makes the page feel long, smooth, and modern
+	•	Converts hard on mobile
+	•	Feels like a real Bali service business
+	•	Matches what expats + villa owners expect
+

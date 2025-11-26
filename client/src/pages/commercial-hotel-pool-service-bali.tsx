@@ -17,13 +17,13 @@ export default function CommercialHotelPoolServiceBali() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Commercial & Hotel Pool Service in Bali
             </h1>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Professional commercial pool maintenance for hotels, resorts, and businesses. Consistent quality, regulatory compliance, and guest satisfaction guaranteed.
             </p>
             <Button size="lg" className="min-w-48">
               Discuss Commercial Contract
             </Button>
-            <p className="text-sm text-foreground/85 mt-4">
+            <p className="text-sm text-foreground/80 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function CommercialHotelPoolServiceBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Commercial Services
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -90,7 +90,7 @@ export default function CommercialHotelPoolServiceBali() {
 
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Why Choose Us for Your Hotel
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
@@ -128,7 +128,7 @@ export default function CommercialHotelPoolServiceBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Commercial Pricing
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -156,7 +156,7 @@ export default function CommercialHotelPoolServiceBali() {
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Ready to Partner with Us?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
@@ -165,7 +165,7 @@ export default function CommercialHotelPoolServiceBali() {
           <Button size="lg" className="min-w-56">
             Schedule Consultation
           </Button>
-          <p className="text-sm text-foreground/85 mt-4">
+          <p className="text-sm text-foreground/80 mt-4">
             WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

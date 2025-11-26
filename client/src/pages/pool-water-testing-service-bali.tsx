@@ -20,13 +20,13 @@ export default function PoolWaterTestingServiceBali() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Water Testing Service in Bali
             </h1>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Regular water testing ensures your pool is safe, balanced, and clear. Our technicians test all key parameters and provide detailed reports with recommendations.
             </p>
             <Button size="lg" className="min-w-48">
               Schedule Water Testing
             </Button>
-            <p className="text-sm text-foreground/85 mt-4">
+            <p className="text-sm text-foreground/80 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Parameters */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             What We Test
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -51,7 +51,7 @@ export default function PoolWaterTestingServiceBali() {
               <Card key={idx}>
                 <CardContent className="p-6">
                   <h3 className="font-bold mb-2">{test.name}</h3>
-                  <p className="text-sm text-foreground/85">{test.desc}</p>
+                  <p className="text-sm text-foreground/80">{test.desc}</p>
                 </CardContent>
               </Card>
             ))}
@@ -62,7 +62,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Why Testing */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Why Professional Testing Matters
           </h2>
           <div className="max-w-4xl mx-auto">
@@ -104,7 +104,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Packages */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Testing Service Packages
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -161,7 +161,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* How It Works */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Our Testing Process
           </h2>
           <div className="space-y-6 max-w-3xl mx-auto">
@@ -178,7 +178,7 @@ export default function PoolWaterTestingServiceBali() {
                 </div>
                 <div>
                   <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-foreground/85">{step.desc}</p>
+                  <p className="text-sm text-foreground/80">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -189,7 +189,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Testing Frequency */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             How Often Should You Test?
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -224,7 +224,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* FAQ */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             FAQ
           </h2>
           <div className="space-y-6">
@@ -259,7 +259,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* CTA */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Start Professional Water Testing Today
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
@@ -268,7 +268,7 @@ export default function PoolWaterTestingServiceBali() {
           <Button size="lg" className="min-w-56">
             Schedule Testing on WhatsApp
           </Button>
-          <p className="text-sm text-foreground/85 mt-4">
+          <p className="text-sm text-foreground/80 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>

@@ -1,0 +1,109 @@
+r every page on the website — whether it is a service page, a location page, a category page, or an information page — the AI must automatically:
+
+1. Identify the most searched keywords related to that specific page
+
+This includes:
+	•	Primary keywords
+	•	Long-tail keywords
+	•	Semantic/supportive keywords
+	•	Location-based keywords
+	•	Problem-based search intents
+	•	Commercial intent terms
+
+The AI must analyze what users search for specifically related to that page’s topic.
+
+⸻
+
+2. Generate new sections for each relevant search intent
+
+The AI must create additional content blocks on every page such as:
+	•	New service subsections
+	•	Localized area explanations
+	•	Advanced troubleshooting guides
+	•	Price breakdowns
+	•	“How it works” details
+	•	Comparison blocks
+	•	Micro-FAQs
+	•	Mini case studies
+	•	Maintenance tips
+	•	Problem-solution segments
+	•	Equipment explanations
+	•	Seasonal care guides
+
+These sections should be added only if they are relevant to that page and match real search demand.
+
+⸻
+
+3. Expand each page until it covers the full search landscape
+
+Each page must become a complete authority page that includes:
+	•	All high-volume keywords
+	•	All intent-driven keywords
+	•	All semantic keywords
+	•	Additional new content designed to naturally fit those terms
+	•	Internal links pointing to related pages
+	•	Clear CTAs
+	•	Rich, helpful explanations
+
+The AI may add more text, new headers, or completely new sub-blocks as long as the content:
+	•	Makes sense
+	•	Remains readable
+	•	Stays professional
+	•	Helps users in Bali
+	•	Follows 2025 SEO standards
+	•	Matches search intent
+
+⸻
+
+4. Apply this rule to ALL types of pages
+
+This applies to:
+
+Service pages
+Example:
+If the page is “Pool Cleaning Bali,” the AI must add sections about:
+	•	Green pool recovery
+	•	Weekly cleaning plans
+	•	Tropical algae issues
+	•	Chemical balance basics
+	•	Filter cleaning
+	•	Pool maintenance tips
+
+…and more, as long as they match user search behavior.
+
+Location pages
+Example:
+If the page is “Pool Cleaning Canggu,” the AI must add:
+	•	Canggu pool problems
+	•	Saltwater pool maintenance in Canggu
+	•	Villa-specific issues
+	•	Local service pricing
+	•	Weather-specific care
+
+Additional pages
+The AI must also expand:
+	•	FAQ pages
+	•	Blog pages
+	•	Comparison pages
+	•	Guides
+	•	Checklists
+	•	Troubleshooting pages
+
+⸻
+
+5. Respect UX and structure
+
+All new sections must:
+	•	Fit the flow of the page
+	•	Follow correct H1–H6 hierarchy
+	•	Be mobile-friendly
+	•	Include internal links
+	•	Strengthen E-E-A-T
+	•	Not repeat or duplicate existing content
+
+⸻
+
+Final Summary (short and clean)
+
+The AI must automatically create new content sections on every page based on the top search queries for that page’s topic or location.
+All text must be expanded and optimized to include the highest-demand keywords, long-tail queries, and semantic terms, while staying meaningful, readable, and aligned with 2025 SEO rules.

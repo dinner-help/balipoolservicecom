@@ -16,13 +16,13 @@ export default function PoolEquipmentInstallationBali() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Equipment Installation in Bali
             </h1>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-lg text-foreground/80 mb-8">
               Upgrading or installing new pool equipment? We handle professional installation of pumps, filters, heaters, and automation systems.
             </p>
             <Button size="lg" className="min-w-48">
               Get Installation Quote
             </Button>
-            <p className="text-sm text-foreground/85 mt-4">
+            <p className="text-sm text-foreground/80 mt-4">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function PoolEquipmentInstallationBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
             Equipment We Install
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -85,7 +85,7 @@ export default function PoolEquipmentInstallationBali() {
 
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
             Installation Process
           </h2>
           <div className="space-y-4">
@@ -127,13 +127,13 @@ export default function PoolEquipmentInstallationBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Ready to Upgrade Your Pool?
           </h2>
           <Button size="lg" className="min-w-56">
             Discuss Your Project
           </Button>
-          <p className="text-sm text-foreground/85 mt-4">
+          <p className="text-sm text-foreground/80 mt-4">
             <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
           </p>
         </div>
