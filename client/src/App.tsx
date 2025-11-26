@@ -25,6 +25,9 @@ import DenpasarPoolMaintenance from "@/pages/location-denpasar";
 import JimbaranPoolCleaning from "@/pages/location-jimbaran";
 import NusaDuaPoolCleaning from "@/pages/location-nusa-dua";
 import LegianPoolCleaning from "@/pages/location-legian";
+import UluwatuPoolCleaning from "@/pages/location-uluwatu";
+import KerobokanPoolCleaning from "@/pages/location-kerobokan";
+import PererenanPoolCleaning from "@/pages/location-pererenan";
 import FAQ from "@/pages/faq";
 import MaintenanceGuide from "@/pages/maintenance-guide";
 import PoolCalculator from "@/pages/pool-calculator";
@@ -82,6 +85,18 @@ function Router() {
       <Route path="/pool-cleaning-jimbaran" component={JimbaranPoolCleaning} />
       <Route path="/pool-cleaning-nusa-dua" component={NusaDuaPoolCleaning} />
       <Route path="/pool-cleaning-legian" component={LegianPoolCleaning} />
+      <Route path="/location-canggu" component={CangguPoolCleaning} />
+      <Route path="/location-seminyak" component={SeminyakPoolCleaning} />
+      <Route path="/location-ubud" component={UbudPoolCleaning} />
+      <Route path="/location-sanur" component={SanurPoolCleaning} />
+      <Route path="/location-kuta" component={KutaPoolCleaning} />
+      <Route path="/location-denpasar" component={DenpasarPoolMaintenance} />
+      <Route path="/location-jimbaran" component={JimbaranPoolCleaning} />
+      <Route path="/location-nusa-dua" component={NusaDuaPoolCleaning} />
+      <Route path="/location-legian" component={LegianPoolCleaning} />
+      <Route path="/location-uluwatu" component={UluwatuPoolCleaning} />
+      <Route path="/location-kerobokan" component={KerobokanPoolCleaning} />
+      <Route path="/location-pererenan" component={PererenanPoolCleaning} />
       <Route path="/faq" component={FAQ} />
       <Route path="/maintenance-guide" component={MaintenanceGuide} />
       <Route path="/pool-calculator" component={PoolCalculator} />

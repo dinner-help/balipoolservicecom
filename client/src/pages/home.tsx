@@ -6,7 +6,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "wouter";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
-import { StickyWhatsApp } from "@/components/sticky-whatsapp";
 
 export default function Home() {
   const structuredData = {
@@ -107,7 +106,6 @@ export default function Home() {
       </Helmet>
 
       <Navigation />
-      <StickyWhatsApp />
 
       {/* 1. HERO SECTION */}
       <section className="relative pt-20 pb-24 md:pt-28 md:pb-32 bg-gradient-to-br from-cyan-50 via-white to-blue-50 overflow-hidden">

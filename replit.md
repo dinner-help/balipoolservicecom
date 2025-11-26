@@ -12,6 +12,24 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+### November 26, 2025
+- **Major Homepage Redesign**: Rebuilt homepage as ultra-long 10-section conversion-focused landing page:
+  1. Hero Section with trust badges
+  2. Problem Section (why Bali pools need pro care)
+  3. Service Packages Section (4 cards)
+  4. Why Choose Us Section
+  5. Before/After Results Section
+  6. Service Areas Section (local SEO)
+  7. How It Works (3 steps)
+  8. Testimonials Section
+  9. FAQ Section
+  10. Final CTA Section with Pricing
+- **Ultra-minimal Navigation**: Simplified to only 4 items: Home, Services (dropdown with 12+ services), Pricing, Contact/WhatsApp button
+- **Comprehensive Footer**: 4-column SEO footer with Main Links (12 services), Service Areas (12 locations), Company Info (9 links), Help & Info (9 resources)
+- **Sticky WhatsApp Button**: Added persistent bottom-right WhatsApp CTA with hover tooltip
+- **New Location Pages**: Created location-uluwatu.tsx, location-kerobokan.tsx, location-pererenan.tsx with local SEO content
+- **Route Consolidation**: Added /location-* routes for all 12 service areas for consistent internal linking
+
 ### October 14, 2025
 - **Navigation optimization**: Reduced navigation height (56-64px), created animated logo with water droplet ripple effect, improved mobile responsiveness with visible theme toggle, added compact design with smaller buttons and tighter spacing
 - **Visual enhancements**: Added 6 stock images across customer segments and services sections for better visual storytelling and engagement
