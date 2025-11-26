@@ -1,18 +1,21 @@
 import { Helmet } from "react-helmet-async";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Clock, Phone, CheckCircle2, Star, Building2 } from "lucide-react";
+import { MapPin, Clock, CheckCircle2, Star, ArrowRight, Building2, Shield, Award, Users } from "lucide-react";
+import { Link } from "wouter";
+import { WhatsAppCTA } from "@/components/whatsapp-cta";
+import { TrustElements } from "@/components/trust-elements";
+import { ServicePricing } from "@/components/service-pricing";
 
 export default function KutaPoolCleaning() {
   const services = [
-    "Hotel & commercial pool maintenance",
-    "High-volume pool service packages",
-    "Weekly and twice-weekly cleaning",
-    "Budget-friendly maintenance options",
-    "Equipment repair and replacement",
-    "24/7 emergency service"
+    { name: "Hotel Pool Service", description: "Commercial-grade maintenance", link: "/hotel-resort-pool-service-bali" },
+    { name: "Weekly Maintenance", description: "Regular scheduled cleaning", link: "/weekly-pool-maintenance-bali" },
+    { name: "Pool Equipment Repair", description: "Pump, filter, and equipment fixes", link: "/pool-pump-repair-bali" },
+    { name: "Emergency Service", description: "24/7 urgent pool repairs", link: "/emergency-pool-repair-bali" },
+    { name: "Green Pool Recovery", description: "Algae removal specialists", link: "/green-pool-cleaning-bali" },
+    { name: "Water Chemistry", description: "Professional testing & balancing", link: "/chemical-balancing-service-bali" },
   ];
 
   const neighborhoods = [
@@ -20,274 +23,264 @@ export default function KutaPoolCleaning() {
     "Dewi Sartika", "Raya Kuta", "Bypass Ngurah Rai", "Airport Area"
   ];
 
+  const nearbyLocations = [
+    { name: "Legian", slug: "/location-legian" },
+    { name: "Seminyak", slug: "/location-seminyak" },
+    { name: "Jimbaran", slug: "/location-jimbaran" },
+    { name: "Denpasar", slug: "/location-denpasar" },
+  ];
+
+  const faqs = [
+    {
+      question: "How much does pool cleaning cost in Kuta?",
+      answer: "Pool cleaning in Kuta starts from IDR 2,900,000/month for residential pools. Hotels and commercial properties receive custom quotes based on pool size and service frequency."
+    },
+    {
+      question: "Do you service hotels and guesthouses in Kuta?",
+      answer: "Yes! We specialize in Kuta hotel and guesthouse pools. We offer daily service options, early morning scheduling, and compliance documentation for commercial properties."
+    },
+    {
+      question: "Can you handle high-volume commercial pools?",
+      answer: "Absolutely! Our team has experience with high-traffic hotel pools. We provide daily maintenance, rapid chemical adjustment, and equipment monitoring for busy properties."
+    },
+    {
+      question: "What about budget-friendly options?",
+      answer: "We offer competitive pricing for Kuta properties at all budget levels. Our Silver package provides reliable weekly maintenance starting at IDR 2,900,000/month."
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Kuta | Hotel Pool Maintenance Service Bali</title>
-        <meta name="description" content="Professional pool cleaning in Kuta, Bali. Hotel & commercial pool specialists, high-volume service, budget-friendly packages. Call +6282237565997" />
-        <meta name="keywords" content="pool cleaning kuta, kuta pool maintenance, hotel pool service bali, commercial pool cleaning kuta, affordable pool maintenance kuta" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-kuta" />
+        <title>Pool Cleaning Kuta | Hotel & Commercial Pool Service Bali</title>
+        <meta name="description" content="Professional pool cleaning in Kuta for hotels, guesthouses & villas. From IDR 2.9M/month. High-volume service, 24/7 support. WhatsApp: +62 822-3756-5997" />
+        <meta name="keywords" content="pool cleaning Kuta, Kuta pool maintenance, hotel pool service Bali, commercial pool cleaning Kuta, guesthouse pool maintenance, Tuban pool service, Kartika Plaza pool cleaning" />
+        <meta property="og:title" content="Pool Cleaning Kuta | Hotel Pool Service Bali" />
+        <meta property="og:description" content="Expert pool cleaning in Kuta. Hotels, guesthouses & villas. From IDR 2.9M/month." />
+        <link rel="canonical" href="https://poolservicebali.com/location-kuta" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Pool Service Bali - Kuta",
+            "description": "Professional pool cleaning for hotels, guesthouses, and villas in Kuta, Bali",
+            "telephone": "+62-822-3756-5997",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kuta",
+              "addressRegion": "Bali",
+              "addressCountry": "ID"
+            },
+            "areaServed": ["Kuta", "Tuban", "Kartika Plaza", "Legian"],
+            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+          })}
+        </script>
       </Helmet>
 
-             <Navigation />
+      <Navigation />
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-primary/10 via-background to-background py-20 md:py-32">
+        <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-primary/5 to-transparent">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
                 <Building2 className="h-4 w-4" />
                 <span className="text-sm font-semibold">Kuta Pool Service</span>
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Professional Pool Cleaning & Maintenance in Kuta, Bali
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                Pool Cleaning Service in Kuta, Bali
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Reliable pool service for Kuta's hotels, guesthouses, and villa properties. Budget-friendly packages, high-volume service capability, and professional maintenance you can trust.
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+                Professional <strong>pool cleaning</strong> for Kuta's <strong>hotels</strong>, <strong>guesthouses</strong>, and <strong>villa properties</strong>. High-volume service capability, budget-friendly packages, and reliable maintenance in Tuban, Kartika Plaza, and all Kuta areas.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild data-testid="button-call-kuta">
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Kuta">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 822-375-65997
-                  </a>
-                </Button>
-                <Button size="lg" variant="outline" asChild data-testid="button-pricing">
-                  <a href="#pricing">View Pricing</a>
-                </Button>
-              </div>
+
+              <TrustElements variant="compact" className="mb-8" />
+
+              <WhatsAppCTA 
+                variant="hero" 
+                service="pool cleaning" 
+                location="Kuta"
+                buttonText="Get Free Kuta Quote"
+              />
             </div>
           </div>
         </section>
 
-        {/* Why Kuta */}
-        <section className="py-20 md:py-32">
+        {/* Why Kuta Properties Choose Us */}
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Pool Service Solutions for Kuta Properties
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Why Kuta Properties Choose Professional Pool Service
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card data-testid="card-commercial">
+            <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
+              Kuta's busy tourism hub requires reliable <strong>pool maintenance</strong> that keeps up with high guest turnover.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <Card>
                 <CardContent className="p-6">
-                  <Building2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Commercial Pool Experts</h3>
+                  <Building2 className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Commercial Expertise</h3>
                   <p className="text-muted-foreground">
-                    Specialized in hotel, guesthouse, and multi-unit property pool maintenance. We handle high-volume cleaning schedules and coordinate service around guest activities.
+                    Kuta's hotels and guesthouses need reliable <strong>commercial pool service</strong>. We understand high-volume pool demands and health compliance requirements.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-budget">
+              <Card>
                 <CardContent className="p-6">
-                  <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Budget-Friendly Options</h3>
+                  <Users className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">High Guest Turnover</h3>
                   <p className="text-muted-foreground">
-                    Competitive pricing for Kuta's value-oriented market without sacrificing quality. Volume discounts available for multiple properties or frequent service schedules.
+                    <strong>Kuta hotel pools</strong> see constant use. Daily service options and rapid response ensure pools stay clean regardless of occupancy levels.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-reliable">
+              <Card>
                 <CardContent className="p-6">
-                  <Star className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">High Guest Turnover Ready</h3>
+                  <Shield className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Budget Flexibility</h3>
                   <p className="text-muted-foreground">
-                    Kuta's busy tourism hub means constant pool usage. We provide frequent cleaning schedules, quick response times, and maintain crystal-clear water for daily guest satisfaction.
+                    From budget guesthouses to luxury hotels, we offer <strong>pool cleaning packages</strong> that fit every property's needs and budget.
                   </p>
                 </CardContent>
               </Card>
             </div>
+
+            <TrustElements variant="experience" location="Kuta" />
           </div>
         </section>
 
         {/* Services */}
-        <section className="py-20 md:py-32 bg-accent/5">
+        <section className="py-16 md:py-24 bg-accent/5">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Kuta Pool Maintenance Services
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Services in Kuta
             </h2>
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {services.map((service, index) => (
-                <div key={index} className="flex items-start gap-3" data-testid={`service-${index}`}>
-                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg">{service}</span>
-                </div>
+                <Link key={index} href={service.link}>
+                  <Card className="hover-elevate cursor-pointer h-full">
+                    <CardContent className="p-6">
+                      <h3 className="font-bold mb-2">{service.name}</h3>
+                      <p className="text-sm text-muted-foreground mb-4">{service.description}</p>
+                      <span className="text-primary text-sm font-medium flex items-center gap-1">
+                        Learn more <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
+
             <div className="bg-card border rounded-xl p-8 max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">20 Min</div>
-                  <div className="text-sm text-muted-foreground">Average Response Time</div>
+                  <div className="text-xs text-muted-foreground">Average Response</div>
                 </div>
                 <div>
                   <Star className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">100+</div>
-                  <div className="text-sm text-muted-foreground">Kuta Properties Serviced</div>
+                  <div className="text-xs text-muted-foreground">Kuta Clients</div>
                 </div>
                 <div>
-                  <Building2 className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <div className="text-2xl font-bold mb-1">30+</div>
-                  <div className="text-sm text-muted-foreground">Hotels & Guesthouses</div>
+                  <Award className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <div className="text-2xl font-bold mb-1">10+</div>
+                  <div className="text-xs text-muted-foreground">Years Experience</div>
+                </div>
+                <div>
+                  <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <div className="text-2xl font-bold mb-1">100%</div>
+                  <div className="text-xs text-muted-foreground">Satisfaction</div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Service Areas */}
-        <section className="py-20 md:py-32">
+        {/* Pricing */}
+        <section className="py-16 md:py-24" id="pricing">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <ServicePricing 
+              serviceName="Pool Cleaning" 
+              serviceSlug="location-kuta"
+              location="Kuta"
+            />
+          </div>
+        </section>
+
+        {/* Neighborhoods */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
               Kuta Areas We Serve
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
               {neighborhoods.map((area, index) => (
-                <div key={index} className="flex items-center gap-2 p-4 bg-accent/5 rounded-lg" data-testid={`area-${index}`}>
-                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                <div key={index} className="flex items-center gap-2 p-4 bg-card rounded-lg border">
+                  <MapPin className="h-5 w-5 text-primary" />
                   <span className="font-medium">{area}</span>
                 </div>
               ))}
             </div>
-            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
-              Complete pool cleaning coverage throughout Kuta and surrounding areas with fast response times and reliable service schedules.
-            </p>
+
+            <div className="text-center mb-12">
+              <h3 className="text-xl font-bold mb-4">Nearby Service Areas</h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {nearbyLocations.map((loc) => (
+                  <Link key={loc.slug} href={loc.slug}>
+                    <Card className="hover-elevate cursor-pointer">
+                      <CardContent className="p-4 flex items-center gap-2">
+                        <MapPin className="h-4 w-4 text-primary" />
+                        <span>Pool Service {loc.name}</span>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <WhatsAppCTA variant="section" service="pool cleaning" location="Kuta" />
           </div>
         </section>
 
-        {/* Pricing */}
-        <section id="pricing" className="py-20 md:py-32 bg-accent/5">
+        {/* Trust & Safety */}
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Kuta Pool Service Pricing
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Small Pool</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Up to 25m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 325,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Complete cleaning</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Water chemistry</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Chemicals included</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card className="border-primary border-2">
-                <CardContent className="p-6">
-                  <div className="inline-block px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full mb-2">
-                    BEST VALUE
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Guesthouse/Hotel</h3>
-                  <p className="text-sm text-muted-foreground mb-4">25-50m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 425,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>High-traffic pool care</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Equipment inspection</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Flexible scheduling</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Multi-Unit/Chain</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Multiple properties</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Custom</div>
-                  <p className="text-sm text-muted-foreground mb-4">Volume discounts</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Bulk pricing</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Coordinated service</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Dedicated team</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+            <TrustElements variant="guarantees" location="Kuta" className="mb-12" />
+            <TrustElements variant="safety" location="Kuta" />
           </div>
         </section>
 
-        {/* FAQ */}
-        <section className="py-20 md:py-32">
-          <div className="max-w-4xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Kuta Pool Service FAQs
+        {/* FAQs */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Cleaning Kuta - FAQs
             </h2>
-            <div className="space-y-6">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">Can you handle multiple properties in Kuta?</h3>
-                  <p className="text-muted-foreground">
-                    Yes! We offer volume discounts for property managers and hotel chains with multiple pools. We can coordinate service schedules efficiently across all your Kuta properties with a dedicated technician team.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">Do you work around guest schedules for hotels?</h3>
-                  <p className="text-muted-foreground">
-                    Absolutely! We provide flexible scheduling to avoid peak guest hours. Our technicians work discreetly and efficiently, typically during early morning or late afternoon to minimize guest disruption.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">What's your emergency response time in Kuta?</h3>
-                  <p className="text-muted-foreground">
-                    Our average emergency response time in Kuta is 20 minutes. We understand that pool problems in busy hotels need immediate attention, and we prioritize rapid response for commercial properties.
-                  </p>
-                </CardContent>
-              </Card>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-5xl mx-auto">
+              {faqs.map((faq, index) => (
+                <Card key={index}>
+                  <CardContent className="p-6">
+                    <h3 className="font-bold mb-3">{faq.question}</h3>
+                    <p className="text-sm text-muted-foreground">{faq.answer}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
+
+            <WhatsAppCTA variant="section" service="pool cleaning" location="Kuta" />
           </div>
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 md:py-32 bg-gradient-to-b from-primary/10 to-background">
-          <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Reliable Pool Service for Kuta Properties
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Trusted by hotels, guesthouses, and property managers throughout Kuta for professional, affordable pool maintenance.
-            </p>
-            <Button size="lg" asChild data-testid="button-contact-kuta">
-              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Kuta">
-                <Phone className="mr-2 h-5 w-5" />
-                Contact Us - Kuta Pool Service
-              </a>
-            </Button>
-            <p className="text-sm text-muted-foreground mt-4">
-              WhatsApp: +62 822-375-65997
-            </p>
+        <section className="py-16 md:py-24">
+          <div className="max-w-4xl mx-auto px-6 md:px-8">
+            <WhatsAppCTA variant="footer" service="pool cleaning service" location="Kuta" />
           </div>
         </section>
       </main>

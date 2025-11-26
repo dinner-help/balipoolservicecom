@@ -1,18 +1,21 @@
 import { Helmet } from "react-helmet-async";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Clock, Phone, CheckCircle2, Star, Mountain } from "lucide-react";
+import { MapPin, Clock, CheckCircle2, Star, ArrowRight, Droplets, Shield, Award, Mountain, Leaf } from "lucide-react";
+import { Link } from "wouter";
+import { WhatsAppCTA } from "@/components/whatsapp-cta";
+import { TrustElements } from "@/components/trust-elements";
+import { ServicePricing } from "@/components/service-pricing";
 
 export default function UbudPoolCleaning() {
   const services = [
-    "Mountain pool water quality management",
-    "Eco-friendly chemical options for resorts",
-    "Weekly and bi-weekly maintenance",
-    "Equipment inspection and repair",
-    "Algae prevention in humid climate",
-    "Luxury resort-grade service standards"
+    { name: "Mountain Pool Care", description: "Specialized highland water treatment", link: "/pool-cleaning-service-bali" },
+    { name: "Eco-Friendly Options", description: "Sustainable chemical alternatives", link: "/chemical-balancing-service-bali" },
+    { name: "Weekly Maintenance", description: "Regular scheduled service visits", link: "/weekly-pool-maintenance-bali" },
+    { name: "Resort-Grade Service", description: "Luxury property standards", link: "/hotel-resort-pool-service-bali" },
+    { name: "Green Pool Recovery", description: "Algae and water restoration", link: "/green-pool-cleaning-bali" },
+    { name: "Equipment Maintenance", description: "Pump and filter servicing", link: "/pool-pump-repair-bali" },
   ];
 
   const neighborhoods = [
@@ -20,337 +23,264 @@ export default function UbudPoolCleaning() {
     "Mas", "Peliatan", "Lodtunduh", "Sayan"
   ];
 
+  const nearbyLocations = [
+    { name: "Gianyar", slug: "/location-gianyar" },
+    { name: "Denpasar", slug: "/location-denpasar" },
+    { name: "Sanur", slug: "/location-sanur" },
+    { name: "Candidasa", slug: "/location-candidasa" },
+  ];
+
+  const faqs = [
+    {
+      question: "How much does pool cleaning cost in Ubud?",
+      answer: "Pool cleaning in Ubud starts from IDR 2,900,000/month for weekly service. Mountain villas may require specialized water treatment, which we include in our comprehensive packages."
+    },
+    {
+      question: "What's different about pool maintenance in Ubud?",
+      answer: "Ubud's highland location means different water chemistry challenges, higher organic debris from rice terraces, and unique mineral content. Our technicians are trained in mountain pool care."
+    },
+    {
+      question: "Do you service all areas of Ubud?",
+      answer: "Yes! We cover all Ubud areas including Ubud Center, Tegallalang, Campuhan, Penestanan, Mas, Peliatan, Lodtunduh, and Sayan. We travel to even remote jungle villas."
+    },
+    {
+      question: "Can you handle eco-resort pool requirements?",
+      answer: "Absolutely! Many Ubud eco-resorts trust us for sustainable pool care. We offer eco-friendly chemical options and work within your environmental guidelines."
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Ubud | Mountain Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. Eco-friendly options, highland water expertise. Luxury service standards. Call +6282237565997" />
-        <meta name="keywords" content="pool cleaning ubud, ubud pool maintenance, mountain pool service bali, rice terrace villa pool cleaning, eco pool cleaning ubud" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-ubud" />
+        <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. From IDR 2.9M/month. Eco-friendly options, highland water expertise. WhatsApp: +62 822-3756-5997" />
+        <meta name="keywords" content="pool cleaning Ubud, Ubud pool maintenance, mountain pool service Bali, rice terrace villa pool cleaning, eco pool cleaning Ubud, Tegallalang pool service, Penestanan pool maintenance" />
+        <meta property="og:title" content="Pool Cleaning Ubud | Mountain Villa Pool Service Bali" />
+        <meta property="og:description" content="Expert pool cleaning in Ubud. Serving Tegallalang, Campuhan, Sayan & all areas. From IDR 2.9M/month." />
+        <link rel="canonical" href="https://poolservicebali.com/location-ubud" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Pool Service Bali - Ubud",
+            "description": "Professional pool cleaning for mountain villas and resorts in Ubud, Bali",
+            "telephone": "+62-822-3756-5997",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ubud",
+              "addressRegion": "Bali",
+              "addressCountry": "ID"
+            },
+            "areaServed": ["Ubud", "Tegallalang", "Campuhan", "Penestanan", "Sayan"],
+            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+          })}
+        </script>
       </Helmet>
 
-             <Navigation />
+      <Navigation />
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-primary/10 via-background to-background py-20 md:py-32">
+        <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-primary/5 to-transparent">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
                 <Mountain className="h-4 w-4" />
                 <span className="text-sm font-semibold">Ubud Pool Service</span>
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Mountain Villa Pool Cleaning & Maintenance in Ubud, Bali
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                Mountain Villa Pool Cleaning in Ubud, Bali
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Specialized pool service for Ubud's mountain villas, luxury resorts, and eco-conscious properties. Expert solutions for highland water quality and sustainable pool care.
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+                Specialized <strong>pool cleaning</strong> for Ubud's <strong>mountain villas</strong>, <strong>luxury resorts</strong>, and <strong>eco-conscious properties</strong>. Expert solutions for highland water quality and sustainable pool care in Tegallalang, Campuhan, Sayan, and all Ubud areas.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild data-testid="button-call-ubud">
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Ubud">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 822-375-65997
-                  </a>
-                </Button>
-                <Button size="lg" variant="outline" asChild data-testid="button-pricing">
-                  <a href="#pricing">View Pricing</a>
-                </Button>
-              </div>
+
+              <TrustElements variant="compact" className="mb-8" />
+
+              <WhatsAppCTA 
+                variant="hero" 
+                service="pool cleaning" 
+                location="Ubud"
+                buttonText="Get Free Ubud Quote"
+              />
             </div>
           </div>
         </section>
 
-        {/* Why Ubud is Different */}
-        <section className="py-20 md:py-32">
+        {/* Why Ubud Properties Need Specialized Pool Maintenance */}
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Unique Pool Challenges in Ubud's Highland Climate
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Why Ubud Pools Need Specialized Maintenance
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card data-testid="card-mountain">
+            <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
+              Ubud's unique highland environment creates specific challenges for <strong>pool maintenance</strong> that require specialized expertise.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <Card>
                 <CardContent className="p-6">
-                  <Mountain className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Mountain Water Quality</h3>
+                  <Mountain className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Highland Water Chemistry</h3>
                   <p className="text-muted-foreground">
-                    Ubud's highland elevation (300-600m) affects water chemistry differently than coastal areas. Our technicians understand mineral content from mountain water sources and adjust treatments accordingly.
+                    Ubud's mountain water sources have different mineral content and pH levels. Our <strong>Ubud pool cleaning</strong> experts understand these unique characteristics.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-rainfall">
+              <Card>
                 <CardContent className="p-6">
-                  <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Higher Rainfall Management</h3>
+                  <Leaf className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Jungle Environment</h3>
                   <p className="text-muted-foreground">
-                    Ubud receives more rainfall than coastal Bali (2,000+ mm annually). We proactively manage overflow, water dilution, and post-rain chemical rebalancing to keep pools crystal clear.
+                    Rice terraces and tropical vegetation mean more organic debris. We handle the extra maintenance needs of <strong>jungle pool care</strong> effectively.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-eco">
+              <Card>
                 <CardContent className="p-6">
-                  <Star className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="text-xl font-bold mb-4">Eco-Conscious Solutions</h3>
+                  <Droplets className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Eco-Resort Standards</h3>
                   <p className="text-muted-foreground">
-                    Ubud's wellness and sustainability culture demands environmentally responsible pool care. We offer mineral pool systems, plant-based options, and reduced-chemical programs without compromising water quality.
+                    Many Ubud properties prioritize sustainability. We offer eco-friendly <strong>pool maintenance</strong> options that align with environmental values.
                   </p>
                 </CardContent>
               </Card>
             </div>
+
+            <TrustElements variant="experience" location="Ubud" />
           </div>
         </section>
 
         {/* Services */}
-        <section className="py-20 md:py-32 bg-accent/5">
+        <section className="py-16 md:py-24 bg-accent/5">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Ubud Pool Maintenance Services
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Services in Ubud
             </h2>
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {services.map((service, index) => (
-                <div key={index} className="flex items-start gap-3" data-testid={`service-${index}`}>
-                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg">{service}</span>
-                </div>
+                <Link key={index} href={service.link}>
+                  <Card className="hover-elevate cursor-pointer h-full">
+                    <CardContent className="p-6">
+                      <h3 className="font-bold mb-2">{service.name}</h3>
+                      <p className="text-sm text-muted-foreground mb-4">{service.description}</p>
+                      <span className="text-primary text-sm font-medium flex items-center gap-1">
+                        Learn more <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
+
             <div className="bg-card border rounded-xl p-8 max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <div className="text-2xl font-bold mb-1">60 Min</div>
-                  <div className="text-sm text-muted-foreground">Response Time to Ubud</div>
+                  <div className="text-2xl font-bold mb-1">45 Min</div>
+                  <div className="text-xs text-muted-foreground">Average Response</div>
                 </div>
                 <div>
                   <Star className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">80+</div>
-                  <div className="text-sm text-muted-foreground">Ubud Villas & Resorts</div>
+                  <div className="text-xs text-muted-foreground">Ubud Clients</div>
                 </div>
                 <div>
-                  <Mountain className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <Award className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <div className="text-2xl font-bold mb-1">10+</div>
+                  <div className="text-xs text-muted-foreground">Years Experience</div>
+                </div>
+                <div>
+                  <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">100%</div>
-                  <div className="text-sm text-muted-foreground">Mountain Water Expertise</div>
+                  <div className="text-xs text-muted-foreground">Satisfaction</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Service Areas */}
-        <section className="py-20 md:py-32">
-          <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Ubud Areas We Serve
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-              {neighborhoods.map((area, index) => (
-                <div key={index} className="flex items-center gap-2 p-4 bg-accent/5 rounded-lg" data-testid={`area-${index}`}>
-                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
-                  <span className="font-medium">{area}</span>
-                </div>
-              ))}
-            </div>
-            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
-              Complete pool cleaning coverage throughout Ubud's mountain communities, from Tegallalang's rice terraces to Sayan's riverside villas.
-            </p>
-          </div>
-        </section>
-
-        {/* Common Pool Types in Ubud */}
-        <section className="py-20 md:py-32 bg-accent/5">
-          <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Pool Types We Service in Ubud
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              <Card data-testid="card-jungle-villa">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">Jungle & Riverside Villa Pools</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Most common in Ubud - pools surrounded by lush jungle and rice paddies with heavy organic debris (leaves, flowers, insects). Highland location means challenging mountain water chemistry and frequent <a href="/green-pool-cleaning-bali" className="text-primary hover-elevate underline" data-testid="link-green-pool">algae problems</a> from rainfall dilution.
-                  </p>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Weekly cleaning essential due to debris</li>
-                    <li>• Mountain water chemistry expertise required</li>
-                    <li>• Extra filter cleaning during rainy season</li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card data-testid="card-wellness-resort">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">Wellness Resort & Retreat Pools</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Yoga retreats and wellness resorts requiring chemical-sensitive maintenance for guests with sensitivities. Eco-friendly <a href="/saltwater-pool-maintenance-bali" className="text-primary hover-elevate underline" data-testid="link-saltwater">saltwater systems</a> popular, mineral pools, natural filtration - all needing specialized expertise.
-                  </p>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Eco-friendly and natural pool options</li>
-                    <li>• Guest health and safety focus</li>
-                    <li>• Flexible scheduling around retreat schedules</li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card data-testid="card-boutique-hotel">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">Boutique Hotel & Guesthouse Pools</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Small intimate pools (15-35m²) in boutique properties requiring impeccable standards despite heavy debris challenges. Equipment faces extra strain from altitude and temperature fluctuations needing proactive <a href="/pool-pump-repair-bali" className="text-primary hover-elevate underline" data-testid="link-pump-repair">pump maintenance</a>.
-                  </p>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Bi-weekly or weekly service recommended</li>
-                    <li>• Aesthetic focus for guest photos/reviews</li>
-                    <li>• Quick response for guest-related issues</li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card data-testid="card-private-estate-ubud">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">Private Estate & Artist Villa Pools</h3>
-                  <p className="text-muted-foreground mb-4">
-                    High-end private properties in Sayan and Payangan with unique artistic pool designs. Often feature natural rock, custom tile work requiring gentle cleaning methods. Older pools may benefit from <a href="/pool-renovation-bali" className="text-primary hover-elevate underline" data-testid="link-renovation">modernization upgrades</a>.
-                  </p>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Weekly maintenance with care for custom surfaces</li>
-                    <li>• Premium eco-friendly chemicals available</li>
-                    <li>• Renovation consultation for aging pools</li>
-                  </ul>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </section>
 
         {/* Pricing */}
-        <section id="pricing" className="py-20 md:py-32 bg-accent/5">
+        <section className="py-16 md:py-24" id="pricing">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Pool Service Pricing for Ubud
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Villa Pool</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Up to 25m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 375,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Mountain water expertise</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Rainfall management</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Eco-friendly chemicals</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card className="border-primary border-2">
-                <CardContent className="p-6">
-                  <div className="inline-block px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full mb-2">
-                    RESORT STANDARD
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Luxury Villa/Resort</h3>
-                  <p className="text-sm text-muted-foreground mb-4">25-50m²</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 475,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Premium eco options</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Equipment maintenance</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Digital reports</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Commercial Resort</h3>
-                  <p className="text-sm text-muted-foreground mb-4">50m²+</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Custom</div>
-                  <p className="text-sm text-muted-foreground mb-4">Contact for quote</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Dedicated technician</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Multi-pool packages</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Compliance documentation</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+            <ServicePricing 
+              serviceName="Pool Cleaning" 
+              serviceSlug="location-ubud"
+              location="Ubud"
+            />
           </div>
         </section>
 
-        {/* FAQ */}
-        <section className="py-20 md:py-32">
-          <div className="max-w-4xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Ubud Pool Service Questions
+        {/* Neighborhoods */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Ubud Areas We Serve
             </h2>
-            <div className="space-y-6">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">How does mountain altitude affect pool maintenance in Ubud?</h3>
-                  <p className="text-muted-foreground">
-                    Ubud's elevation (300-600m) results in different water mineralization and cooler nighttime temperatures. We adjust chemical dosing and filtration schedules to account for these highland conditions.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">Do you use eco-friendly chemicals for Ubud wellness resorts?</h3>
-                  <p className="text-muted-foreground">
-                    Yes! We specialize in mineral pool systems, plant-based sanitizers, and reduced-chemical programs perfect for Ubud's eco-conscious wellness properties while maintaining pristine water quality.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">How do you handle Ubud's heavy rainfall seasons?</h3>
-                  <p className="text-muted-foreground">
-                    We proactively monitor weather patterns and schedule post-rain service visits. Our team rebalances diluted chemicals, manages overflow, and prevents algae blooms that heavy rain can trigger.
-                  </p>
-                </CardContent>
-              </Card>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+              {neighborhoods.map((area, index) => (
+                <div key={index} className="flex items-center gap-2 p-4 bg-card rounded-lg border">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  <span className="font-medium">{area}</span>
+                </div>
+              ))}
             </div>
+
+            <div className="text-center mb-12">
+              <h3 className="text-xl font-bold mb-4">Nearby Service Areas</h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {nearbyLocations.map((loc) => (
+                  <Link key={loc.slug} href={loc.slug}>
+                    <Card className="hover-elevate cursor-pointer">
+                      <CardContent className="p-4 flex items-center gap-2">
+                        <MapPin className="h-4 w-4 text-primary" />
+                        <span>Pool Service {loc.name}</span>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <WhatsAppCTA variant="section" service="pool cleaning" location="Ubud" />
+          </div>
+        </section>
+
+        {/* Trust & Safety */}
+        <section className="py-16 md:py-24">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <TrustElements variant="guarantees" location="Ubud" className="mb-12" />
+            <TrustElements variant="safety" location="Ubud" />
+          </div>
+        </section>
+
+        {/* FAQs */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Cleaning Ubud - FAQs
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-5xl mx-auto">
+              {faqs.map((faq, index) => (
+                <Card key={index}>
+                  <CardContent className="p-6">
+                    <h3 className="font-bold mb-3">{faq.question}</h3>
+                    <p className="text-sm text-muted-foreground">{faq.answer}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            <WhatsAppCTA variant="section" service="pool cleaning" location="Ubud" />
           </div>
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 md:py-32 bg-gradient-to-b from-primary/10 to-background">
-          <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Professional Pool Care for Ubud's Mountain Villas
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Trusted by Ubud's luxury resorts, wellness retreats, and private villas for eco-conscious, expert pool maintenance.
-            </p>
-            <Button size="lg" asChild data-testid="button-contact-ubud">
-              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Ubud">
-                <Phone className="mr-2 h-5 w-5" />
-                Contact Us - Ubud Pool Service
-              </a>
-            </Button>
-            <p className="text-sm text-muted-foreground mt-4">
-              WhatsApp: +62 822-375-65997
-            </p>
+        <section className="py-16 md:py-24">
+          <div className="max-w-4xl mx-auto px-6 md:px-8">
+            <WhatsAppCTA variant="footer" service="pool cleaning service" location="Ubud" />
           </div>
         </section>
       </main>

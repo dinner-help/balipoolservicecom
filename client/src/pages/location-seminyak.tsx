@@ -1,91 +1,143 @@
 import { Helmet } from "react-helmet-async";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Clock, Phone, CheckCircle2, Star } from "lucide-react";
+import { MapPin, Clock, CheckCircle2, Star, ArrowRight, Droplets, Shield, Award, Users } from "lucide-react";
+import { Link } from "wouter";
+import { WhatsAppCTA } from "@/components/whatsapp-cta";
+import { TrustElements } from "@/components/trust-elements";
+import { ServicePricing } from "@/components/service-pricing";
 
 export default function SeminyakPoolCleaning() {
   const services = [
-    "Weekly pool cleaning and maintenance",
-    "Water chemistry testing and balancing",
-    "Filter cleaning and equipment inspection",
-    "Algae treatment and prevention",
-    "Pool equipment repair and replacement",
-    "Emergency same-day service available"
+    { name: "Weekly Pool Cleaning", description: "Regular maintenance to keep your pool pristine", link: "/weekly-pool-maintenance-bali" },
+    { name: "Water Chemistry Balancing", description: "Professional testing and chemical adjustment", link: "/chemical-balancing-service-bali" },
+    { name: "Pool Filter Cleaning", description: "Deep filter maintenance and backwashing", link: "/pool-filter-cleaning-repair-bali" },
+    { name: "Green Pool Recovery", description: "Algae removal and pool restoration", link: "/green-pool-cleaning-bali" },
+    { name: "Pool Equipment Repair", description: "Pump, filter, and equipment fixes", link: "/pool-pump-repair-bali" },
+    { name: "Emergency Service", description: "Same-day urgent pool repairs", link: "/emergency-pool-repair-bali" },
   ];
 
   const neighborhoods = [
-    "Petitenget", "Oberoi", "Kayu Aya", "Seminyak Square Area", 
+    "Petitenget", "Oberoi", "Kayu Aya", "Seminyak Square", 
     "Batu Belig", "Drupadi Street", "Dhyana Pura", "Sunset Road"
+  ];
+
+  const nearbyLocations = [
+    { name: "Kerobokan", slug: "/location-kerobokan" },
+    { name: "Legian", slug: "/location-legian" },
+    { name: "Canggu", slug: "/location-canggu" },
+    { name: "Kuta", slug: "/location-kuta" },
+  ];
+
+  const faqs = [
+    {
+      question: "How much does pool cleaning cost in Seminyak?",
+      answer: "Pool cleaning in Seminyak starts from IDR 2,900,000/month for weekly service. Our Silver package includes 2 visits/week, Gold offers 3 visits/week at IDR 3,900,000/month. Prices include all chemicals and supplies."
+    },
+    {
+      question: "Do you service all areas of Seminyak?",
+      answer: "Yes! We cover all Seminyak neighborhoods including Petitenget, Oberoi, Kayu Aya, Batu Belig, Drupadi Street, Dhyana Pura, and Sunset Road. We also serve nearby areas like Kerobokan and Legian."
+    },
+    {
+      question: "How quickly can you start service in Seminyak?",
+      answer: "We can typically begin service within 24-48 hours. For emergencies, we offer same-day response in Seminyak. WhatsApp us at +62 822-3756-5997 for immediate assistance."
+    },
+    {
+      question: "Do you work with Seminyak villa rental managers?",
+      answer: "Absolutely! Many Seminyak property managers trust us for their villa portfolios. We offer flexible scheduling around guest check-ins, multi-property discounts, and WhatsApp service reports."
+    },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Seminyak | Professional Pool Maintenance Service Bali</title>
-        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. Same-day service, EU-certified chemicals. Call +6282237565997" />
-        <meta name="keywords" content="pool cleaning seminyak, seminyak pool maintenance, villa pool service seminyak, luxury pool cleaning bali, professional pool cleaner seminyak" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-seminyak" />
+        <title>Pool Cleaning Seminyak | Professional Pool Service in Seminyak Bali</title>
+        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. From IDR 2.9M/month. Same-day service. WhatsApp: +62 822-3756-5997" />
+        <meta name="keywords" content="pool cleaning Seminyak, Seminyak pool maintenance, villa pool service Seminyak, pool cleaner Seminyak Bali, swimming pool cleaning Seminyak, pool service Petitenget, pool cleaning Oberoi, Batu Belig pool maintenance" />
+        <meta property="og:title" content="Pool Cleaning Seminyak | Professional Pool Service Bali" />
+        <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 2.9M/month." />
+        <link rel="canonical" href="https://poolservicebali.com/location-seminyak" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Pool Service Bali - Seminyak",
+            "description": "Professional pool cleaning and maintenance service in Seminyak, Bali",
+            "telephone": "+62-822-3756-5997",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Seminyak",
+              "addressRegion": "Bali",
+              "addressCountry": "ID"
+            },
+            "areaServed": ["Seminyak", "Petitenget", "Oberoi", "Batu Belig", "Kayu Aya"],
+            "priceRange": "IDR 2,900,000 - IDR 5,500,000/month"
+          })}
+        </script>
       </Helmet>
 
-             <Navigation />
+      <Navigation />
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-primary/10 via-background to-background py-20 md:py-32">
+        <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-primary/5 to-transparent">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
                 <MapPin className="h-4 w-4" />
                 <span className="text-sm font-semibold">Seminyak Pool Service</span>
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Professional Pool Cleaning & Maintenance in Seminyak, Bali
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                Pool Cleaning Service in Seminyak, Bali
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Expert pool service for Seminyak's luxury villas, vacation rentals, and resort properties. Fast response time, premium chemicals, and trusted by hundreds of property owners.
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+                Professional <strong>pool cleaning</strong> and <strong>maintenance</strong> for Seminyak's <strong>luxury villas</strong>, <strong>vacation rentals</strong>, and <strong>resort properties</strong>. Fast response, premium chemicals, trusted by 200+ property owners in Petitenget, Oberoi, Batu Belig, and all Seminyak areas.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild data-testid="button-call-seminyak">
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Now: +62 822-375-65997
-                  </a>
-                </Button>
-                <Button size="lg" variant="outline" asChild data-testid="button-pricing">
-                  <a href="#pricing">View Pricing</a>
-                </Button>
-              </div>
+
+              <TrustElements variant="compact" className="mb-8" />
+
+              <WhatsAppCTA 
+                variant="hero" 
+                service="pool cleaning" 
+                location="Seminyak"
+                buttonText="Get Free Seminyak Quote"
+              />
             </div>
           </div>
         </section>
 
         {/* Why Seminyak Needs Professional Pool Maintenance */}
-        <section className="py-20 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
               Why Seminyak Properties Need Professional Pool Maintenance
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card data-testid="card-climate">
+            <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
+              Seminyak's coastal environment and high-end tourism market demand expert <strong>pool maintenance</strong> to protect your property investment.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <Card>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">Tropical Coastal Climate</h3>
+                  <Droplets className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="text-xl font-bold mb-4">Coastal Climate Challenges</h3>
                   <p className="text-muted-foreground">
-                    Seminyak's beachfront location means higher humidity (75-85%) and salt air that accelerates algae growth and equipment corrosion. Professional maintenance prevents costly damage.
+                    Seminyak's beachfront location means higher humidity (75-85%) and salt air that accelerates algae growth and equipment corrosion. Professional <strong>pool cleaning in Seminyak</strong> prevents costly damage.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-rental">
+              <Card>
                 <CardContent className="p-6">
+                  <Users className="h-8 w-8 text-primary mb-4" />
                   <h3 className="text-xl font-bold mb-4">High Rental Turnover</h3>
                   <p className="text-muted-foreground">
-                    Seminyak villa rentals see constant guest turnover. Crystal-clear water is essential for 5-star reviews and repeat bookings. We ensure your pool is always photo-ready.
+                    <strong>Seminyak villa rentals</strong> see constant guest turnover. Crystal-clear water is essential for 5-star reviews and repeat bookings. We ensure your pool is always photo-ready.
                   </p>
                 </CardContent>
               </Card>
-              <Card data-testid="card-standards">
+              <Card>
                 <CardContent className="p-6">
+                  <Shield className="h-8 w-8 text-primary mb-4" />
                   <h3 className="text-xl font-bold mb-4">International Standards</h3>
                   <p className="text-muted-foreground">
                     Seminyak properties cater to international guests expecting EU/USA pool safety standards. We use NSF-certified chemicals and maintain professional documentation.
@@ -93,206 +145,161 @@ export default function SeminyakPoolCleaning() {
                 </CardContent>
               </Card>
             </div>
+
+            <TrustElements variant="experience" location="Seminyak" />
           </div>
         </section>
 
         {/* Services in Seminyak */}
-        <section className="py-20 md:py-32 bg-accent/5">
+        <section className="py-16 md:py-24 bg-accent/5">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Our Pool Cleaning Services in Seminyak
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Services in Seminyak
             </h2>
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
+            <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
+              Complete <strong>pool care solutions</strong> for Seminyak villas, hotels, and private homes.
+            </p>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {services.map((service, index) => (
-                <div key={index} className="flex items-start gap-3" data-testid={`service-${index}`}>
-                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg">{service}</span>
-                </div>
+                <Link key={index} href={service.link}>
+                  <Card className="hover-elevate cursor-pointer h-full">
+                    <CardContent className="p-6">
+                      <h3 className="font-bold mb-2">{service.name}</h3>
+                      <p className="text-sm text-muted-foreground mb-4">{service.description}</p>
+                      <span className="text-primary text-sm font-medium flex items-center gap-1">
+                        Learn more <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
+
             <div className="bg-card border rounded-xl p-8 max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">30 Min</div>
-                  <div className="text-sm text-muted-foreground">Average Response Time</div>
+                  <div className="text-xs text-muted-foreground">Average Response</div>
                 </div>
                 <div>
                   <Star className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold mb-1">200+</div>
-                  <div className="text-sm text-muted-foreground">Seminyak Properties Serviced</div>
+                  <div className="text-xs text-muted-foreground">Seminyak Clients</div>
                 </div>
                 <div>
-                  <CheckCircle2 className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <div className="text-2xl font-bold mb-1">24/7</div>
-                  <div className="text-sm text-muted-foreground">Emergency Support</div>
+                  <Award className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <div className="text-2xl font-bold mb-1">10+</div>
+                  <div className="text-xs text-muted-foreground">Years Experience</div>
+                </div>
+                <div>
+                  <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
+                  <div className="text-2xl font-bold mb-1">100%</div>
+                  <div className="text-xs text-muted-foreground">Satisfaction</div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Service Areas in Seminyak */}
-        <section className="py-20 md:py-32">
+        {/* Pricing Section */}
+        <section className="py-16 md:py-24" id="pricing">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <ServicePricing 
+              serviceName="Pool Cleaning" 
+              serviceSlug="location-seminyak"
+              location="Seminyak"
+            />
+          </div>
+        </section>
+
+        {/* Neighborhoods We Serve */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
               Seminyak Neighborhoods We Serve
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
+              Our technicians are familiar with every street and villa complex in Seminyak. We provide <strong>pool cleaning services</strong> throughout these areas:
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
               {neighborhoods.map((area, index) => (
-                <div key={index} className="flex items-center gap-2 p-4 bg-accent/5 rounded-lg" data-testid={`area-${index}`}>
-                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                <div key={index} className="flex items-center gap-2 p-4 bg-card rounded-lg border">
+                  <MapPin className="h-5 w-5 text-primary" />
                   <span className="font-medium">{area}</span>
                 </div>
               ))}
             </div>
-            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
-              We provide fast pool cleaning and maintenance service throughout Seminyak with an average response time of 30 minutes for emergency calls.
-            </p>
+
+            <div className="text-center mb-12">
+              <h3 className="text-xl font-bold mb-4">Nearby Service Areas</h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {nearbyLocations.map((loc) => (
+                  <Link key={loc.slug} href={loc.slug}>
+                    <Card className="hover-elevate cursor-pointer">
+                      <CardContent className="p-4 flex items-center gap-2">
+                        <MapPin className="h-4 w-4 text-primary" />
+                        <span>Pool Service {loc.name}</span>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <WhatsAppCTA 
+              variant="section" 
+              service="pool cleaning" 
+              location="Seminyak"
+            />
           </div>
         </section>
 
-        {/* Pricing Section */}
-        <section id="pricing" className="py-20 md:py-32 bg-accent/5">
+        {/* Trust & Guarantees */}
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Pool Cleaning Pricing in Seminyak
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Small Villa Pool</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Up to 25m² (6m x 4m)</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 350,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Complete cleaning & vacuuming</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Water chemistry testing</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Chemicals included</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card className="border-primary border-2">
-                <CardContent className="p-6">
-                  <div className="inline-block px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full mb-2">
-                    MOST POPULAR
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Medium Villa Pool</h3>
-                  <p className="text-sm text-muted-foreground mb-4">25-50m² (10m x 5m)</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Rp 450,000</div>
-                  <p className="text-sm text-muted-foreground mb-4">Per weekly service</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Everything in Small package</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Equipment inspection</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Digital service reports</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Large Pool / Resort</h3>
-                  <p className="text-sm text-muted-foreground mb-4">50m²+ or commercial</p>
-                  <div className="text-3xl font-bold text-primary mb-4">Custom</div>
-                  <p className="text-sm text-muted-foreground mb-4">Contact for quote</p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Everything in Medium package</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>Dedicated technician</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5" />
-                      <span>24/7 priority support</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+            <TrustElements variant="guarantees" location="Seminyak" className="mb-12" />
+            <TrustElements variant="safety" location="Seminyak" />
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-20 md:py-32">
-          <div className="max-w-4xl mx-auto px-6 md:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Frequently Asked Questions - Seminyak Pool Service
+        {/* FAQs */}
+        <section className="py-16 md:py-24 bg-accent/5">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+              Pool Cleaning Seminyak - FAQs
             </h2>
-            <div className="space-y-6">
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">How often should I clean my pool in Seminyak?</h3>
-                  <p className="text-muted-foreground">
-                    Due to Seminyak's coastal humidity and high temperatures, we recommend weekly professional cleaning for residential pools and twice-weekly for vacation rental properties with frequent guest turnover.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">Do you service Airbnb and vacation rental pools in Seminyak?</h3>
-                  <p className="text-muted-foreground">
-                    Yes! We specialize in vacation rental pool maintenance. We work around guest schedules, provide digital reports for remote property owners, and ensure your pool is always photo-ready for the next booking.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">How quickly can you respond to pool emergencies in Seminyak?</h3>
-                  <p className="text-muted-foreground">
-                    Our average emergency response time in Seminyak is 30 minutes. We're based nearby and offer 24/7 emergency support for green water, equipment failures, or urgent cleaning needs before guest arrivals.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-bold mb-2">What chemicals do you use for Seminyak pools?</h3>
-                  <p className="text-muted-foreground">
-                    We offer EU/USA NSF-certified chemicals (recommended for luxury properties and international guests) or Indonesian brand alternatives. All chemicals are included in our service pricing.
-                  </p>
-                </CardContent>
-              </Card>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-5xl mx-auto">
+              {faqs.map((faq, index) => (
+                <Card key={index}>
+                  <CardContent className="p-6">
+                    <h3 className="font-bold mb-3">{faq.question}</h3>
+                    <p className="text-sm text-muted-foreground">{faq.answer}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
+
+            <WhatsAppCTA 
+              variant="section" 
+              service="pool cleaning" 
+              location="Seminyak"
+              message="Hi! I have a question about pool service in Seminyak."
+            />
           </div>
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 md:py-32 bg-gradient-to-b from-primary/10 to-background">
-          <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready for Professional Pool Service in Seminyak?
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Join hundreds of satisfied Seminyak villa owners, property managers, and resort operators who trust us for reliable, professional pool maintenance.
-            </p>
-            <Button size="lg" asChild data-testid="button-contact-seminyak">
-              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Seminyak">
-                <Phone className="mr-2 h-5 w-5" />
-                Contact Us Now - Seminyak Pool Service
-              </a>
-            </Button>
-            <p className="text-sm text-muted-foreground mt-4">
-              Call or WhatsApp: +62 822-375-65997
-            </p>
+        <section className="py-16 md:py-24">
+          <div className="max-w-4xl mx-auto px-6 md:px-8">
+            <WhatsAppCTA 
+              variant="footer" 
+              service="pool cleaning service" 
+              location="Seminyak"
+            />
           </div>
         </section>
       </main>
