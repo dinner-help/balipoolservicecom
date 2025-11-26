@@ -73,7 +73,7 @@ const defaultPackages = [
   },
 ];
 
-const defaultOneTimePrices = [
+const defaultOneTimePrices: { name: string; price: string; description: string; features?: string[] }[] = [
   { name: "One-Time Deep Clean", price: "IDR 850,000 - 1,500,000", description: "Full deep cleaning for neglected or green pools" },
   { name: "Pool Assessment", price: "FREE", description: "On-site inspection and customized quote" },
   { name: "Emergency Call-Out", price: "IDR 500,000+", description: "Same-day urgent service response" },
@@ -208,7 +208,7 @@ export function ServicePricing({
                 <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
                 {item.features && (
                   <ul className="space-y-1 mb-4">
-                    {item.features.map((f, i) => (
+                    {item.features.map((f: string, i: number) => (
                       <li key={i} className="text-xs flex items-center gap-1">
                         <Check className="h-3 w-3 text-primary" />
                         {f}
