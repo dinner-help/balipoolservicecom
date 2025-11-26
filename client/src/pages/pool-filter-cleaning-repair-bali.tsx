@@ -14,13 +14,13 @@ export default function PoolFilterCleaningRepairBali() {
       </Helmet>
 
       {/* Hero */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Filter Cleaning & Repair in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               A clogged filter is the leading cause of cloudy water and poor circulation. Our expert technicians clean, maintain, and repair all filter types to keep your pool crystal clear.
             </p>
             <Button size="lg" className="min-w-48">
@@ -36,12 +36,12 @@ export default function PoolFilterCleaningRepairBali() {
       {/* What We Do */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Filter Services We Provide
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
             <div>
-              <h3 className="text-xl font-bold mb-4">Regular Maintenance</h3>
+              <h3 className="text-xl font-bold text-foreground mb-4">Regular Maintenance</h3>
               <ul className="space-y-3">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
@@ -67,7 +67,7 @@ export default function PoolFilterCleaningRepairBali() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Emergency Repairs</h3>
+              <h3 className="text-xl font-bold text-foreground mb-4">Emergency Repairs</h3>
               <ul className="space-y-3">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
@@ -99,7 +99,7 @@ export default function PoolFilterCleaningRepairBali() {
       {/* Why It Matters */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Why Filter Care Matters
           </h2>
           <Card>
@@ -153,7 +153,7 @@ export default function PoolFilterCleaningRepairBali() {
       {/* Services */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Filter Services & Pricing
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -161,7 +161,7 @@ export default function PoolFilterCleaningRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Weekly Backwashing</h3>
                 <p className="text-2xl font-bold text-primary mb-4">Included in maintenance</p>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   We backwash your filter every visit to keep it clean and efficient. This is the most basic maintenance step.
                 </p>
               </CardContent>
@@ -170,7 +170,7 @@ export default function PoolFilterCleaningRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Monthly Deep Clean</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 500,000</p>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Professional deep cleaning to remove trapped contaminants and extend filter life. Recommended monthly.
                 </p>
               </CardContent>
@@ -179,7 +179,7 @@ export default function PoolFilterCleaningRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Filter Cartridge Replacement</h3>
                 <p className="text-2xl font-bold text-primary mb-4">IDR 800,000</p>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Replace worn cartridges (typical life 2-3 years). Keeps filter like new.
                 </p>
               </CardContent>
@@ -188,7 +188,7 @@ export default function PoolFilterCleaningRepairBali() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Emergency Repair</h3>
                 <p className="text-2xl font-bold text-primary mb-4">From IDR 1,200,000</p>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Urgent repairs for broken valves, leaks, or tank issues. Fast response available.
                 </p>
               </CardContent>
@@ -200,14 +200,14 @@ export default function PoolFilterCleaningRepairBali() {
       {/* Filter Types */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Filter Types We Service
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Cartridge Filters</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Most common in residential Bali pools. We replace cartridges and clean housings regularly.
                 </p>
               </CardContent>
@@ -215,7 +215,7 @@ export default function PoolFilterCleaningRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Sand Filters</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Found in larger pools and resorts. We backwash, clean, and replace sand when needed.
                 </p>
               </CardContent>
@@ -223,7 +223,7 @@ export default function PoolFilterCleaningRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">DE (Diatomaceous Earth) Filters</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Premium filters requiring specialized care. We handle all maintenance and cleaning.
                 </p>
               </CardContent>
@@ -235,14 +235,14 @@ export default function PoolFilterCleaningRepairBali() {
       {/* FAQ */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Questions?
           </h2>
           <div className="space-y-6">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How often should I clean my filter?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Weekly backwashing is standard. Deep cleaning monthly or when pressure gauge reads 8-10 PSI above normal. More often during rainy season.
                 </p>
               </CardContent>
@@ -250,7 +250,7 @@ export default function PoolFilterCleaningRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How long do filters last?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   With proper care, cartridges last 2-3 years. Sand filters last 5-7 years before sand replacement. Regular maintenance extends all lifespans significantly.
                 </p>
               </CardContent>
@@ -258,7 +258,7 @@ export default function PoolFilterCleaningRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if water pressure is high?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   High pressure (over 20 PSI) means the filter is clogged. Contact us immediately for cleaning or your pump could overheat and fail.
                 </p>
               </CardContent>
@@ -270,7 +270,7 @@ export default function PoolFilterCleaningRepairBali() {
       {/* CTA */}
       <section className="py-20 md:py-32 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Keep Your Filter Running Strong
           </h2>
           <p className="text-lg text-muted-foreground mb-8">

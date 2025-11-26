@@ -14,13 +14,13 @@ export default function PoolWaterTestingServiceBali() {
       </Helmet>
 
       {/* Hero */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Water Testing Service in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               Regular water testing ensures your pool is safe, balanced, and clear. Our technicians test all key parameters and provide detailed reports with recommendations.
             </p>
             <Button size="lg" className="min-w-48">
@@ -36,7 +36,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Parameters */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             What We Test
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -62,7 +62,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Why Testing */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Why Professional Testing Matters
           </h2>
           <div className="max-w-4xl mx-auto">
@@ -74,7 +74,7 @@ export default function PoolWaterTestingServiceBali() {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h3 className="font-bold mb-4 text-red-600">Without Regular Testing</h3>
-                    <ul className="space-y-2 text-sm text-foreground/85">
+                    <ul className="space-y-2 text-sm text-foreground">
                       <li>• Eye and skin irritation for swimmers</li>
                       <li>• Algae grows unchecked</li>
                       <li>• Equipment corrodes silently</li>
@@ -85,7 +85,7 @@ export default function PoolWaterTestingServiceBali() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-4 text-green-600">With Professional Testing</h3>
-                    <ul className="space-y-2 text-sm text-foreground/85">
+                    <ul className="space-y-2 text-sm text-foreground">
                       <li>• Safe, comfortable swimming</li>
                       <li>• Algae prevented proactively</li>
                       <li>• Equipment protected</li>
@@ -104,7 +104,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* Packages */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Testing Service Packages
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -161,7 +161,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* How It Works */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Our Testing Process
           </h2>
           <div className="space-y-6 max-w-3xl mx-auto">
@@ -189,14 +189,14 @@ export default function PoolWaterTestingServiceBali() {
       {/* Testing Frequency */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             How Often Should You Test?
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Residential Pools</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Weekly testing recommended. During rainy season, consider bi-weekly. Low-usage pools can do monthly if well-maintained.
                 </p>
               </CardContent>
@@ -204,7 +204,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Rental Properties</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   2 tests per week minimum. High turnover and guest usage means chemistry changes rapidly. Weekly is ideal.
                 </p>
               </CardContent>
@@ -212,7 +212,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Commercial Pools</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Daily or multiple tests daily required. Hotels and resorts have safety regulations requiring frequent monitoring.
                 </p>
               </CardContent>
@@ -224,14 +224,14 @@ export default function PoolWaterTestingServiceBali() {
       {/* FAQ */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             FAQ
           </h2>
           <div className="space-y-6">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can I test my pool myself?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Yes, but home test kits are less accurate. Professional testing uses advanced equipment and catches subtle imbalances that home tests miss.
                 </p>
               </CardContent>
@@ -239,7 +239,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How long does testing take?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Usually 15-20 minutes per test including sample collection, analysis, and reporting.
                 </p>
               </CardContent>
@@ -247,7 +247,7 @@ export default function PoolWaterTestingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if results are bad?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   We provide detailed recommendations. For serious imbalances, we can send a technician to adjust chemicals immediately via WhatsApp consultation.
                 </p>
               </CardContent>
@@ -259,7 +259,7 @@ export default function PoolWaterTestingServiceBali() {
       {/* CTA */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Start Professional Water Testing Today
           </h2>
           <p className="text-lg text-muted-foreground mb-8">

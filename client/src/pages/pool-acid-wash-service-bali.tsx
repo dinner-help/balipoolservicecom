@@ -10,13 +10,13 @@ export default function PoolAcidWashServiceBali() {
         <meta name="description" content="Professional pool acid wash service in Bali. Remove severe stains and algae. WhatsApp: +62 822-3756-5997" />
       </Helmet>
 
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Acid Wash Service in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               For severe stains, calcium buildup, and stubborn algae that regular cleaning can't remove, acid washing is the solution. We safely restore your pool surface.
             </p>
             <Button size="lg" className="min-w-48">
@@ -31,14 +31,14 @@ export default function PoolAcidWashServiceBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             What Acid Washing Removes
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Stubborn Stains</h3>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• Rust stains from metal fixtures</li>
                   <li>• Permanent green algae stains</li>
                   <li>• Black spot algae buildup</li>
@@ -49,10 +49,10 @@ export default function PoolAcidWashServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Best Timing for Acid Wash</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <p className="text-sm text-foreground mb-4">
                   Acid washing should be done:
                 </p>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• During major renovations</li>
                   <li>• Every 3-5 years for heavy-use pools</li>
                   <li>• When regular cleaning fails</li>
@@ -66,7 +66,7 @@ export default function PoolAcidWashServiceBali() {
 
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Acid Wash Pricing
           </h2>
           <Card className="max-w-3xl mx-auto">
@@ -95,7 +95,7 @@ export default function PoolAcidWashServiceBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Restore Your Pool Surface
           </h2>
           <Button size="lg" className="min-w-56">

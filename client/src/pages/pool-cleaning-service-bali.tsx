@@ -15,13 +15,13 @@ export default function PoolCleaningServiceBali() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Pool Cleaning Service in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               Keep your villa, rental property, or hotel pool crystal clear with professional, reliable cleaning service. We handle all the hard work while you enjoy a pristine swimming experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
@@ -29,7 +29,7 @@ export default function PoolCleaningServiceBali() {
                 Get a Fast WhatsApp Quote
               </Button>
             </div>
-            <p className="text-sm text-foreground/85">
+            <p className="text-sm text-foreground">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate" data-testid="link-whatsapp">+62 822-3756-5997</a>
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function PoolCleaningServiceBali() {
       {/* What This Service Covers */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             What Pool Cleaning Service Covers
           </h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl">
@@ -72,8 +72,8 @@ export default function PoolCleaningServiceBali() {
             </div>
             <Card>
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold mb-4 text-foreground">Typical Problems Solved</h3>
-                <ul className="space-y-3 text-sm text-foreground/85">
+                <h3 className="text-xl font-bold text-foreground mb-4">Typical Problems Solved</h3>
+                <ul className="space-y-3 text-sm text-foreground">
                   <li>• Green or cloudy water from algae and debris</li>
                   <li>• Unbalanced pH affecting guest comfort and safety</li>
                   <li>• Clogged filters reducing water circulation</li>
@@ -90,14 +90,14 @@ export default function PoolCleaningServiceBali() {
       {/* Who This Is For */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Who This Service Is For
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Villa & Residential Pool Owners</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-3">Villa & Residential Pool Owners</h3>
+                <p className="text-sm text-foreground mb-4">
                   Own a villa with a pool but don't have time to maintain it? Weekly cleaning ensures your pool stays ready for family use and impresses guests.
                 </p>
                 <p className="text-sm text-primary font-medium">
@@ -107,8 +107,8 @@ export default function PoolCleaningServiceBali() {
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Rental Property Managers</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-3">Rental Property Managers</h3>
+                <p className="text-sm text-foreground mb-4">
                   Keep rental properties guest-ready with regular cleaning. Photo-worthy pools attract bookings and boost guest reviews on Airbnb and Booking.com.
                 </p>
                 <p className="text-sm text-primary font-medium">
@@ -118,8 +118,8 @@ export default function PoolCleaningServiceBali() {
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Hotels, Resorts & Guesthouses</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-3">Hotels, Resorts & Guesthouses</h3>
+                <p className="text-sm text-foreground mb-4">
                   Guest pools require daily attention. We offer flexible scheduling to keep your pool pristine for guests without disrupting operations.
                 </p>
                 <p className="text-sm text-primary font-medium">
@@ -129,8 +129,8 @@ export default function PoolCleaningServiceBali() {
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Developers & Property Management Companies</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-3">Developers & Property Management Companies</h3>
+                <p className="text-sm text-foreground mb-4">
                   Managing multiple properties? We offer bulk service contracts and can coordinate cleaning schedules across your entire portfolio.
                 </p>
                 <p className="text-sm text-primary font-medium">
@@ -145,7 +145,7 @@ export default function PoolCleaningServiceBali() {
       {/* Why Choose Us */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Why Choose Our Pool Cleaning Service
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
@@ -184,7 +184,7 @@ export default function PoolCleaningServiceBali() {
       {/* How Service Works */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             How Our Pool Cleaning Service Works
           </h2>
           <div className="space-y-8 max-w-3xl">
@@ -193,7 +193,7 @@ export default function PoolCleaningServiceBali() {
                 1
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Contact Us on WhatsApp</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Contact Us on WhatsApp</h3>
                 <p className="text-foreground/85">
                   Send your villa/property name, location, and pool photos to <a href="https://wa.me/6282237565997" className="text-primary hover-elevate font-medium">+62 822-3756-5997</a>
                 </p>
@@ -204,7 +204,7 @@ export default function PoolCleaningServiceBali() {
                 2
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Quick Assessment</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Quick Assessment</h3>
                 <p className="text-foreground/85">
                   We ask about pool size, current condition, and your preferred service frequency
                 </p>
@@ -215,7 +215,7 @@ export default function PoolCleaningServiceBali() {
                 3
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Receive Clear Quote</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Receive Clear Quote</h3>
                 <p className="text-foreground/85">
                   We recommend a package (Silver, Gold, or Platinum) with transparent pricing
                 </p>
@@ -226,7 +226,7 @@ export default function PoolCleaningServiceBali() {
                 4
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">First Service Visit</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">First Service Visit</h3>
                 <p className="text-foreground/85">
                   Our team arrives, performs deep cleaning, tests water chemistry, and inspects equipment
                 </p>
@@ -237,7 +237,7 @@ export default function PoolCleaningServiceBali() {
                 5
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Ongoing Support</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">Ongoing Support</h3>
                 <p className="text-foreground/85">
                   Regular scheduled visits, WhatsApp updates, and emergency support whenever needed
                 </p>
@@ -255,14 +255,14 @@ export default function PoolCleaningServiceBali() {
       {/* Packages */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Service Packages & Pricing
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <Card data-testid="card-silver">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Silver Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">Perfect for private villas & residential pools</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Silver Package</h3>
+                <p className="text-sm text-foreground mb-4">Perfect for private villas & residential pools</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 2,900,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-3 text-sm mb-6">
@@ -294,8 +294,8 @@ export default function PoolCleaningServiceBali() {
                 <div className="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold inline-block mb-4">
                   Most Popular
                 </div>
-                <h3 className="text-xl font-bold mb-2">Gold Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">Perfect for luxury villas & rental properties</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Gold Package</h3>
+                <p className="text-sm text-foreground mb-4">Perfect for luxury villas & rental properties</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 3,900,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-3 text-sm mb-6">
@@ -324,8 +324,8 @@ export default function PoolCleaningServiceBali() {
 
             <Card data-testid="card-platinum">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Platinum Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">Perfect for estates & boutique hotels</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Platinum Package</h3>
+                <p className="text-sm text-foreground mb-4">Perfect for estates & boutique hotels</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 5,500,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-3 text-sm mb-6">
@@ -358,7 +358,7 @@ export default function PoolCleaningServiceBali() {
       {/* Add-ons */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Additional Add-Ons
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
@@ -402,13 +402,13 @@ export default function PoolCleaningServiceBali() {
       {/* Payment Options */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Payment Options
           </h2>
           <div className="max-w-3xl mx-auto">
             <Card className="mb-8">
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold mb-6">Pricing Discounts</h3>
+                <h3 className="text-xl font-bold text-foreground mb-6">Pricing Discounts</h3>
                 <ul className="space-y-3 mb-6">
                   <li className="flex justify-between">
                     <span className="text-foreground/85">Monthly Payment</span>
@@ -428,18 +428,18 @@ export default function PoolCleaningServiceBali() {
 
             <Card>
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold mb-6">Accepted Payment Methods</h3>
+                <h3 className="text-xl font-bold text-foreground mb-6">Accepted Payment Methods</h3>
                 <ul className="space-y-2 mb-6">
                   <li className="font-medium">QR Payment (Fastest)</li>
-                  <li className="text-sm text-foreground/85 mb-4">QRIS • GoPay • OVO • Dana</li>
+                  <li className="text-sm text-foreground mb-4">QRIS • GoPay • OVO • Dana</li>
                   
                   <li className="font-medium">Online Transfer</li>
-                  <li className="text-sm text-foreground/85 mb-4">BCA • Mandiri • BNI</li>
+                  <li className="text-sm text-foreground mb-4">BCA • Mandiri • BNI</li>
                   
                   <li className="font-medium">Cash Payment</li>
                   <li className="text-sm text-foreground/85">Accepted on-site during service visits</li>
                 </ul>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   We'll confirm your preferred payment method once you contact us.
                 </p>
               </CardContent>
@@ -451,7 +451,7 @@ export default function PoolCleaningServiceBali() {
       {/* Benefits */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Benefits of Regular Pool Cleaning
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
@@ -490,7 +490,7 @@ export default function PoolCleaningServiceBali() {
       {/* Service Areas */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Service Areas Across Bali
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
@@ -510,14 +510,14 @@ export default function PoolCleaningServiceBali() {
       {/* FAQs */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How often should I schedule pool cleaning in Bali?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   In Bali's tropical climate, we recommend 2-3 times per week for residential pools and 3-4 times per week for rental properties or high-usage pools. Heavy rains can increase debris, so flexible scheduling helps.
                 </p>
               </CardContent>
@@ -525,7 +525,7 @@ export default function PoolCleaningServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can you maintain my pool while I'm overseas?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Yes! We offer full management for properties with absent owners. We send weekly digital reports, handle all chemicals, and respond to any emergencies immediately via WhatsApp.
                 </p>
               </CardContent>
@@ -533,7 +533,7 @@ export default function PoolCleaningServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Do you supply all pool chemicals?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Yes, all our packages include premium 90% pure chemicals. We deliver chemicals to your property as part of the service, saving you from store runs.
                 </p>
               </CardContent>
@@ -541,7 +541,7 @@ export default function PoolCleaningServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What happens if my pool turns green?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   That's algae growth – common in Bali during rainy season. Contact us immediately on WhatsApp and we can often restore it within 2-3 professional visits. See our <Link href="/green-pool-cleaning-bali" className="text-primary hover-elevate underline">green pool cleaning service</Link> for details.
                 </p>
               </CardContent>
@@ -549,7 +549,7 @@ export default function PoolCleaningServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can I upgrade from Silver to Gold or Platinum later?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Absolutely! Upgrade anytime with no penalties. Simply contact us on WhatsApp and we'll adjust your service level and pricing immediately.
                 </p>
               </CardContent>
@@ -561,7 +561,7 @@ export default function PoolCleaningServiceBali() {
       {/* Final CTA */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready for Crystal Clear Water?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">

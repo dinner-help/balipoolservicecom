@@ -14,13 +14,13 @@ export default function WeeklyPoolMaintenanceBali() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Weekly Pool Maintenance in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               Consistent weekly maintenance keeps your pool safe, clear, and problem-free. Our professional team handles all the work so you can enjoy your pool without worry.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
@@ -28,7 +28,7 @@ export default function WeeklyPoolMaintenanceBali() {
                 Schedule Your Weekly Plan
               </Button>
             </div>
-            <p className="text-sm text-foreground/85">
+            <p className="text-sm text-foreground">
               WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* Service Overview */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             What's Included in Weekly Maintenance
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -71,11 +71,11 @@ export default function WeeklyPoolMaintenanceBali() {
             </div>
             <Card>
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold mb-4">Why Weekly Maintenance Matters</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-4">Why Weekly Maintenance Matters</h3>
+                <p className="text-sm text-foreground mb-4">
                   Bali's tropical climate with heavy rainfall and constant debris makes weekly maintenance essential. Without it:
                 </p>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• Algae grows rapidly, turning pools green</li>
                   <li>• Chemical imbalance develops, affecting guest safety</li>
                   <li>• Filters clog, reducing circulation</li>
@@ -91,38 +91,38 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* Who This Is For */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Perfect for These Property Types
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Rental Villas (Airbnb / Booking.com)</h3>
-                <p className="text-sm text-foreground/85">
+                <h3 className="text-xl font-bold text-foreground mb-3">Rental Villas (Airbnb / Booking.com)</h3>
+                <p className="text-sm text-foreground">
                   Weekly visits ensure your pool stays photo-ready for bookings and guest reviews. Clean pools boost booking rates and guest satisfaction.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Private Residences</h3>
-                <p className="text-sm text-foreground/85">
+                <h3 className="text-xl font-bold text-foreground mb-3">Private Residences</h3>
+                <p className="text-sm text-foreground">
                   Homeowners appreciate the reliability. Weekly maintenance means your family always has a safe, clean pool without the hassle.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Hotels & Guesthouses</h3>
-                <p className="text-sm text-foreground/85">
+                <h3 className="text-xl font-bold text-foreground mb-3">Hotels & Guesthouses</h3>
+                <p className="text-sm text-foreground">
                   Guest pools require consistent care. Our weekly visits fit around your operations and maintain the standards your guests expect.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3">Property Managers</h3>
-                <p className="text-sm text-foreground/85">
+                <h3 className="text-xl font-bold text-foreground mb-3">Property Managers</h3>
+                <p className="text-sm text-foreground">
                   Managing multiple properties? We offer coordinated weekly schedules across your entire portfolio with consolidated invoicing.
                 </p>
               </CardContent>
@@ -134,14 +134,14 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* Packages */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Weekly Maintenance Packages
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <Card data-testid="card-silver">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Silver Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">2 visits per week</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Silver Package</h3>
+                <p className="text-sm text-foreground mb-4">2 visits per week</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 2,900,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
@@ -161,8 +161,8 @@ export default function WeeklyPoolMaintenanceBali() {
                 <div className="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold inline-block mb-4">
                   Most Popular
                 </div>
-                <h3 className="text-xl font-bold mb-2">Gold Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">3 visits per week</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Gold Package</h3>
+                <p className="text-sm text-foreground mb-4">3 visits per week</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 3,900,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
@@ -179,8 +179,8 @@ export default function WeeklyPoolMaintenanceBali() {
 
             <Card data-testid="card-platinum">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Platinum Package</h3>
-                <p className="text-sm text-foreground/85 mb-4">Daily + 3 full services</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Platinum Package</h3>
+                <p className="text-sm text-foreground mb-4">Daily + 3 full services</p>
                 <div className="text-3xl font-bold text-primary mb-4">IDR 5,500,000</div>
                 <p className="text-sm text-foreground/85 mb-6">/month</p>
                 <ul className="space-y-2 text-sm mb-6">
@@ -201,7 +201,7 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* Benefits */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Benefits of Weekly Pool Maintenance
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
@@ -240,14 +240,14 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* FAQs */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Is 2 visits per week enough in Bali?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   For most residential villas, 2 visits per week (Silver) works well. During heavy rainy season or for rental properties, 3 visits per week (Gold) is recommended for optimal clarity.
                 </p>
               </CardContent>
@@ -255,7 +255,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can I adjust my visit schedule?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Yes! We can adjust to seasonal needs. Many owners do 2 visits in dry season and 3 visits during rainy season (November-March).
                 </p>
               </CardContent>
@@ -263,7 +263,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if I skip a week?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   In Bali's climate, skipping even one week can cause issues. If you need a break, contact us first so we can add extra chemicals to prevent problems.
                 </p>
               </CardContent>
@@ -271,7 +271,7 @@ export default function WeeklyPoolMaintenanceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Can you work around my schedule?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Absolutely. We coordinate visits with your availability. For rental properties, we can schedule after checkout or before check-in.
                 </p>
               </CardContent>
@@ -283,7 +283,7 @@ export default function WeeklyPoolMaintenanceBali() {
       {/* Final CTA */}
       <section className="py-20 md:py-32 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Start Your Weekly Maintenance Plan
           </h2>
           <p className="text-lg text-muted-foreground mb-8">

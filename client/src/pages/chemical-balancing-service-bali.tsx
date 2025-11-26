@@ -14,13 +14,13 @@ export default function ChemicalBalancingServiceBali() {
       </Helmet>
 
       {/* Hero */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Chemical Balancing Service in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               Proper water chemistry keeps your pool safe, clear, and comfortable for swimming. Our technicians test and balance your pool's chemistry to perfection.
             </p>
             <Button size="lg" className="min-w-48" data-testid="button-whatsapp">
@@ -36,7 +36,7 @@ export default function ChemicalBalancingServiceBali() {
       {/* What We Test */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             What We Test & Balance
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -77,11 +77,11 @@ export default function ChemicalBalancingServiceBali() {
             </div>
             <Card>
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold mb-4">Why Chemistry Matters</h3>
-                <p className="text-sm text-foreground/85 mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-4">Why Chemistry Matters</h3>
+                <p className="text-sm text-foreground mb-4">
                   Unbalanced water chemistry causes:
                 </p>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• Eye and skin irritation for swimmers</li>
                   <li>• Algae growth and green water</li>
                   <li>• Cloudy water blocking visibility</li>
@@ -98,7 +98,7 @@ export default function ChemicalBalancingServiceBali() {
       {/* Process */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Our Chemical Balancing Process
           </h2>
           <div className="space-y-6 max-w-3xl">
@@ -126,7 +126,7 @@ export default function ChemicalBalancingServiceBali() {
       {/* Packages */}
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Chemical Balancing Packages
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -184,14 +184,14 @@ export default function ChemicalBalancingServiceBali() {
       {/* FAQs */}
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-4xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             FAQ
           </h2>
           <div className="space-y-6">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">How often should I test my pool chemistry?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   At least once per week. In Bali's climate with heavy rains, we recommend 2 tests per week or include it in your weekly maintenance package.
                 </p>
               </CardContent>
@@ -199,7 +199,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">What if my pool chemicals are already balanced?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   We'll verify all readings are correct and make any minor adjustments needed. In tropical climates, small changes happen constantly due to rain and evaporation.
                 </p>
               </CardContent>
@@ -207,7 +207,7 @@ export default function ChemicalBalancingServiceBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Is testing really necessary if my pool looks clear?</h3>
-                <p className="text-sm text-foreground/85">
+                <p className="text-sm text-foreground">
                   Yes! Chemical imbalance can exist with clear-looking water. pH imbalance causes skin irritation, and low chlorine doesn't kill harmful bacteria. Regular testing prevents hidden problems.
                 </p>
               </CardContent>
@@ -219,7 +219,7 @@ export default function ChemicalBalancingServiceBali() {
       {/* CTA */}
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ensure Safe Swimming Chemistry
           </h2>
           <p className="text-lg text-muted-foreground mb-8">

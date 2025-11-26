@@ -11,13 +11,13 @@ export default function SwimmingPoolRepairBali() {
         <meta name="description" content="Professional swimming pool repair services in Bali. Leak detection, equipment repair, surface restoration. WhatsApp: +62 822-3756-5997" />
       </Helmet>
 
-      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Swimming Pool Repair in Bali
             </h1>
-            <p className="text-lg text-foreground/80 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               From small leaks to major structural issues, we diagnose and repair all swimming pool problems quickly and professionally.
             </p>
             <Button size="lg" className="min-w-48">
@@ -32,12 +32,12 @@ export default function SwimmingPoolRepairBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Repair Services We Provide
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div>
-              <h3 className="text-xl font-bold mb-4">Common Pool Repairs</h3>
+              <h3 className="text-xl font-bold text-foreground mb-4">Common Pool Repairs</h3>
               <ul className="space-y-3">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
@@ -62,7 +62,7 @@ export default function SwimmingPoolRepairBali() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Emergency Repairs</h3>
+              <h3 className="text-xl font-bold text-foreground mb-4">Emergency Repairs</h3>
               <ul className="space-y-3">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
@@ -92,14 +92,14 @@ export default function SwimmingPoolRepairBali() {
 
       <section className="py-20 md:py-32 bg-accent/5">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-white">
             Repair Pricing Guide
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Minor Repairs</h3>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• Small leak patches: IDR 300,000</li>
                   <li>• Skimmer repair: IDR 400,000</li>
                   <li>• Valve replacement: IDR 500,000</li>
@@ -110,7 +110,7 @@ export default function SwimmingPoolRepairBali() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-3">Major Repairs</h3>
-                <ul className="space-y-2 text-sm text-foreground/85">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li>• Major leak repair: IDR 1,500,000+</li>
                   <li>• Concrete crack patching: IDR 2,000,000+</li>
                   <li>• Pump replacement: IDR 3,000,000+</li>
@@ -124,7 +124,7 @@ export default function SwimmingPoolRepairBali() {
 
       <section className="py-20 md:py-32">
         <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Need a Pool Repair?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
