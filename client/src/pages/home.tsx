@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "wouter";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
-import heroPoolBg from "@assets/stock_images/luxury_villa_swimmin_fcfc9b6b.jpg";
+import heroPoolBg from "@assets/generated_images/luxury_bali_pool_hero_image.png";
 import { SupportAgentCard } from "@/components/support-agent-card";
 import { supportAgents } from "@/lib/support-agents";
 
@@ -117,16 +117,16 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroPoolBg})` }}
         />
-        {/* Dark Overlay for text readability */}
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Light White Overlay for text readability - 25% opacity */}
+        <div className="absolute inset-0 bg-white/25" />
         
         <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-sm">
               Crystal Clear Pools <br className="hidden md:block" />
-              <span className="text-cyan-300">Across All of Bali</span>
+              <span className="text-primary">Across All of Bali</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto drop-shadow-sm">
               Professional pool cleaning & maintenance for villas, hotels, and homes. 
               Keep your pool pristine with Bali's most trusted pool service team.
             </p>
@@ -155,16 +155,16 @@ export default function Home() {
 
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
-              <div className="flex items-center gap-2 text-white/90">
-                <Shield className="h-5 w-5 text-cyan-300" />
+              <div className="flex items-center gap-2 text-gray-800 bg-white/60 px-4 py-2 rounded-full">
+                <Shield className="h-5 w-5 text-primary" />
                 <span className="text-sm font-medium">10+ Years Experience</span>
               </div>
-              <div className="flex items-center gap-2 text-white/90">
-                <Users className="h-5 w-5 text-cyan-300" />
+              <div className="flex items-center gap-2 text-gray-800 bg-white/60 px-4 py-2 rounded-full">
+                <Users className="h-5 w-5 text-primary" />
                 <span className="text-sm font-medium">500+ Happy Clients</span>
               </div>
-              <div className="flex items-center gap-2 text-white/90">
-                <Clock className="h-5 w-5 text-cyan-300" />
+              <div className="flex items-center gap-2 text-gray-800 bg-white/60 px-4 py-2 rounded-full">
+                <Clock className="h-5 w-5 text-primary" />
                 <span className="text-sm font-medium">24/7 Emergency Service</span>
               </div>
             </div>
