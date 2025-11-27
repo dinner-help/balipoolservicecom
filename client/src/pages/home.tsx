@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "wouter";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
+import heroPoolBg from "@assets/stock_images/luxury_villa_swimmin_fcfc9b6b.jpg";
 
 export default function Home() {
   const structuredData = {
