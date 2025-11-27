@@ -112,13 +112,13 @@ export default function Home() {
 
       {/* 1. HERO SECTION */}
       <section className="relative pt-20 pb-24 md:pt-28 md:pb-32 overflow-hidden min-h-[600px] flex items-center">
-        {/* Background Image */}
+        {/* Background Image with Parallax Effect */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
           style={{ backgroundImage: `url(${heroPoolBg})` }}
         />
-        {/* Light White Overlay for text readability - 25% opacity */}
-        <div className="absolute inset-0 bg-white/25" />
+        {/* Light White Overlay for text readability - 55% opacity for better contrast */}
+        <div className="absolute inset-0 bg-white/55" />
         
         <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">

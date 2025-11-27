@@ -21,6 +21,7 @@ import {
   Battery
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import coldPlungeHeroBg from "@assets/generated_images/cold_plunge_hero_image.png";
 
 export default function ColdPlungeBali() {
   const plungeTypes = [
@@ -84,21 +85,27 @@ export default function ColdPlungeBali() {
         <Navigation />
 
         {/* Hero Section */}
-        <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-background to-background"></div>
+        <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden min-h-[550px] flex items-center">
+          {/* Background Image with Parallax Effect */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
+            style={{ backgroundImage: `url(${coldPlungeHeroBg})` }}
+          />
+          {/* White Overlay - 55% opacity for better text readability */}
+          <div className="absolute inset-0 bg-white/55" />
           
-          <div className="max-w-7xl mx-auto px-6 md:px-8 relative">
+          <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
             <div className="max-w-4xl">
-              <Badge className="mb-6 bg-cyan-500/10 text-cyan-700 dark:text-cyan-300" data-testid="badge-plunge-hero">
+              <Badge className="mb-6 bg-cyan-600 text-white" data-testid="badge-plunge-hero">
                 <Snowflake className="w-3 h-3 mr-1" />
                 Cold Plunge Experts
               </Badge>
               
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6" data-testid="heading-plunge-hero">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-gray-900 drop-shadow-sm" data-testid="heading-plunge-hero">
                 Cold Plunge Installation in Bali
               </h1>
               
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed drop-shadow-sm">
                 Cold plunge pools are one of the fastest-growing wellness features in Bali. From private villas to fitness centers and yoga studios, more people are using cold therapy for recovery, energy, and relaxation. We design, build, and install cold plunge systems that stay cold even in Bali's tropical heat.
               </p>
 
@@ -113,7 +120,7 @@ export default function ColdPlungeBali() {
                     Get Quote
                   </a>
                 </Button>
-                <Button size="lg" variant="outline" asChild data-testid="button-call-hero">
+                <Button size="lg" variant="outline" className="bg-white/80 hover:bg-white" asChild data-testid="button-call-hero">
                   <a href="tel:+6282237565997">
                     <Phone className="h-4 w-4 mr-2" />
                     +62 822-3756-5997
