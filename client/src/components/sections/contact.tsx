@@ -39,7 +39,7 @@ export function Contact() {
 🏠 *Property Type:* ${data.propertyType}
 📍 *Service Area:* ${data.serviceArea}${data.message ? `\n💬 *Message:* ${data.message}` : ''}
 
-_Sent from Pool Service Bali website_`;
+_Sent from Bali Pool Service website_`;
 
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);

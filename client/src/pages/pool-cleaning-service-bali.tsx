@@ -93,7 +93,7 @@ export default function PoolCleaningServiceBali() {
             "description": "Professional pool cleaning service for villas, hotels, and private pools in Bali, Indonesia",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali",
+              "name": "Bali Pool Service",
               "telephone": "+62-822-3756-5997",
               "address": {
                 "@type": "PostalAddress",

@@ -1,4 +1,4 @@
-# Pool Service Bali - Robots.txt
+# Bali Pool Service - Robots.txt
 # https://poolservicebali.com
 
 User-agent: *

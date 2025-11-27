@@ -50,7 +50,7 @@ export function CaseStudies() {
         "Eliminated service inconsistencies across properties",
         "Streamlined operations and reporting",
       ],
-      testimonial: "Partnering with Pool Service Bali increased our guest satisfaction scores by 40% while reducing maintenance costs by 25%.",
+      testimonial: "Partnering with Bali Pool Service increased our guest satisfaction scores by 40% while reducing maintenance costs by 25%.",
       author: "Operations Director, Resort Chain",
     },
   ];

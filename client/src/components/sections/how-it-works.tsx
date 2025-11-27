@@ -61,7 +61,7 @@ export function HowItWorks() {
             <span className="text-sm font-semibold">Simple Process</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            How Pool Service Bali Works
+            How Bali Pool Service Works
           </h2>
           <p className="text-xl text-muted-foreground">
             From first contact to pristine pool water — our proven 5-step process makes professional pool care effortless

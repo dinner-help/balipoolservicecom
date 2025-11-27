@@ -77,7 +77,7 @@ export default function WeeklyPoolMaintenanceBali() {
             "description": "Professional weekly pool maintenance service for villas, hotels, and private pools in Bali",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali",
+              "name": "Bali Pool Service",
               "telephone": "+62-822-3756-5997"
             },
             "areaServed": "Bali, Indonesia",

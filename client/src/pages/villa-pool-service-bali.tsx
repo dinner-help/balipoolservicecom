@@ -178,14 +178,14 @@ export default function VillaPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Villa Pool Service Bali | Professional Pool Care for Rental Villas & Private Homes</title>
+        <title>Villa Bali Pool Service | Professional Pool Care for Rental Villas & Private Homes</title>
         <meta 
           name="description" 
           content="Expert pool maintenance for Bali villas. Weekly service, 24/7 emergency response, all chemicals included. Protect your investment and delight your guests. Serving 500+ villa properties across Seminyak, Canggu, Ubud & all Bali." 
         />
         <meta name="keywords" content="villa pool service bali, villa pool maintenance bali, rental villa pool cleaning, bali villa pool care, seminyak villa pool service, canggu villa pool maintenance, ubud villa pool cleaning" />
         
-        <meta property="og:title" content="Villa Pool Service Bali | Professional Care for Rental Properties" />
+        <meta property="og:title" content="Villa Bali Pool Service | Professional Care for Rental Properties" />
         <meta property="og:description" content="Trusted by 500+ villa owners. Weekly maintenance, emergency response, guest-ready service. All-inclusive pricing from Rp 450k/month." />
         <meta property="og:type" content="website" />
         

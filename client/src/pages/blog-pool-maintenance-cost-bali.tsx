@@ -68,7 +68,7 @@ export default function BlogPoolMaintenanceCostBali() {
                   November 20, 2024
                 </div>
                 <div>12 min read</div>
-                <div>By Pool Service Bali Team</div>
+                <div>By Bali Pool Service Team</div>
               </div>
             </div>
 

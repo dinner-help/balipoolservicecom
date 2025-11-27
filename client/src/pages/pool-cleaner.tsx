@@ -224,7 +224,7 @@ export default function PoolCleaner() {
         <meta property="og:image" content="https://balipoolservice.com/og-image-pool-cleaning.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:site_name" content="Bali Pool Service" />
         <meta property="og:locale" content="en_ID" />
         
         {/* Twitter Card Tags */}
@@ -240,7 +240,7 @@ export default function PoolCleaner() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://balipoolservice.com",
-            "name": "Pool Service Bali - Pool Cleaning Division",
+            "name": "Bali Pool Service - Pool Cleaning Division",
             "image": "https://balipoolservice.com/logo.png",
             "description": "Professional pool cleaning and maintenance services in Bali. CPO-certified technicians providing expert pool care for villas, hotels, and homes across Bali.",
             "url": "https://balipoolservice.com/pool-cleaner",
@@ -301,7 +301,7 @@ export default function PoolCleaner() {
             "serviceType": "Pool Cleaning and Maintenance",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali"
+              "name": "Bali Pool Service"
             },
             "areaServed": {
               "@type": "City",
@@ -434,7 +434,7 @@ export default function PoolCleaner() {
                 <div className="relative">
                   <img 
                     src={teamWork} 
-                    alt="Pool Service Bali team - 50 dedicated professionals"
+                    alt="Bali Pool Service team - 50 dedicated professionals"
                     className="rounded-lg shadow-2xl"
                     loading="lazy"
                   />
@@ -935,7 +935,7 @@ export default function PoolCleaner() {
             <div className="max-w-7xl mx-auto px-6 md:px-8">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                  Why Choose Pool Service Bali
+                  Why Choose Bali Pool Service
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                   Professional, reliable pool cleaning service that Bali's international property owners depend on
@@ -1293,7 +1293,7 @@ export default function PoolCleaner() {
                 Ready for Hassle-Free Pool Cleaning?
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Stop worrying about your pool and start enjoying it. Whether you're a villa owner, property manager, or hotel operator, Pool Service Bali delivers the professional, reliable pool cleaning service that Bali's international property owners depend on.
+                Stop worrying about your pool and start enjoying it. Whether you're a villa owner, property manager, or hotel operator, Bali Pool Service delivers the professional, reliable pool cleaning service that Bali's international property owners depend on.
               </p>
 
               <Card className="p-8 bg-primary/10 border-primary/30 mb-8">

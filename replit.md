@@ -1,8 +1,8 @@
-# Pool Service Bali - Replit Agent Guide
+# Bali Pool Service - Replit Agent Guide
 
 ## Overview
 
-Pool Service Bali is a professional pool maintenance service website built as a marketing platform for a Bali-based pool service company. The application serves as a comprehensive digital presence showcasing services (cleaning, repair, construction), pricing packages, service areas, and customer contact capabilities. It's designed to build trust with international villa owners, property managers, and hospitality businesses through transparent pricing, professional presentation, and clear value propositions.
+Bali Pool Service is a professional pool maintenance service website built as a marketing platform for a Bali-based pool service company. The application serves as a comprehensive digital presence showcasing services (cleaning, repair, construction), pricing packages, service areas, and customer contact capabilities. It's designed to build trust with international villa owners, property managers, and hospitality businesses through transparent pricing, professional presentation, and clear value propositions.
 
 **Core Purpose**: Single-page marketing website with contact form functionality for lead generation in the pool service industry.
 

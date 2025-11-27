@@ -23,7 +23,7 @@ export default function DenpasarPoolMaintenance() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Maintenance Denpasar | Commercial Pool Service Bali</title>
+        <title>Pool Maintenance Denpasar | Commercial Bali Pool Service</title>
         <meta name="description" content="Professional pool maintenance in Denpasar, Bali. Commercial pools, office buildings, residential complexes. Compliance documentation. Call +6282237565997" />
         <meta name="keywords" content="pool maintenance denpasar, denpasar pool service, commercial pool cleaning bali, office pool maintenance denpasar, residential complex pool service" />
         <link rel="canonical" href="https://poolservicebali.com/pool-maintenance-denpasar" />

@@ -11,7 +11,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Pool Service Bali",
+    "name": "Bali Pool Service",
     "description": "Professional pool cleaning and maintenance services across Bali",
     "url": "https://poolservicebali.com",
     "telephone": "+6282237565997",
@@ -607,7 +607,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">Villa Rental in Canggu</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  "Pool was completely green after 3 weeks vacant. Pool Service Bali restored it in 48 hours before our guests arrived. Saved our 5-star review!"
+                  "Pool was completely green after 3 weeks vacant. Bali Pool Service restored it in 48 hours before our guests arrived. Saved our 5-star review!"
                 </p>
                 <p className="text-xs text-gray-500">— Villa Manager, Berawa</p>
               </CardContent>
@@ -626,7 +626,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">Boutique Hotel in Seminyak</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  "We switched to Pool Service Bali after constant complaints. Six months later, zero pool issues and our TripAdvisor rating improved."
+                  "We switched to Bali Pool Service after constant complaints. Six months later, zero pool issues and our TripAdvisor rating improved."
                 </p>
                 <p className="text-xs text-gray-500">— Hotel Manager, Seminyak</p>
               </CardContent>

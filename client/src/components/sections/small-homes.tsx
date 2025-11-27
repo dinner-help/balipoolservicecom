@@ -65,7 +65,7 @@ export function SmallHomes() {
                   "We live in a modest 3-bedroom home in Sanur with a small 20m² pool. For years, I struggled to maintain it myself - buying chemicals from random shops, spending my weekends cleaning, and constantly dealing with algae problems."
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  "I thought professional pool companies only worked with hotels and luxury villas. Then I found Pool Service Bali. They treated our small pool with the same care and professionalism as any high-end property."
+                  "I thought professional pool companies only worked with hotels and luxury villas. Then I found Bali Pool Service. They treated our small pool with the same care and professionalism as any high-end property."
                 </p>
                 <p className="text-muted-foreground mb-6">
                   <strong>"Now my pool is crystal clear every day, my kids swim safely with EU-certified chemicals, and I get my weekends back. Best decision we made for our home."</strong>

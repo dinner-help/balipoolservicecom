@@ -55,14 +55,14 @@ export default function SeminyakPoolCleaning() {
         <title>Pool Cleaning Seminyak | Professional Pool Service in Seminyak Bali</title>
         <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. From IDR 750K/month. Same-day service. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Seminyak, Seminyak pool maintenance, villa pool service Seminyak, pool cleaner Seminyak Bali, swimming pool cleaning Seminyak, pool service Petitenget, pool cleaning Oberoi, Batu Belig pool maintenance" />
-        <meta property="og:title" content="Pool Cleaning Seminyak | Professional Pool Service Bali" />
+        <meta property="og:title" content="Pool Cleaning Seminyak | Professional Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 750K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-seminyak" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Pool Service Bali - Seminyak",
+            "name": "Bali Pool Service - Seminyak",
             "description": "Professional pool cleaning and maintenance service in Seminyak, Bali",
             "telephone": "+62-822-3756-5997",
             "address": {

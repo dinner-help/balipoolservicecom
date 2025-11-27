@@ -73,7 +73,7 @@ export default function BlogGreenPoolCleaningGuide() {
                   <Clock className="h-4 w-4" />
                   15 min read
                 </div>
-                <div>By Pool Service Bali Team</div>
+                <div>By Bali Pool Service Team</div>
               </div>
             </div>
 

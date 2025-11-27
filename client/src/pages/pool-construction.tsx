@@ -160,7 +160,7 @@ export default function PoolConstruction() {
         <meta property="og:image" content="https://balipoolservice.com/og-image-pool-construction.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:site_name" content="Bali Pool Service" />
         <meta property="og:locale" content="en_ID" />
         
         {/* Twitter Card Tags */}
@@ -176,7 +176,7 @@ export default function PoolConstruction() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://balipoolservice.com",
-            "name": "Pool Service Bali - Pool Construction Division",
+            "name": "Bali Pool Service - Pool Construction Division",
             "image": "https://balipoolservice.com/logo.png",
             "description": "Professional pool construction services in Bali. Custom infinity pools, traditional designs, and bespoke pool solutions built by expert craftsmen.",
             "url": "https://balipoolservice.com/pool-construction",
@@ -221,7 +221,7 @@ export default function PoolConstruction() {
             "serviceType": "Pool Construction & Design",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali"
+              "name": "Bali Pool Service"
             },
             "areaServed": {
               "@type": "City",
@@ -389,7 +389,7 @@ export default function PoolConstruction() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Why Choose Pool Service Bali
+              Why Choose Bali Pool Service
             </h2>
             <p className="text-xl text-muted-foreground">
               Licensed engineers, proven track record, and commitment to excellence in every project.

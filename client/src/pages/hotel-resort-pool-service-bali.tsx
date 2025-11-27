@@ -220,14 +220,14 @@ export default function HotelResortPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Hotel & Resort Pool Service Bali | Professional Multi-Pool Management & Compliance</title>
+        <title>Hotel & Resort Bali Pool Service | Professional Multi-Pool Management & Compliance</title>
         <meta 
           name="description" 
           content="Professional pool service for Bali hotels & resorts. Multi-pool management, international compliance standards, digital reports, 24/7 service. Trusted by 50+ properties. Daily service from Rp 1.5M/month." 
         />
         <meta name="keywords" content="hotel pool service bali, resort pool maintenance bali, hotel pool management, resort pool cleaning bali, seminyak hotel pool service, nusa dua resort pool maintenance" />
         
-        <meta property="og:title" content="Hotel & Resort Pool Service Bali | 5-Star Standards" />
+        <meta property="og:title" content="Hotel & Resort Bali Pool Service | 5-Star Standards" />
         <meta property="og:description" content="Trusted by 50+ hotels. Multi-pool management, compliance documentation, digital reports. Daily service, 24/7 support." />
         <meta property="og:type" content="website" />
         

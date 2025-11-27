@@ -100,7 +100,7 @@ export function ProblemSolution() {
             Ready to Experience the Difference?
           </h3>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join hundreds of satisfied villa owners, property managers, and hotels who trust Pool Service Bali for professional pool care.
+            Join hundreds of satisfied villa owners, property managers, and hotels who trust Bali Pool Service for professional pool care.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

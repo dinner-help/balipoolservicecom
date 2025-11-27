@@ -248,7 +248,7 @@ export default function PoolRepair() {
         <meta property="og:image" content="https://balipoolservice.com/og-image-pool-repair.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="Pool Service Bali" />
+        <meta property="og:site_name" content="Bali Pool Service" />
         <meta property="og:locale" content="en_ID" />
         
         {/* Twitter Card Tags */}
@@ -264,7 +264,7 @@ export default function PoolRepair() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://balipoolservice.com",
-            "name": "Pool Service Bali - Pool Repair Division",
+            "name": "Bali Pool Service - Pool Repair Division",
             "image": "https://balipoolservice.com/logo.png",
             "description": "24/7 emergency pool repair services in Bali. Expert technicians specializing in pump repairs, filter systems, heaters, leak detection, and all pool equipment.",
             "url": "https://balipoolservice.com/pool-repair",
@@ -306,11 +306,11 @@ export default function PoolRepair() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EmergencyService",
-            "name": "Pool Service Bali - Emergency Pool Repair",
+            "name": "Bali Pool Service - Emergency Pool Repair",
             "serviceType": "24/7 Emergency Pool Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali"
+              "name": "Bali Pool Service"
             },
             "areaServed": {
               "@type": "City",
@@ -336,7 +336,7 @@ export default function PoolRepair() {
             "serviceType": "Pool Equipment Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Pool Service Bali"
+              "name": "Bali Pool Service"
             },
             "areaServed": {
               "@type": "City",

@@ -35,7 +35,7 @@ export function ServiceComparison() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Pool Service Bali Stands Above the Rest
+            Why Bali Pool Service Stands Above the Rest
           </h2>
           <p className="text-xl text-muted-foreground">
             See how our professional service compares to typical pool maintenance options in Bali
@@ -52,7 +52,7 @@ export function ServiceComparison() {
                     Service Features
                   </th>
                   <th className="p-4 md:p-6 text-center bg-primary/10 min-w-[140px]">
-                    <div className="font-bold text-primary mb-1">Pool Service Bali</div>
+                    <div className="font-bold text-primary mb-1">Bali Pool Service</div>
                     <div className="text-xs text-muted-foreground">Professional</div>
                   </th>
                   <th className="p-4 md:p-6 text-center bg-muted/30 min-w-[140px]">
@@ -155,7 +155,7 @@ export function ServiceComparison() {
 
           {/* Our Advantage */}
           <Card className="p-6 border-2 border-primary/20 bg-primary/5">
-            <h3 className="font-bold text-lg mb-3 text-primary">The Pool Service Bali Advantage</h3>
+            <h3 className="font-bold text-lg mb-3 text-primary">The Bali Pool Service Advantage</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />

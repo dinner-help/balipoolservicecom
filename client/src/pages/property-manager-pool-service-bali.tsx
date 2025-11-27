@@ -203,7 +203,7 @@ export default function PropertyManagerPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Property Management Pool Service Bali | Portfolio Dashboard, Group Discounts & Centralized Billing</title>
+        <title>Property Management Bali Pool Service | Portfolio Dashboard, Group Discounts & Centralized Billing</title>
         <meta 
           name="description" 
           content="Professional pool service for Bali property management companies & villa agencies. Portfolio dashboard, digital reports, centralized billing, up to 20% group discounts. Manage 5-100+ properties effortlessly." 

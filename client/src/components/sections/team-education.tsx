@@ -156,7 +156,7 @@ export function TeamEducation() {
 
           {/* Bottom Message */}
           <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8 border-2 border-primary/20 text-center">
-            <h3 className="text-2xl font-bold mb-4">The Pool Service Bali Difference</h3>
+            <h3 className="text-2xl font-bold mb-4">The Bali Pool Service Difference</h3>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Most pool services send untrained staff with a net and bucket. We send certified specialists with lab-grade equipment, professional knowledge, and years of experience. <span className="font-bold text-foreground">That's why our clients' pools stay crystal clear year-round.</span>
             </p>

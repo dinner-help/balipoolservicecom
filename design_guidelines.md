@@ -1,4 +1,4 @@
-# Pool Service Bali - Comprehensive Design Guidelines
+# Bali Pool Service - Comprehensive Design Guidelines
 
 ## Design Approach
 

@@ -228,7 +228,7 @@ export function ChemicalSafety() {
                   "I'm a mother of three young children (ages 3, 6, and 8) and I was always concerned about the chemicals in our pool. Our previous service used cheap local chemicals that made my youngest's skin red and irritated."
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  "Since switching to Pool Service Bali with their EU/USA/NSF certified chemicals, the difference is incredible. They explained the difference between the certified and Indonesian brands, and for my kids' health, I chose the certified option. They showed me all the safety certificates, explained exactly what goes into the water, and my kids have had zero skin reactions."
+                  "Since switching to Bali Pool Service with their EU/USA/NSF certified chemicals, the difference is incredible. They explained the difference between the certified and Indonesian brands, and for my kids' health, I chose the certified option. They showed me all the safety certificates, explained exactly what goes into the water, and my kids have had zero skin reactions."
                 </p>
                 <p className="text-muted-foreground font-semibold">
                   "As a mother, knowing these internationally certified chemicals are tested safe for children gives me complete peace of mind. For properties with kids or skin sensitivities, the certified option is absolutely worth it."

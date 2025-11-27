@@ -55,14 +55,14 @@ export default function UbudPoolCleaning() {
         <title>Pool Cleaning Ubud | Mountain Villa Pool Maintenance Bali</title>
         <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. From IDR 750K/month. Eco-friendly options, highland water expertise. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Ubud, Ubud pool maintenance, mountain pool service Bali, rice terrace villa pool cleaning, eco pool cleaning Ubud, Tegallalang pool service, Penestanan pool maintenance" />
-        <meta property="og:title" content="Pool Cleaning Ubud | Mountain Villa Pool Service Bali" />
+        <meta property="og:title" content="Pool Cleaning Ubud | Mountain Villa Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Ubud. Serving Tegallalang, Campuhan, Sayan & all areas. From IDR 750K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-ubud" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Pool Service Bali - Ubud",
+            "name": "Bali Pool Service - Ubud",
             "description": "Professional pool cleaning for mountain villas and resorts in Ubud, Bali",
             "telephone": "+62-822-3756-5997",
             "address": {

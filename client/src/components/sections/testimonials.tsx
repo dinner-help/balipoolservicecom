@@ -13,7 +13,7 @@ export function Testimonials() {
       type: "Private Villa Owner",
       avatar: "ST",
       rating: 5,
-      review: "We've been using Pool Service Bali for 18 months and they're simply the best. Every visit is documented with photos sent to our email—we can monitor our pool from Australia! The technician arrives exactly on schedule, tests the water with professional equipment, and sends a detailed report within hours. Never had green water once. Absolute professionals.",
+      review: "We've been using Bali Pool Service for 18 months and they're simply the best. Every visit is documented with photos sent to our email—we can monitor our pool from Australia! The technician arrives exactly on schedule, tests the water with professional equipment, and sends a detailed report within hours. Never had green water once. Absolute professionals.",
       highlight: "18 months, zero issues"
     },
     {
@@ -22,7 +22,7 @@ export function Testimonials() {
       type: "Investment Property Owner",
       avatar: "DC",
       rating: 5,
-      review: "I manage 3 rental villas and Pool Service Bali handles all of them. What impresses me most is their consistency—same technician, same quality, always on time. Guests constantly compliment the crystal-clear water. The monthly reports are perfect for my property management records. Best decision I made was switching to them.",
+      review: "I manage 3 rental villas and Bali Pool Service handles all of them. What impresses me most is their consistency—same technician, same quality, always on time. Guests constantly compliment the crystal-clear water. The monthly reports are perfect for my property management records. Best decision I made was switching to them.",
       highlight: "Managing 3 properties flawlessly"
     },
     {
@@ -40,7 +40,7 @@ export function Testimonials() {
       type: "Retired Expats",
       avatar: "JP",
       rating: 5,
-      review: "We're not tech-savvy, but Pool Service Bali makes everything simple. They send photos and reports we can actually understand. The technician explains everything in plain English, shows us the test results, and even taught us how to read the equipment. Professional, patient, and always punctual. Highly recommended for anyone who values reliability.",
+      review: "We're not tech-savvy, but Bali Pool Service makes everything simple. They send photos and reports we can actually understand. The technician explains everything in plain English, shows us the test results, and even taught us how to read the equipment. Professional, patient, and always punctual. Highly recommended for anyone who values reliability.",
       highlight: "Patient and professional service"
     },
     {
@@ -49,7 +49,7 @@ export function Testimonials() {
       type: "Hotel Property Manager",
       avatar: "KN",
       rating: 5,
-      review: "Managing a 12-room boutique hotel requires impeccable pool maintenance. Pool Service Bali delivers every time—early morning service before guests wake up, digital reports for our records, emergency response when needed. They fixed a pump failure within 3 hours on a Sunday. This level of professionalism is rare in Bali. Worth every rupiah.",
+      review: "Managing a 12-room boutique hotel requires impeccable pool maintenance. Bali Pool Service delivers every time—early morning service before guests wake up, digital reports for our records, emergency response when needed. They fixed a pump failure within 3 hours on a Sunday. This level of professionalism is rare in Bali. Worth every rupiah.",
       highlight: "Hotel-grade reliability"
     },
     {
@@ -67,7 +67,7 @@ export function Testimonials() {
       type: "Vacation Home Owners",
       avatar: "RM",
       rating: 5,
-      review: "We only use our Bali villa 8 weeks per year, but Pool Service Bali maintains it like it's their own. The monthly reports show they're actually doing the work—test results, chemical additions, equipment checks, all documented with timestamps and GPS location. Our property manager loves them too because everything is so organized and professional.",
+      review: "We only use our Bali villa 8 weeks per year, but Bali Pool Service maintains it like it's their own. The monthly reports show they're actually doing the work—test results, chemical additions, equipment checks, all documented with timestamps and GPS location. Our property manager loves them too because everything is so organized and professional.",
       highlight: "Trustworthy when we're away"
     },
     {
@@ -76,7 +76,7 @@ export function Testimonials() {
       type: "Villa Complex Owner",
       avatar: "KW",
       rating: 5,
-      review: "I own 5 villas and Pool Service Bali manages all the pools with incredible efficiency. Same day service, professional equipment, detailed digital reports for each property. They even coordinate with my rental managers to avoid disturbing guests. The chemical subscription saves me time and money. Best pool service company in Bali, hands down.",
+      review: "I own 5 villas and Bali Pool Service manages all the pools with incredible efficiency. Same day service, professional equipment, detailed digital reports for each property. They even coordinate with my rental managers to avoid disturbing guests. The chemical subscription saves me time and money. Best pool service company in Bali, hands down.",
       highlight: "5 pools, zero headaches"
     },
     {
@@ -85,7 +85,7 @@ export function Testimonials() {
       type: "Full-Time Residents",
       avatar: "EW",
       rating: 5,
-      review: "After 3 years with Pool Service Bali, I can say they're the most professional service we use. Always exactly on time (7 AM Tuesdays like clockwork), same friendly technician who knows our pool inside out, and comprehensive reports every visit. They caught a small leak before it became a major problem. Proactive, professional, reliable—everything you want.",
+      review: "After 3 years with Bali Pool Service, I can say they're the most professional service we use. Always exactly on time (7 AM Tuesdays like clockwork), same friendly technician who knows our pool inside out, and comprehensive reports every visit. They caught a small leak before it became a major problem. Proactive, professional, reliable—everything you want.",
       highlight: "3 years of perfection"
     },
     {
@@ -94,7 +94,7 @@ export function Testimonials() {
       type: "Private Estate Owner",
       avatar: "MS",
       rating: 5,
-      review: "German precision meets Balinese service—that's Pool Service Bali. I'm particular about details, and they exceed my standards every time. Laboratory-grade water testing, photo documentation, detailed chemical logs, equipment performance tracking. When they say 'professional,' they mean it. My pool sparkles year-round and I have complete peace of mind.",
+      review: "German precision meets Balinese service—that's Bali Pool Service. I'm particular about details, and they exceed my standards every time. Laboratory-grade water testing, photo documentation, detailed chemical logs, equipment performance tracking. When they say 'professional,' they mean it. My pool sparkles year-round and I have complete peace of mind.",
       highlight: "Exceeds high standards"
     },
     {
@@ -103,7 +103,7 @@ export function Testimonials() {
       type: "Investment Villa Owners",
       avatar: "PS",
       rating: 5,
-      review: "We manage our rental villa from Singapore and Pool Service Bali makes it effortless. Real-time WhatsApp notifications, photo reports, online payment, everything digital and organized. Guest reviews always mention the pristine pool. They even coordinated a pump replacement while we were traveling—communicated everything, got our approval, fixed it same day. Outstanding service.",
+      review: "We manage our rental villa from Singapore and Bali Pool Service makes it effortless. Real-time WhatsApp notifications, photo reports, online payment, everything digital and organized. Guest reviews always mention the pristine pool. They even coordinated a pump replacement while we were traveling—communicated everything, got our approval, fixed it same day. Outstanding service.",
       highlight: "Seamless remote management"
     },
     {
@@ -112,7 +112,7 @@ export function Testimonials() {
       type: "Luxury Home Owners",
       avatar: "WJ",
       rating: 5,
-      review: "We've tried expensive pool services before, but none match Pool Service Bali's professionalism. The technician uses the same equipment I see at luxury hotels—digital testing, professional chemicals, detailed documentation. Reports arrive within 2 hours of service. It's reassuring to have such a reliable, professional team caring for our pool. Highly recommend.",
+      review: "We've tried expensive pool services before, but none match Bali Pool Service's professionalism. The technician uses the same equipment I see at luxury hotels—digital testing, professional chemicals, detailed documentation. Reports arrive within 2 hours of service. It's reassuring to have such a reliable, professional team caring for our pool. Highly recommend.",
       highlight: "Luxury hotel-level service"
     }
   ];
