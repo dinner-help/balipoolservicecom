@@ -7,6 +7,8 @@ import { Link } from "wouter";
 import { Navigation } from "@/components/sections/navigation";
 import { Footer } from "@/components/sections/footer";
 import heroPoolBg from "@assets/stock_images/luxury_villa_swimmin_fcfc9b6b.jpg";
+import { SupportAgentCard } from "@/components/support-agent-card";
+import { supportAgents } from "@/lib/support-agents";
 
 export default function Home() {
   const structuredData = {
@@ -109,14 +111,22 @@ export default function Home() {
       <Navigation />
 
       {/* 1. HERO SECTION */}
-      <section className="relative pt-20 pb-24 md:pt-28 md:pb-32 bg-gradient-to-br from-cyan-50 via-white to-blue-50 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 relative">
+      <section className="relative pt-20 pb-24 md:pt-28 md:pb-32 overflow-hidden min-h-[600px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroPoolBg})` }}
+        />
+        {/* Dark Overlay for text readability */}
+        <div className="absolute inset-0 bg-black/50" />
+        
+        <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Crystal Clear Pools <br className="hidden md:block" />
-              <span className="text-primary">Across All of Bali</span>
+              <span className="text-cyan-300">Across All of Bali</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
               Professional pool cleaning & maintenance for villas, hotels, and homes. 
               Keep your pool pristine with Bali's most trusted pool service team.
             </p>
@@ -145,16 +155,16 @@ export default function Home() {
 
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
-              <div className="flex items-center gap-2 text-gray-600">
-                <Shield className="h-5 w-5 text-primary" />
+              <div className="flex items-center gap-2 text-white/90">
+                <Shield className="h-5 w-5 text-cyan-300" />
                 <span className="text-sm font-medium">10+ Years Experience</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-600">
-                <Users className="h-5 w-5 text-primary" />
+              <div className="flex items-center gap-2 text-white/90">
+                <Users className="h-5 w-5 text-cyan-300" />
                 <span className="text-sm font-medium">500+ Happy Clients</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-600">
-                <Clock className="h-5 w-5 text-primary" />
+              <div className="flex items-center gap-2 text-white/90">
+                <Clock className="h-5 w-5 text-cyan-300" />
                 <span className="text-sm font-medium">24/7 Emergency Service</span>
               </div>
             </div>
@@ -788,6 +798,21 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SUPPORT TEAM SECTION */}
+      <section className="py-20 md:py-28 bg-gray-50" id="team">
+        <div className="max-w-5xl mx-auto px-6 md:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Support Team</h2>
+            <p className="text-lg text-gray-600">Ready to help you with any pool questions. Chat directly on WhatsApp.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {supportAgents.map((agent) => (
+              <SupportAgentCard key={agent.id} agent={agent} />
             ))}
           </div>
         </div>
