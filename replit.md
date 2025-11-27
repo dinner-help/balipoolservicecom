@@ -12,11 +12,20 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+### November 27, 2025 (Session 4)
+- **Pricing Restructure**: Updated all maintenance package pricing and naming:
+  - Silver Package: IDR 800,000/month (1 visit/week, 4/month) - For private villas & homes
+  - Gold Package: IDR 1,500,000/month (2 visits/week, 8/month) - Most Popular, for rental villas & luxury homes
+  - Platinum Package: IDR 2,800,000/month (4 visits/week, 16/month) - For estates & boutique hotels
+  - Replaced old naming (Basic Villa/Premium Villa/Boutique Resort) with Silver/Gold/Platinum tiers
+  - Updated all pages: home.tsx, pool-cleaner.tsx, service-pricing.tsx, pricing.tsx, small-homes.tsx, and all location pages
+  - Note: One-time service fees (green pool cleaning, tile cleaning, repairs) are separate from maintenance packages
+
 ### November 26, 2025 (Session 3)
-- **Price Increase 25%**: Updated all pricing across the entire website:
-  - Basic Villa: 600K → 750K
-  - Premium Villa: 1.2M → 1.5M  
-  - Boutique Resort: 3M → 3.75M
+- **Price Increase 25%**: Updated one-time service pricing across the entire website
+  - Green Pool Recovery (Light): IDR 1,875,000
+  - Green Pool Recovery (Heavy): IDR 3,750,000
+  - Deep Cleaning: IDR 1,125,000
   - All service pages, location pages, and Indonesian pages updated
 - **New Pool Construction Page**: Created comprehensive `/pool-construction-bali` landing page with:
   - 10 pool types (villa, resort, infinity, plunge, saltwater, etc.)

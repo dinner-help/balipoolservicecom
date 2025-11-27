@@ -18,7 +18,7 @@ export default function Home() {
     "description": "Professional pool cleaning and maintenance services across Bali",
     "url": "https://poolservicebali.com",
     "telephone": "+6282237565997",
-    "priceRange": "IDR 750,000 - IDR 3,750,000",
+    "priceRange": "IDR 800,000 - IDR 2,800,000",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Bali",
@@ -73,7 +73,7 @@ export default function Home() {
         "name": "How much is weekly pool maintenance in Bali?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weekly pool maintenance in Bali ranges from IDR 750,000 to IDR 3,750,000 per month depending on pool size and service frequency. All packages include chemicals and equipment checks."
+          "text": "Weekly pool maintenance in Bali ranges from IDR 800,000 to IDR 2,800,000 per month depending on pool size and service frequency. All packages include chemicals and equipment checks."
         }
       },
       {
@@ -93,7 +93,7 @@ export default function Home() {
         <title>Pool Cleaning Bali | Professional Pool Maintenance in Canggu, Seminyak, Ubud</title>
         <meta 
           name="description" 
-          content="Bali's trusted pool cleaning & maintenance experts. Serving Canggu, Seminyak, Ubud, Sanur, Nusa Dua & all areas. Weekly maintenance from IDR 750K. WhatsApp: +62 822-3756-5997" 
+          content="Bali's trusted pool cleaning & maintenance experts. Serving Canggu, Seminyak, Ubud, Sanur, Nusa Dua & all areas. Weekly maintenance from IDR 800K. WhatsApp: +62 822-3756-5997" 
         />
         <meta 
           name="keywords" 
@@ -309,7 +309,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="text-2xl font-bold text-primary mb-4">
-                  From IDR 750,000<span className="text-sm font-normal text-gray-500">/month</span>
+                  From IDR 800,000<span className="text-sm font-normal text-gray-500">/month</span>
                 </div>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
@@ -844,7 +844,7 @@ export default function Home() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">How much is weekly pool maintenance in Bali?</h3>
                 <p className="text-gray-600">
-                  Weekly pool maintenance in Bali ranges from IDR 750,000 to IDR 3,750,000 per month depending on pool size, service frequency, and package level. All our packages include premium chemicals, equipment checks, and WhatsApp reporting.
+                  Weekly pool maintenance in Bali ranges from IDR 800,000 to IDR 2,800,000 per month depending on pool size, service frequency, and package level. All our packages include premium chemicals, equipment checks, and WhatsApp reporting.
                 </p>
               </CardContent>
             </Card>
@@ -931,12 +931,12 @@ export default function Home() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Silver Package</h3>
                 <p className="text-sm text-gray-500 mb-6">For private villas & homes</p>
-                <div className="text-4xl font-bold text-primary mb-2">IDR 750,000</div>
+                <div className="text-4xl font-bold text-primary mb-2">IDR 800,000</div>
                 <p className="text-sm text-gray-500 mb-6">/month</p>
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                    <span>2 visits per week (8/month)</span>
+                    <span>1 visit per week (4/month)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
@@ -973,7 +973,7 @@ export default function Home() {
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                    <span>3 visits per week (12/month)</span>
+                    <span>2 visits per week (8/month)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
@@ -1002,12 +1002,12 @@ export default function Home() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Platinum Package</h3>
                 <p className="text-sm text-gray-500 mb-6">For estates & boutique hotels</p>
-                <div className="text-4xl font-bold text-primary mb-2">IDR 3,750,000</div>
+                <div className="text-4xl font-bold text-primary mb-2">IDR 2,800,000</div>
                 <p className="text-sm text-gray-500 mb-6">/month</p>
                 <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                    <span>Daily checks + 3 full services</span>
+                    <span>4 visits per week (16/month)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />

@@ -496,7 +496,7 @@ export default function PoolFilterCleaningRepairBali() {
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl">
             <Card>
               <CardContent className="p-6">
-                <div className="text-primary font-bold text-sm mb-3">Boutique Resort • Seminyak</div>
+                <div className="text-primary font-bold text-sm mb-3">Platinum Package • Seminyak</div>
                 <h3 className="text-lg font-bold text-foreground mb-3">Sand Filter Channelling Crisis</h3>
                 <p className="text-sm text-foreground/80 mb-4">
                   Resort pool water stayed cloudy despite chemical treatment. Investigation revealed sand filter media had channelled after 8 years without replacement. We replaced the filter sand and repaired eroded laterals. Water clarity restored within 24 hours.

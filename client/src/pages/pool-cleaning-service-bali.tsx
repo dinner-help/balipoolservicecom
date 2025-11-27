@@ -34,7 +34,7 @@ export default function PoolCleaningServiceBali() {
   const faqs = [
     {
       question: "How often should I have my pool cleaned in Bali?",
-      answer: "In Bali's tropical climate, we recommend professional pool cleaning 2-3 times per week. The high humidity, frequent rain, and warm temperatures accelerate algae growth and debris accumulation. Our Premium Villa package (2x weekly) suits residential pools, while Boutique Resort (3x weekly) is ideal for rental villas and hotels."
+      answer: "In Bali's tropical climate, we recommend professional pool cleaning 1-4 times per week. The high humidity, frequent rain, and warm temperatures accelerate algae growth. Our Silver Package (1x weekly) suits basic homes, Gold Package (2x weekly) for rental properties, and Platinum Package (4x weekly) is ideal for hotels and resorts."
     },
     {
       question: "What is included in your pool cleaning service?",
@@ -42,7 +42,7 @@ export default function PoolCleaningServiceBali() {
     },
     {
       question: "How much does pool cleaning cost in Bali?",
-      answer: "Pool cleaning in Bali ranges from IDR 750,000 to IDR 3,750,000 per month depending on service frequency. Our Basic Villa package starts at IDR 750,000/month (weekly visits), Premium Villa at IDR 1,500,000/month (2 visits/week), and Boutique Resort at IDR 3,750,000/month (3 visits/week). All packages include chemicals and supplies."
+      answer: "Pool cleaning in Bali ranges from IDR 800,000 to IDR 2,800,000 per month depending on service frequency. Our Silver Package starts at IDR 800,000/month (1 visit/week), Gold Package at IDR 1,500,000/month (2 visits/week), and Platinum Package at IDR 2,800,000/month (4 visits/week). All packages include chemicals and supplies."
     },
     {
       question: "Do you offer one-time pool cleaning for green pools?",
@@ -79,10 +79,10 @@ export default function PoolCleaningServiceBali() {
     <>
       <Helmet>
         <title>Pool Cleaning Service Bali | Professional Villa & Hotel Pool Cleaners</title>
-        <meta name="description" content="Professional pool cleaning service in Bali for villas, hotels, and private homes. Weekly cleaning from IDR 750K/month. 10+ years experience, 500+ clients. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool cleaning service in Bali for villas, hotels, and private homes. Weekly cleaning from IDR 800K/month. 10+ years experience, 500+ clients. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content={[serviceKeywords.primary, ...serviceKeywords.secondary, ...serviceKeywords.longTail].join(", ")} />
         <meta property="og:title" content="Pool Cleaning Service Bali | Professional Pool Cleaners" />
-        <meta property="og:description" content="Expert pool cleaning for Bali villas, hotels & resorts. Crystal-clear pools guaranteed. From IDR 750K/month. Fast response, transparent pricing." />
+        <meta property="og:description" content="Expert pool cleaning for Bali villas, hotels & resorts. Crystal-clear pools guaranteed. From IDR 800K/month. Fast response, transparent pricing." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-service-bali" />
         <script type="application/ld+json">
@@ -102,7 +102,7 @@ export default function PoolCleaningServiceBali() {
               }
             },
             "areaServed": serviceAreas.map(a => a.name).join(", "),
-            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
+            "priceRange": "IDR 800,000 - IDR 2,800,000/month"
           })}
         </script>
       </Helmet>

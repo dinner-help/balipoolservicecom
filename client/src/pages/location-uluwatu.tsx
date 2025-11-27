@@ -147,9 +147,9 @@ export default function UluwatuPoolCleaning() {
               <Card>
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-bold text-foreground mb-2">Silver</h3>
-                  <div className="text-3xl font-bold text-primary mb-6">IDR 750,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
+                  <div className="text-3xl font-bold text-primary mb-6">IDR 800,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
-                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2x weekly service</li>
+                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />1x weekly service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Chemicals included</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />WhatsApp reports</li>
                   </ul>
@@ -166,9 +166,9 @@ export default function UluwatuPoolCleaning() {
                   <h3 className="text-xl font-bold text-foreground mb-2">Gold</h3>
                   <div className="text-3xl font-bold text-primary mb-6">IDR 1,500,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
-                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />3x weekly service</li>
+                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2x weekly service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />All chemicals included</li>
-                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Monthly deep clean</li>
+                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Monthly deep filter cleaning</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Priority response</li>
                   </ul>
                   <Button className="w-full gap-2" asChild>
@@ -181,9 +181,9 @@ export default function UluwatuPoolCleaning() {
               <Card>
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-bold text-foreground mb-2">Platinum</h3>
-                  <div className="text-3xl font-bold text-primary mb-6">IDR 3,750,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
+                  <div className="text-3xl font-bold text-primary mb-6">IDR 2,800,000<span className="text-sm font-normal text-foreground/60">/mo</span></div>
                   <ul className="space-y-3 text-sm text-foreground/80 mb-6 text-left">
-                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Daily service</li>
+                    <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />4x weekly service</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Dedicated technician</li>
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2-hour emergency</li>
                   </ul>

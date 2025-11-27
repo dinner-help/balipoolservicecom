@@ -25,47 +25,47 @@ const PHONE_NUMBER = "6282237565997";
 
 const defaultPackages = [
   {
-    name: "Basic Villa Package",
-    price: "IDR 750,000",
+    name: "Silver Package",
+    price: "IDR 800,000",
     period: "/month",
-    description: "Perfect for small villas & residential pools",
+    description: "For private villas & homes",
     popular: false,
     features: [
-      "Weekly visits (4/month)",
+      "1 visit per week (4/month)",
       "Complete cleaning & vacuuming",
       "Water testing & pH balancing",
-      "Basic chemicals included",
+      "Premium chemicals included",
       "Filter backwashing",
       "WhatsApp support",
     ],
   },
   {
-    name: "Premium Villa Package",
+    name: "Gold Package",
     price: "IDR 1,500,000",
     period: "/month",
-    description: "Best for luxury villas & rental properties",
+    description: "For rental villas & luxury homes",
     popular: true,
     features: [
       "2 visits per week (8/month)",
-      "Everything in Basic",
-      "Premium 90% pure chemicals",
-      "Priority emergency response (4-hour)",
+      "Everything in Silver",
+      "Monthly deep filter cleaning",
+      "Priority emergency response",
       "Chemical delivery included",
       "Monthly water quality report",
       "24/7 WhatsApp support",
     ],
   },
   {
-    name: "Boutique Resort Package",
-    price: "IDR 3,750,000",
+    name: "Platinum Package",
+    price: "IDR 2,800,000",
     period: "/month",
-    description: "Ideal for resorts & boutique hotels",
+    description: "For estates & boutique hotels",
     popular: false,
     features: [
-      "3 visits per week (12/month)",
-      "Everything in Premium",
+      "4 visits per week",
+      "Everything in Gold",
       "Dedicated technician assigned",
-      "2-hour emergency response guarantee",
+      "2-hour emergency response",
       "Quarterly equipment servicing",
       "Weekly chemistry reports",
       "Water feature maintenance",
@@ -131,7 +131,7 @@ export function ServicePricing({
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <span className="font-semibold">{serviceName}:</span>
-            <span className="ml-2 text-primary font-bold">Starting from IDR 750,000/month</span>
+            <span className="ml-2 text-primary font-bold">Starting from IDR 800,000/month</span>
           </div>
           <Button
             size="sm"
@@ -239,11 +239,11 @@ export function ServicePricing({
                 <p className="text-sm text-muted-foreground mb-4">
                   <strong>Property:</strong> 3-bedroom villa with 8m x 4m pool (32m³)<br />
                   <strong>Location:</strong> {location}<br />
-                  <strong>Package:</strong> Premium Villa (2 visits/week)
+                  <strong>Package:</strong> Gold (2 visits/week)
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span>Premium Villa Package Monthly</span>
+                    <span>Gold Package Monthly</span>
                     <span className="font-bold">IDR 1,500,000</span>
                   </div>
                   <div className="flex justify-between text-green-600">

@@ -33,7 +33,7 @@ export default function SeminyakPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Seminyak?",
-      answer: "Pool cleaning in Seminyak starts from IDR 750,000/month for basic weekly service. Our Premium Villa package includes 2 visits/week at IDR 1,500,000/month. Prices include all chemicals and supplies."
+      answer: "Pool cleaning in Seminyak starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package includes 2 visits/week at IDR 1,500,000/month. Platinum Package with 4 visits/week is IDR 2,800,000/month. All prices include chemicals and supplies."
     },
     {
       question: "Do you service all areas of Seminyak?",
@@ -53,10 +53,10 @@ export default function SeminyakPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Seminyak | Professional Pool Service in Seminyak Bali</title>
-        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. From IDR 750K/month. Same-day service. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. From IDR 800K/month. Same-day service. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Seminyak, Seminyak pool maintenance, villa pool service Seminyak, pool cleaner Seminyak Bali, swimming pool cleaning Seminyak, pool service Petitenget, pool cleaning Oberoi, Batu Belig pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Seminyak | Professional Bali Pool Service" />
-        <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 750K/month." />
+        <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 800K/month." />
         <link rel="canonical" href="https://poolservicebali.com/location-seminyak" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -72,7 +72,7 @@ export default function SeminyakPoolCleaning() {
               "addressCountry": "ID"
             },
             "areaServed": ["Seminyak", "Petitenget", "Oberoi", "Batu Belig", "Kayu Aya"],
-            "priceRange": "IDR 750,000 - IDR 3,750,000/month"
+            "priceRange": "IDR 800,000 - IDR 2,800,000/month"
           })}
         </script>
       </Helmet>

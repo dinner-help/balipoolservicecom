@@ -245,7 +245,7 @@ export default function PoolCleaner() {
             "description": "Professional pool cleaning and maintenance services in Bali. CPO-certified technicians providing expert pool care for villas, hotels, and homes across Bali.",
             "url": "https://balipoolservice.com/pool-cleaner",
             "telephone": "+6282237565997",
-            "priceRange": "IDR 750,000 - IDR 3,750,000",
+            "priceRange": "IDR 800,000 - IDR 2,800,000",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Jalan Sunset Road",
@@ -990,14 +990,14 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Silver Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 750,000</div>
+                    <div className="text-3xl font-bold text-primary">IDR 800,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">Perfect for private villas</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm">2 visits per week (8/month)</span>
+                      <span className="text-sm">1 visit per week (4/month)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -1031,7 +1031,7 @@ export default function PoolCleaner() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm">3 visits per week (12/month)</span>
+                      <span className="text-sm">2 visits per week (8/month)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -1055,14 +1055,14 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Platinum Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 3,750,000</div>
+                    <div className="text-3xl font-bold text-primary">IDR 2,800,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">Perfect for hotels & resorts</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm">Daily checks + 3 services/week</span>
+                      <span className="text-sm">4 visits per week (16/month)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />

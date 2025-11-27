@@ -7,7 +7,7 @@ export function SmallHomes() {
     {
       icon: DollarSign,
       title: "Affordable for Private Homes",
-      description: "Starting from just IDR 750K/month - professional pool care that fits your family budget. No job is too small for us.",
+      description: "Starting from just IDR 800K/month - professional pool care that fits your family budget. No job is too small for us.",
     },
     {
       icon: Home,
@@ -115,8 +115,8 @@ export function SmallHomes() {
                   </li>
                 </ul>
                 <div className="mt-6 pt-6 border-t">
-                  <div className="text-2xl font-bold text-primary">IDR 750K/month</div>
-                  <div className="text-sm text-muted-foreground">Less than IDR 100K per day</div>
+                  <div className="text-2xl font-bold text-primary">IDR 800K/month</div>
+                  <div className="text-sm text-muted-foreground">About IDR 200K per visit</div>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export function SmallHomes() {
             <div>
               <h4 className="font-bold mb-2 text-primary">❓ "Can I afford professional pool service?"</h4>
               <p className="text-sm text-muted-foreground">
-                Starting at IDR 750K/month, it's more affordable than you think - especially when you factor in the cost of DIY chemicals, equipment repairs from improper maintenance, and your valuable weekend time.
+                Starting at IDR 800K/month, it's more affordable than you think - especially when you factor in the cost of DIY chemicals, equipment repairs from improper maintenance, and your valuable weekend time.
               </p>
             </div>
             <div>
