@@ -37,10 +37,10 @@ export function Footer() {
   ];
 
   const companyInfo = [
-    { label: "About Us", href: "/#about" },
+    { label: "About Us", href: "/about" },
+    { label: "Pricing", href: "/pricing" },
     { label: "Contact", href: "/#contact" },
     { label: "WhatsApp", href: "https://wa.me/6282237565997", external: true },
-    { label: "Opening Hours", href: "/#contact" },
     { label: "Terms & Conditions", href: "/terms" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Refund Policy", href: "/refund-policy" },

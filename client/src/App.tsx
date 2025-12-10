@@ -61,6 +61,8 @@ import SwimmingPoolRepairBali from "@/pages/swimming-pool-repair-bali";
 import CommercialHotelPoolServiceBali from "@/pages/commercial-hotel-pool-service-bali";
 import PoolConstructionBali from "@/pages/pool-construction-bali";
 import ColdPlungeBali from "@/pages/cold-plunge-bali";
+import About from "@/pages/about";
+import Pricing from "@/pages/pricing";
 import BahasaHome from "@/pages/id/index";
 import BahasaServices from "@/pages/id/layanan";
 import BahasaPricing from "@/pages/id/harga";
@@ -132,6 +134,8 @@ function Router() {
       <Route path="/commercial-hotel-pool-service-bali" component={CommercialHotelPoolServiceBali} />
       <Route path="/pool-construction-bali" component={PoolConstructionBali} />
       <Route path="/cold-plunge-bali" component={ColdPlungeBali} />
+      <Route path="/about" component={About} />
+      <Route path="/pricing" component={Pricing} />
       <Route path="/id" component={BahasaHome} />
       <Route path="/id/layanan" component={BahasaServices} />
       <Route path="/id/harga" component={BahasaPricing} />

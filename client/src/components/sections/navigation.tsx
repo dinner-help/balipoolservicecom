@@ -144,13 +144,24 @@ export function Navigation() {
             </DropdownMenu>
 
             {/* Pricing */}
-            <button
-              onClick={() => scrollToSection("pricing")}
-              className="text-sm text-gray-900 hover:text-primary transition-colors font-medium px-3 py-2"
-              data-testid="link-pricing"
-            >
-              Pricing
-            </button>
+            <Link href="/pricing">
+              <button
+                className="text-sm text-gray-900 hover:text-primary transition-colors font-medium px-3 py-2"
+                data-testid="link-pricing"
+              >
+                Pricing
+              </button>
+            </Link>
+
+            {/* About */}
+            <Link href="/about">
+              <button
+                className="text-sm text-gray-900 hover:text-primary transition-colors font-medium px-3 py-2"
+                data-testid="link-about"
+              >
+                About
+              </button>
+            </Link>
 
             {/* WhatsApp CTA Button */}
             <Button
@@ -235,16 +246,25 @@ export function Navigation() {
                 </div>
               </div>
 
-              <button
-                onClick={() => {
-                  scrollToSection("pricing");
-                  setIsMobileMenuOpen(false);
-                }}
-                className="w-full text-left px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded-lg"
-                data-testid="mobile-link-pricing"
-              >
-                Pricing
-              </button>
+              <Link href="/pricing">
+                <button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="w-full text-left px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded-lg"
+                  data-testid="mobile-link-pricing"
+                >
+                  Pricing
+                </button>
+              </Link>
+
+              <Link href="/about">
+                <button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="w-full text-left px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded-lg"
+                  data-testid="mobile-link-about"
+                >
+                  About Us
+                </button>
+              </Link>
             </div>
           </div>
         )}

@@ -9,6 +9,7 @@ import { Footer } from "@/components/sections/footer";
 import heroPoolBg from "@assets/generated_images/luxury_bali_pool_hero_image.png";
 import { SupportAgentCard } from "@/components/support-agent-card";
 import { supportAgents } from "@/lib/support-agents";
+import { ContactForm } from "@/components/contact-form";
 
 export default function Home() {
   const structuredData = {
@@ -1035,6 +1036,85 @@ export default function Home() {
 
           <div className="text-center mt-12 text-gray-500">
             <p>All prices in Indonesian Rupiah. Prepay quarterly for 5% discount, annually for 10% discount.</p>
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/pricing">
+              <Button variant="outline" className="gap-2">
+                View Full Pricing Details
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT PREVIEW SECTION */}
+      <section className="py-16 md:py-24 bg-gray-50" id="about">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Bali's Trusted Pool Care Team
+              </h2>
+              <p className="text-lg text-gray-600 mb-4">
+                Bali Pool Service has been keeping pools crystal clear since 2014. 
+                Founded by I Wayan Sudira, we've grown from 5 villa clients in Canggu 
+                to serving 500+ properties across all of Bali.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our team of 18 certified technicians combines local expertise with 
+                professional standards. We understand Bali's unique climate challenges 
+                and know exactly how to keep your pool pristine year-round.
+              </p>
+              <div className="flex flex-wrap gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <Shield className="h-5 w-5 text-primary" />
+                  <span className="font-medium">10+ Years Experience</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Users className="h-5 w-5 text-primary" />
+                  <span className="font-medium">500+ Happy Clients</span>
+                </div>
+              </div>
+              <Link href="/about">
+                <Button variant="outline" className="gap-2">
+                  Meet Our Team
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {supportAgents.slice(0, 2).map((agent) => (
+                <Card key={agent.id} className="overflow-hidden">
+                  <img 
+                    src={agent.image} 
+                    alt={`${agent.name} - ${agent.role}`}
+                    className="w-full aspect-square object-cover"
+                  />
+                  <CardContent className="p-4 text-center">
+                    <h4 className="font-bold text-sm">{agent.name}</h4>
+                    <p className="text-xs text-gray-500">{agent.role}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT FORM SECTION */}
+      <section className="py-16 md:py-24 bg-white" id="contact-form">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Request a Free Quote
+            </h2>
+            <p className="text-lg text-gray-600">
+              Fill out the form below and we'll get back to you within 24 hours with a custom quote.
+            </p>
+          </div>
+          <div className="max-w-2xl mx-auto">
+            <ContactForm />
           </div>
         </div>
       </section>
