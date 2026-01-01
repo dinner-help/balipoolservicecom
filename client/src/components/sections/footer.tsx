@@ -58,6 +58,7 @@ export function Footer() {
     { label: "Chemical Safety", href: "/#chemical-safety" },
     { label: "Water Testing Standards", href: "/pool-water-testing-service-bali" },
     { label: "Pool Care Blog", href: "/blog" },
+    { label: "Recommended Services", href: "/recommended-services" },
   ];
 
   return (

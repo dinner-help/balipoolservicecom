@@ -63,6 +63,7 @@ import PoolConstructionBali from "@/pages/pool-construction-bali";
 import ColdPlungeBali from "@/pages/cold-plunge-bali";
 import About from "@/pages/about";
 import Pricing from "@/pages/pricing";
+import RecommendedServices from "@/pages/recommended-services";
 import BahasaHome from "@/pages/id/index";
 import BahasaServices from "@/pages/id/layanan";
 import BahasaPricing from "@/pages/id/harga";
@@ -136,6 +137,7 @@ function Router() {
       <Route path="/cold-plunge-bali" component={ColdPlungeBali} />
       <Route path="/about" component={About} />
       <Route path="/pricing" component={Pricing} />
+      <Route path="/recommended-services" component={RecommendedServices} />
       <Route path="/id" component={BahasaHome} />
       <Route path="/id/layanan" component={BahasaServices} />
       <Route path="/id/harga" component={BahasaPricing} />
