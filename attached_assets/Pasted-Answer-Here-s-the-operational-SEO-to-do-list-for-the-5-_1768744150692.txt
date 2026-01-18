@@ -1,0 +1,135 @@
+Answer
+
+Here’s the operational SEO to-do list for the 5 areas you named. It’s built to catch the “Google can’t see you / can’t understand you / doesn’t trust you” failures humans love shipping to production.
+
+Actions (To-Do Checklist)
+
+1) Indexing & crawl sanity (visibility blockers)
+	•	Pick the single canonical site version: https:// + (www OR non-www).
+	•	301 redirect all other versions to the canonical (http→https, www↔non-www, mixed slashes if applicable).
+	•	Robots meta audit (templates + key pages): confirm no noindex on any page you want to rank.
+	•	robots.txt audit:
+	•	Not blocking key folders (/, /services/, /blog/, etc.)
+	•	Doesn’t block CSS/JS/image assets Google needs to render pages
+	•	XML sitemap exists at /sitemap.xml (or sitemap index if large).
+	•	Sitemap contains only “real” pages:
+	•	Status 200 pages only
+	•	No redirects (3xx), errors (4xx/5xx), dev/staging URLs, tag/search pages (unless intentional)
+	•	Only canonical URLs (no params/duplicates)
+	•	Submit sitemap in Google Search Console and confirm “Success”.
+	•	Index coverage check in GSC:
+	•	Investigate “Excluded” reasons (Discovered not indexed, Crawled not indexed, Duplicate, Alternate canonical, Soft 404)
+	•	Fix root causes, then validate fixes
+
+⸻
+
+2) Canonical & duplication control (ranking dilution)
+	•	Canonical tag present on every indexable page (<link rel="canonical" href="...">)
+	•	Canonical points to itself (self-referential) unless you intentionally consolidate duplicates.
+	•	One URL format policy:
+	•	Trailing slash rule (always on OR always off)
+	•	Lowercase URL rule (no random uppercase)
+	•	Parameter handling:
+	•	Ensure ?utm_* and tracking params do not create indexable duplicates
+	•	Filter/sort params either:
+	•	Canonical to clean URL, or
+	•	noindex,follow (if needed), or
+	•	Blocked carefully (only if safe)
+	•	301 redirect “junk variants”:
+	•	http → https
+	•	www ↔ non-www (whichever is non-canonical)
+	•	/Page → /page
+	•	/service ↔ /service/ (to your chosen standard)
+	•	Pagination rules (if blog/shop):
+	•	Paginated pages have correct canonical (usually self-canonical)
+	•	Avoid canonicalizing all pages to page 1 unless you know why
+	•	Duplicate page types:
+	•	Tag archives / category duplicates / internal search pages handled (usually noindex)
+	•	Print versions / AMP / duplicates handled
+
+⸻
+
+3) Architecture & internal links (crawl priority + topical clarity)
+	•	Map your site hierarchy: Home → Category/Service → Detail (keep it clean).
+	•	Key pages reachable in ≤3 clicks from homepage.
+	•	No orphan pages:
+	•	Every indexable page has at least 1 internal link from an indexable page
+	•	Navigation sanity:
+	•	Primary nav links to money pages
+	•	Footer links cover important trust + service pages
+	•	Internal anchor text consistency:
+	•	Use descriptive anchors (not “click here”)
+	•	Keep naming consistent across site (same service = same wording)
+	•	Breadcrumbs implemented (even if minimal) and links work.
+	•	Fix broken links (internal 404s).
+	•	Check crawl depth & wasted crawl:
+	•	Reduce infinite paths (calendar pages, faceted nav spirals, endless parameters)
+	•	URL structure matches hierarchy (example):
+	•	/services/
+	•	/services/massage-kuta/
+	•	/blog/ and /blog/post-name/
+
+⸻
+
+4) Performance + mobile (Core Web Vitals + usability)
+	•	Measure CWV on top pages (homepage + top 3 money pages):
+	•	LCP
+	•	INP
+	•	CLS
+	•	Largest element optimization (LCP):
+	•	Compress hero image
+	•	Use proper dimensions + modern formats (WebP/AVIF)
+	•	Preload critical hero image if needed
+	•	Script discipline (INP):
+	•	Remove unused scripts
+	•	Defer non-critical JS
+	•	Avoid heavy chat widgets/popups on load
+	•	Layout stability (CLS):
+	•	Set width/height for images/iframes
+	•	Avoid inserting banners above content after load
+	•	Image hygiene everywhere:
+	•	Serve responsive sizes (srcset)
+	•	Lazy-load below the fold
+	•	Mobile UX checks:
+	•	No horizontal scroll
+	•	Tap targets not tiny
+	•	Fonts readable, no intrusive interstitials
+	•	Hosting/CDN basics:
+	•	Gzip/Brotli enabled
+	•	Cache headers set for static assets
+	•	CDN used for images if possible
+
+⸻
+
+5) Schema + trust (understanding + credibility)
+	•	Organization / LocalBusiness schema added (correct fields):
+	•	Name
+	•	URL
+	•	Logo
+	•	SameAs (social profiles)
+	•	Address + phone (if local)
+	•	Opening hours (if local)
+	•	Breadcrumb schema matches your breadcrumbs.
+	•	Service/Product schema where relevant (services pages, pricing pages).
+	•	Validate schema with Google’s Rich Results Test (fix errors/warnings that matter).
+	•	NAP consistency (Local SEO):
+	•	Same Name/Address/Phone everywhere (site + Google Business Profile + citations)
+	•	Trust pages exist and are reachable:
+	•	Contact page with real details
+	•	About page (real business identity)
+	•	Terms & Conditions
+	•	Privacy Policy
+	•	Refund/Cancellation policy (especially if taking money)
+	•	E-E-A-T hygiene (still “not content” but trust signals):
+	•	Real business name in footer
+	•	Physical/service area clarity
+	•	No fake reviews, no stock “we’re the best” nonsense
+
+⸻
+
+Uncertainty
+	•	Known: This checklist covers the highest-impact technical SEO checks that commonly block ranking.
+	•	Unknown: Your platform (WordPress/Webflow/Next.js), whether you’re local SEO, and whether you have faceted filters/ecommerce.
+	•	Assumption: You want ranking pages to be indexed and consolidated under one clean URL per intent.
+	•	Risk: Fixing technicals won’t compensate for weak intent match, but it prevents self-sabotage.
+	•	Next Step: Run this order: (1) Indexing/robots + sitemap, (2) canonicals/redirects, (3) internal linking, (4) CWV, (5) schema/trust.
