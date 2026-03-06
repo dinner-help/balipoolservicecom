@@ -206,7 +206,7 @@ export default function PoolCalculator() {
         <meta property="og:description" content="Calculate your pool volume, chemical requirements, and maintenance costs instantly. Free tool for Bali pool owners." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/pool-calculator" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-calculator" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

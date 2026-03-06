@@ -7,8 +7,8 @@ export default function SwimmingPoolRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Swimming Pool Repair in Bali | Professional Repair Services</title>
-        <meta name="description" content="Professional swimming pool repair services in Bali. Leak detection, equipment repair, surface restoration. WhatsApp: +62 822-3756-5997" />
+        <title>Swimming Pool Repair Bali | Cracks, Leaks, Shell & Equipment Repairs — Same Day Service</title>
+        <meta name="description" content="Professional swimming pool repair in Bali. Cracked shells, leaks, surface damage, equipment failure — all fixed same day. Serving villas, hotels & homes across Canggu, Seminyak & all Bali. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

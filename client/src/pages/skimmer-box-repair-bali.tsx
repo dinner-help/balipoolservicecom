@@ -6,8 +6,8 @@ export default function SkimmerBoxRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Skimmer Box Repair in Bali | Professional Pool Repairs</title>
-        <meta name="description" content="Skimmer box repair and maintenance in Bali. Fix clogged or broken skimmers. WhatsApp: +62 822-3756-5997" />
+        <title>Skimmer Box Repair Bali | Pool Skimmer Replacement & Leak Fix Service</title>
+        <meta name="description" content="Skimmer box repair & replacement in Bali. Fix broken skimmer baskets, cracked skimmer bodies & weir doors. Restore proper pool circulation for villas & hotels. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

@@ -7,8 +7,8 @@ export default function PoolTileCleaningBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Tile Cleaning in Bali | Professional Service</title>
-        <meta name="description" content="Professional pool tile cleaning in Bali. Remove algae stains and calcium buildup. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Tile Cleaning Bali | Calcium Scale & Waterline Stain Removal Specialists</title>
+        <meta name="description" content="Professional pool tile cleaning in Bali. Remove calcium scale, algae stains & waterline buildup from your pool tiles. Restore shine to villa, hotel & resort pools. From IDR 1,125,000. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

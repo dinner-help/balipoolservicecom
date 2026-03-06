@@ -23,10 +23,10 @@ export default function JimbaranPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Jimbaran | Luxury Resort Pool Maintenance Bali</title>
-        <meta name="description" content="Premium pool cleaning in Jimbaran, Bali. Luxury resort specialists, beachfront villas, VIP service. Infinity pool expertise. Call +6282237565997" />
+        <title>Pool Cleaning Jimbaran Bali | Luxury Resort & Beachfront Villa Pool Service</title>
+        <meta name="description" content="Elite pool maintenance in Jimbaran for luxury resorts, beachfront villas & infinity pools. VIP service, discreet technicians, white-glove standards. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning jimbaran, jimbaran pool maintenance, luxury pool service bali, resort pool cleaning jimbaran, beachfront villa pool service" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-jimbaran" />
+        <link rel="canonical" href="https://balipoolservice.com/location-jimbaran" />
       </Helmet>
 
              <Navigation />

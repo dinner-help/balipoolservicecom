@@ -51,9 +51,9 @@ export default function BahasaSeminyak() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         
-        <link rel="canonical" href="https://balipool.services/id/seminyak" />
-        <link rel="alternate" hreflang="id" href="https://balipool.services/id/seminyak" />
-        <link rel="alternate" hreflang="en" href="https://balipool.services/pool-cleaning-seminyak" />
+        <link rel="canonical" href="https://balipoolservice.com/id/seminyak" />
+        <link rel="alternate" hreflang="id" href="https://balipoolservice.com/id/seminyak" />
+        <link rel="alternate" hreflang="en" href="https://balipoolservice.com/pool-cleaning-seminyak" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

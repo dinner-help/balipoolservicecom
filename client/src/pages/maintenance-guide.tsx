@@ -35,7 +35,7 @@ export default function MaintenanceGuide() {
         <meta property="og:description" content="Expert guide to maintaining your pool in Bali's tropical climate. Weekly tasks, chemical balancing, seasonal care, and troubleshooting." />
         <meta property="og:type" content="article" />
         
-        <link rel="canonical" href="https://balipool.services/maintenance-guide" />
+        <link rel="canonical" href="https://balipoolservice.com/maintenance-guide" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

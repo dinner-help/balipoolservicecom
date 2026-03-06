@@ -43,10 +43,10 @@ export default function PererenanPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Pererenan | Beachfront Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Pererenan for beachfront villas and surf retreats. Eco-friendly options, organic debris management. Call +6282237565997" />
+        <title>Pool Cleaning Pererenan Bali | Beachfront Villa & Surf Retreat Pool Service</title>
+        <meta name="description" content="Expert pool cleaning in Pererenan for beachfront villas, surf retreats & eco-properties. Organic debris management, eco-friendly chemical options. From IDR 800K/month. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning pererenan, pererenan pool maintenance, seseh pool service, surf retreat pool cleaning, eco pool maintenance bali, cemagi pool cleaner" />
-        <link rel="canonical" href="https://poolservicebali.com/location-pererenan" />
+        <link rel="canonical" href="https://balipoolservice.com/location-pererenan" />
       </Helmet>
 
       <Navigation />

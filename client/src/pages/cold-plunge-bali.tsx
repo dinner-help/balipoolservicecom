@@ -69,16 +69,16 @@ export default function ColdPlungeBali() {
   return (
     <>
       <Helmet>
-        <title>Cold Plunge Installation Bali | Ice Bath & Cold Therapy Systems</title>
+        <title>Cold Plunge Installation Bali | Stainless Steel & Concrete Ice Bath Systems — From IDR 14M</title>
         <meta 
           name="description" 
-          content="Cold plunge installation in Bali. Ice bath tubs, cold therapy pools for villas, gyms & spas. Commercial-grade cooling systems designed for tropical climate. Get a quote today." 
+          content="Professional cold plunge installation in Bali for villas, gyms & spas. 7 types including stainless steel, concrete & commercial systems. Cooling, insulation & filtration included. Built for Bali's tropical climate. From IDR 14M. Call: +62 822-3756-5997" 
         />
         <meta name="keywords" content="cold plunge bali, ice bath installation bali, cold therapy bali, bali cold plunge prices, gym cold plunge bali, ice bath tub bali, cold plunge builder bali, cold plunge for villa bali, wellness cold plunge bali" />
         <meta property="og:title" content="Cold Plunge Installation Bali | Ice Bath & Wellness Systems" />
         <meta property="og:description" content="Professional cold plunge installation in Bali. Stainless steel tubs, concrete plunge pools, commercial systems. Designed for Bali's tropical climate." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://poolservicebali.com/cold-plunge-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/cold-plunge-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

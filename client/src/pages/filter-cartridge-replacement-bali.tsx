@@ -7,8 +7,8 @@ export default function FilterCartridgeReplacementBali() {
   return (
     <>
       <Helmet>
-        <title>Filter Cartridge Replacement in Bali | Professional Service</title>
-        <meta name="description" content="Filter cartridge replacement service in Bali. Extend filter life, maintain water clarity. WhatsApp: +62 822-3756-5997" />
+        <title>Filter Cartridge Replacement Bali | Pool Filter Supply & Replacement Service</title>
+        <meta name="description" content="Filter cartridge replacement service in Bali. We supply & install the right cartridge for your pool system. Extend filter life, maintain crystal-clear water. For villas, hotels & homes. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

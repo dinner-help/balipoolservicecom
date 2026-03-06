@@ -8,8 +8,8 @@ export default function PoolFilterCleaningRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Filter Cleaning & Repair in Bali | Professional Care</title>
-        <meta name="description" content="Pool filter cleaning and repair service in Bali. Keep your filter running efficiently. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Filter Cleaning & Repair Bali | Sand, Cartridge & DE Filter Specialists</title>
+        <meta name="description" content="Professional pool filter cleaning and repair in Bali. Sand filters, cartridge filters & DE systems serviced. Restore water flow, prevent equipment failure, extend filter life. Call: +62 822-3756-5997" />
         <meta property="og:title" content="Pool Filter Cleaning & Repair in Bali" />
         <meta property="og:description" content="Professional pool filter cleaning, backwashing, and repair. Extend filter life, improve circulation." />
       </Helmet>

@@ -7,8 +7,8 @@ export default function PoolWaterTestingServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Water Testing Service in Bali | Professional Analysis</title>
-        <meta name="description" content="Professional pool water testing in Bali. Chemical analysis, safety testing, detailed reports. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Water Testing Service Bali | Professional Chemical Analysis & Safety Reports</title>
+        <meta name="description" content="Professional pool water testing in Bali. Full chemical analysis — pH, chlorine, alkalinity, calcium hardness, TDS. Detailed written report. Available for villas, hotels & homes. Call: +62 822-3756-5997" />
         <meta property="og:title" content="Pool Water Testing Service in Bali" />
         <meta property="og:description" content="Expert water chemistry testing for safe, clear pools. pH, chlorine, alkalinity, and more analyzed by professionals." />
       </Helmet>

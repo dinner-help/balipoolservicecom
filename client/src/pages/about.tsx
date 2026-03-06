@@ -18,7 +18,7 @@ export default function About() {
     "@type": "LocalBusiness",
     "name": "Bali Pool Service",
     "description": "Professional pool cleaning, maintenance, and construction services across Bali. Family-owned business with 10+ years of experience serving villas, hotels, and private homes.",
-    "url": "https://poolservicebali.com/about",
+    "url": "https://balipoolservice.com/about",
     "telephone": "+6282237565997",
     "email": "info@poolservicebali.com",
     "priceRange": "IDR 800,000 - IDR 2,800,000",
@@ -101,12 +101,12 @@ export default function About() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>About Bali Pool Service | Professional Pool Care Team Since 2014</title>
+        <title>About Bali Pool Service | Bali's Trusted Pool Cleaning Team — 10+ Years, 500+ Clients</title>
         <meta 
           name="description" 
-          content="Meet the trusted team behind Bali Pool Service. Family-owned business with 10+ years experience, certified technicians, and 500+ happy clients across Canggu, Seminyak, Ubud & all Bali." 
+          content="Meet the team behind Bali's most trusted pool service. Family-owned since 2014, certified pool technicians, serving 500+ villas, hotels & homes across Canggu, Seminyak, Ubud & all of Bali. We live and breathe pool care in Bali's tropical climate." 
         />
-        <link rel="canonical" href="https://poolservicebali.com/about" />
+        <link rel="canonical" href="https://balipoolservice.com/about" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

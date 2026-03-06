@@ -94,16 +94,16 @@ export default function PoolConstructionBali() {
   return (
     <>
       <Helmet>
-        <title>New Swimming Pool Construction Bali | Villa & Resort Pool Builders</title>
+        <title>Pool Construction Bali | Custom Villa & Resort Pool Builders — From IDR 70 Million</title>
         <meta 
           name="description" 
-          content="Build a beautiful, long-lasting swimming pool in Bali. Expert pool builders for villas, resorts & private homes. Infinity pools, concrete pools, saltwater pools. Free quotes. 10+ years experience." 
+          content="Build your dream pool in Bali with Bali's trusted pool construction team. Villa pools, infinity pools, plunge pools, saltwater pools & more. Fixed pricing from IDR 70M, 10-step build process, 10+ years experience. Free quote: +62 822-3756-5997" 
         />
-        <meta name="keywords" content="pool builder bali, swimming pool construction bali, bali pool contractor, villa pool builder bali, cost to build pool in bali, infinity pool construction bali, concrete pool builder bali, pool installation bali" />
+        <meta name="keywords" content="pool construction Bali, pool builder Bali, swimming pool construction Bali, Bali pool contractor, villa pool builder Bali, cost to build pool in Bali, infinity pool construction Bali, concrete pool Bali, pool installation Bali, new pool Bali" />
         <meta property="og:title" content="New Swimming Pool Construction Bali | Expert Pool Builders" />
         <meta property="og:description" content="Build your dream pool in Bali. Villa pools, infinity pools, resort pools. 10+ years experience, premium materials, full project management." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-construction-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-construction-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

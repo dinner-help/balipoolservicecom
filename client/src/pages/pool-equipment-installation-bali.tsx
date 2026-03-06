@@ -6,8 +6,8 @@ export default function PoolEquipmentInstallationBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Equipment Installation in Bali | Professional Setup</title>
-        <meta name="description" content="Pool equipment installation service in Bali. Pumps, filters, heaters, automation. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Equipment Installation Bali | Pumps, Filters, Heaters & Automation Systems</title>
+        <meta name="description" content="Professional pool equipment installation in Bali. Pumps, filters, heaters, salt chlorinators & automation systems installed by certified technicians. For new builds & upgrades. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

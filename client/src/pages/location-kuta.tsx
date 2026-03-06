@@ -52,12 +52,12 @@ export default function KutaPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Kuta | Hotel & Commercial Bali Pool Service</title>
-        <meta name="description" content="Professional pool cleaning in Kuta for hotels, guesthouses & villas. From IDR 800K/month. High-volume service, 24/7 support. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Cleaning Kuta Bali | Hotel, Guesthouse & Villa Pool Service — From IDR 800K/Month</title>
+        <meta name="description" content="Expert pool cleaning in Kuta for hotels, guesthouses, surf villas & commercial pools. High-volume service, 7-day availability, compliance documentation. From IDR 800K/month. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Kuta, Kuta pool maintenance, hotel pool service Bali, commercial pool cleaning Kuta, guesthouse pool maintenance, Tuban pool service, Kartika Plaza pool cleaning" />
         <meta property="og:title" content="Pool Cleaning Kuta | Hotel Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Kuta. Hotels, guesthouses & villas. From IDR 800K/month." />
-        <link rel="canonical" href="https://poolservicebali.com/location-kuta" />
+        <link rel="canonical" href="https://balipoolservice.com/location-kuta" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -89,10 +89,10 @@ export default function KutaPoolCleaning() {
                 <span className="text-sm font-semibold">Kuta Pool Service</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Pool Cleaning Service in Kuta, Bali
+                Pool Cleaning in Kuta, Bali — Hotels, Guesthouses & Villa Specialists
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                Professional <strong>pool cleaning</strong> for Kuta's <strong>hotels</strong>, <strong>guesthouses</strong>, and <strong>villa properties</strong>. High-volume service capability, budget-friendly packages, and reliable maintenance in Tuban, Kartika Plaza, and all Kuta areas.
+                Professional <strong>pool cleaning</strong> for Kuta's <strong>hotels</strong>, <strong>guesthouses</strong>, <strong>surf villas</strong>, and <strong>commercial pools</strong>. High-volume service, 7-day availability, compliance documentation. Serving Tuban, Kartika Plaza, and all Kuta areas.
               </p>
 
               <TrustElements variant="compact" className="mb-8" />

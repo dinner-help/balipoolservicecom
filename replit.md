@@ -12,6 +12,19 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+### March 2026 (Session 6) — Full SEO Optimization
+- **Comprehensive SEO Overhaul**: Optimized all page titles, meta descriptions, H1s, and H2s across the entire site (~60+ pages)
+  - **Home page**: New title, meta desc, keyword list, H1, and all 7 H2 section headings rewritten with target keywords
+  - **Core service pages**: pool-cleaning-service-bali, weekly-pool-maintenance-bali, villa-pool-service-bali, hotel-resort-pool-service-bali, emergency-pool-repair-bali, green-pool-cleaning-bali — all titles, meta descs, and H1s rewritten
+  - **Construction & specialty**: pool-construction-bali, cold-plunge-bali, pool-renovation-bali, saltwater-pool-maintenance-bali — all updated
+  - **Secondary service pages**: All 12 secondary pages (pump repair, filter, tile cleaning, acid wash, equipment, lighting, skimmer, vacuuming, water testing, chemical balancing, etc.) updated
+  - **All 12 location pages**: Seminyak, Canggu, Ubud, Kuta, Nusa Dua, Jimbaran, Uluwatu, Denpasar, Kerobokan, Legian, Sanur, Pererenan — all titles, meta descs, and H1s rewritten
+  - **Blog pages**: All 3 blog posts updated with stronger keyword-focused titles and meta descriptions
+  - **Pricing & About pages**: Updated with more specific, keyword-rich titles and descriptions
+- **Canonical URLs fixed**: All ~50+ canonical URLs now correctly point to `https://balipoolservice.com` (was incorrectly using `balipool.services` and `poolservicebali.com`)
+- **Sitemap fixed**: Rebuilt to only contain valid URLs matching actual routes, correct domain (balipoolservice.com), no XML comments, no future dates, correct slugs (e.g., `/location-nusa-dua` not `/pool-cleaning-nusa-dua`)
+- **Keyword strategy**: Primary keywords: `pool cleaning Bali`, `pool service Bali`, `pool maintenance Bali`. Location: `pool cleaning [area]`. High-intent: `villa pool service Bali`, `hotel pool service Bali`, `emergency pool repair Bali`. Long-tail: pricing, frequency, construction queries
+
 ### November 27, 2025 (Session 4)
 - **Pricing Restructure**: Updated all maintenance package pricing and naming:
   - Silver Package: IDR 800,000/month (1 visit/week, 4/month) - For private villas & homes

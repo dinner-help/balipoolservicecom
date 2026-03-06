@@ -92,7 +92,7 @@ export default function Blog() {
         <meta property="og:description" content="Expert guides on pool maintenance costs, cleaning frequency, algae removal, and pool care in Bali's tropical climate." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/blog" />
+        <link rel="canonical" href="https://balipoolservice.com/blog" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

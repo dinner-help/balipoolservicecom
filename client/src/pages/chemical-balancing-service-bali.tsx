@@ -8,8 +8,8 @@ export default function ChemicalBalancingServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Chemical Balancing Service in Bali | Water Chemistry Experts</title>
-        <meta name="description" content="Professional pool chemical balancing service in Bali. Safe, clear water chemistry. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Chemical Balancing Service Bali | Water Chemistry Experts — pH, Chlorine & Alkalinity</title>
+        <meta name="description" content="Professional pool chemical balancing in Bali. Expert pH, chlorine, alkalinity & sanitizer testing and adjustment. Safe swimming water for villas, hotels & homes. All chemicals included in maintenance packages. Call: +62 822-3756-5997" />
         <meta property="og:title" content="Chemical Balancing Service in Bali" />
         <meta property="og:description" content="Expert pool water testing and chemical balancing for villas & hotels. Safe chlorine levels, pH balance, alkalinity." />
       </Helmet>

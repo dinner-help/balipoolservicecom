@@ -7,8 +7,8 @@ export default function CommercialHotelPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Commercial & Hotel Pool Service in Bali | Professional Care</title>
-        <meta name="description" content="Commercial pool maintenance for hotels, resorts, and businesses in Bali. 24/7 support, regulatory compliance. WhatsApp: +62 822-3756-5997" />
+        <title>Commercial Pool Service Bali | Hotel, Resort & Large Facility Pool Management</title>
+        <meta name="description" content="Commercial pool service in Bali for hotels, resorts, condos & large facilities. Multi-pool management, compliance documentation, 24/7 support, EU-certified chemicals. Trusted by 50+ Bali properties. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

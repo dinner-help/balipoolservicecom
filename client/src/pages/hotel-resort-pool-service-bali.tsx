@@ -220,18 +220,18 @@ export default function HotelResortPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Hotel & Resort Bali Pool Service | Professional Multi-Pool Management & Compliance</title>
+        <title>Hotel & Resort Pool Service Bali | Compliance-Ready Multi-Pool Management for 5-Star Properties</title>
         <meta 
           name="description" 
-          content="Professional pool service for Bali hotels & resorts. Multi-pool management, international compliance standards, digital reports, 24/7 service. Trusted by 50+ properties. Daily service from Rp 1.5M/month." 
+          content="Professional hotel pool service in Bali. Multi-pool management, EU-certified chemicals, health audit documentation & digital service reports. Trusted by 50+ hotels and resorts. Platinum package from IDR 2,800,000/month. Call: +62 822-3756-5997" 
         />
-        <meta name="keywords" content="hotel pool service bali, resort pool maintenance bali, hotel pool management, resort pool cleaning bali, seminyak hotel pool service, nusa dua resort pool maintenance" />
+        <meta name="keywords" content="hotel pool service Bali, resort pool maintenance Bali, hotel pool management Bali, resort pool cleaning Bali, Seminyak hotel pool service, Nusa Dua resort pool maintenance, 5-star pool service Bali, pool compliance Bali" />
         
         <meta property="og:title" content="Hotel & Resort Bali Pool Service | 5-Star Standards" />
         <meta property="og:description" content="Trusted by 50+ hotels. Multi-pool management, compliance documentation, digital reports. Daily service, 24/7 support." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/hotel-resort-pool-service-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/hotel-resort-pool-service-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

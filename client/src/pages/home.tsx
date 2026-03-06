@@ -91,16 +91,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Pool Cleaning Bali | Professional Pool Maintenance in Canggu, Seminyak, Ubud</title>
+        <title>Pool Cleaning Bali | #1 Pool Service & Maintenance for Villas & Hotels | Bali Pool Service</title>
         <meta 
           name="description" 
-          content="Bali's trusted pool cleaning & maintenance experts. Serving Canggu, Seminyak, Ubud, Sanur, Nusa Dua & all areas. Weekly maintenance from IDR 800K. WhatsApp: +62 822-3756-5997" 
+          content="Bali's most trusted pool cleaning & maintenance service. 500+ villas, hotels & homes. Weekly cleaning from IDR 800K/month — chemicals included, WhatsApp reports after every visit. Serving Canggu, Seminyak, Ubud & all of Bali. Call: +62 822-3756-5997" 
         />
         <meta 
           name="keywords" 
-          content="pool cleaning bali, pool maintenance bali, pool service canggu, pool cleaning seminyak, green pool bali, villa pool service bali, hotel pool maintenance bali" 
+          content="pool cleaning Bali, pool service Bali, pool maintenance Bali, villa pool service Bali, hotel pool service Bali, pool cleaner Bali, weekly pool maintenance Bali, pool cleaning Canggu, pool cleaning Seminyak, pool cleaning Ubud, green pool Bali, emergency pool repair Bali" 
         />
-        <link rel="canonical" href="https://poolservicebali.com" />
+        <link rel="canonical" href="https://balipoolservice.com" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
@@ -124,12 +124,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-sm">
-              Crystal Clear Pools <br className="hidden md:block" />
-              <span className="text-primary">Across All of Bali</span>
+              Bali's #1 Pool Cleaning <br className="hidden md:block" />
+              <span className="text-primary">& Maintenance Service</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto drop-shadow-sm">
-              Professional pool cleaning & maintenance for villas, hotels, and homes. 
-              Keep your pool pristine with Bali's most trusted pool service team.
+              Professional pool cleaning for villas, hotels & private homes across Bali. 
+              All chemicals included. WhatsApp report after every visit. Trusted by 500+ clients since 2014.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -178,10 +178,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Why Bali Pools Need Professional Care
+              Why Bali Pools Turn Green Without Professional Care
             </h2>
             <p className="text-lg text-gray-600">
-              Bali's tropical climate creates unique challenges that can turn a crystal-clear pool into a green nightmare within 48 hours. Here's what you're up against.
+              Bali's tropical climate — 30°C heat, monsoon rains, and intense UV — creates conditions that destroy water quality in under 48 hours. Here's the science behind why professional pool maintenance in Bali is essential.
             </p>
           </div>
 
@@ -277,10 +277,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Pool Service Packages for Every Need
+              Pool Cleaning & Maintenance Services in Bali
             </h2>
             <p className="text-lg text-gray-600">
-              From weekly maintenance to emergency green pool rescue. Choose the package that fits your property.
+              From weekly pool maintenance to emergency algae rescue and full pool construction. Every service includes certified chemicals and a WhatsApp report.
             </p>
           </div>
 
@@ -522,10 +522,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Why Bali Pool Owners Choose Us
+              Bali's Most Trusted Pool Service — Here's Why
             </h2>
             <p className="text-lg text-gray-600">
-              Over a decade of keeping Bali's pools crystal clear. Here's what makes us different.
+              10 years keeping 500+ pools crystal clear across Bali. All chemicals included, WhatsApp updates after every visit, and a team that knows Bali's climate inside out.
             </p>
           </div>
 
@@ -598,10 +598,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Real Results from Bali Pool Owners
+              Before & After: Pool Transformations Across Bali
             </h2>
             <p className="text-lg text-gray-600">
-              See how we've transformed pools across Bali from neglected to pristine.
+              Green algae to crystal-clear water — see what professional pool cleaning in Bali really delivers.
             </p>
           </div>
 
@@ -671,10 +671,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Pool Cleaning Service Areas Across Bali
+              Pool Cleaning Across All of Bali — 12 Service Areas
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional pool maintenance throughout all of Bali's most popular areas.
+              From Canggu and Seminyak to Ubud, Nusa Dua, and Uluwatu — we serve every corner of Bali with the same professional pool maintenance standard.
             </p>
           </div>
 
@@ -712,10 +712,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              How It Works
+              Get Started With Pool Cleaning in Bali in 3 Simple Steps
             </h2>
             <p className="text-lg text-gray-600">
-              Getting started with professional pool care is simple. Three steps to crystal clear water.
+              No complicated contracts. WhatsApp us, get your quote, and enjoy a crystal-clear pool — it really is that simple.
             </p>
           </div>
 
@@ -769,10 +769,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              What Our Clients Say
+              What Villa Owners & Hotels Say About Our Pool Service
             </h2>
             <p className="text-lg text-gray-600">
-              Don't just take our word for it. Here's what pool owners across Bali have to say.
+              Trusted by villa managers, resort owners, and homeowners across Bali. See what real clients say about our pool cleaning service.
             </p>
           </div>
 
@@ -824,10 +824,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Frequently Asked Questions
+              Pool Cleaning Bali: Frequently Asked Questions
             </h2>
             <p className="text-lg text-gray-600">
-              Common questions about pool maintenance in Bali.
+              Everything villa owners, hotel managers, and homeowners want to know about professional pool maintenance in Bali.
             </p>
           </div>
 
@@ -920,10 +920,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Transparent Pricing
+              Pool Service Pricing in Bali — No Hidden Fees
             </h2>
             <p className="text-lg text-gray-600">
-              Clear, honest pricing with no hidden fees. All packages include premium chemicals.
+              Straightforward monthly packages with all chemicals included. From private villas to luxury resorts — choose the plan that fits your pool and budget.
             </p>
           </div>
 
@@ -1107,10 +1107,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Request a Free Quote
+              Get a Free Pool Cleaning Quote in Bali
             </h2>
             <p className="text-lg text-gray-600">
-              Fill out the form below and we'll get back to you within 24 hours with a custom quote.
+              Tell us about your pool and property — we'll respond within a few hours with a tailored quote. Or skip the form and WhatsApp us directly for instant help.
             </p>
           </div>
           <div className="max-w-2xl mx-auto">

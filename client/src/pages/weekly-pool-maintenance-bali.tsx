@@ -63,12 +63,12 @@ export default function WeeklyPoolMaintenanceBali() {
   return (
     <>
       <Helmet>
-        <title>Weekly Pool Maintenance Bali | Scheduled Pool Care Services</title>
-        <meta name="description" content="Professional weekly pool maintenance in Bali. Regular scheduled visits from IDR 800K/month. Keep your villa or hotel pool crystal clear. 10+ years experience. WhatsApp: +62 822-3756-5997" />
+        <title>Weekly Pool Maintenance Bali | Scheduled Pool Care from IDR 800K/Month — Chemicals Included</title>
+        <meta name="description" content="Professional weekly pool maintenance in Bali for villas, hotels & homes. 4–16 visits/month, all chemicals included, WhatsApp report after every visit. Crystal-clear pools year-round. Call: +62 822-3756-5997" />
         <meta name="keywords" content="weekly pool maintenance Bali, pool maintenance service Bali, scheduled pool care Bali, regular pool cleaning Bali, pool service contract Bali, villa pool maintenance Bali" />
         <meta property="og:title" content="Weekly Pool Maintenance Bali | Professional Pool Care" />
         <meta property="og:description" content="Regular scheduled pool maintenance for Bali villas & hotels. From IDR 800K/month. Chemicals included. 24/7 WhatsApp support." />
-        <link rel="canonical" href="https://poolservicebali.com/weekly-pool-maintenance-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/weekly-pool-maintenance-bali" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -97,10 +97,10 @@ export default function WeeklyPoolMaintenanceBali() {
               <span>Scheduled Pool Care in Bali</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Weekly Pool Maintenance Bali
+              Weekly Pool Maintenance in Bali — Chemicals Included
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Keep your <strong>Bali pool</strong> crystal clear with our professional <strong>weekly pool maintenance service</strong>. Scheduled visits, transparent pricing, and 24/7 WhatsApp support for <strong>villas</strong>, <strong>hotels</strong>, and <strong>private pools</strong> across Bali.
+              Keep your <strong>Bali pool</strong> crystal clear year-round with professional <strong>weekly pool maintenance</strong>. 4–16 visits per month, all chemicals included, WhatsApp report after every visit. Serving <strong>villas</strong>, <strong>hotels</strong>, and <strong>private pools</strong> across all of Bali.
             </p>
 
             <TrustElements variant="compact" className="mb-8" />

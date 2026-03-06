@@ -157,12 +157,12 @@ export default function PoolLeakRepairBali() {
         <title>Pool Leak Repair Bali | Professional Detection & Fix Service</title>
         <meta name="description" content="Expert pool leak detection and repair in Bali. Underground pipes, shell cracks, equipment leaks. Save water and money. Seminyak, Canggu, Denpasar. Call now!" />
         <meta name="keywords" content="pool leak repair Bali, leak detection Bali, pool losing water Bali, underground pipe leak, pool shell repair, skimmer leak Bali" />
-        <link rel="canonical" href="https://balipool.services/pool-leak-repair-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-leak-repair-bali" />
         
         <meta property="og:title" content="Pool Leak Repair Bali | Professional Detection & Fix Service" />
         <meta property="og:description" content="Expert pool leak detection and repair in Bali. Underground pipes, shell cracks, equipment leaks. Save water and money." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/pool-leak-repair-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/pool-leak-repair-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

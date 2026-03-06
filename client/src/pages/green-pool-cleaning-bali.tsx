@@ -160,15 +160,15 @@ export default function GreenPoolCleaningBali() {
   return (
     <>
       <Helmet>
-        <title>Green Pool Cleaning Bali | Fix Algae Problems in 24-48 Hours</title>
-        <meta name="description" content="Expert green pool cleaning in Bali. Remove algae and restore crystal clear water in 24-48 hours. Emergency service for villas, resorts before guest arrival. Call now!" />
+        <title>Green Pool Cleaning Bali | Algae Removal & Pool Recovery in 24–48 Hours</title>
+        <meta name="description" content="Pool turned green in Bali? We remove algae and restore crystal-clear water in 24–48 hours. Emergency same-day service for villas & resorts. Green pool recovery from IDR 1,875,000. Call now: +62 822-3756-5997" />
         <meta name="keywords" content="green pool cleaning Bali, algae removal Bali, cloudy pool fix Bali, pool turned green Bali, algae treatment Seminyak, green pool Canggu" />
-        <link rel="canonical" href="https://balipool.services/green-pool-cleaning-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/green-pool-cleaning-bali" />
         
         <meta property="og:title" content="Green Pool Cleaning Bali | Fix Algae Problems in 24-48 Hours" />
         <meta property="og:description" content="Expert green pool cleaning in Bali. Remove algae and restore crystal clear water in 24-48 hours. Emergency service available." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/green-pool-cleaning-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/green-pool-cleaning-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

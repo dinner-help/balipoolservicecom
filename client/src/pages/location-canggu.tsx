@@ -52,12 +52,12 @@ export default function CangguPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Canggu | Villa & Rental Pool Maintenance Bali</title>
-        <meta name="description" content="Expert pool cleaning in Canggu for villas, rentals & coworking spaces. From IDR 800K/month. Flexible scheduling, eco-friendly options. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Cleaning Canggu Bali | Villa & Rental Property Pool Maintenance — From IDR 800K/Month</title>
+        <meta name="description" content="Reliable pool cleaning in Canggu for villas, surf retreats & rental properties. Eco-friendly chemicals, flexible scheduling. From IDR 800K/month — all chemicals included. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Canggu, Canggu pool maintenance, villa pool service Canggu, pool cleaner Canggu Bali, Echo Beach pool cleaning, Berawa pool service, Batu Bolong pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Canggu | Professional Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Canggu. Serving Berawa, Echo Beach, Batu Bolong & all areas. From IDR 800K/month." />
-        <link rel="canonical" href="https://poolservicebali.com/location-canggu" />
+        <link rel="canonical" href="https://balipoolservice.com/location-canggu" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -89,10 +89,10 @@ export default function CangguPoolCleaning() {
                 <span className="text-sm font-semibold">Canggu Pool Service</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Pool Cleaning Service in Canggu, Bali
+                Pool Cleaning in Canggu, Bali — Villa & Rental Property Specialists
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                Professional <strong>pool cleaning</strong> for Canggu's <strong>villa rentals</strong>, <strong>digital nomad properties</strong>, and <strong>coworking spaces</strong>. Flexible scheduling, eco-friendly options, trusted by property owners in Berawa, Echo Beach, Batu Bolong, and all Canggu areas.
+                Professional <strong>pool cleaning</strong> for Canggu's <strong>villa rentals</strong>, <strong>surf retreats</strong>, and <strong>digital nomad properties</strong>. Eco-friendly chemicals, flexible scheduling, all chemicals included. Trusted by property owners in Berawa, Echo Beach, Batu Bolong, and all Canggu areas.
               </p>
 
               <TrustElements variant="compact" className="mb-8" />

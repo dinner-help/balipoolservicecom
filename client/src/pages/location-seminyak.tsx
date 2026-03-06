@@ -52,12 +52,12 @@ export default function SeminyakPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Seminyak | Professional Pool Service in Seminyak Bali</title>
-        <meta name="description" content="Expert pool cleaning & maintenance in Seminyak, Bali. Serving luxury villas, resorts & vacation rentals. From IDR 800K/month. Same-day service. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Cleaning Seminyak Bali | Luxury Villa & Resort Pool Service — From IDR 800K/Month</title>
+        <meta name="description" content="Expert pool cleaning in Seminyak for luxury villas, boutique resorts & vacation rentals. Weekly maintenance from IDR 800K/month — all chemicals included. Same-day service available. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Seminyak, Seminyak pool maintenance, villa pool service Seminyak, pool cleaner Seminyak Bali, swimming pool cleaning Seminyak, pool service Petitenget, pool cleaning Oberoi, Batu Belig pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Seminyak | Professional Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 800K/month." />
-        <link rel="canonical" href="https://poolservicebali.com/location-seminyak" />
+        <link rel="canonical" href="https://balipoolservice.com/location-seminyak" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -89,10 +89,10 @@ export default function SeminyakPoolCleaning() {
                 <span className="text-sm font-semibold">Seminyak Pool Service</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Pool Cleaning Service in Seminyak, Bali
+                Pool Cleaning in Seminyak, Bali — Luxury Villa & Resort Specialists
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                Professional <strong>pool cleaning</strong> and <strong>maintenance</strong> for Seminyak's <strong>luxury villas</strong>, <strong>vacation rentals</strong>, and <strong>resort properties</strong>. Fast response, premium chemicals, trusted by 200+ property owners in Petitenget, Oberoi, Batu Belig, and all Seminyak areas.
+                Professional <strong>pool cleaning</strong> and <strong>maintenance</strong> for Seminyak's <strong>luxury villas</strong>, <strong>vacation rentals</strong>, and <strong>boutique resorts</strong>. All chemicals included, WhatsApp report after every visit. Trusted by 200+ property owners in Petitenget, Oberoi, Batu Belig, and all Seminyak areas.
               </p>
 
               <TrustElements variant="compact" className="mb-8" />

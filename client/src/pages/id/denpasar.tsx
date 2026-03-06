@@ -51,8 +51,8 @@ export default function BahasaDenpasar() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         
-        <link rel="canonical" href="https://balipool.services/id/denpasar" />
-        <link rel="alternate" hreflang="id" href="https://balipool.services/id/denpasar" />
+        <link rel="canonical" href="https://balipoolservice.com/id/denpasar" />
+        <link rel="alternate" hreflang="id" href="https://balipoolservice.com/id/denpasar" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

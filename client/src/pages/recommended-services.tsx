@@ -56,7 +56,7 @@ export default function RecommendedServices() {
     "@type": "WebPage",
     "name": "Recommended Services for Your Bali Villa Lifestyle",
     "description": "Trusted complementary services for wellness, education, dining, and villa maintenance in Bali.",
-    "url": "https://poolservicebali.com/recommended-services",
+    "url": "https://balipoolservice.com/recommended-services",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Recommended Bali Villa Services",
@@ -77,7 +77,7 @@ export default function RecommendedServices() {
           name="description" 
           content="Discover trusted complementary services for your Bali villa: in-villa massage, private chefs, tutoring, tech education, and water purification. Complete your villa lifestyle." 
         />
-        <link rel="canonical" href="https://poolservicebali.com/recommended-services" />
+        <link rel="canonical" href="https://balipoolservice.com/recommended-services" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

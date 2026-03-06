@@ -191,15 +191,15 @@ export default function PoolRenovationBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Renovation Bali | Refinishing, Upgrades & Modernization</title>
-        <meta name="description" content="Professional pool renovation in Bali. Surface refinishing, equipment upgrades, LED lights, saltwater conversion. Transform your pool, increase property value. Get quote!" />
+        <title>Pool Renovation Bali | Surface Refinishing, Equipment Upgrades & Saltwater Conversion</title>
+        <meta name="description" content="Professional pool renovation in Bali. Surface refinishing, LED lighting upgrades, saltwater conversion, equipment modernization. Transform your pool and increase property value. Free quote: +62 822-3756-5997" />
         <meta name="keywords" content="pool renovation Bali, pool refinishing Bali, pool upgrade, pebble finish Bali, pool modernization, pool resurfacing Seminyak" />
-        <link rel="canonical" href="https://balipool.services/pool-renovation-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-renovation-bali" />
         
         <meta property="og:title" content="Pool Renovation Bali | Refinishing, Upgrades & Modernization" />
         <meta property="og:description" content="Professional pool renovation in Bali. Surface refinishing, equipment upgrades, LED lights, saltwater conversion. Transform your pool, increase property value." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/pool-renovation-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/pool-renovation-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

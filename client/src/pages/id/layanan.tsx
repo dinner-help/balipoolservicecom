@@ -117,9 +117,9 @@ export default function BahasaServices() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         
-        <link rel="canonical" href="https://balipool.services/id/layanan" />
-        <link rel="alternate" hreflang="en" href="https://balipool.services/services" />
-        <link rel="alternate" hreflang="id" href="https://balipool.services/id/layanan" />
+        <link rel="canonical" href="https://balipoolservice.com/id/layanan" />
+        <link rel="alternate" hreflang="en" href="https://balipoolservice.com/services" />
+        <link rel="alternate" hreflang="id" href="https://balipoolservice.com/id/layanan" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

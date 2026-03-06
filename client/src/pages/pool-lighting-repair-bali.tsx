@@ -6,8 +6,8 @@ export default function PoolLightingRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Lighting Repair in Bali | Professional Service</title>
-        <meta name="description" content="Pool lighting repair and installation in Bali. Fix broken lights, upgrade to LED. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Lighting Repair Bali | LED Underwater Light Replacement & Electrical Fault Service</title>
+        <meta name="description" content="Pool lighting repair & LED upgrade service in Bali. Fix broken underwater lights, replace old bulbs with energy-efficient LED, full electrical safety check. For villas & hotels. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

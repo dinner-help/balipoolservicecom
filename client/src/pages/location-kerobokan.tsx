@@ -43,10 +43,10 @@ export default function KerobokanPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Kerobokan | Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Kerobokan for villas and rental properties. Reliable weekly maintenance, chemical balancing, equipment service. Call +6282237565997" />
+        <title>Pool Cleaning Kerobokan Bali | Villa & Rental Property Pool Maintenance Service</title>
+        <meta name="description" content="Trusted pool cleaning in Kerobokan for villas, rental properties & guesthouses. Reliable weekly visits, chemical balancing, full equipment service. From IDR 800K/month. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning kerobokan, kerobokan pool maintenance, villa pool service kerobokan, umalas pool cleaner, batubelig pool maintenance" />
-        <link rel="canonical" href="https://poolservicebali.com/location-kerobokan" />
+        <link rel="canonical" href="https://balipoolservice.com/location-kerobokan" />
       </Helmet>
 
       <Navigation />

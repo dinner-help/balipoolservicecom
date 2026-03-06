@@ -7,8 +7,8 @@ export default function PoolVacuumingServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Vacuuming Service in Bali | Professional Floor Cleaning</title>
-        <meta name="description" content="Professional pool floor vacuuming in Bali. Remove debris and maintain clear water. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Vacuuming Service Bali | Professional Pool Floor Cleaning & Debris Removal</title>
+        <meta name="description" content="Professional pool vacuuming service in Bali. Remove sand, leaves, frangipani & tropical debris from pool floors. Included in all maintenance packages. For villas, hotels & homes. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

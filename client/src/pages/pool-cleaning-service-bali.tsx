@@ -78,13 +78,13 @@ export default function PoolCleaningServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Cleaning Service Bali | Professional Villa & Hotel Pool Cleaners</title>
-        <meta name="description" content="Professional pool cleaning service in Bali for villas, hotels, and private homes. Weekly cleaning from IDR 800K/month. 10+ years experience, 500+ clients. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Cleaning Service Bali | Expert Villa & Hotel Pool Cleaners — From IDR 800K/Month</title>
+        <meta name="description" content="Top-rated pool cleaning service in Bali for villas, hotels & private homes. All chemicals included, WhatsApp report after every visit. Weekly cleaning from IDR 800K/month. 500+ clients, 10+ years experience. Call: +62 822-3756-5997" />
         <meta name="keywords" content={[serviceKeywords.primary, ...serviceKeywords.secondary, ...serviceKeywords.longTail].join(", ")} />
         <meta property="og:title" content="Pool Cleaning Service Bali | Professional Pool Cleaners" />
         <meta property="og:description" content="Expert pool cleaning for Bali villas, hotels & resorts. Crystal-clear pools guaranteed. From IDR 800K/month. Fast response, transparent pricing." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-service-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-cleaning-service-bali" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -118,10 +118,10 @@ export default function PoolCleaningServiceBali() {
               <span>Professional Pool Cleaning Service in Bali</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-              Pool Cleaning Service Bali
+              Professional Pool Cleaning Service in Bali
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Keep your <strong>Bali villa pool</strong>, <strong>hotel pool</strong>, or <strong>private swimming pool</strong> crystal clear with our professional <strong>pool cleaning service</strong>. Trusted by 500+ property owners across Seminyak, Canggu, Ubud, and all of Bali.
+              Bali's most trusted <strong>pool cleaning service</strong> for <strong>villas</strong>, <strong>hotels</strong>, and <strong>private homes</strong>. All chemicals included, WhatsApp report after every visit. Trusted by 500+ property owners across Seminyak, Canggu, Ubud, and all of Bali.
             </p>
 
             <TrustElements variant="compact" className="mb-8" />

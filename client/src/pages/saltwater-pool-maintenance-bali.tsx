@@ -173,15 +173,15 @@ export default function SaltwaterPoolMaintenanceBali() {
   return (
     <>
       <Helmet>
-        <title>Saltwater Pool Maintenance Bali | Conversion & Care Services</title>
-        <meta name="description" content="Expert saltwater pool maintenance in Bali. Conversion services, cell cleaning, chemistry balancing. Softer water, lower chemical costs. Seminyak, Canggu, Ubud." />
+        <title>Saltwater Pool Maintenance Bali | Conversion, Cell Cleaning & Salt Chemistry Specialists</title>
+        <meta name="description" content="Expert saltwater pool maintenance and conversion in Bali. Salt cell cleaning, chlorinator servicing, salt level balancing. Enjoy softer water and lower chemical costs. Serving villas & resorts across Bali. Call: +62 822-3756-5997" />
         <meta name="keywords" content="saltwater pool Bali, salt pool maintenance, chlorine to saltwater conversion, salt cell cleaning, saltwater pool benefits, eco pool Bali" />
-        <link rel="canonical" href="https://balipool.services/saltwater-pool-maintenance-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/saltwater-pool-maintenance-bali" />
         
         <meta property="og:title" content="Saltwater Pool Maintenance Bali | Conversion & Care Services" />
         <meta property="og:description" content="Expert saltwater pool maintenance in Bali. Conversion services, cell cleaning, chemistry balancing. Softer water, lower chemical costs." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/saltwater-pool-maintenance-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/saltwater-pool-maintenance-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

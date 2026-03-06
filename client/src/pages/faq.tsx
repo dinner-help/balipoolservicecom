@@ -154,7 +154,7 @@ export default function FAQ() {
         <meta property="og:description" content="Get answers to common questions about pool maintenance, repair, and service in Bali. Pricing, service areas, chemicals, equipment, and more." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/faq" />
+        <link rel="canonical" href="https://balipoolservice.com/faq" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

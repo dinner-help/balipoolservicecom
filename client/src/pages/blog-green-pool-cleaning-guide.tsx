@@ -30,10 +30,10 @@ export default function BlogGreenPoolCleaningGuide() {
   return (
     <>
       <Helmet>
-        <title>Green Pool Cleaning Bali | Emergency Algae Removal Guide 2025</title>
+        <title>Green Pool Cleaning Guide Bali | How to Fix Algae & Restore Crystal-Clear Water</title>
         <meta 
           name="description" 
-          content="Step-by-step guide to clearing green pool water and severe algae blooms in Bali. Expert shock treatment procedures, chemical dosing, prevention strategies, and when to call professionals." 
+          content="Step-by-step guide to fixing a green pool in Bali. Covers algae severity levels, shock treatment, chemical dosing, DIY vs professional recovery, and how to prevent your pool going green again in Bali's tropical climate." 
         />
         <meta name="keywords" content="green pool cleaning bali, algae removal bali, pool algae treatment, green pool shock treatment, pool turned green bali, cloudy pool water" />
         
@@ -41,7 +41,7 @@ export default function BlogGreenPoolCleaningGuide() {
         <meta property="og:description" content="Professional guide to clearing severe algae blooms and restoring crystal-clear pool water in Bali's tropical climate." />
         <meta property="og:type" content="article" />
         
-        <link rel="canonical" href="https://balipool.services/blog/green-pool-cleaning-guide" />
+        <link rel="canonical" href="https://balipoolservice.com/blog/green-pool-cleaning-guide" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

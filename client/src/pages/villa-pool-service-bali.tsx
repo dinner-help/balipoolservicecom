@@ -178,18 +178,18 @@ export default function VillaPoolServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Villa Bali Pool Service | Professional Pool Care for Rental Villas & Private Homes</title>
+        <title>Villa Pool Service Bali | Expert Pool Cleaning for Rental Villas & Private Homes — From IDR 800K</title>
         <meta 
           name="description" 
-          content="Expert pool maintenance for Bali villas. Weekly service, 24/7 emergency response, all chemicals included. Protect your investment and delight your guests. Serving 500+ villa properties across Seminyak, Canggu, Ubud & all Bali." 
+          content="Trusted villa pool service in Bali. Keep guests happy with crystal-clear water every visit. Weekly maintenance from IDR 800K/month — all chemicals included, WhatsApp report delivered. Serving 500+ villas across Canggu, Seminyak & Ubud. Call: +62 822-3756-5997" 
         />
-        <meta name="keywords" content="villa pool service bali, villa pool maintenance bali, rental villa pool cleaning, bali villa pool care, seminyak villa pool service, canggu villa pool maintenance, ubud villa pool cleaning" />
+        <meta name="keywords" content="villa pool service Bali, villa pool maintenance Bali, rental villa pool cleaning Bali, Bali villa pool care, Seminyak villa pool service, Canggu villa pool maintenance, Ubud villa pool cleaning, pool cleaning rental villa Bali" />
         
         <meta property="og:title" content="Villa Bali Pool Service | Professional Care for Rental Properties" />
         <meta property="og:description" content="Trusted by 500+ villa owners. Weekly maintenance, emergency response, guest-ready service. All-inclusive pricing from Rp 450k/month." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/villa-pool-service-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/villa-pool-service-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

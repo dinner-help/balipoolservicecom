@@ -51,9 +51,9 @@ export default function BahasaCanggu() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         
-        <link rel="canonical" href="https://balipool.services/id/canggu" />
-        <link rel="alternate" hreflang="id" href="https://balipool.services/id/canggu" />
-        <link rel="alternate" hreflang="en" href="https://balipool.services/pool-cleaning-canggu" />
+        <link rel="canonical" href="https://balipoolservice.com/id/canggu" />
+        <link rel="alternate" hreflang="id" href="https://balipoolservice.com/id/canggu" />
+        <link rel="alternate" hreflang="en" href="https://balipoolservice.com/pool-cleaning-canggu" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

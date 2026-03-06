@@ -148,15 +148,15 @@ export default function PoolPumpRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Pump Repair Bali | Expert Motor & Impeller Service</title>
-        <meta name="description" content="Professional pool pump repair in Bali. Fix noisy pumps, motor failures, low pressure. All brands serviced. Same-day repairs available. Seminyak, Canggu, Denpasar." />
+        <title>Pool Pump Repair Bali | Expert Motor, Impeller & Pressure Fault Service — Same Day</title>
+        <meta name="description" content="Professional pool pump repair in Bali. Fix noisy pumps, motor failures, low pressure & flow issues. All brands serviced. Same-day repairs available across Seminyak, Canggu, Ubud & all Bali. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool pump repair Bali, pump motor replacement Bali, noisy pool pump, pump won't start Bali, low water pressure pool, Pentair repair Bali" />
-        <link rel="canonical" href="https://balipool.services/pool-pump-repair-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/pool-pump-repair-bali" />
         
         <meta property="og:title" content="Pool Pump Repair Bali | Expert Motor & Impeller Service" />
         <meta property="og:description" content="Professional pool pump repair in Bali. Fix noisy pumps, motor failures, low pressure. All brands serviced. Same-day repairs available." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/pool-pump-repair-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/pool-pump-repair-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

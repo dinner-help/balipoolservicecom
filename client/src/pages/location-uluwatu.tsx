@@ -43,10 +43,10 @@ export default function UluwatuPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Uluwatu | Clifftop Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Expert pool cleaning for Uluwatu clifftop villas and luxury properties. Infinity pool specialists, salt air protection, wind debris management. Call +6282237565997" />
+        <title>Pool Cleaning Uluwatu Bali | Clifftop Villa & Infinity Pool Specialists</title>
+        <meta name="description" content="Expert pool cleaning in Uluwatu for clifftop villas, surf retreats & infinity pools. Salt air corrosion protection, wind debris management, luxury service. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning uluwatu, uluwatu pool maintenance, clifftop pool service, infinity pool cleaning bali, pecatu pool cleaner, luxury villa pool uluwatu" />
-        <link rel="canonical" href="https://poolservicebali.com/location-uluwatu" />
+        <link rel="canonical" href="https://balipoolservice.com/location-uluwatu" />
       </Helmet>
 
       <Navigation />

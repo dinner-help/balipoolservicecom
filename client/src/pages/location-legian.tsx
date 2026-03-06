@@ -23,10 +23,10 @@ export default function LegianPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Legian | Beach Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Legian, Bali. Beach villa specialists, tourist accommodation expertise, reliable service. Call +6282237565997" />
+        <title>Pool Cleaning Legian Bali | Beach Villa & Tourist Accommodation Pool Service</title>
+        <meta name="description" content="Expert pool cleaning in Legian for beach villas, tourist accommodation & surf lodges. Guest-ready pools, reliable weekly service, fast response. From IDR 800K/month. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning legian, legian pool maintenance, beach villa pool service bali, tourist pool cleaning legian, professional pool service legian" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-legian" />
+        <link rel="canonical" href="https://balipoolservice.com/location-legian" />
       </Helmet>
 
              <Navigation />

@@ -28,10 +28,10 @@ export default function BlogPoolMaintenanceCostBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Maintenance Cost in Bali 2025 | Complete Price Breakdown & Guide</title>
+        <title>Pool Maintenance Cost in Bali 2026 | Real Pricing: Weekly Service, Chemicals & Repairs</title>
         <meta 
           name="description" 
-          content="Complete guide to pool maintenance costs in Bali for 2025. Detailed pricing for weekly cleaning, chemicals, repairs, and equipment. Compare DIY vs professional service costs with real examples." 
+          content="How much does pool maintenance cost in Bali? Real 2026 pricing breakdown: weekly cleaning from IDR 800K/month, chemicals, repairs & emergency callouts. Compare DIY vs professional service — with actual numbers." 
         />
         <meta name="keywords" content="pool maintenance cost bali, pool cleaning price bali, pool service cost, bali pool maintenance pricing, how much pool cleaning bali" />
         
@@ -39,7 +39,7 @@ export default function BlogPoolMaintenanceCostBali() {
         <meta property="og:description" content="Detailed breakdown of pool maintenance costs in Bali including service packages, chemical expenses, equipment repairs, and cost-saving tips." />
         <meta property="og:type" content="article" />
         
-        <link rel="canonical" href="https://balipool.services/blog/pool-maintenance-cost-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/blog/pool-maintenance-cost-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

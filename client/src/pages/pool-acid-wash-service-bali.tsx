@@ -6,8 +6,8 @@ export default function PoolAcidWashServiceBali() {
   return (
     <>
       <Helmet>
-        <title>Pool Acid Wash Service in Bali | Professional Cleaning</title>
-        <meta name="description" content="Professional pool acid wash service in Bali. Remove severe stains and algae. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Acid Wash Service Bali | Deep Stain Removal & Surface Restoration for Villas & Hotels</title>
+        <meta name="description" content="Professional pool acid wash service in Bali. Remove severe staining, black algae & calcium deposits. Restore your pool surface to like-new condition. For villas, hotels & resorts. Call: +62 822-3756-5997" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">

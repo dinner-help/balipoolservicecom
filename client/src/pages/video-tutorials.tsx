@@ -199,7 +199,7 @@ export default function VideoTutorials() {
         <meta property="og:description" content="Learn pool maintenance with expert video tutorials. Chemical balancing, equipment care, cleaning, and troubleshooting guides." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/video-tutorials" />
+        <link rel="canonical" href="https://balipoolservice.com/video-tutorials" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

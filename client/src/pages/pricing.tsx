@@ -265,12 +265,12 @@ export default function Pricing() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Pool Service Pricing Bali | Maintenance Packages from IDR 800K</title>
+        <title>Pool Service Pricing Bali | Monthly Maintenance from IDR 800K — All Chemicals Included</title>
         <meta 
           name="description" 
-          content="Transparent pool service pricing in Bali. Weekly maintenance from IDR 800,000/month. Green pool rescue from IDR 1.5M. All chemicals included. Get a free quote today." 
+          content="Transparent pool service pricing in Bali. Silver from IDR 800K, Gold IDR 1.5M, Platinum IDR 2.8M/month. All chemicals included, no hidden fees. Green pool recovery from IDR 1,875,000. Get a free quote: +62 822-3756-5997" 
         />
-        <link rel="canonical" href="https://poolservicebali.com/pricing" />
+        <link rel="canonical" href="https://balipoolservice.com/pricing" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

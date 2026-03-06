@@ -129,7 +129,7 @@ export default function EmergencyPoolRepairBali() {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Bali Pool Service",
-      "image": "https://balipool.services/logo.png",
+      "image": "https://balipoolservice.com/logo.png",
       "telephone": whatsappNumber,
       "address": {
         "@type": "PostalAddress",
@@ -169,15 +169,15 @@ export default function EmergencyPoolRepairBali() {
   return (
     <>
       <Helmet>
-        <title>Emergency Pool Repair Bali - 30 Min Response | 24/7 Service</title>
-        <meta name="description" content="Emergency pool repair in Bali with 30-minute response time. Major leaks, pump failures, green pool before guests. Available 24/7 across Seminyak, Canggu, Denpasar. Call now!" />
+        <title>Emergency Pool Repair Bali | Same-Day Service 7 Days a Week — Call Now</title>
+        <meta name="description" content="Emergency pool repair in Bali when you need it most. Pump failures, leaks, green water before guest arrivals — fixed fast. Same-day response across Canggu, Seminyak, Ubud & all Bali. WhatsApp now: +62 822-3756-5997" />
         <meta name="keywords" content="emergency pool repair Bali, urgent pool fix Bali, pool leak emergency, pump failure Bali, green pool emergency, 24/7 pool repair Bali" />
-        <link rel="canonical" href="https://balipool.services/emergency-pool-repair-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/emergency-pool-repair-bali" />
         
         <meta property="og:title" content="Emergency Pool Repair Bali - 30 Min Response | 24/7 Service" />
         <meta property="og:description" content="Emergency pool repair in Bali with 30-minute response time. Major leaks, pump failures, green pool before guests. Available 24/7." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://balipool.services/emergency-pool-repair-bali" />
+        <meta property="og:url" content="https://balipoolservice.com/emergency-pool-repair-bali" />
         
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}

@@ -214,7 +214,7 @@ export default function PropertyManagerPoolServiceBali() {
         <meta property="og:description" content="Portfolio dashboard, group discounts up to 20%, centralized billing. Built for agencies managing multiple properties." />
         <meta property="og:type" content="website" />
         
-        <link rel="canonical" href="https://balipool.services/property-manager-pool-service-bali" />
+        <link rel="canonical" href="https://balipoolservice.com/property-manager-pool-service-bali" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

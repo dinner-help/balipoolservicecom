@@ -115,9 +115,9 @@ export default function BahasaPricing() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         
-        <link rel="canonical" href="https://balipool.services/id/harga" />
-        <link rel="alternate" hreflang="en" href="https://balipool.services/pricing" />
-        <link rel="alternate" hreflang="id" href="https://balipool.services/id/harga" />
+        <link rel="canonical" href="https://balipoolservice.com/id/harga" />
+        <link rel="alternate" hreflang="en" href="https://balipoolservice.com/pricing" />
+        <link rel="alternate" hreflang="id" href="https://balipoolservice.com/id/harga" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

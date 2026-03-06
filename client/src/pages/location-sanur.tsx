@@ -23,10 +23,10 @@ export default function SanurPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Sanur | Beach Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Sanur, Bali. Saltwater pool specialists, beach villa expertise, coastal property maintenance. Call +6282237565997" />
+        <title>Pool Cleaning Sanur Bali | Saltwater & Beach Villa Pool Maintenance Specialists</title>
+        <meta name="description" content="Professional pool cleaning in Sanur for beach villas, saltwater pools & family homes. Coastal property expertise, saltwater system specialists. From IDR 800K/month. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning sanur, sanur pool maintenance, saltwater pool service bali, beach villa pool cleaning, professional pool cleaner sanur" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-sanur" />
+        <link rel="canonical" href="https://balipoolservice.com/location-sanur" />
       </Helmet>
 
              <Navigation />

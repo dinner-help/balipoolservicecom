@@ -23,10 +23,10 @@ export default function NusaDuaPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Nusa Dua | Premium Resort Bali Pool Service</title>
-        <meta name="description" content="Professional pool cleaning in Nusa Dua, Bali. Resort specialists, corporate contracts, international standards. Multi-pool expertise. Call +6282237565997" />
+        <title>Pool Cleaning Nusa Dua Bali | 5-Star Resort & Luxury Villa Pool Management</title>
+        <meta name="description" content="Premium pool service in Nusa Dua for 5-star resorts & luxury villas. International compliance standards, multi-pool management, full health audit documentation. Call: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning nusa dua, nusa dua pool maintenance, resort pool service bali, commercial pool nusa dua, corporate pool contracts" />
-        <link rel="canonical" href="https://poolservicebali.com/pool-cleaning-nusa-dua" />
+        <link rel="canonical" href="https://balipoolservice.com/location-nusa-dua" />
       </Helmet>
 
              <Navigation />

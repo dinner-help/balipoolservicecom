@@ -29,10 +29,10 @@ export default function BlogPoolCleaningFrequencyBaliClimate() {
   return (
     <>
       <Helmet>
-        <title>How Often to Clean Pool in Bali's Climate | Tropical Pool Maintenance Schedule</title>
+        <title>How Often Should You Clean Your Pool in Bali? | Tropical Climate Maintenance Schedule</title>
         <meta 
           name="description" 
-          content="Expert guide to pool cleaning frequency in Bali's tropical climate. Learn optimal maintenance schedules based on weather, pool usage, and seasonal factors. Prevent algae and maintain crystal-clear water year-round." 
+          content="How often to clean a pool in Bali's tropical climate? This expert guide covers weekly vs monthly schedules, monsoon season adjustments, algae prevention, and the optimal maintenance frequency for villas & hotels." 
         />
         <meta name="keywords" content="pool cleaning frequency bali, how often clean pool bali, tropical pool maintenance, pool service schedule bali, pool cleaning schedule" />
         
@@ -40,7 +40,7 @@ export default function BlogPoolCleaningFrequencyBaliClimate() {
         <meta property="og:description" content="Determine optimal pool cleaning frequency for Bali's tropical climate. Expert maintenance schedules for residential and commercial pools." />
         <meta property="og:type" content="article" />
         
-        <link rel="canonical" href="https://balipool.services/blog/pool-cleaning-frequency-bali-climate" />
+        <link rel="canonical" href="https://balipoolservice.com/blog/pool-cleaning-frequency-bali-climate" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

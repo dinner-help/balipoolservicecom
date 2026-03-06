@@ -52,12 +52,12 @@ export default function UbudPoolCleaning() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Pool Cleaning Ubud | Mountain Villa Pool Maintenance Bali</title>
-        <meta name="description" content="Professional pool cleaning in Ubud for mountain villas & resorts. From IDR 800K/month. Eco-friendly options, highland water expertise. WhatsApp: +62 822-3756-5997" />
+        <title>Pool Cleaning Ubud Bali | Mountain Villa & Eco-Resort Pool Service — From IDR 800K/Month</title>
+        <meta name="description" content="Professional pool cleaning in Ubud for highland villas, eco-resorts & jungle retreats. Organic-friendly chemicals, jungle debris specialists. From IDR 800K/month. WhatsApp: +62 822-3756-5997" />
         <meta name="keywords" content="pool cleaning Ubud, Ubud pool maintenance, mountain pool service Bali, rice terrace villa pool cleaning, eco pool cleaning Ubud, Tegallalang pool service, Penestanan pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Ubud | Mountain Villa Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Ubud. Serving Tegallalang, Campuhan, Sayan & all areas. From IDR 800K/month." />
-        <link rel="canonical" href="https://poolservicebali.com/location-ubud" />
+        <link rel="canonical" href="https://balipoolservice.com/location-ubud" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -89,10 +89,10 @@ export default function UbudPoolCleaning() {
                 <span className="text-sm font-semibold">Ubud Pool Service</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Mountain Villa Pool Cleaning in Ubud, Bali
+                Pool Cleaning in Ubud, Bali — Mountain Villa & Eco-Resort Specialists
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                Specialized <strong>pool cleaning</strong> for Ubud's <strong>mountain villas</strong>, <strong>luxury resorts</strong>, and <strong>eco-conscious properties</strong>. Expert solutions for highland water quality and sustainable pool care in Tegallalang, Campuhan, Sayan, and all Ubud areas.
+                Specialized <strong>pool cleaning</strong> for Ubud's <strong>mountain villas</strong>, <strong>eco-resorts</strong>, and <strong>jungle retreats</strong>. Organic-friendly chemicals, jungle debris management, highland water quality experts. Serving Tegallalang, Campuhan, Sayan, and all Ubud areas.
               </p>
 
               <TrustElements variant="compact" className="mb-8" />
