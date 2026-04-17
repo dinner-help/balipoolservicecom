@@ -72,7 +72,7 @@ export default function ColdPlungeBali() {
         <title>Cold Plunge Installation Bali | Stainless Steel & Concrete Ice Bath Systems — From IDR 14M</title>
         <meta 
           name="description" 
-          content="Professional cold plunge installation in Bali for villas, gyms & spas. 7 types including stainless steel, concrete & commercial systems. Cooling, insulation & filtration included. Built for Bali's tropical climate. From IDR 14M. Call: +62 822-3756-5997" 
+          content="Professional cold plunge installation in Bali for villas, gyms & spas. 7 types including stainless steel, concrete & commercial systems. Cooling, insulation & filtration included. Built for Bali's tropical climate. From IDR 14M. Call: +62 823-4070-9041" 
         />
         <meta name="keywords" content="cold plunge bali, ice bath installation bali, cold therapy bali, bali cold plunge prices, gym cold plunge bali, ice bath tub bali, cold plunge builder bali, cold plunge for villa bali, wellness cold plunge bali" />
         <meta property="og:title" content="Cold Plunge Installation Bali | Ice Bath & Wellness Systems" />
@@ -112,7 +112,7 @@ export default function ColdPlungeBali() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="gap-2 bg-cyan-600 hover:bg-cyan-700" asChild data-testid="button-whatsapp-hero">
                   <a 
-                    href="https://wa.me/6282237565997?text=Hi! I'm interested in cold plunge installation in Bali."
+                    href="https://wa.me/6282340709041?text=Hi! I'm interested in cold plunge installation in Bali."
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -121,9 +121,9 @@ export default function ColdPlungeBali() {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-white/80 hover:bg-white" asChild data-testid="button-call-hero">
-                  <a href="tel:+6282237565997">
+                  <a href="tel:+6282340709041">
                     <Phone className="h-4 w-4 mr-2" />
-                    +62 822-3756-5997
+                    +62 823-4070-9041
                   </a>
                 </Button>
               </div>
@@ -264,7 +264,7 @@ export default function ColdPlungeBali() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="gap-2" asChild data-testid="button-whatsapp-cta">
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I'd like to get a cold plunge installed in Bali. Can you provide a quote?"
+                  href="https://wa.me/6282340709041?text=Hi! I'd like to get a cold plunge installed in Bali. Can you provide a quote?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -273,9 +273,9 @@ export default function ColdPlungeBali() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild data-testid="button-call-cta">
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="h-4 w-4 mr-2" />
-                  +62 822-3756-5997
+                  +62 823-4070-9041
                 </a>
               </Button>
             </div>

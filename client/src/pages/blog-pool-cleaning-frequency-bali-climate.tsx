@@ -477,7 +477,7 @@ export default function BlogPoolCleaningFrequencyBaliClimate() {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=I need help determining pool cleaning frequency", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=I need help determining pool cleaning frequency", "_blank")}
                   data-testid="button-whatsapp-schedule"
                 >
                   Contact Expert

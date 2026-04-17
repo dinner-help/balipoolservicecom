@@ -62,7 +62,7 @@ export default function PoolCleaningServiceBali() {
     },
     {
       question: "How quickly can you start pool cleaning service?",
-      answer: "We can typically begin service within 24-48 hours of your inquiry. For urgent or emergency pool cleaning needs, we offer same-day response. Simply WhatsApp us at +62 822-3756-5997 with your location and pool photos for a quick quote."
+      answer: "We can typically begin service within 24-48 hours of your inquiry. For urgent or emergency pool cleaning needs, we offer same-day response. Simply WhatsApp us at +62 823-4070-9041 with your location and pool photos for a quick quote."
     },
   ];
 
@@ -79,7 +79,7 @@ export default function PoolCleaningServiceBali() {
     <>
       <Helmet>
         <title>Pool Cleaning Service Bali | Expert Villa & Hotel Pool Cleaners — From IDR 800K/Month</title>
-        <meta name="description" content="Top-rated pool cleaning service in Bali for villas, hotels & private homes. All chemicals included, WhatsApp report after every visit. Weekly cleaning from IDR 800K/month. 500+ clients, 10+ years experience. Call: +62 822-3756-5997" />
+        <meta name="description" content="Top-rated pool cleaning service in Bali for villas, hotels & private homes. All chemicals included, WhatsApp report after every visit. Weekly cleaning from IDR 800K/month. 500+ clients, 10+ years experience. Call: +62 823-4070-9041" />
         <meta name="keywords" content={[serviceKeywords.primary, ...serviceKeywords.secondary, ...serviceKeywords.longTail].join(", ")} />
         <meta property="og:title" content="Pool Cleaning Service Bali | Professional Pool Cleaners" />
         <meta property="og:description" content="Expert pool cleaning for Bali villas, hotels & resorts. Crystal-clear pools guaranteed. From IDR 800K/month. Fast response, transparent pricing." />
@@ -94,7 +94,7 @@ export default function PoolCleaningServiceBali() {
             "provider": {
               "@type": "LocalBusiness",
               "name": "Bali Pool Service",
-              "telephone": "+62-822-3756-5997",
+              "telephone": "+62-823-4070-9041",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Bali",
@@ -447,7 +447,7 @@ export default function PoolCleaningServiceBali() {
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
               <h3 className="font-bold mb-2">Contact Us on WhatsApp</h3>
-              <p className="text-sm text-muted-foreground">Send your property location and pool photos to +62 822-3756-5997</p>
+              <p className="text-sm text-muted-foreground">Send your property location and pool photos to +62 823-4070-9041</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
@@ -489,7 +489,7 @@ export default function PoolCleaningServiceBali() {
             Pool Cleaning Service Bali - Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground mb-12 max-w-3xl">
-            Common questions about our <strong>pool cleaning service</strong> in Bali. Can't find your answer? WhatsApp us at +62 822-3756-5997.
+            Common questions about our <strong>pool cleaning service</strong> in Bali. Can't find your answer? WhatsApp us at +62 823-4070-9041.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-12">

@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, Clock, CheckCircle2, Palette, Sparkles, Zap, Droplets, TrendingUp } from 'lucide-react';
 
 export default function PoolRenovationBali() {
-  const whatsappNumber = '+6282237565997';
+  const whatsappNumber = '+6282340709041';
   const whatsappMessage = encodeURIComponent('Hi, I want to discuss pool renovation options in Bali. Can you help?');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -192,7 +192,7 @@ export default function PoolRenovationBali() {
     <>
       <Helmet>
         <title>Pool Renovation Bali | Surface Refinishing, Equipment Upgrades & Saltwater Conversion</title>
-        <meta name="description" content="Professional pool renovation in Bali. Surface refinishing, LED lighting upgrades, saltwater conversion, equipment modernization. Transform your pool and increase property value. Free quote: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool renovation in Bali. Surface refinishing, LED lighting upgrades, saltwater conversion, equipment modernization. Transform your pool and increase property value. Free quote: +62 823-4070-9041" />
         <meta name="keywords" content="pool renovation Bali, pool refinishing Bali, pool upgrade, pebble finish Bali, pool modernization, pool resurfacing Seminyak" />
         <link rel="canonical" href="https://balipoolservice.com/pool-renovation-bali" />
         

@@ -68,7 +68,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button
               size="lg"
-              onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
               className="gap-2 text-lg px-8 py-6 h-auto"
               data-testid="button-whatsapp-hero"
             >

@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, CheckCircle2, Droplets, Sparkles, Shield, Leaf, DollarSign, Heart } from 'lucide-react';
 
 export default function SaltwaterPoolMaintenanceBali() {
-  const whatsappNumber = '+6282237565997';
+  const whatsappNumber = '+6282340709041';
   const whatsappMessage = encodeURIComponent('Hi, I want to learn about saltwater pool maintenance in Bali. Can you help?');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -174,7 +174,7 @@ export default function SaltwaterPoolMaintenanceBali() {
     <>
       <Helmet>
         <title>Saltwater Pool Maintenance Bali | Conversion, Cell Cleaning & Salt Chemistry Specialists</title>
-        <meta name="description" content="Expert saltwater pool maintenance and conversion in Bali. Salt cell cleaning, chlorinator servicing, salt level balancing. Enjoy softer water and lower chemical costs. Serving villas & resorts across Bali. Call: +62 822-3756-5997" />
+        <meta name="description" content="Expert saltwater pool maintenance and conversion in Bali. Salt cell cleaning, chlorinator servicing, salt level balancing. Enjoy softer water and lower chemical costs. Serving villas & resorts across Bali. Call: +62 823-4070-9041" />
         <meta name="keywords" content="saltwater pool Bali, salt pool maintenance, chlorine to saltwater conversion, salt cell cleaning, saltwater pool benefits, eco pool Bali" />
         <link rel="canonical" href="https://balipoolservice.com/saltwater-pool-maintenance-bali" />
         

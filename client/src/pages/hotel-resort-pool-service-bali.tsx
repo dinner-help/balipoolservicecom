@@ -223,7 +223,7 @@ export default function HotelResortPoolServiceBali() {
         <title>Hotel & Resort Pool Service Bali | Compliance-Ready Multi-Pool Management for 5-Star Properties</title>
         <meta 
           name="description" 
-          content="Professional hotel pool service in Bali. Multi-pool management, EU-certified chemicals, health audit documentation & digital service reports. Trusted by 50+ hotels and resorts. Platinum package from IDR 2,800,000/month. Call: +62 822-3756-5997" 
+          content="Professional hotel pool service in Bali. Multi-pool management, EU-certified chemicals, health audit documentation & digital service reports. Trusted by 50+ hotels and resorts. Platinum package from IDR 2,800,000/month. Call: +62 823-4070-9041" 
         />
         <meta name="keywords" content="hotel pool service Bali, resort pool maintenance Bali, hotel pool management Bali, resort pool cleaning Bali, Seminyak hotel pool service, Nusa Dua resort pool maintenance, 5-star pool service Bali, pool compliance Bali" />
         
@@ -311,7 +311,7 @@ export default function HotelResortPoolServiceBali() {
                   data-testid="button-whatsapp-cta-hero"
                 >
                   <a 
-                    href="https://wa.me/6282237565997?text=Hi! I'm inquiring about hotel/resort pool service. Can you send me information for our property?"
+                    href="https://wa.me/6282340709041?text=Hi! I'm inquiring about hotel/resort pool service. Can you send me information for our property?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -419,7 +419,7 @@ export default function HotelResortPoolServiceBali() {
                   </p>
                   <Button variant="outline" asChild data-testid="button-demo-dashboard">
                     <a 
-                      href="https://wa.me/6282237565997?text=Hi! Can I see a demo of the digital dashboard and reporting system?"
+                      href="https://wa.me/6282340709041?text=Hi! Can I see a demo of the digital dashboard and reporting system?"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -489,7 +489,7 @@ export default function HotelResortPoolServiceBali() {
                         data-testid={`button-get-package-${index}`}
                       >
                         <a 
-                          href={`https://wa.me/6282237565997?text=Hi! I'm interested in the ${pkg.name} plan for our hotel/resort. Can we schedule an assessment?`}
+                          href={`https://wa.me/6282340709041?text=Hi! I'm interested in the ${pkg.name} plan for our hotel/resort. Can we schedule an assessment?`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -509,7 +509,7 @@ export default function HotelResortPoolServiceBali() {
               </p>
               <Button variant="outline" size="lg" asChild data-testid="button-custom-plan">
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I need a custom service plan for our hotel/resort. Can we discuss our specific requirements?"
+                  href="https://wa.me/6282340709041?text=Hi! I need a custom service plan for our hotel/resort. Can we discuss our specific requirements?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -609,7 +609,7 @@ export default function HotelResortPoolServiceBali() {
                 data-testid="button-whatsapp-cta-final"
               >
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I'm interested in professional pool service for our hotel/resort. Can we schedule a property assessment?"
+                  href="https://wa.me/6282340709041?text=Hi! I'm interested in professional pool service for our hotel/resort. Can we schedule a property assessment?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -625,9 +625,9 @@ export default function HotelResortPoolServiceBali() {
                 asChild
                 data-testid="button-call-now"
               >
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: +62 822 3756 5997
+                  Call: +62 823 4070 9041
                 </a>
               </Button>
             </div>

@@ -642,7 +642,7 @@ export default function PoolCalculator() {
               <Button
                 size="lg"
                 className="gap-2"
-                onClick={() => window.open("https://wa.me/6282237565997?text=I'm interested in professional pool service", "_blank")}
+                onClick={() => window.open("https://wa.me/6282340709041?text=I'm interested in professional pool service", "_blank")}
                 data-testid="button-whatsapp-cta"
               >
                 <FaWhatsapp className="h-5 w-5" />

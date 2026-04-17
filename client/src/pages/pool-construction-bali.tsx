@@ -97,7 +97,7 @@ export default function PoolConstructionBali() {
         <title>Pool Construction Bali | Custom Villa & Resort Pool Builders — From IDR 70 Million</title>
         <meta 
           name="description" 
-          content="Build your dream pool in Bali with Bali's trusted pool construction team. Villa pools, infinity pools, plunge pools, saltwater pools & more. Fixed pricing from IDR 70M, 10-step build process, 10+ years experience. Free quote: +62 822-3756-5997" 
+          content="Build your dream pool in Bali with Bali's trusted pool construction team. Villa pools, infinity pools, plunge pools, saltwater pools & more. Fixed pricing from IDR 70M, 10-step build process, 10+ years experience. Free quote: +62 823-4070-9041" 
         />
         <meta name="keywords" content="pool construction Bali, pool builder Bali, swimming pool construction Bali, Bali pool contractor, villa pool builder Bali, cost to build pool in Bali, infinity pool construction Bali, concrete pool Bali, pool installation Bali, new pool Bali" />
         <meta property="og:title" content="New Swimming Pool Construction Bali | Expert Pool Builders" />
@@ -137,7 +137,7 @@ export default function PoolConstructionBali() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="gap-2 bg-amber-600 hover:bg-amber-700" asChild data-testid="button-whatsapp-hero">
                   <a 
-                    href="https://wa.me/6282237565997?text=Hi! I'm interested in building a new swimming pool in Bali."
+                    href="https://wa.me/6282340709041?text=Hi! I'm interested in building a new swimming pool in Bali."
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -146,9 +146,9 @@ export default function PoolConstructionBali() {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-white/80 hover:bg-white" asChild data-testid="button-call-hero">
-                  <a href="tel:+6282237565997">
+                  <a href="tel:+6282340709041">
                     <Phone className="h-4 w-4 mr-2" />
-                    +62 822-3756-5997
+                    +62 823-4070-9041
                   </a>
                 </Button>
               </div>
@@ -322,7 +322,7 @@ export default function PoolConstructionBali() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="gap-2" asChild data-testid="button-whatsapp-cta">
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I'd like a free quote for swimming pool construction in Bali."
+                  href="https://wa.me/6282340709041?text=Hi! I'd like a free quote for swimming pool construction in Bali."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -331,9 +331,9 @@ export default function PoolConstructionBali() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" asChild data-testid="button-call-cta">
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="h-4 w-4 mr-2" />
-                  +62 822-3756-5997
+                  +62 823-4070-9041
                 </a>
               </Button>
             </div>

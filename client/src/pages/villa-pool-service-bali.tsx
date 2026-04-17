@@ -181,7 +181,7 @@ export default function VillaPoolServiceBali() {
         <title>Villa Pool Service Bali | Expert Pool Cleaning for Rental Villas & Private Homes — From IDR 800K</title>
         <meta 
           name="description" 
-          content="Trusted villa pool service in Bali. Keep guests happy with crystal-clear water every visit. Weekly maintenance from IDR 800K/month — all chemicals included, WhatsApp report delivered. Serving 500+ villas across Canggu, Seminyak & Ubud. Call: +62 822-3756-5997" 
+          content="Trusted villa pool service in Bali. Keep guests happy with crystal-clear water every visit. Weekly maintenance from IDR 800K/month — all chemicals included, WhatsApp report delivered. Serving 500+ villas across Canggu, Seminyak & Ubud. Call: +62 823-4070-9041" 
         />
         <meta name="keywords" content="villa pool service Bali, villa pool maintenance Bali, rental villa pool cleaning Bali, Bali villa pool care, Seminyak villa pool service, Canggu villa pool maintenance, Ubud villa pool cleaning, pool cleaning rental villa Bali" />
         
@@ -269,7 +269,7 @@ export default function VillaPoolServiceBali() {
                   data-testid="button-whatsapp-cta-hero"
                 >
                   <a 
-                    href="https://wa.me/6282237565997?text=Hi! I'm interested in villa pool service. Can you send me pricing and availability?"
+                    href="https://wa.me/6282340709041?text=Hi! I'm interested in villa pool service. Can you send me pricing and availability?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -427,7 +427,7 @@ export default function VillaPoolServiceBali() {
                         data-testid={`button-get-package-${index}`}
                       >
                         <a 
-                          href={`https://wa.me/6282237565997?text=Hi! I'm interested in the ${pkg.name} package for my villa. Can you send me more details?`}
+                          href={`https://wa.me/6282340709041?text=Hi! I'm interested in the ${pkg.name} package for my villa. Can you send me more details?`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -447,7 +447,7 @@ export default function VillaPoolServiceBali() {
               </p>
               <Button variant="outline" size="lg" asChild data-testid="button-custom-quote">
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I need a custom pool service plan for my villa(s). Can we discuss?"
+                  href="https://wa.me/6282340709041?text=Hi! I need a custom pool service plan for my villa(s). Can we discuss?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -521,7 +521,7 @@ export default function VillaPoolServiceBali() {
                 data-testid="button-whatsapp-cta-final"
               >
                 <a 
-                  href="https://wa.me/6282237565997?text=Hi! I'm a villa owner interested in your pool service. Can you send me pricing and availability?"
+                  href="https://wa.me/6282340709041?text=Hi! I'm a villa owner interested in your pool service. Can you send me pricing and availability?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -537,9 +537,9 @@ export default function VillaPoolServiceBali() {
                 asChild
                 data-testid="button-call-now"
               >
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call Now: +62 822 3756 5997
+                  Call Now: +62 823 4070 9041
                 </a>
               </Button>
             </div>

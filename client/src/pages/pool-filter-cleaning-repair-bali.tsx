@@ -9,7 +9,7 @@ export default function PoolFilterCleaningRepairBali() {
     <>
       <Helmet>
         <title>Pool Filter Cleaning & Repair Bali | Sand, Cartridge & DE Filter Specialists</title>
-        <meta name="description" content="Professional pool filter cleaning and repair in Bali. Sand filters, cartridge filters & DE systems serviced. Restore water flow, prevent equipment failure, extend filter life. Call: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool filter cleaning and repair in Bali. Sand filters, cartridge filters & DE systems serviced. Restore water flow, prevent equipment failure, extend filter life. Call: +62 823-4070-9041" />
         <meta property="og:title" content="Pool Filter Cleaning & Repair in Bali" />
         <meta property="og:description" content="Professional pool filter cleaning, backwashing, and repair. Extend filter life, improve circulation." />
       </Helmet>
@@ -25,12 +25,12 @@ export default function PoolFilterCleaningRepairBali() {
               A clogged filter is the leading cause of cloudy water and poor circulation. Our expert technicians clean, maintain, and repair all filter types to keep your pool crystal clear.
             </p>
             <Button size="lg" className="min-w-48" asChild>
-              <a href="https://wa.me/6282237565997" data-testid="button-hero-whatsapp">
+              <a href="https://wa.me/6282340709041" data-testid="button-hero-whatsapp">
                 Get Filter Service Quote
               </a>
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
             </p>
           </div>
         </div>
@@ -475,7 +475,7 @@ export default function PoolFilterCleaningRepairBali() {
                 </ul>
                 <div className="mt-4 pt-4 border-t">
                   <p className="text-sm text-foreground/80">
-                    Emergency filter repair: <a href="https://wa.me/6282237565997" className="text-primary font-medium hover-elevate">+62 822-3756-5997</a>
+                    Emergency filter repair: <a href="https://wa.me/6282340709041" className="text-primary font-medium hover-elevate">+62 823-4070-9041</a>
                   </p>
                 </div>
               </CardContent>
@@ -889,7 +889,7 @@ export default function PoolFilterCleaningRepairBali() {
             </Card>
           </div>
           <p className="text-sm text-foreground/80 mt-8 text-center">
-            Don't see your area? Contact us on WhatsApp: <a href="https://wa.me/6282237565997" className="text-primary font-medium hover-elevate">+62 822-3756-5997</a>
+            Don't see your area? Contact us on WhatsApp: <a href="https://wa.me/6282340709041" className="text-primary font-medium hover-elevate">+62 823-4070-9041</a>
           </p>
         </div>
       </section>
@@ -904,12 +904,12 @@ export default function PoolFilterCleaningRepairBali() {
             Schedule professional filter cleaning and maintenance today. Crystal-clear water starts with a clean filter.
           </p>
           <Button size="lg" className="min-w-56" asChild>
-            <a href="https://wa.me/6282237565997" data-testid="button-cta-whatsapp">
+            <a href="https://wa.me/6282340709041" data-testid="button-cta-whatsapp">
               Contact Us on WhatsApp
             </a>
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
           </p>
         </div>
       </section>

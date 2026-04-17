@@ -12,8 +12,8 @@ interface WhatsAppCTAProps {
   location?: string;
 }
 
-const PHONE_NUMBER = "6282237565997";
-const DISPLAY_PHONE = "+62 822-3756-5997";
+const PHONE_NUMBER = "6282340709041";
+const DISPLAY_PHONE = "+62 823-4070-9041";
 
 export function WhatsAppCTA({
   variant = "section",

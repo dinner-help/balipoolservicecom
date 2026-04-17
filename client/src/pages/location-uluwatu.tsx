@@ -44,7 +44,7 @@ export default function UluwatuPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Uluwatu Bali | Clifftop Villa & Infinity Pool Specialists</title>
-        <meta name="description" content="Expert pool cleaning in Uluwatu for clifftop villas, surf retreats & infinity pools. Salt air corrosion protection, wind debris management, luxury service. Call: +62 822-3756-5997" />
+        <meta name="description" content="Expert pool cleaning in Uluwatu for clifftop villas, surf retreats & infinity pools. Salt air corrosion protection, wind debris management, luxury service. Call: +62 823-4070-9041" />
         <meta name="keywords" content="pool cleaning uluwatu, uluwatu pool maintenance, clifftop pool service, infinity pool cleaning bali, pecatu pool cleaner, luxury villa pool uluwatu" />
         <link rel="canonical" href="https://balipoolservice.com/location-uluwatu" />
       </Helmet>
@@ -68,9 +68,9 @@ export default function UluwatuPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%20need%20pool%20service%20for%20my%20Uluwatu%20property">
+                  <a href="https://wa.me/6282340709041?text=Hello!%20I%20need%20pool%20service%20for%20my%20Uluwatu%20property">
                     <FaWhatsapp className="h-5 w-5" />
-                    WhatsApp: +62 822-3756-5997
+                    WhatsApp: +62 823-4070-9041
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -154,7 +154,7 @@ export default function UluwatuPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />WhatsApp reports</li>
                   </ul>
                   <Button className="w-full bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Silver%20package%20for%20Uluwatu">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Silver%20package%20for%20Uluwatu">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -172,7 +172,7 @@ export default function UluwatuPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Priority response</li>
                   </ul>
                   <Button className="w-full gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Gold%20package%20for%20Uluwatu">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Gold%20package%20for%20Uluwatu">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -188,7 +188,7 @@ export default function UluwatuPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2-hour emergency</li>
                   </ul>
                   <Button className="w-full bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Platinum%20package%20for%20Uluwatu">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Platinum%20package%20for%20Uluwatu">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -238,7 +238,7 @@ export default function UluwatuPoolCleaning() {
               Send us your pool photos and get a free quote today.
             </p>
             <Button size="lg" className="bg-black hover:bg-gray-800 text-white gap-2" asChild>
-              <a href="https://wa.me/6282237565997?text=Hi!%20I%20need%20pool%20service%20in%20Uluwatu.">
+              <a href="https://wa.me/6282340709041?text=Hi!%20I%20need%20pool%20service%20in%20Uluwatu.">
                 <FaWhatsapp className="h-5 w-5" />
                 Get Free Quote on WhatsApp
               </a>

@@ -40,7 +40,7 @@ export function Footer() {
     { label: "About Us", href: "/about" },
     { label: "Pricing", href: "/pricing" },
     { label: "Contact", href: "/#contact" },
-    { label: "WhatsApp", href: "https://wa.me/6282237565997", external: true },
+    { label: "WhatsApp", href: "https://wa.me/6282340709041", external: true },
     { label: "Terms & Conditions", href: "/terms" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Refund Policy", href: "/refund-policy" },
@@ -164,9 +164,9 @@ export function Footer() {
             </div>
             
             {/* Phone */}
-            <a href="tel:+6282237565997" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
+            <a href="tel:+6282340709041" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span className="text-sm">+62 822 3756 5997</span>
+              <span className="text-sm">+62 823 4070 9041</span>
             </a>
             
             {/* Email */}
@@ -186,7 +186,7 @@ export function Footer() {
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div className="flex items-center gap-3">
               <a
-                href="https://wa.me/6282237565997"
+                href="https://wa.me/6282340709041"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-10 w-10 rounded-full bg-gray-800 hover:bg-green-600 flex items-center justify-center transition-all"

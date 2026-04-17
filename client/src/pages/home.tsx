@@ -18,7 +18,7 @@ export default function Home() {
     "name": "Bali Pool Service",
     "description": "Professional pool cleaning and maintenance services across Bali",
     "url": "https://poolservicebali.com",
-    "telephone": "+6282237565997",
+    "telephone": "+6282340709041",
     "priceRange": "IDR 800,000 - IDR 2,800,000",
     "address": {
       "@type": "PostalAddress",
@@ -94,7 +94,7 @@ export default function Home() {
         <title>Pool Cleaning Bali | #1 Pool Service & Maintenance for Villas & Hotels | Bali Pool Service</title>
         <meta 
           name="description" 
-          content="Bali's most trusted pool cleaning & maintenance service. 500+ villas, hotels & homes. Weekly cleaning from IDR 800K/month — chemicals included, WhatsApp reports after every visit. Serving Canggu, Seminyak, Ubud & all of Bali. Call: +62 822-3756-5997" 
+          content="Bali's most trusted pool cleaning & maintenance service. 500+ villas, hotels & homes. Weekly cleaning from IDR 800K/month — chemicals included, WhatsApp reports after every visit. Serving Canggu, Seminyak, Ubud & all of Bali. Call: +62 823-4070-9041" 
         />
         <meta 
           name="keywords" 
@@ -136,7 +136,7 @@ export default function Home() {
               <Button 
                 size="lg" 
                 className="bg-black hover:bg-gray-800 text-white gap-2 text-lg px-8 py-6"
-                onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20cleaning%20in%20Bali.", "_blank")}
+                onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20cleaning%20in%20Bali.", "_blank")}
                 data-testid="button-hero-whatsapp"
               >
                 <FaWhatsapp className="h-5 w-5" />
@@ -263,7 +263,7 @@ export default function Home() {
             <Button 
               size="lg"
               className="bg-black hover:bg-gray-800 text-white gap-2"
-              onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
             >
               <FaWhatsapp className="h-5 w-5" />
               Get Professional Help Now
@@ -314,7 +314,7 @@ export default function Home() {
                 </div>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27m%20interested%20in%20Weekly%20Pool%20Maintenance.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20Weekly%20Pool%20Maintenance.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Get Quote
@@ -354,7 +354,7 @@ export default function Home() {
                 </div>
                 <Button 
                   className="w-full bg-green-600 hover:bg-green-700 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=URGENT!%20My%20pool%20has%20turned%20green.%20Need%20rescue%20service.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=URGENT!%20My%20pool%20has%20turned%20green.%20Need%20rescue%20service.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Emergency Help
@@ -391,7 +391,7 @@ export default function Home() {
                 </div>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27m%20interested%20in%20Hotel%20Pool%20Service%20contract.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20Hotel%20Pool%20Service%20contract.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Discuss Contract
@@ -428,7 +428,7 @@ export default function Home() {
                 </div>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%20need%20pool%20equipment%20repair.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%20need%20pool%20equipment%20repair.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Request Repair
@@ -702,7 +702,7 @@ export default function Home() {
           </div>
 
           <p className="text-center text-gray-500 mt-8">
-            Don't see your area? We cover all of Bali! <a href="https://wa.me/6282237565997" className="text-primary hover:underline">WhatsApp us</a> your location.
+            Don't see your area? We cover all of Bali! <a href="https://wa.me/6282340709041" className="text-primary hover:underline">WhatsApp us</a> your location.
           </p>
         </div>
       </section>
@@ -726,7 +726,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">WhatsApp Us</h3>
               <p className="text-gray-600">
-                Send your location and pool photos to <span className="font-semibold">+62 822-3756-5997</span>. We'll respond within hours.
+                Send your location and pool photos to <span className="font-semibold">+62 823-4070-9041</span>. We'll respond within hours.
               </p>
             </div>
 
@@ -755,7 +755,7 @@ export default function Home() {
             <Button 
               size="lg"
               className="bg-black hover:bg-gray-800 text-white gap-2"
-              onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27d%20like%20to%20get%20a%20pool%20service%20quote.%20Here%20are%20my%20pool%20details:", "_blank")}
+              onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27d%20like%20to%20get%20a%20pool%20service%20quote.%20Here%20are%20my%20pool%20details:", "_blank")}
             >
               <FaWhatsapp className="h-5 w-5" />
               Start Now on WhatsApp
@@ -902,7 +902,7 @@ export default function Home() {
           <Button 
             size="lg"
             className="bg-black hover:bg-gray-800 text-white gap-2 text-lg px-8 py-6"
-            onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20service.%20Here%20are%20my%20pool%20details:", "_blank")}
+            onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20service.%20Here%20are%20my%20pool%20details:", "_blank")}
             data-testid="button-final-cta"
           >
             <FaWhatsapp className="h-5 w-5" />
@@ -910,7 +910,7 @@ export default function Home() {
           </Button>
           
           <p className="text-sm text-white/70 mt-6">
-            WhatsApp: +62 822-3756-5997 • Available 24/7 for emergencies
+            WhatsApp: +62 823-4070-9041 • Available 24/7 for emergencies
           </p>
         </div>
       </section>
@@ -954,7 +954,7 @@ export default function Home() {
                 </ul>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27m%20interested%20in%20the%20Silver%20Package.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20the%20Silver%20Package.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Get Silver Package
@@ -991,7 +991,7 @@ export default function Home() {
                 </ul>
                 <Button 
                   className="w-full gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27m%20interested%20in%20the%20Gold%20Package.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20the%20Gold%20Package.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Get Gold Package
@@ -1025,7 +1025,7 @@ export default function Home() {
                 </ul>
                 <Button 
                   className="w-full bg-black hover:bg-gray-800 text-white gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27m%20interested%20in%20the%20Platinum%20Package.", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20the%20Platinum%20Package.", "_blank")}
                 >
                   <FaWhatsapp className="h-4 w-4" />
                   Get Platinum Package

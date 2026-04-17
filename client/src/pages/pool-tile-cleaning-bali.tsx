@@ -8,7 +8,7 @@ export default function PoolTileCleaningBali() {
     <>
       <Helmet>
         <title>Pool Tile Cleaning Bali | Calcium Scale & Waterline Stain Removal Specialists</title>
-        <meta name="description" content="Professional pool tile cleaning in Bali. Remove calcium scale, algae stains & waterline buildup from your pool tiles. Restore shine to villa, hotel & resort pools. From IDR 1,125,000. Call: +62 822-3756-5997" />
+        <meta name="description" content="Professional pool tile cleaning in Bali. Remove calcium scale, algae stains & waterline buildup from your pool tiles. Restore shine to villa, hotel & resort pools. From IDR 1,125,000. Call: +62 823-4070-9041" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
@@ -24,7 +24,7 @@ export default function PoolTileCleaningBali() {
               Schedule Tile Cleaning
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
             </p>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function PoolTileCleaningBali() {
             Book Tile Cleaning
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
           </p>
         </div>
       </section>

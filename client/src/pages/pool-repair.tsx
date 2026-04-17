@@ -268,7 +268,7 @@ export default function PoolRepair() {
             "image": "https://balipoolservice.com/logo.png",
             "description": "24/7 emergency pool repair services in Bali. Expert technicians specializing in pump repairs, filter systems, heaters, leak detection, and all pool equipment.",
             "url": "https://balipoolservice.com/pool-repair",
-            "telephone": "+6282237565997",
+            "telephone": "+6282340709041",
             "priceRange": "IDR 500,000 - IDR 15,000,000",
             "address": {
               "@type": "PostalAddress",
@@ -320,7 +320,7 @@ export default function PoolRepair() {
               "@type": "ServiceChannel",
               "servicePhone": {
                 "@type": "ContactPoint",
-                "telephone": "+6282237565997",
+                "telephone": "+6282340709041",
                 "contactType": "Emergency",
                 "availableLanguage": ["English", "Indonesian"]
               }
@@ -410,7 +410,7 @@ export default function PoolRepair() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   size="lg"
-                  onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
                   className="gap-2 bg-red-600 hover:bg-red-700 text-white text-lg px-8"
                   data-testid="button-emergency-contact"
                 >
@@ -677,7 +677,7 @@ export default function PoolRepair() {
                 </p>
                 <Button
                   size="lg"
-                  onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
                   className="gap-2 bg-red-600 hover:bg-red-700 text-white"
                 >
                   <Phone className="h-5 w-5" />
@@ -879,7 +879,7 @@ export default function PoolRepair() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   size="lg"
-                  onClick={() => window.open("https://wa.me/6282237565997", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
                   className="gap-2 bg-white text-primary hover:bg-gray-100 text-lg px-8"
                 >
                   <FaWhatsapp className="h-6 w-6" />

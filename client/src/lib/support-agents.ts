@@ -10,7 +10,7 @@ export interface SupportAgent {
   whatsapp: string;
 }
 
-export const WHATSAPP_NUMBER = "6282237565997";
+export const WHATSAPP_NUMBER = "6282340709041";
 
 export const supportAgents: SupportAgent[] = [
   {

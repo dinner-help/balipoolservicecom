@@ -44,7 +44,7 @@ export default function KerobokanPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Kerobokan Bali | Villa & Rental Property Pool Maintenance Service</title>
-        <meta name="description" content="Trusted pool cleaning in Kerobokan for villas, rental properties & guesthouses. Reliable weekly visits, chemical balancing, full equipment service. From IDR 800K/month. Call: +62 822-3756-5997" />
+        <meta name="description" content="Trusted pool cleaning in Kerobokan for villas, rental properties & guesthouses. Reliable weekly visits, chemical balancing, full equipment service. From IDR 800K/month. Call: +62 823-4070-9041" />
         <meta name="keywords" content="pool cleaning kerobokan, kerobokan pool maintenance, villa pool service kerobokan, umalas pool cleaner, batubelig pool maintenance" />
         <link rel="canonical" href="https://balipoolservice.com/location-kerobokan" />
       </Helmet>
@@ -68,9 +68,9 @@ export default function KerobokanPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%20need%20pool%20service%20in%20Kerobokan">
+                  <a href="https://wa.me/6282340709041?text=Hello!%20I%20need%20pool%20service%20in%20Kerobokan">
                     <FaWhatsapp className="h-5 w-5" />
-                    WhatsApp: +62 822-3756-5997
+                    WhatsApp: +62 823-4070-9041
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -154,7 +154,7 @@ export default function KerobokanPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />WhatsApp reports</li>
                   </ul>
                   <Button className="w-full bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Silver%20package%20for%20Kerobokan">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Silver%20package%20for%20Kerobokan">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -172,7 +172,7 @@ export default function KerobokanPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />Priority response</li>
                   </ul>
                   <Button className="w-full gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Gold%20package%20for%20Kerobokan">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Gold%20package%20for%20Kerobokan">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -188,7 +188,7 @@ export default function KerobokanPoolCleaning() {
                     <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-primary" />2-hour emergency</li>
                   </ul>
                   <Button className="w-full bg-black hover:bg-gray-800 text-white gap-2" asChild>
-                    <a href="https://wa.me/6282237565997?text=Hi!%20I%20want%20the%20Platinum%20package%20for%20Kerobokan">
+                    <a href="https://wa.me/6282340709041?text=Hi!%20I%20want%20the%20Platinum%20package%20for%20Kerobokan">
                       <FaWhatsapp className="h-4 w-4" />Get Quote
                     </a>
                   </Button>
@@ -238,7 +238,7 @@ export default function KerobokanPoolCleaning() {
               Send us your pool photos and get a free quote today.
             </p>
             <Button size="lg" className="bg-black hover:bg-gray-800 text-white gap-2" asChild>
-              <a href="https://wa.me/6282237565997?text=Hi!%20I%20need%20pool%20service%20in%20Kerobokan.">
+              <a href="https://wa.me/6282340709041?text=Hi!%20I%20need%20pool%20service%20in%20Kerobokan.">
                 <FaWhatsapp className="h-5 w-5" />
                 Get Free Quote on WhatsApp
               </a>

@@ -228,7 +228,7 @@ export default function BahasaGlossary() {
                     data-testid="button-whatsapp-info"
                   >
                     <a 
-                      href="https://wa.me/6282237565997?text=Halo! Saya mau tanya tentang perawatan kolam renang."
+                      href="https://wa.me/6282340709041?text=Halo! Saya mau tanya tentang perawatan kolam renang."
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -243,7 +243,7 @@ export default function BahasaGlossary() {
                     asChild
                     data-testid="button-call-info"
                   >
-                    <a href="tel:+6282237565997">
+                    <a href="tel:+6282340709041">
                       <Phone className="mr-2 h-4 w-4" />
                       Telepon Sekarang
                     </a>

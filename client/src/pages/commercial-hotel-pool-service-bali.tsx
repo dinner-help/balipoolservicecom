@@ -8,7 +8,7 @@ export default function CommercialHotelPoolServiceBali() {
     <>
       <Helmet>
         <title>Commercial Pool Service Bali | Hotel, Resort & Large Facility Pool Management</title>
-        <meta name="description" content="Commercial pool service in Bali for hotels, resorts, condos & large facilities. Multi-pool management, compliance documentation, 24/7 support, EU-certified chemicals. Trusted by 50+ Bali properties. Call: +62 822-3756-5997" />
+        <meta name="description" content="Commercial pool service in Bali for hotels, resorts, condos & large facilities. Multi-pool management, compliance documentation, 24/7 support, EU-certified chemicals. Trusted by 50+ Bali properties. Call: +62 823-4070-9041" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
@@ -24,7 +24,7 @@ export default function CommercialHotelPoolServiceBali() {
               Discuss Commercial Contract
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function CommercialHotelPoolServiceBali() {
             Schedule Consultation
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            WhatsApp: <a href="https://wa.me/6282237565997" className="font-semibold text-primary hover-elevate">+62 822-3756-5997</a>
+            WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
           </p>
         </div>
       </section>

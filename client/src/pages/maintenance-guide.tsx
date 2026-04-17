@@ -62,7 +62,7 @@ export default function MaintenanceGuide() {
               <Button
                 size="lg"
                 className="gap-2"
-                onClick={() => window.open("https://wa.me/6282237565997?text=I need help with pool maintenance", "_blank")}
+                onClick={() => window.open("https://wa.me/6282340709041?text=I need help with pool maintenance", "_blank")}
                 data-testid="button-contact-whatsapp"
               >
                 <FaWhatsapp className="h-5 w-5" />
@@ -692,7 +692,7 @@ export default function MaintenanceGuide() {
                       <Button
                         size="lg"
                         className="gap-2"
-                        onClick={() => window.open("https://wa.me/6282237565997?text=I need help with a pool problem", "_blank")}
+                        onClick={() => window.open("https://wa.me/6282340709041?text=I need help with a pool problem", "_blank")}
                         data-testid="button-emergency-help"
                       >
                         <FaWhatsapp className="h-5 w-5" />

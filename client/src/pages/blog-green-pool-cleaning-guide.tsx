@@ -104,7 +104,7 @@ export default function BlogGreenPoolCleaningGuide() {
                     <Button 
                       variant="destructive" 
                       className="gap-2"
-                      onClick={() => window.open("https://wa.me/6282237565997?text=URGENT: I need emergency green pool cleaning service", "_blank")}
+                      onClick={() => window.open("https://wa.me/6282340709041?text=URGENT: I need emergency green pool cleaning service", "_blank")}
                       data-testid="button-emergency-whatsapp"
                     >
                       <FaWhatsapp className="h-5 w-5" />
@@ -747,7 +747,7 @@ export default function BlogGreenPoolCleaningGuide() {
                   size="lg" 
                   variant="destructive"
                   className="gap-2"
-                  onClick={() => window.open("https://wa.me/6282237565997?text=URGENT: I need green pool cleaning service", "_blank")}
+                  onClick={() => window.open("https://wa.me/6282340709041?text=URGENT: I need green pool cleaning service", "_blank")}
                   data-testid="button-emergency-service"
                 >
                   <FaWhatsapp className="h-5 w-5" />

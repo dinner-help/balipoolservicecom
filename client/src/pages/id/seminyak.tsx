@@ -131,7 +131,7 @@ export default function BahasaSeminyak() {
                   data-testid="button-whatsapp-hero"
                 >
                   <a 
-                    href="https://wa.me/6282237565997?text=Halo! Saya di Seminyak, mau tanya jasa perawatan kolam renang. Bisa kirim info?"
+                    href="https://wa.me/6282340709041?text=Halo! Saya di Seminyak, mau tanya jasa perawatan kolam renang. Bisa kirim info?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -147,7 +147,7 @@ export default function BahasaSeminyak() {
                   asChild
                   data-testid="button-call-hero"
                 >
-                  <a href="tel:+6282237565997">
+                  <a href="tel:+6282340709041">
                     <Phone className="mr-2 h-5 w-5" />
                     Telepon Sekarang
                   </a>
@@ -192,7 +192,7 @@ export default function BahasaSeminyak() {
                 </p>
                 <Button asChild data-testid="button-villa-service">
                   <a 
-                    href="https://wa.me/6282237565997?text=Halo! Saya punya villa rental di Seminyak. Bisa kirim info paket villa?"
+                    href="https://wa.me/6282340709041?text=Halo! Saya punya villa rental di Seminyak. Bisa kirim info paket villa?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -226,7 +226,7 @@ export default function BahasaSeminyak() {
                   <p className="text-2xl font-bold text-primary mb-2">Rp 750rb/bulan</p>
                   <Button variant="outline" className="w-full" asChild data-testid="button-service-0">
                     <a 
-                      href="https://wa.me/6282237565997?text=Halo! Mau tanya paket villa rental untuk kolam di Seminyak."
+                      href="https://wa.me/6282340709041?text=Halo! Mau tanya paket villa rental untuk kolam di Seminyak."
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -247,7 +247,7 @@ export default function BahasaSeminyak() {
                   <p className="text-lg font-semibold text-primary mb-2">Respon 1-2 jam</p>
                   <Button variant="outline" className="w-full" asChild data-testid="button-service-1">
                     <a 
-                      href="https://wa.me/6282237565997?text=DARURAT! Saya di Seminyak, butuh bantuan kolam sekarang!"
+                      href="https://wa.me/6282340709041?text=DARURAT! Saya di Seminyak, butuh bantuan kolam sekarang!"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -316,7 +316,7 @@ export default function BahasaSeminyak() {
                 data-testid="button-whatsapp-cta"
               >
                 <a 
-                  href="https://wa.me/6282237565997?text=Halo! Saya di Seminyak, mau konsultasi tentang jasa kolam renang."
+                  href="https://wa.me/6282340709041?text=Halo! Saya di Seminyak, mau konsultasi tentang jasa kolam renang."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -332,9 +332,9 @@ export default function BahasaSeminyak() {
                 asChild
                 data-testid="button-call-cta"
               >
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="mr-2 h-5 w-5" />
-                  +62 822 3756 5997
+                  +62 823 4070 9041
                 </a>
               </Button>
             </div>

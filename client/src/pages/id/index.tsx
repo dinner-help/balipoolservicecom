@@ -203,7 +203,7 @@ export default function BahasaHome() {
                   data-testid="button-whatsapp-cta-hero"
                 >
                   <a 
-                    href="https://wa.me/6282237565997?text=Halo! Saya ingin tanya tentang jasa perawatan kolam renang. Bisa kirim info harga dan paket?"
+                    href="https://wa.me/6282340709041?text=Halo! Saya ingin tanya tentang jasa perawatan kolam renang. Bisa kirim info harga dan paket?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -341,7 +341,7 @@ export default function BahasaHome() {
               </p>
               <Button variant="outline" asChild data-testid="button-contact-area">
                 <a 
-                  href="https://wa.me/6282237565997?text=Halo! Apakah melayani area saya?"
+                  href="https://wa.me/6282340709041?text=Halo! Apakah melayani area saya?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -409,7 +409,7 @@ export default function BahasaHome() {
                 data-testid="button-whatsapp-cta-final"
               >
                 <a 
-                  href="https://wa.me/6282237565997?text=Halo! Saya tertarik dengan jasa perawatan kolam renang. Bisa kirim detail paket dan harga?"
+                  href="https://wa.me/6282340709041?text=Halo! Saya tertarik dengan jasa perawatan kolam renang. Bisa kirim detail paket dan harga?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -425,9 +425,9 @@ export default function BahasaHome() {
                 asChild
                 data-testid="button-call-now"
               >
-                <a href="tel:+6282237565997">
+                <a href="tel:+6282340709041">
                   <Phone className="mr-2 h-5 w-5" />
-                  Telepon: +62 822 3756 5997
+                  Telepon: +62 823 4070 9041
                 </a>
               </Button>
             </div>

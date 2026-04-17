@@ -19,7 +19,7 @@ export default function About() {
     "name": "Bali Pool Service",
     "description": "Professional pool cleaning, maintenance, and construction services across Bali. Family-owned business with 10+ years of experience serving villas, hotels, and private homes.",
     "url": "https://balipoolservice.com/about",
-    "telephone": "+6282237565997",
+    "telephone": "+6282340709041",
     "email": "info@poolservicebali.com",
     "priceRange": "IDR 800,000 - IDR 2,800,000",
     "foundingDate": "2014",
@@ -389,7 +389,7 @@ export default function About() {
             <Button 
               size="lg" 
               className="bg-white text-gray-900 hover:bg-gray-100 gap-2"
-              onClick={() => window.open("https://wa.me/6282237565997?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20service.", "_blank")}
+              onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27d%20like%20a%20quote%20for%20pool%20service.", "_blank")}
               data-testid="button-about-whatsapp"
             >
               <FaWhatsapp className="h-5 w-5" />
@@ -408,7 +408,7 @@ export default function About() {
           </div>
           <div className="mt-8 flex items-center justify-center gap-2 text-gray-400">
             <Phone className="h-4 w-4" />
-            <span>Call us: +62 822 3756 5997</span>
+            <span>Call us: +62 823 4070 9041</span>
           </div>
         </div>
       </section>

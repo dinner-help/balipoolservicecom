@@ -24,7 +24,7 @@ export default function JimbaranPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Jimbaran Bali | Luxury Resort & Beachfront Villa Pool Service</title>
-        <meta name="description" content="Elite pool maintenance in Jimbaran for luxury resorts, beachfront villas & infinity pools. VIP service, discreet technicians, white-glove standards. Call: +62 822-3756-5997" />
+        <meta name="description" content="Elite pool maintenance in Jimbaran for luxury resorts, beachfront villas & infinity pools. VIP service, discreet technicians, white-glove standards. Call: +62 823-4070-9041" />
         <meta name="keywords" content="pool cleaning jimbaran, jimbaran pool maintenance, luxury pool service bali, resort pool cleaning jimbaran, beachfront villa pool service" />
         <link rel="canonical" href="https://balipoolservice.com/location-jimbaran" />
       </Helmet>
@@ -48,7 +48,7 @@ export default function JimbaranPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-jimbaran">
-                  <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20luxury%20pool%20service%20in%20Jimbaran">
+                  <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20luxury%20pool%20service%20in%20Jimbaran">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now: +62 822-375-65997
                   </a>
@@ -280,7 +280,7 @@ export default function JimbaranPoolCleaning() {
               Trusted by Jimbaran's luxury resorts, beachfront villas, and discerning property owners for premium pool care.
             </p>
             <Button size="lg" asChild data-testid="button-contact-jimbaran">
-              <a href="https://wa.me/6282237565997?text=Hello!%20I%27m%20interested%20in%20luxury%20pool%20service%20in%20Jimbaran">
+              <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20luxury%20pool%20service%20in%20Jimbaran">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Jimbaran Luxury Pool Service
               </a>

@@ -41,7 +41,7 @@ export default function SeminyakPoolCleaning() {
     },
     {
       question: "How quickly can you start service in Seminyak?",
-      answer: "We can typically begin service within 24-48 hours. For emergencies, we offer same-day response in Seminyak. WhatsApp us at +62 822-3756-5997 for immediate assistance."
+      answer: "We can typically begin service within 24-48 hours. For emergencies, we offer same-day response in Seminyak. WhatsApp us at +62 823-4070-9041 for immediate assistance."
     },
     {
       question: "Do you work with Seminyak villa rental managers?",
@@ -53,7 +53,7 @@ export default function SeminyakPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Seminyak Bali | Luxury Villa & Resort Pool Service — From IDR 800K/Month</title>
-        <meta name="description" content="Expert pool cleaning in Seminyak for luxury villas, boutique resorts & vacation rentals. Weekly maintenance from IDR 800K/month — all chemicals included. Same-day service available. WhatsApp: +62 822-3756-5997" />
+        <meta name="description" content="Expert pool cleaning in Seminyak for luxury villas, boutique resorts & vacation rentals. Weekly maintenance from IDR 800K/month — all chemicals included. Same-day service available. WhatsApp: +62 823-4070-9041" />
         <meta name="keywords" content="pool cleaning Seminyak, Seminyak pool maintenance, villa pool service Seminyak, pool cleaner Seminyak Bali, swimming pool cleaning Seminyak, pool service Petitenget, pool cleaning Oberoi, Batu Belig pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Seminyak | Professional Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Seminyak. Serving Petitenget, Oberoi, Batu Belig & all areas. From IDR 800K/month." />
@@ -64,7 +64,7 @@ export default function SeminyakPoolCleaning() {
             "@type": "LocalBusiness",
             "name": "Bali Pool Service - Seminyak",
             "description": "Professional pool cleaning and maintenance service in Seminyak, Bali",
-            "telephone": "+62-822-3756-5997",
+            "telephone": "+62-823-4070-9041",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Seminyak",
