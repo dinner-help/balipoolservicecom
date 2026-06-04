@@ -526,24 +526,6 @@ export default function PoolCleaner() {
 
                   <Card className="p-6 text-center hover-elevate">
                     <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                      <Waves className="h-8 w-8 text-primary" />
-                    </div>
-                    <h4 className="font-bold mb-2">Pool Construction</h4>
-                    <p className="text-sm text-muted-foreground mb-4">New pool builds & renovations</p>
-                    <Button 
-                      size="sm" 
-                      variant="outline" 
-                      className="w-full"
-                      onClick={() => window.open("https://wa.me/6282323011656?text=Hi, I'm interested in building a new pool", "_blank")}
-                      data-testid="button-contact-construction"
-                    >
-                      <FaWhatsapp className="h-4 w-4 mr-2" />
-                      Contact Team
-                    </Button>
-                  </Card>
-
-                  <Card className="p-6 text-center hover-elevate">
-                    <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                       <CheckCircle2 className="h-8 w-8 text-primary" />
                     </div>
                     <h4 className="font-bold mb-2">Sales & Quotes</h4>
@@ -1062,7 +1044,7 @@ export default function PoolCleaner() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm">4 visits per week (16/month)</span>
+                      <span className="text-sm">2 visits per week</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />

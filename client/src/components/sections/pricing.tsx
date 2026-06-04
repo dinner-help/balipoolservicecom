@@ -10,7 +10,7 @@ export function Pricing() {
       name: "Silver Package",
       price: "IDR 800,000",
       period: "/month",
-      description: "For private villas & homes",
+      description: "For private villas & homes — small pools",
       popular: false,
       features: [
         "1 visit per week (4/month)",
@@ -27,7 +27,7 @@ export function Pricing() {
       name: "Gold Package",
       price: "IDR 1,500,000",
       period: "/month",
-      description: "For rental villas & luxury homes",
+      description: "For rental villas & luxury homes — medium pools",
       popular: true,
       features: [
         "2 visits per week (8/month)",
@@ -44,10 +44,10 @@ export function Pricing() {
       name: "Platinum Package",
       price: "IDR 2,800,000",
       period: "/month",
-      description: "For estates & boutique hotels",
+      description: "For estates & boutique hotels — large pools",
       popular: false,
       features: [
-        "4 visits per week",
+        "2 visits per week",
         "Everything in Gold",
         "Dedicated technician assigned",
         "2-hour emergency response",
@@ -161,7 +161,7 @@ export function Pricing() {
               <CardHeader className="pb-8">
                 <CardTitle className="text-2xl mb-2">{pkg.name}</CardTitle>
                 <div className="mb-3">
-                  <div className="text-2xl font-bold">{pkg.price}</div>
+                  <div className="text-2xl font-bold">From {pkg.price}</div>
                   <div className="text-sm text-muted-foreground">{pkg.period}</div>
                 </div>
                 <CardDescription className="text-base">{pkg.description}</CardDescription>

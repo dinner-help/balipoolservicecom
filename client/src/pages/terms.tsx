@@ -25,7 +25,7 @@ export default function Terms() {
             <Card className="p-6 md:p-8">
               <h2 className="text-2xl font-semibold mb-4">2. Services</h2>
               <p className="text-muted-foreground leading-relaxed">
-                We provide pool maintenance, repair, construction, renovation, and related services as described on our website and in your booking confirmation. We may update, suspend, or discontinue features at any time.
+                We provide pool maintenance, repair, renovation, and related services as described on our website and in your booking confirmation. We may update, suspend, or discontinue features at any time.
               </p>
             </Card>
 

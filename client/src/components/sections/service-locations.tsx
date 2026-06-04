@@ -181,7 +181,7 @@ export function ServiceLocations() {
     {
       area: "Canggu (North)",
       region: "Tabanan Border",
-      description: "Extended pool service North Canggu into Seseh and Cemagi areas. Professional pool maintenance North Canggu for emerging villa developments. Expert pool cleaning North Canggu with new construction support, startup service packages, and developer partnerships.",
+      description: "Extended pool service North Canggu into Seseh and Cemagi areas. Professional pool maintenance North Canggu for emerging villa developments. Expert pool cleaning North Canggu with startup service packages and developer partnerships.",
       keywords: "pool service north canggu, pool cleaning seseh, pool maintenance cemagi",
       manager: "Komang - North Canggu Manager"
     },

@@ -1,9 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Droplets, Wrench, Hammer, CheckCircle, ArrowRight } from "lucide-react";
+import { Droplets, Wrench, CheckCircle, ArrowRight } from "lucide-react";
 import cleaningImage from "@assets/stock_images/professional_pool_cl_5ed80d5f.jpg";
 import equipmentImage from "@assets/stock_images/pool_equipment_filte_47e1a358.jpg";
-import constructionImage from "@assets/stock_images/crystal_clear_blue_s_edf02c5d.jpg";
 
 export function Services() {
   const services = [
@@ -37,21 +36,6 @@ export function Services() {
         "Pipe repair/replacement",
       ],
     },
-    {
-      icon: Hammer,
-      title: "New Pool Construction",
-      description: "Custom pool design and installation for your Bali property. Infinity pools, traditional designs, and more.",
-      image: constructionImage,
-      link: "/pool-construction",
-      features: [
-        "Custom pool design",
-        "Infinity pool construction",
-        "Professional installation",
-        "Premium materials",
-        "6-month warranty included",
-        "Villa & hotel projects",
-      ],
-    },
   ];
 
   return (
@@ -63,7 +47,7 @@ export function Services() {
             Complete Pool Care Solutions
           </h2>
           <p className="text-xl text-muted-foreground" data-testid="text-services-subtitle">
-            From routine maintenance to major repairs and new construction, we handle every aspect of pool care with professional expertise.
+            From routine maintenance to major repairs, we handle every aspect of pool care with professional expertise.
           </p>
         </div>
 

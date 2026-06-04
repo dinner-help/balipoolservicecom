@@ -31,11 +31,11 @@ export default function WeeklyPoolMaintenanceBali() {
     },
     {
       question: "How many times per week should my Bali pool be maintained?",
-      answer: "For most residential pools in Bali, 1-4 visits per week is optimal. Our Silver Package offers 1 visit/week (IDR 800K/month), Gold Package provides 2 visits/week (IDR 1.5M/month). High-use commercial pools benefit from our Platinum Package with 4 visits/week (IDR 2.8M/month)."
+      answer: "For most residential pools in Bali, 1-4 visits per week is optimal. Our Silver Package offers 1 visit/week (IDR 800K/month), Gold Package provides 2 visits/week (IDR 1.5M/month). High-use commercial pools benefit from our Platinum Package with 2 visits/week (IDR 2.8M/month)."
     },
     {
       question: "What does weekly pool maintenance cost in Bali?",
-      answer: "Weekly pool maintenance in Bali starts from IDR 800,000/month for 1 visit/week (Silver Package), IDR 1,500,000/month for 2 visits/week (Gold Package), or IDR 2,800,000/month for 4 visits/week (Platinum Package). All packages include chemicals, supplies, and WhatsApp support."
+      answer: "Weekly pool maintenance in Bali starts from IDR 800,000/month for 1 visit/week (Silver Package), IDR 1,500,000/month for 2 visits/week (Gold Package), or IDR 2,800,000/month for 2 visits/week (Platinum Package). All packages include chemicals, supplies, and WhatsApp support."
     },
     {
       question: "Can I schedule pool maintenance around my rental guests?",

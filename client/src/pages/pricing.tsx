@@ -112,7 +112,7 @@ export default function Pricing() {
         "name": "How much does green pool cleaning cost in Bali?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Green pool rescue starts from IDR 1,500,000 for light algae cases and IDR 2,500,000+ for severe cases. This includes shock treatment, deep cleaning, and chemical rebalancing."
+          "text": "Emergency green pool recovery starts from IDR 1,000,000 for light algae cases, with heavier cases quoted based on severity. This includes shock treatment, deep cleaning, and chemical rebalancing."
         }
       }
     ]
@@ -127,7 +127,7 @@ export default function Pricing() {
       description: "Perfect for small villa pools with light usage",
       icon: Clock,
       features: [
-        "2 visits per week",
+        "1 visit per week",
         "Surface skimming & debris removal",
         "Chemical testing & balancing",
         "Basic equipment check",
@@ -145,7 +145,7 @@ export default function Pricing() {
       description: "Ideal for rental villas and medium pools",
       icon: Star,
       features: [
-        "3 visits per week",
+        "2 visits per week",
         "Full pool cleaning & vacuuming",
         "Chemical management & balancing",
         "Filter maintenance",
@@ -162,10 +162,10 @@ export default function Pricing() {
       subtitle: "Daily Service",
       price: "2,800,000",
       period: "/month",
-      description: "For hotels, resorts, and high-traffic pools",
+      description: "For estates, hotels, and large pools",
       icon: Users,
       features: [
-        "Daily maintenance visits",
+        "2 visits per week",
         "Comprehensive cleaning",
         "Chemical management",
         "Full filter service",
@@ -182,9 +182,9 @@ export default function Pricing() {
 
   const additionalServices = [
     {
-      name: "Green Pool Rescue",
+      name: "Emergency Green Pool Recovery",
       description: "Emergency algae treatment and restoration",
-      priceRange: "IDR 1,500,000 - 2,500,000",
+      priceRange: "From IDR 1,000,000",
       icon: Sparkles,
       details: "Price depends on severity. Includes shock treatment, deep vacuuming, filter cleaning.",
       link: "/green-pool-cleaning-bali"
@@ -228,37 +228,6 @@ export default function Pricing() {
       icon: Hammer,
       details: "Professional installation with warranty. Equipment cost additional.",
       link: "/pool-equipment-installation-bali"
-    }
-  ];
-
-  const constructionServices = [
-    {
-      name: "Villa Pool",
-      size: "3m x 6m",
-      priceRange: "From IDR 70 million",
-      timeline: "6-8 weeks",
-      link: "/pool-construction-bali"
-    },
-    {
-      name: "Medium Pool",
-      size: "4m x 8m",
-      priceRange: "From IDR 110 million",
-      timeline: "8-10 weeks",
-      link: "/pool-construction-bali"
-    },
-    {
-      name: "Infinity Pool",
-      size: "Custom",
-      priceRange: "From IDR 150 million",
-      timeline: "10-14 weeks",
-      link: "/pool-construction-bali"
-    },
-    {
-      name: "Cold Plunge",
-      size: "1.5m x 2.5m",
-      priceRange: "From IDR 45 million",
-      timeline: "3-4 weeks",
-      link: "/cold-plunge-bali"
     }
   ];
 
@@ -333,7 +302,7 @@ export default function Pricing() {
                 <CardContent>
                   <div className="mb-6">
                     <div className="text-4xl font-bold text-primary">
-                      IDR {pkg.price}
+                      <span className="text-lg font-semibold align-top mr-1">From</span>IDR {pkg.price}
                       <span className="text-sm font-normal text-gray-500">{pkg.period}</span>
                     </div>
                     <p className="text-sm text-gray-600 mt-2">{pkg.description}</p>
@@ -449,45 +418,6 @@ export default function Pricing() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Construction Pricing */}
-      <section className="py-16 md:py-24 bg-gray-50" id="construction">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Pool Construction & Installation
-            </h2>
-            <p className="text-lg text-gray-600">
-              Build your dream pool. From villa pools to infinity pools.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {constructionServices.map((service, index) => (
-              <Card key={index}>
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{service.name}</h3>
-                  <p className="text-sm text-gray-500 mb-4">{service.size}</p>
-                  <div className="text-2xl font-bold text-primary mb-2">{service.priceRange}</div>
-                  <p className="text-xs text-gray-500 mb-4">Timeline: {service.timeline}</p>
-                  <Link href={service.link}>
-                    <Button className="w-full bg-black hover:bg-gray-800 text-white">
-                      Learn More
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="mt-8 text-center">
-            <p className="text-sm text-gray-500">
-              Construction prices vary by design, location, access, and materials.
-              <br />Contact us for a detailed project quote.
-            </p>
           </div>
         </div>
       </section>

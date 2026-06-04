@@ -42,7 +42,7 @@ export default function PoolCleaningServiceBali() {
     },
     {
       question: "How much does pool cleaning cost in Bali?",
-      answer: "Pool cleaning in Bali ranges from IDR 800,000 to IDR 2,800,000 per month depending on service frequency. Our Silver Package starts at IDR 800,000/month (1 visit/week), Gold Package at IDR 1,500,000/month (2 visits/week), and Platinum Package at IDR 2,800,000/month (4 visits/week). All packages include chemicals and supplies."
+      answer: "Pool cleaning in Bali ranges from IDR 800,000 to IDR 2,800,000 per month depending on service frequency. Our Silver Package starts at IDR 800,000/month (1 visit/week), Gold Package at IDR 1,500,000/month (2 visits/week), and Platinum Package at IDR 2,800,000/month (2 visits/week). All packages include chemicals and supplies."
     },
     {
       question: "Do you offer one-time pool cleaning for green pools?",

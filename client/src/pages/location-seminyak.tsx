@@ -33,7 +33,7 @@ export default function SeminyakPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Seminyak?",
-      answer: "Pool cleaning in Seminyak starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package includes 2 visits/week at IDR 1,500,000/month. Platinum Package with 4 visits/week is IDR 2,800,000/month. All prices include chemicals and supplies."
+      answer: "Pool cleaning in Seminyak starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package includes 2 visits/week at IDR 1,500,000/month. Platinum Package with 2 visits/week is IDR 2,800,000/month. All prices include chemicals and supplies."
     },
     {
       question: "Do you service all areas of Seminyak?",

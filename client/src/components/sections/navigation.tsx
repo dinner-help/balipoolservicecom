@@ -69,8 +69,6 @@ export function Navigation() {
     { name: "Pump Repair", path: "/pool-pump-repair-bali" },
     { name: "Filter Cleaning", path: "/pool-filter-cleaning-repair-bali" },
     { name: "Emergency Service", path: "/emergency-pool-repair-bali" },
-    { name: "Pool Construction", path: "/pool-construction-bali" },
-    { name: "Cold Plunge Installation", path: "/cold-plunge-bali" },
   ];
 
   const contractPages = [

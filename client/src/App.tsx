@@ -8,7 +8,6 @@ import { HelmetProvider } from "react-helmet-async";
 import { CookieConsent } from "@/components/cookie-consent";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
 import Home from "@/pages/home";
-import PoolConstruction from "@/pages/pool-construction";
 import PoolCleaner from "@/pages/pool-cleaner";
 import PoolRepair from "@/pages/pool-repair";
 import Terms from "@/pages/terms";
@@ -59,8 +58,6 @@ import PoolAcidWashServiceBali from "@/pages/pool-acid-wash-service-bali";
 import PoolEquipmentInstallationBali from "@/pages/pool-equipment-installation-bali";
 import SwimmingPoolRepairBali from "@/pages/swimming-pool-repair-bali";
 import CommercialHotelPoolServiceBali from "@/pages/commercial-hotel-pool-service-bali";
-import PoolConstructionBali from "@/pages/pool-construction-bali";
-import ColdPlungeBali from "@/pages/cold-plunge-bali";
 import About from "@/pages/about";
 import Pricing from "@/pages/pricing";
 import RecommendedServices from "@/pages/recommended-services";
@@ -78,7 +75,6 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/pool-construction" component={PoolConstruction} />
       <Route path="/pool-cleaner" component={PoolCleaner} />
       <Route path="/pool-repair" component={PoolRepair} />
       <Route path="/pool-cleaning-seminyak" component={SeminyakPoolCleaning} />
@@ -133,8 +129,6 @@ function Router() {
       <Route path="/pool-equipment-installation-bali" component={PoolEquipmentInstallationBali} />
       <Route path="/swimming-pool-repair-bali" component={SwimmingPoolRepairBali} />
       <Route path="/commercial-hotel-pool-service-bali" component={CommercialHotelPoolServiceBali} />
-      <Route path="/pool-construction-bali" component={PoolConstructionBali} />
-      <Route path="/cold-plunge-bali" component={ColdPlungeBali} />
       <Route path="/about" component={About} />
       <Route path="/pricing" component={Pricing} />
       <Route path="/recommended-services" component={RecommendedServices} />

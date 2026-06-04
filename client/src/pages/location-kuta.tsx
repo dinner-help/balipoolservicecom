@@ -33,7 +33,7 @@ export default function KutaPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Kuta?",
-      answer: "Pool cleaning in Kuta starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package is IDR 1,500,000/month for 2 visits/week, and Platinum is IDR 2,800,000/month for 4 visits/week. Hotels receive custom quotes."
+      answer: "Pool cleaning in Kuta starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package is IDR 1,500,000/month for 2 visits/week, and Platinum is IDR 2,800,000/month for 2 visits/week. Hotels receive custom quotes."
     },
     {
       question: "Do you service hotels and guesthouses in Kuta?",

@@ -28,7 +28,7 @@ const defaultPackages = [
     name: "Silver Package",
     price: "IDR 800,000",
     period: "/month",
-    description: "For private villas & homes",
+    description: "For private villas & homes — small pools",
     popular: false,
     features: [
       "1 visit per week (4/month)",
@@ -43,7 +43,7 @@ const defaultPackages = [
     name: "Gold Package",
     price: "IDR 1,500,000",
     period: "/month",
-    description: "For rental villas & luxury homes",
+    description: "For rental villas & luxury homes — medium pools",
     popular: true,
     features: [
       "2 visits per week (8/month)",
@@ -59,10 +59,10 @@ const defaultPackages = [
     name: "Platinum Package",
     price: "IDR 2,800,000",
     period: "/month",
-    description: "For estates & boutique hotels",
+    description: "For estates & boutique hotels — large pools",
     popular: false,
     features: [
-      "4 visits per week",
+      "2 visits per week",
       "Everything in Gold",
       "Dedicated technician assigned",
       "2-hour emergency response",
@@ -175,7 +175,7 @@ export function ServicePricing({
                 <CardTitle className="text-xl">{pkg.name}</CardTitle>
                 <p className="text-sm text-muted-foreground">{pkg.description}</p>
                 <div className="mt-4">
-                  <span className="text-3xl font-bold text-primary">{pkg.price}</span>
+                  <span className="text-3xl font-bold text-primary">From {pkg.price}</span>
                   <span className="text-muted-foreground">{pkg.period}</span>
                 </div>
               </CardHeader>

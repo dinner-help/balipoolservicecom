@@ -33,7 +33,7 @@ export default function CangguPoolCleaning() {
   const faqs = [
     {
       question: "How much does pool cleaning cost in Canggu?",
-      answer: "Pool cleaning in Canggu starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package is IDR 1,500,000/month for 2 visits/week, and Platinum is IDR 2,800,000/month for 4 visits/week. All chemicals and supplies included."
+      answer: "Pool cleaning in Canggu starts from IDR 800,000/month for our Silver Package (1 visit/week). Our Gold Package is IDR 1,500,000/month for 2 visits/week, and Platinum is IDR 2,800,000/month for 2 visits/week. All chemicals and supplies included."
     },
     {
       question: "Do you service all areas of Canggu?",

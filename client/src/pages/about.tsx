@@ -17,7 +17,7 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Bali Pool Service",
-    "description": "Professional pool cleaning, maintenance, and construction services across Bali. Family-owned business with 10+ years of experience serving villas, hotels, and private homes.",
+    "description": "Professional pool cleaning and maintenance services across Bali. Family-owned business with 10+ years of experience serving villas, hotels, and private homes.",
     "url": "https://balipoolservice.com/about",
     "telephone": "+6282323011656",
     "email": "info@poolservicebali.com",
@@ -77,8 +77,8 @@ export default function About() {
       name: "Kadek Pramana",
       role: "Senior Pool Technician",
       image: kadekPramanaImg,
-      bio: "Kadek specializes in pool equipment repair and installation. With 8 years of experience, he leads our team handling complex repairs and new pool construction projects.",
-      certifications: ["Equipment Repair Specialist", "Pool Construction Certified"]
+      bio: "Kadek specializes in pool equipment repair and installation. With 8 years of experience, he leads our team handling complex repairs and equipment upgrades.",
+      certifications: ["Equipment Repair Specialist", "Pool Maintenance Certified"]
     },
     {
       name: "Wayan Santika",
@@ -94,7 +94,7 @@ export default function About() {
     { year: "2016", event: "Expanded to Seminyak and Ubud, grew team to 8 technicians" },
     { year: "2018", event: "First hotel contracts with boutique properties in Nusa Dua" },
     { year: "2020", event: "Launched emergency 24/7 response service during challenging times" },
-    { year: "2022", event: "Added pool construction and cold plunge installation services" },
+    { year: "2022", event: "Expanded equipment repair and emergency recovery services across Bali" },
     { year: "2024", event: "Serving 500+ clients across all Bali regions with 18 team members" },
   ];
 
@@ -164,7 +164,7 @@ export default function About() {
                 </p>
                 <p>
                   Today, our team of 18 certified technicians maintains over 500 pools across Bali. 
-                  We've added pool construction, equipment repair, and cold plunge installation to 
+                  We've added equipment repair and emergency green pool recovery to 
                   become your complete pool care partner.
                 </p>
                 <p className="font-medium text-gray-900">
