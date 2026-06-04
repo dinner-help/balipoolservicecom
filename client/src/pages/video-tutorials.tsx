@@ -254,7 +254,7 @@ export default function VideoTutorials() {
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Button
                     className="gap-2"
-                    onClick={() => window.open("https://wa.me/6282340709041?text=Please notify me when video tutorials are available", "_blank")}
+                    onClick={() => window.open("https://wa.me/6282323011656?text=Please notify me when video tutorials are available", "_blank")}
                     data-testid="button-notify-whatsapp"
                   >
                     <FaWhatsapp className="h-4 w-4" />
@@ -404,7 +404,7 @@ export default function VideoTutorials() {
               <Button
                 size="lg"
                 className="gap-2"
-                onClick={() => window.open("https://wa.me/6282340709041?text=I'm interested in professional pool service", "_blank")}
+                onClick={() => window.open("https://wa.me/6282323011656?text=I'm interested in professional pool service", "_blank")}
                 data-testid="button-whatsapp-service"
               >
                 <FaWhatsapp className="h-5 w-5" />

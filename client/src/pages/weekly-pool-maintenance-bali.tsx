@@ -64,7 +64,7 @@ export default function WeeklyPoolMaintenanceBali() {
     <>
       <Helmet>
         <title>Weekly Pool Maintenance Bali | Scheduled Pool Care from IDR 800K/Month — Chemicals Included</title>
-        <meta name="description" content="Professional weekly pool maintenance in Bali for villas, hotels & homes. 4–16 visits/month, all chemicals included, WhatsApp report after every visit. Crystal-clear pools year-round. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional weekly pool maintenance in Bali for villas, hotels & homes. 4–16 visits/month, all chemicals included, WhatsApp report after every visit. Crystal-clear pools year-round. Call: +62 823-2301-1656" />
         <meta name="keywords" content="weekly pool maintenance Bali, pool maintenance service Bali, scheduled pool care Bali, regular pool cleaning Bali, pool service contract Bali, villa pool maintenance Bali" />
         <meta property="og:title" content="Weekly Pool Maintenance Bali | Professional Pool Care" />
         <meta property="og:description" content="Regular scheduled pool maintenance for Bali villas & hotels. From IDR 800K/month. Chemicals included. 24/7 WhatsApp support." />
@@ -78,7 +78,7 @@ export default function WeeklyPoolMaintenanceBali() {
             "provider": {
               "@type": "LocalBusiness",
               "name": "Bali Pool Service",
-              "telephone": "+62-823-4070-9041"
+              "telephone": "+62-823-2301-1656"
             },
             "areaServed": "Bali, Indonesia",
             "priceRange": "IDR 800,000 - IDR 2,800,000/month"

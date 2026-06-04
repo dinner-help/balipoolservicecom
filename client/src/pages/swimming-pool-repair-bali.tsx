@@ -8,7 +8,7 @@ export default function SwimmingPoolRepairBali() {
     <>
       <Helmet>
         <title>Swimming Pool Repair Bali | Cracks, Leaks, Shell & Equipment Repairs — Same Day Service</title>
-        <meta name="description" content="Professional swimming pool repair in Bali. Cracked shells, leaks, surface damage, equipment failure — all fixed same day. Serving villas, hotels & homes across Canggu, Seminyak & all Bali. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional swimming pool repair in Bali. Cracked shells, leaks, surface damage, equipment failure — all fixed same day. Serving villas, hotels & homes across Canggu, Seminyak & all Bali. Call: +62 823-2301-1656" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
@@ -24,7 +24,7 @@ export default function SwimmingPoolRepairBali() {
               Get Repair Assessment
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+              WhatsApp: <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function SwimmingPoolRepairBali() {
             Contact for Repair
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+            <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
           </p>
         </div>
       </section>

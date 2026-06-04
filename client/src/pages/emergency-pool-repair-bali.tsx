@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, Clock, CheckCircle2, AlertTriangle, Wrench, Droplets, Zap, Shield } from 'lucide-react';
 
 export default function EmergencyPoolRepairBali() {
-  const whatsappNumber = '+6282340709041';
+  const whatsappNumber = '+6282323011656';
   const whatsappMessage = encodeURIComponent('Hi, I need emergency pool repair service in Bali. Please help!');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -170,7 +170,7 @@ export default function EmergencyPoolRepairBali() {
     <>
       <Helmet>
         <title>Emergency Pool Repair Bali | Same-Day Service 7 Days a Week — Call Now</title>
-        <meta name="description" content="Emergency pool repair in Bali when you need it most. Pump failures, leaks, green water before guest arrivals — fixed fast. Same-day response across Canggu, Seminyak, Ubud & all Bali. WhatsApp now: +62 823-4070-9041" />
+        <meta name="description" content="Emergency pool repair in Bali when you need it most. Pump failures, leaks, green water before guest arrivals — fixed fast. Same-day response across Canggu, Seminyak, Ubud & all Bali. WhatsApp now: +62 823-2301-1656" />
         <meta name="keywords" content="emergency pool repair Bali, urgent pool fix Bali, pool leak emergency, pump failure Bali, green pool emergency, 24/7 pool repair Bali" />
         <link rel="canonical" href="https://balipoolservice.com/emergency-pool-repair-bali" />
         

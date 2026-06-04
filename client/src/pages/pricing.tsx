@@ -21,7 +21,7 @@ export default function Pricing() {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Bali Pool Service",
-      "telephone": "+6282340709041"
+      "telephone": "+6282323011656"
     },
     "areaServed": {
       "@type": "Place",
@@ -268,7 +268,7 @@ export default function Pricing() {
         <title>Pool Service Pricing Bali | Monthly Maintenance from IDR 800K — All Chemicals Included</title>
         <meta 
           name="description" 
-          content="Transparent pool service pricing in Bali. Silver from IDR 800K, Gold IDR 1.5M, Platinum IDR 2.8M/month. All chemicals included, no hidden fees. Green pool recovery from IDR 1,875,000. Get a free quote: +62 823-4070-9041" 
+          content="Transparent pool service pricing in Bali. Silver from IDR 800K, Gold IDR 1.5M, Platinum IDR 2.8M/month. All chemicals included, no hidden fees. Green pool recovery from IDR 1,875,000. Get a free quote: +62 823-2301-1656" 
         />
         <link rel="canonical" href="https://balipoolservice.com/pricing" />
         <script type="application/ld+json">
@@ -354,7 +354,7 @@ export default function Pricing() {
 
                   <Button 
                     className={`w-full gap-2 ${pkg.popular ? 'bg-primary hover:bg-primary/90' : 'bg-black hover:bg-gray-800'} text-white`}
-                    onClick={() => window.open(`https://wa.me/6282340709041?text=Hi!%20I%27m%20interested%20in%20the%20${pkg.name}%20Package%20for%20pool%20maintenance.`, "_blank")}
+                    onClick={() => window.open(`https://wa.me/6282323011656?text=Hi!%20I%27m%20interested%20in%20the%20${pkg.name}%20Package%20for%20pool%20maintenance.`, "_blank")}
                     data-testid={`button-pricing-${pkg.name.toLowerCase()}`}
                   >
                     <FaWhatsapp className="h-4 w-4" />
@@ -564,7 +564,7 @@ export default function Pricing() {
             <Button 
               size="lg" 
               className="bg-white text-gray-900 hover:bg-gray-100 gap-2"
-              onClick={() => window.open("https://wa.me/6282340709041?text=Hi!%20I%27d%20like%20a%20custom%20quote%20for%20pool%20service.", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656?text=Hi!%20I%27d%20like%20a%20custom%20quote%20for%20pool%20service.", "_blank")}
               data-testid="button-pricing-cta-whatsapp"
             >
               <FaWhatsapp className="h-5 w-5" />
@@ -576,9 +576,9 @@ export default function Pricing() {
               className="border-white text-white hover:bg-white/10"
               asChild
             >
-              <a href="tel:+6282340709041">
+              <a href="tel:+6282323011656">
                 <Phone className="h-5 w-5 mr-2" />
-                Call +62 823 4070 9041
+                Call +62 823 2301 1656
               </a>
             </Button>
           </div>

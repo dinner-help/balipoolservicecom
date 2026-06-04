@@ -9,7 +9,7 @@ export default function ChemicalBalancingServiceBali() {
     <>
       <Helmet>
         <title>Pool Chemical Balancing Service Bali | Water Chemistry Experts — pH, Chlorine & Alkalinity</title>
-        <meta name="description" content="Professional pool chemical balancing in Bali. Expert pH, chlorine, alkalinity & sanitizer testing and adjustment. Safe swimming water for villas, hotels & homes. All chemicals included in maintenance packages. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional pool chemical balancing in Bali. Expert pH, chlorine, alkalinity & sanitizer testing and adjustment. Safe swimming water for villas, hotels & homes. All chemicals included in maintenance packages. Call: +62 823-2301-1656" />
         <meta property="og:title" content="Chemical Balancing Service in Bali" />
         <meta property="og:description" content="Expert pool water testing and chemical balancing for villas & hotels. Safe chlorine levels, pH balance, alkalinity." />
       </Helmet>
@@ -25,10 +25,10 @@ export default function ChemicalBalancingServiceBali() {
               Proper water chemistry keeps your pool safe, clear, and comfortable for swimming. Our technicians test and balance your pool's chemistry to perfection.
             </p>
             <Button size="lg" className="min-w-48" data-testid="button-whatsapp">
-              <a href="https://wa.me/6282340709041">Get Chemical Testing Quote</a>
+              <a href="https://wa.me/6282323011656">Get Chemical Testing Quote</a>
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+              WhatsApp: <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
             </p>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function ChemicalBalancingServiceBali() {
                   <li>• Digital report</li>
                 </ul>
                 <Button variant="outline" className="w-full" asChild>
-                  <a href="https://wa.me/6282340709041">Get Quote</a>
+                  <a href="https://wa.me/6282323011656">Get Quote</a>
                 </Button>
               </CardContent>
             </Card>
@@ -159,7 +159,7 @@ export default function ChemicalBalancingServiceBali() {
                   <li>• Priority support</li>
                 </ul>
                 <Button className="w-full" asChild>
-                  <a href="https://wa.me/6282340709041">Start Monthly Service</a>
+                  <a href="https://wa.me/6282323011656">Start Monthly Service</a>
                 </Button>
               </CardContent>
             </Card>
@@ -174,7 +174,7 @@ export default function ChemicalBalancingServiceBali() {
                   <li>• Save 5%</li>
                 </ul>
                 <Button variant="outline" className="w-full" asChild>
-                  <a href="https://wa.me/6282340709041">Contact Us</a>
+                  <a href="https://wa.me/6282323011656">Contact Us</a>
                 </Button>
               </CardContent>
             </Card>
@@ -889,10 +889,10 @@ export default function ChemicalBalancingServiceBali() {
             Get your water chemistry tested and balanced by Bali's pool chemistry experts.
           </p>
           <Button size="lg" className="min-w-48" asChild>
-            <a href="https://wa.me/6282340709041" data-testid="button-cta-whatsapp">Request Service on WhatsApp</a>
+            <a href="https://wa.me/6282323011656" data-testid="button-cta-whatsapp">Request Service on WhatsApp</a>
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+            <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
           </p>
         </div>
       </section>

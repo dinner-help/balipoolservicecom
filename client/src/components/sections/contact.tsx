@@ -39,13 +39,13 @@ export function Contact() {
 🏠 *Property Type:* ${data.propertyType}
 📍 *Service Area:* ${data.serviceArea}${data.message ? `\n💬 *Message:* ${data.message}` : ''}
 
-_Sent from Bali Pool Service website_`;
+_Sent from balipoolservice.com_`;
 
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);
     
     // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/6282340709041?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/6282323011656?text=${encodedMessage}`, '_blank');
     
     // Show success message and reset form
     setIsSubmitted(true);
@@ -267,7 +267,7 @@ _Sent from Bali Pool Service website_`;
                 size="lg"
                 variant="outline"
                 className="w-full gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-                onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+                onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
                 data-testid="button-whatsapp-contact"
               >
                 <FaWhatsapp className="h-6 w-6" />
@@ -285,8 +285,8 @@ _Sent from Bali Pool Service website_`;
                   </div>
                   <div>
                     <div className="font-medium mb-1">Phone / WhatsApp</div>
-                    <a href="tel:+6282340709041" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
-                      +62 823 4070 9041
+                    <a href="tel:+6282323011656" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
+                      +62 823 2301 1656
                     </a>
                   </div>
                 </div>

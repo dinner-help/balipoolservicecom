@@ -232,7 +232,7 @@ export function ChemicalSubscription() {
             </div>
             <Button
               size="lg"
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               className="gap-2 text-lg px-8"
               data-testid="button-free-chemical-demo"
             >
@@ -302,7 +302,7 @@ export function ChemicalSubscription() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               className="gap-2"
               data-testid="button-start-subscription"
             >
@@ -312,7 +312,7 @@ export function ChemicalSubscription() {
             <Button
               size="lg"
               variant="outline"
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               data-testid="button-request-trial"
             >
               <Gift className="h-5 w-5" />

@@ -212,7 +212,7 @@ export default function BahasaPricing() {
                         data-testid={`button-package-${index}`}
                       >
                         <a 
-                          href={`https://wa.me/6282340709041?text=Halo! Saya tertarik dengan ${pkg.name}. Bisa kirim info detail?`}
+                          href={`https://wa.me/6282323011656?text=Halo! Saya tertarik dengan ${pkg.name}. Bisa kirim info detail?`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -232,7 +232,7 @@ export default function BahasaPricing() {
               </p>
               <Button variant="outline" size="lg" asChild data-testid="button-custom">
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya butuh paket custom untuk kolam renang. Bisa diskusi?"
+                  href="https://wa.me/6282323011656?text=Halo! Saya butuh paket custom untuk kolam renang. Bisa diskusi?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -280,7 +280,7 @@ export default function BahasaPricing() {
                       data-testid={`button-addon-${index}`}
                     >
                       <a 
-                        href={`https://wa.me/6282340709041?text=Halo! Saya butuh ${addon.title}. Bisa kasih info detail?`}
+                        href={`https://wa.me/6282323011656?text=Halo! Saya butuh ${addon.title}. Bisa kasih info detail?`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -370,7 +370,7 @@ export default function BahasaPricing() {
                 data-testid="button-whatsapp-cta"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya mau tanya paket perawatan kolam renang. Bisa kirim detail harga?"
+                  href="https://wa.me/6282323011656?text=Halo! Saya mau tanya paket perawatan kolam renang. Bisa kirim detail harga?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -386,9 +386,9 @@ export default function BahasaPricing() {
                 asChild
                 data-testid="button-call-cta"
               >
-                <a href="tel:+6282340709041">
+                <a href="tel:+6282323011656">
                   <Phone className="mr-2 h-5 w-5" />
-                  Telepon: +62 823 4070 9041
+                  Telepon: +62 823 2301 1656
                 </a>
               </Button>
             </div>

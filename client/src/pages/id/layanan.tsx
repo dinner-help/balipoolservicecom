@@ -151,7 +151,7 @@ export default function BahasaServices() {
                 data-testid="button-whatsapp-hero"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya ingin tanya tentang layanan kolam renang. Bisa kirim info lengkap?"
+                  href="https://wa.me/6282323011656?text=Halo! Saya ingin tanya tentang layanan kolam renang. Bisa kirim info lengkap?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -190,7 +190,7 @@ export default function BahasaServices() {
                       data-testid={`button-service-${index}`}
                     >
                       <a 
-                        href={`https://wa.me/6282340709041?text=Halo! Saya tertarik dengan ${service.title}. Bisa kirim info detail?`}
+                        href={`https://wa.me/6282323011656?text=Halo! Saya tertarik dengan ${service.title}. Bisa kirim info detail?`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -265,12 +265,12 @@ export default function BahasaServices() {
                 data-testid="button-emergency-call"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=DARURAT! Saya butuh bantuan segera untuk kolam renang!"
+                  href="https://wa.me/6282323011656?text=DARURAT! Saya butuh bantuan segera untuk kolam renang!"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Hubungi Sekarang: +62 823 4070 9041
+                  Hubungi Sekarang: +62 823 2301 1656
                 </a>
               </Button>
             </div>
@@ -295,7 +295,7 @@ export default function BahasaServices() {
                 data-testid="button-whatsapp-cta"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya ingin konsultasi tentang layanan kolam renang. Bisa kirim info paket?"
+                  href="https://wa.me/6282323011656?text=Halo! Saya ingin konsultasi tentang layanan kolam renang. Bisa kirim info paket?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -311,7 +311,7 @@ export default function BahasaServices() {
                 asChild
                 data-testid="button-call-cta"
               >
-                <a href="tel:+6282340709041">
+                <a href="tel:+6282323011656">
                   <Phone className="mr-2 h-5 w-5" />
                   Telepon Sekarang
                 </a>

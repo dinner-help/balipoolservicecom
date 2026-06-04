@@ -24,7 +24,7 @@ export default function NusaDuaPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Nusa Dua Bali | 5-Star Resort & Luxury Villa Pool Management</title>
-        <meta name="description" content="Premium pool service in Nusa Dua for 5-star resorts & luxury villas. International compliance standards, multi-pool management, full health audit documentation. Call: +62 823-4070-9041" />
+        <meta name="description" content="Premium pool service in Nusa Dua for 5-star resorts & luxury villas. International compliance standards, multi-pool management, full health audit documentation. Call: +62 823-2301-1656" />
         <meta name="keywords" content="pool cleaning nusa dua, nusa dua pool maintenance, resort pool service bali, commercial pool nusa dua, corporate pool contracts" />
         <link rel="canonical" href="https://balipoolservice.com/location-nusa-dua" />
       </Helmet>
@@ -48,7 +48,7 @@ export default function NusaDuaPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-nusa-dua">
-                  <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20service%20in%20Nusa%20Dua">
+                  <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20service%20in%20Nusa%20Dua">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now: +62 822-375-65997
                   </a>
@@ -340,7 +340,7 @@ export default function NusaDuaPoolCleaning() {
               Trusted by international resort brands and corporate properties for reliable, professional pool maintenance.
             </p>
             <Button size="lg" asChild data-testid="button-contact-nusa-dua">
-              <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20service%20in%20Nusa%20Dua">
+              <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20service%20in%20Nusa%20Dua">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Nusa Dua Pool Service
               </a>

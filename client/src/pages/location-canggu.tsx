@@ -53,7 +53,7 @@ export default function CangguPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Canggu Bali | Villa & Rental Property Pool Maintenance — From IDR 800K/Month</title>
-        <meta name="description" content="Reliable pool cleaning in Canggu for villas, surf retreats & rental properties. Eco-friendly chemicals, flexible scheduling. From IDR 800K/month — all chemicals included. WhatsApp: +62 823-4070-9041" />
+        <meta name="description" content="Reliable pool cleaning in Canggu for villas, surf retreats & rental properties. Eco-friendly chemicals, flexible scheduling. From IDR 800K/month — all chemicals included. WhatsApp: +62 823-2301-1656" />
         <meta name="keywords" content="pool cleaning Canggu, Canggu pool maintenance, villa pool service Canggu, pool cleaner Canggu Bali, Echo Beach pool cleaning, Berawa pool service, Batu Bolong pool maintenance" />
         <meta property="og:title" content="Pool Cleaning Canggu | Professional Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Canggu. Serving Berawa, Echo Beach, Batu Bolong & all areas. From IDR 800K/month." />
@@ -64,7 +64,7 @@ export default function CangguPoolCleaning() {
             "@type": "LocalBusiness",
             "name": "Bali Pool Service - Canggu",
             "description": "Professional pool cleaning and maintenance service in Canggu, Bali",
-            "telephone": "+62-823-4070-9041",
+            "telephone": "+62-823-2301-1656",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Canggu",

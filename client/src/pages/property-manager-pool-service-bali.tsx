@@ -294,7 +294,7 @@ export default function PropertyManagerPoolServiceBali() {
                   data-testid="button-whatsapp-cta-hero"
                 >
                   <a 
-                    href="https://wa.me/6282340709041?text=Hi! I'm a property manager interested in your agency pool service. Can you send me information about portfolio management and group pricing?"
+                    href="https://wa.me/6282323011656?text=Hi! I'm a property manager interested in your agency pool service. Can you send me information about portfolio management and group pricing?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -400,7 +400,7 @@ export default function PropertyManagerPoolServiceBali() {
                   </p>
                   <Button variant="outline" asChild data-testid="button-schedule-demo">
                     <a 
-                      href="https://wa.me/6282340709041?text=Hi! I'd like to schedule a demo of the portfolio dashboard for property managers."
+                      href="https://wa.me/6282323011656?text=Hi! I'd like to schedule a demo of the portfolio dashboard for property managers."
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -473,7 +473,7 @@ export default function PropertyManagerPoolServiceBali() {
                         data-testid={`button-get-package-${index}`}
                       >
                         <a 
-                          href={`https://wa.me/6282340709041?text=Hi! I'm interested in the ${pkg.name} plan for my property management company. Can we discuss?`}
+                          href={`https://wa.me/6282323011656?text=Hi! I'm interested in the ${pkg.name} plan for my property management company. Can we discuss?`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -493,7 +493,7 @@ export default function PropertyManagerPoolServiceBali() {
               </p>
               <Button variant="outline" size="lg" asChild data-testid="button-custom-plan">
                 <a 
-                  href="https://wa.me/6282340709041?text=Hi! I need a custom plan for my property management company. Can we discuss our specific needs?"
+                  href="https://wa.me/6282323011656?text=Hi! I need a custom plan for my property management company. Can we discuss our specific needs?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -592,7 +592,7 @@ export default function PropertyManagerPoolServiceBali() {
                 data-testid="button-whatsapp-cta-final"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Hi! I'm a property manager interested in your agency service. Can we discuss portfolio management and group pricing?"
+                  href="https://wa.me/6282323011656?text=Hi! I'm a property manager interested in your agency service. Can we discuss portfolio management and group pricing?"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -608,9 +608,9 @@ export default function PropertyManagerPoolServiceBali() {
                 asChild
                 data-testid="button-call-now"
               >
-                <a href="tel:+6282340709041">
+                <a href="tel:+6282323011656">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: +62 823 4070 9041
+                  Call: +62 823 2301 1656
                 </a>
               </Button>
             </div>

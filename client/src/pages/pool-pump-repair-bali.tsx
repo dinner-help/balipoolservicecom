@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, Clock, CheckCircle2, Zap, Settings, AlertCircle, Wrench, Volume2 } from 'lucide-react';
 
 export default function PoolPumpRepairBali() {
-  const whatsappNumber = '+6282340709041';
+  const whatsappNumber = '+6282323011656';
   const whatsappMessage = encodeURIComponent('Hi, I need pool pump repair service in Bali. Can you help?');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -149,7 +149,7 @@ export default function PoolPumpRepairBali() {
     <>
       <Helmet>
         <title>Pool Pump Repair Bali | Expert Motor, Impeller & Pressure Fault Service — Same Day</title>
-        <meta name="description" content="Professional pool pump repair in Bali. Fix noisy pumps, motor failures, low pressure & flow issues. All brands serviced. Same-day repairs available across Seminyak, Canggu, Ubud & all Bali. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional pool pump repair in Bali. Fix noisy pumps, motor failures, low pressure & flow issues. All brands serviced. Same-day repairs available across Seminyak, Canggu, Ubud & all Bali. Call: +62 823-2301-1656" />
         <meta name="keywords" content="pool pump repair Bali, pump motor replacement Bali, noisy pool pump, pump won't start Bali, low water pressure pool, Pentair repair Bali" />
         <link rel="canonical" href="https://balipoolservice.com/pool-pump-repair-bali" />
         

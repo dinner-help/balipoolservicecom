@@ -24,7 +24,7 @@ export default function LegianPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Legian Bali | Beach Villa & Tourist Accommodation Pool Service</title>
-        <meta name="description" content="Expert pool cleaning in Legian for beach villas, tourist accommodation & surf lodges. Guest-ready pools, reliable weekly service, fast response. From IDR 800K/month. Call: +62 823-4070-9041" />
+        <meta name="description" content="Expert pool cleaning in Legian for beach villas, tourist accommodation & surf lodges. Guest-ready pools, reliable weekly service, fast response. From IDR 800K/month. Call: +62 823-2301-1656" />
         <meta name="keywords" content="pool cleaning legian, legian pool maintenance, beach villa pool service bali, tourist pool cleaning legian, professional pool service legian" />
         <link rel="canonical" href="https://balipoolservice.com/location-legian" />
       </Helmet>
@@ -48,7 +48,7 @@ export default function LegianPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-legian">
-                  <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
+                  <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now: +62 822-375-65997
                   </a>
@@ -280,7 +280,7 @@ export default function LegianPoolCleaning() {
               Trusted by Legian's beach villas, hotels, and tourist accommodations for professional pool maintenance.
             </p>
             <Button size="lg" asChild data-testid="button-contact-legian">
-              <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
+              <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Legian">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Legian Pool Service
               </a>

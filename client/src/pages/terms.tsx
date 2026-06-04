@@ -114,7 +114,7 @@ export default function Terms() {
               <h2 className="text-2xl font-semibold mb-4">Contact</h2>
               <div className="space-y-2 text-muted-foreground">
                 <p><strong>Email:</strong> hello@balipoolservice.com</p>
-                <p><strong>Phone/WhatsApp:</strong> +6282340709041</p>
+                <p><strong>Phone/WhatsApp:</strong> +6282323011656</p>
                 <p><strong>Address:</strong> Jalan Nakula No. 9, Legian, Kuta, Badung, Bali 80361, Indonesia</p>
               </div>
             </Card>

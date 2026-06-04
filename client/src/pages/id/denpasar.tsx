@@ -130,7 +130,7 @@ export default function BahasaDenpasar() {
                   data-testid="button-whatsapp-hero"
                 >
                   <a 
-                    href="https://wa.me/6282340709041?text=Halo! Saya di Denpasar, mau tanya jasa perawatan kolam renang. Bisa kirim info?"
+                    href="https://wa.me/6282323011656?text=Halo! Saya di Denpasar, mau tanya jasa perawatan kolam renang. Bisa kirim info?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -146,7 +146,7 @@ export default function BahasaDenpasar() {
                   asChild
                   data-testid="button-call-hero"
                 >
-                  <a href="tel:+6282340709041">
+                  <a href="tel:+6282323011656">
                     <Phone className="mr-2 h-5 w-5" />
                     Telepon Sekarang
                   </a>
@@ -191,7 +191,7 @@ export default function BahasaDenpasar() {
                 </p>
                 <Button asChild data-testid="button-check-area">
                   <a 
-                    href="https://wa.me/6282340709041?text=Halo! Apakah melayani area [sebutkan area Anda] di Denpasar?"
+                    href="https://wa.me/6282323011656?text=Halo! Apakah melayani area [sebutkan area Anda] di Denpasar?"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -225,7 +225,7 @@ export default function BahasaDenpasar() {
                   <p className="text-2xl font-bold text-primary mb-2">Mulai Rp 750rb/bulan</p>
                   <Button variant="outline" className="w-full" asChild data-testid="button-service-0">
                     <a 
-                      href="https://wa.me/6282340709041?text=Halo! Saya di Denpasar, mau tanya paket pembersihan rutin."
+                      href="https://wa.me/6282323011656?text=Halo! Saya di Denpasar, mau tanya paket pembersihan rutin."
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -246,7 +246,7 @@ export default function BahasaDenpasar() {
                   <p className="text-lg font-semibold text-primary mb-2">Respon 1-2 jam</p>
                   <Button variant="outline" className="w-full" asChild data-testid="button-service-1">
                     <a 
-                      href="https://wa.me/6282340709041?text=DARURAT! Saya di Denpasar, butuh bantuan kolam sekarang!"
+                      href="https://wa.me/6282323011656?text=DARURAT! Saya di Denpasar, butuh bantuan kolam sekarang!"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -315,7 +315,7 @@ export default function BahasaDenpasar() {
                 data-testid="button-whatsapp-cta"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya di Denpasar, mau konsultasi tentang jasa kolam renang."
+                  href="https://wa.me/6282323011656?text=Halo! Saya di Denpasar, mau konsultasi tentang jasa kolam renang."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -331,9 +331,9 @@ export default function BahasaDenpasar() {
                 asChild
                 data-testid="button-call-cta"
               >
-                <a href="tel:+6282340709041">
+                <a href="tel:+6282323011656">
                   <Phone className="mr-2 h-5 w-5" />
-                  +62 823 4070 9041
+                  +62 823 2301 1656
                 </a>
               </Button>
             </div>

@@ -7,7 +7,7 @@ export default function SkimmerBoxRepairBali() {
     <>
       <Helmet>
         <title>Skimmer Box Repair Bali | Pool Skimmer Replacement & Leak Fix Service</title>
-        <meta name="description" content="Skimmer box repair & replacement in Bali. Fix broken skimmer baskets, cracked skimmer bodies & weir doors. Restore proper pool circulation for villas & hotels. Call: +62 823-4070-9041" />
+        <meta name="description" content="Skimmer box repair & replacement in Bali. Fix broken skimmer baskets, cracked skimmer bodies & weir doors. Restore proper pool circulation for villas & hotels. Call: +62 823-2301-1656" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
@@ -23,7 +23,7 @@ export default function SkimmerBoxRepairBali() {
               Get Repair Quote
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+              WhatsApp: <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function SkimmerBoxRepairBali() {
             Schedule Repair
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+            <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
           </p>
         </div>
       </section>

@@ -91,7 +91,7 @@ Preferred communication style: Simple, everyday language.
 - **Pool Construction page**: Created dedicated `/pool-construction` page with comprehensive content including pool types, 6-step process, materials, benefits, pricing calculator, and FAQ
 - **Legal pages**: Added 5 complete legal documentation pages (Terms of Service, Privacy Policy, Refund & Cancellation Policy, Cookie Policy, Accessibility Statement) with consistent contact information across all pages
 - **Footer updates**: Enhanced footer with links to pool construction page and all legal pages in bottom bar
-- **WhatsApp contact**: Updated WhatsApp number to +6282340709041 across entire website (all components, pages, legal pages, documentation)
+- **WhatsApp contact**: Updated WhatsApp number to +6282323011656 across entire website (all components, pages, legal pages, documentation)
 - **Contact form**: Modified to send inquiries directly via WhatsApp with formatted message containing all form data
 - **Chemical options clarity**: Updated chemical safety section to clearly differentiate between EU/USA/NSF International certified chemicals (recommended for 4-5 star hotels, properties with children, skin sensitivities) and Indonesian brand alternatives
 
@@ -229,7 +229,7 @@ Preferred communication style: Simple, everyday language.
 - **esbuild**: Production build bundler for server
 
 ### Third-Party Services
-- **WhatsApp Business**: Contact integration (+6282340709041)
+- **WhatsApp Business**: Contact integration (+6282323011656)
 - **Font APIs**: Google Fonts (Inter, DM Sans, JetBrains Mono)
 
 **Note**: The application is configured for PostgreSQL via Drizzle ORM but currently uses in-memory storage. Database URL environment variable required for production persistence.

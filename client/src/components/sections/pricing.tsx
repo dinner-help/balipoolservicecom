@@ -181,7 +181,7 @@ export function Pricing() {
                   asChild
                   data-testid={`button-package-${index}`}
                 >
-                  <a href="https://wa.me/6282340709041" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/6282323011656" target="_blank" rel="noopener noreferrer">
                     <FaWhatsapp className="h-5 w-5" />
                     Get Started
                   </a>

@@ -24,7 +24,7 @@ export default function SanurPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Sanur Bali | Saltwater & Beach Villa Pool Maintenance Specialists</title>
-        <meta name="description" content="Professional pool cleaning in Sanur for beach villas, saltwater pools & family homes. Coastal property expertise, saltwater system specialists. From IDR 800K/month. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional pool cleaning in Sanur for beach villas, saltwater pools & family homes. Coastal property expertise, saltwater system specialists. From IDR 800K/month. Call: +62 823-2301-1656" />
         <meta name="keywords" content="pool cleaning sanur, sanur pool maintenance, saltwater pool service bali, beach villa pool cleaning, professional pool cleaner sanur" />
         <link rel="canonical" href="https://balipoolservice.com/location-sanur" />
       </Helmet>
@@ -48,7 +48,7 @@ export default function SanurPoolCleaning() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild data-testid="button-call-sanur">
-                  <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Sanur">
+                  <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Sanur">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now: +62 822-375-65997
                   </a>
@@ -343,7 +343,7 @@ export default function SanurPoolCleaning() {
               Beachfront expertise, saltwater specialists, and family-safe pool care for Sanur's finest properties.
             </p>
             <Button size="lg" asChild data-testid="button-contact-sanur">
-              <a href="https://wa.me/6282340709041?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Sanur">
+              <a href="https://wa.me/6282323011656?text=Hello!%20I%27m%20interested%20in%20pool%20cleaning%20service%20in%20Sanur">
                 <Phone className="mr-2 h-5 w-5" />
                 Contact Us - Sanur Pool Cleaning
               </a>

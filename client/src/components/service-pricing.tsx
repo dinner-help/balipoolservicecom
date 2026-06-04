@@ -21,7 +21,7 @@ interface ServicePricingProps {
   }[];
 }
 
-const PHONE_NUMBER = "6282340709041";
+const PHONE_NUMBER = "6282323011656";
 
 const defaultPackages = [
   {

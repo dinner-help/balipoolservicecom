@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, Clock, CheckCircle2, Droplets, Search, MapPin, Wrench } from 'lucide-react';
 
 export default function PoolLeakRepairBali() {
-  const whatsappNumber = '+6282340709041';
+  const whatsappNumber = '+6282323011656';
   const whatsappMessage = encodeURIComponent('Hi, I need pool leak detection and repair in Bali. Can you help?');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 

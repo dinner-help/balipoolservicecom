@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { MessageCircle, Clock, CheckCircle2, AlertTriangle, Droplets, Sun, Leaf, Sparkles } from 'lucide-react';
 
 export default function GreenPoolCleaningBali() {
-  const whatsappNumber = '+6282340709041';
+  const whatsappNumber = '+6282323011656';
   const whatsappMessage = encodeURIComponent('Hi, I need help with green pool cleaning in Bali. Can you help?');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -161,7 +161,7 @@ export default function GreenPoolCleaningBali() {
     <>
       <Helmet>
         <title>Green Pool Cleaning Bali | Algae Removal & Pool Recovery in 24–48 Hours</title>
-        <meta name="description" content="Pool turned green in Bali? We remove algae and restore crystal-clear water in 24–48 hours. Emergency same-day service for villas & resorts. Green pool recovery from IDR 1,875,000. Call now: +62 823-4070-9041" />
+        <meta name="description" content="Pool turned green in Bali? We remove algae and restore crystal-clear water in 24–48 hours. Emergency same-day service for villas & resorts. Green pool recovery from IDR 1,875,000. Call now: +62 823-2301-1656" />
         <meta name="keywords" content="green pool cleaning Bali, algae removal Bali, cloudy pool fix Bali, pool turned green Bali, algae treatment Seminyak, green pool Canggu" />
         <link rel="canonical" href="https://balipoolservice.com/green-pool-cleaning-bali" />
         

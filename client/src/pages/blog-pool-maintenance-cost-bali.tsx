@@ -537,7 +537,7 @@ export default function BlogPoolMaintenanceCostBali() {
                     size="lg" 
                     variant="outline"
                     className="gap-2"
-                    onClick={() => window.open("https://wa.me/6282340709041?text=I'd like a pool maintenance cost estimate", "_blank")}
+                    onClick={() => window.open("https://wa.me/6282323011656?text=I'd like a pool maintenance cost estimate", "_blank")}
                     data-testid="button-whatsapp-quote"
                   >
                     <FaWhatsapp className="h-5 w-5" />

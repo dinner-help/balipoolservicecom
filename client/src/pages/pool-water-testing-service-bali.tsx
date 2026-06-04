@@ -8,7 +8,7 @@ export default function PoolWaterTestingServiceBali() {
     <>
       <Helmet>
         <title>Pool Water Testing Service Bali | Professional Chemical Analysis & Safety Reports</title>
-        <meta name="description" content="Professional pool water testing in Bali. Full chemical analysis — pH, chlorine, alkalinity, calcium hardness, TDS. Detailed written report. Available for villas, hotels & homes. Call: +62 823-4070-9041" />
+        <meta name="description" content="Professional pool water testing in Bali. Full chemical analysis — pH, chlorine, alkalinity, calcium hardness, TDS. Detailed written report. Available for villas, hotels & homes. Call: +62 823-2301-1656" />
         <meta property="og:title" content="Pool Water Testing Service in Bali" />
         <meta property="og:description" content="Expert water chemistry testing for safe, clear pools. pH, chlorine, alkalinity, and more analyzed by professionals." />
       </Helmet>
@@ -27,7 +27,7 @@ export default function PoolWaterTestingServiceBali() {
               Schedule Water Testing
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+              WhatsApp: <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
             </p>
           </div>
         </div>
@@ -269,7 +269,7 @@ export default function PoolWaterTestingServiceBali() {
             Schedule Testing on WhatsApp
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+            <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
           </p>
         </div>
       </section>

@@ -12,8 +12,8 @@ interface WhatsAppCTAProps {
   location?: string;
 }
 
-const PHONE_NUMBER = "6282340709041";
-const DISPLAY_PHONE = "+62 823-4070-9041";
+const PHONE_NUMBER = "6282323011656";
+const DISPLAY_PHONE = "+62 823-2301-1656";
 
 export function WhatsAppCTA({
   variant = "section",
@@ -24,7 +24,7 @@ export function WhatsAppCTA({
   service = "pool service",
   location = "Bali",
 }: WhatsAppCTAProps) {
-  const defaultMessage = message || `Hi! I'm interested in ${service} in ${location}. Can you send me pricing information?`;
+  const defaultMessage = message || `Hi! I'm interested in ${service} in ${location}. Can you send me pricing information? (from balipoolservice.com)`;
   const encodedMessage = encodeURIComponent(defaultMessage);
   const whatsappUrl = `https://wa.me/${PHONE_NUMBER}?text=${encodedMessage}`;
 

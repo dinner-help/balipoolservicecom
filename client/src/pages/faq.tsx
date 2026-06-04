@@ -26,7 +26,7 @@ export default function FAQ() {
         },
         {
           q: "How quickly can you respond to service requests?",
-          a: "For routine maintenance, we typically schedule within 24-48 hours. For emergency repairs (equipment failure, severe leaks, green pool), we offer same-day service in most areas. Contact us via WhatsApp at +62 823 4070 9041 for urgent requests."
+          a: "For routine maintenance, we typically schedule within 24-48 hours. For emergency repairs (equipment failure, severe leaks, green pool), we offer same-day service in most areas. Contact us via WhatsApp at +62 823 2301 1656 for urgent requests."
         },
         {
           q: "Do you service both residential and commercial pools?",
@@ -180,7 +180,7 @@ export default function FAQ() {
             <Button
               size="lg"
               className="gap-2"
-              onClick={() => window.open("https://wa.me/6282340709041?text=I have a question about pool service", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656?text=I have a question about pool service", "_blank")}
               data-testid="button-contact-whatsapp"
             >
               <FaWhatsapp className="h-5 w-5" />
@@ -263,7 +263,7 @@ export default function FAQ() {
               <Button
                 size="lg"
                 className="gap-2"
-                onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+                onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
                 data-testid="button-whatsapp-cta"
               >
                 <FaWhatsapp className="h-5 w-5" />

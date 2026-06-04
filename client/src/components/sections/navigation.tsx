@@ -165,7 +165,7 @@ export function Navigation() {
 
             {/* WhatsApp CTA Button */}
             <Button
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               className="gap-2 bg-black hover:bg-gray-800 text-white ml-2"
               size="sm"
               data-testid="button-whatsapp-nav"
@@ -178,7 +178,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-2 md:hidden">
             <Button
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               size="sm"
               className="gap-1.5 bg-black hover:bg-gray-800 text-white h-9 px-3"
               data-testid="button-whatsapp-mobile-header"

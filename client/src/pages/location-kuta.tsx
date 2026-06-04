@@ -53,7 +53,7 @@ export default function KutaPoolCleaning() {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Pool Cleaning Kuta Bali | Hotel, Guesthouse & Villa Pool Service — From IDR 800K/Month</title>
-        <meta name="description" content="Expert pool cleaning in Kuta for hotels, guesthouses, surf villas & commercial pools. High-volume service, 7-day availability, compliance documentation. From IDR 800K/month. WhatsApp: +62 823-4070-9041" />
+        <meta name="description" content="Expert pool cleaning in Kuta for hotels, guesthouses, surf villas & commercial pools. High-volume service, 7-day availability, compliance documentation. From IDR 800K/month. WhatsApp: +62 823-2301-1656" />
         <meta name="keywords" content="pool cleaning Kuta, Kuta pool maintenance, hotel pool service Bali, commercial pool cleaning Kuta, guesthouse pool maintenance, Tuban pool service, Kartika Plaza pool cleaning" />
         <meta property="og:title" content="Pool Cleaning Kuta | Hotel Bali Pool Service" />
         <meta property="og:description" content="Expert pool cleaning in Kuta. Hotels, guesthouses & villas. From IDR 800K/month." />
@@ -64,7 +64,7 @@ export default function KutaPoolCleaning() {
             "@type": "LocalBusiness",
             "name": "Bali Pool Service - Kuta",
             "description": "Professional pool cleaning for hotels, guesthouses, and villas in Kuta, Bali",
-            "telephone": "+62-823-4070-9041",
+            "telephone": "+62-823-2301-1656",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Kuta",

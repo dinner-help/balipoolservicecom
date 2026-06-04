@@ -8,7 +8,7 @@ export default function FilterCartridgeReplacementBali() {
     <>
       <Helmet>
         <title>Filter Cartridge Replacement Bali | Pool Filter Supply & Replacement Service</title>
-        <meta name="description" content="Filter cartridge replacement service in Bali. We supply & install the right cartridge for your pool system. Extend filter life, maintain crystal-clear water. For villas, hotels & homes. Call: +62 823-4070-9041" />
+        <meta name="description" content="Filter cartridge replacement service in Bali. We supply & install the right cartridge for your pool system. Extend filter life, maintain crystal-clear water. For villas, hotels & homes. Call: +62 823-2301-1656" />
       </Helmet>
 
       <section className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-transparent relative">
@@ -24,7 +24,7 @@ export default function FilterCartridgeReplacementBali() {
               Order Replacement
             </Button>
             <p className="text-sm text-foreground/80 mt-4">
-              WhatsApp: <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+              WhatsApp: <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function FilterCartridgeReplacementBali() {
             Schedule on WhatsApp
           </Button>
           <p className="text-sm text-foreground/80 mt-4">
-            <a href="https://wa.me/6282340709041" className="font-semibold text-primary hover-elevate">+62 823-4070-9041</a>
+            <a href="https://wa.me/6282323011656" className="font-semibold text-primary hover-elevate">+62 823-2301-1656</a>
           </p>
         </div>
       </section>

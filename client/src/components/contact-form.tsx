@@ -106,7 +106,7 @@ export function ContactForm() {
             We've received your enquiry and will contact you within 24 hours.
           </p>
           <Button
-            onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+            onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
             className="gap-2 bg-green-600 hover:bg-green-700 text-white"
           >
             <FaWhatsapp className="h-4 w-4" />
@@ -253,7 +253,7 @@ export function ContactForm() {
               type="button"
               variant="outline"
               className="gap-2"
-              onClick={() => window.open("https://wa.me/6282340709041", "_blank")}
+              onClick={() => window.open("https://wa.me/6282323011656", "_blank")}
               data-testid="button-contact-whatsapp"
             >
               <FaWhatsapp className="h-4 w-4 text-green-600" />

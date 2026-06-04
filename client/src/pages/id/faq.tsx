@@ -216,7 +216,7 @@ export default function BahasaFAQ() {
                 data-testid="button-whatsapp-cta"
               >
                 <a 
-                  href="https://wa.me/6282340709041?text=Halo! Saya punya pertanyaan tentang jasa kolam renang."
+                  href="https://wa.me/6282323011656?text=Halo! Saya punya pertanyaan tentang jasa kolam renang."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -232,9 +232,9 @@ export default function BahasaFAQ() {
                 asChild
                 data-testid="button-call-cta"
               >
-                <a href="tel:+6282340709041">
+                <a href="tel:+6282323011656">
                   <Phone className="mr-2 h-5 w-5" />
-                  Telepon: +62 823 4070 9041
+                  Telepon: +62 823 2301 1656
                 </a>
               </Button>
             </div>
