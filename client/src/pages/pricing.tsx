@@ -36,7 +36,7 @@ export default function Pricing() {
           "itemOffered": {
             "@type": "Service",
             "name": "Silver Package - Weekly Maintenance",
-            "description": "2 visits per week, chemical balancing, surface cleaning, equipment check"
+            "description": "1 visit per week, chemical balancing, surface cleaning, equipment check — for small pools"
           },
           "price": "800000",
           "priceCurrency": "IDR",
@@ -50,7 +50,7 @@ export default function Pricing() {
           "itemOffered": {
             "@type": "Service",
             "name": "Gold Package - Premium Maintenance",
-            "description": "3 visits per week, full cleaning, chemical management, filter maintenance"
+            "description": "2 visits per week, full cleaning, chemical management, filter maintenance — for medium pools"
           },
           "price": "1500000",
           "priceCurrency": "IDR",
@@ -63,8 +63,8 @@ export default function Pricing() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Platinum Package - Daily Maintenance",
-            "description": "Daily service, priority response, dedicated technician, all equipment maintenance"
+            "name": "Platinum Package - Premium Maintenance",
+            "description": "2 visits per week, priority response, dedicated technician, all equipment maintenance — for large pools"
           },
           "price": "2800000",
           "priceCurrency": "IDR",
@@ -77,10 +77,10 @@ export default function Pricing() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Green Pool Rescue",
+            "name": "Emergency Green Pool Recovery",
             "description": "Emergency algae treatment and pool restoration"
           },
-          "price": "1500000",
+          "price": "1000000",
           "priceCurrency": "IDR"
         }
       ]

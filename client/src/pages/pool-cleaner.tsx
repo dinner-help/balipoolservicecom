@@ -972,10 +972,10 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Silver Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 800,000</div>
+                    <div className="text-3xl font-bold text-primary"><span className="text-lg font-semibold align-top mr-1">From</span>IDR 800,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">Perfect for private villas</p>
+                  <p className="text-sm text-muted-foreground mb-4">For private villas & homes — small pools</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -1006,10 +1006,10 @@ export default function PoolCleaner() {
                   </div>
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Gold Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 1,500,000</div>
+                    <div className="text-3xl font-bold text-primary"><span className="text-lg font-semibold align-top mr-1">From</span>IDR 1,500,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">Perfect for rental properties</p>
+                  <p className="text-sm text-muted-foreground mb-4">For rental villas & luxury homes — medium pools</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -1037,10 +1037,10 @@ export default function PoolCleaner() {
                 <Card className="p-6 hover-elevate">
                   <div className="mb-4">
                     <h3 className="text-2xl font-bold mb-2">Platinum Package</h3>
-                    <div className="text-3xl font-bold text-primary">IDR 2,800,000</div>
+                    <div className="text-3xl font-bold text-primary"><span className="text-lg font-semibold align-top mr-1">From</span>IDR 2,800,000</div>
                     <div className="text-sm text-muted-foreground">/month</div>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">Perfect for hotels & resorts</p>
+                  <p className="text-sm text-muted-foreground mb-4">For estates & boutique hotels — large pools</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />

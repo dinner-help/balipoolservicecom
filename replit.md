@@ -12,6 +12,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+### June 2026 (Session 7) — Pricing Display + Construction/Cold Plunge Removal
+- **Maintenance package consistency (site-wide)**: All three packages now show a "From" prefix on prices and pool-size descriptors — Silver "small pools", Gold "medium pools", Platinum "large pools". Platinum changed from 4 visits/week to **2 visits/week** everywhere (home cards, shared `ServicePricing` component, `sections/pricing.tsx`, `pages/pricing.tsx` incl. JSON-LD, `pool-cleaner.tsx` cards, and location/service FAQ copy).
+- **Home service cards**: "Green Pool Rescue" renamed **"Emergency Green Pool Recovery"** (From IDR 1,000,000); "Equipment Repairs" now From IDR 1,000,000. Removed the Pool Construction + Cold Plunge "Additional Services" row.
+- **Pool Construction & Cold Plunge fully removed**: Deleted pages `pool-construction.tsx`, `pool-construction-bali.tsx`, `cold-plunge-bali.tsx`; removed their routes (`App.tsx`), nav links (`navigation.tsx`), footer links (`footer.tsx`), the construction service card in `services.tsx` and `pool-cleaner.tsx`, the construction pricing section + array in `pages/pricing.tsx`, and sitemap entries. Softened incidental construction/cold-plunge wording in `about.tsx` (description, bio, milestone, history paragraph), `terms.tsx` (services list), and `service-locations.tsx`. Note: founder portrait image filename still references "construction" internally but is only a person photo, never shown as construction content.
+- **Assumption**: Kept the home "Weekly Maintenance" card (From IDR 800,000) per the explicit pricing instruction.
+- **Aligned divergent `pages/pricing.tsx` packages**: that page previously listed Silver 2/week and Gold 3/week — corrected to 1/week and 2/week to match the canonical packages used everywhere else.
+
 ### March 2026 (Session 6) — Full SEO Optimization
 - **Comprehensive SEO Overhaul**: Optimized all page titles, meta descriptions, H1s, and H2s across the entire site (~60+ pages)
   - **Home page**: New title, meta desc, keyword list, H1, and all 7 H2 section headings rewritten with target keywords
